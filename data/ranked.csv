@@ -359,7 +359,7 @@ CCSE,Checkpoint Certified Security Expert,training-certifications.checkpoint.com
 SFCCCC,SalesForce Certified Community Cloud Consultant,trailhead.salesforce.com,Q,1,0,2,沿用 2024 原圖區段,0,30,K,16,21,9,https://trailhead.salesforce.com/help?article=Salesforce-Certified-Community-Cloud-Consultant-Exam-Guide
 DCPP,DSCI Certified Privacy Professional,dsci.in,Q,1,0,2,官方級別,0,30,V,16,22,17,https://www.dsci.in/content/dsci-certified-privacy-professional-dcpp
 Scrum PAL,Scrum  Professional Agile Leadership,scrum.org,Q,1,0,2,官方級別,0,30,K,16,23,19,https://www.scrum.org/professional-agile-leadership-certification
-PSM II,Scrum.org Professional Scrum Master II,scrum.org,Q,1,0,2,官方級別,0,30,K,16,22,25,https://www.scrum.org/assessments/professional-scrum-master-ii-certification
+PSM II,Scrum.org Professional Scrum Master II,scrum.org,Q,1,0,2,官方級別,0,30,V,16,22,25,https://www.scrum.org/assessments/professional-scrum-master-ii-certification
 APMG 20000P,APMG ISO/IEC 20000 Practitioner,apmg-international.com,Q,1,0,2,名稱所示級別,0,30,K,16,21,22,https://apmg-international.com/product/iso-iec-20000
 C)ISRM,Mile2 Certified Information Systems Risk Manager,mile2.com,Q,1,0,2,名稱所示級別,0,30,K,16,20,20,https://www.mile2.com/information-systems-risk-mangager-outline/
 APMG 27001P,APMG ISO/IEC 27001 Practitioner,apmg-international.com,Q,1,0,2,名稱所示級別,0,30,K,16,21,24,https://apmg-international.com/product/isoiec-27001
@@ -425,7 +425,7 @@ SC-300,Microsoft Certfied: Identity and Access Administrator Associate,docs.micr
 SABSA SCF,SABSA Chartered Security Architect - Foundation Certificate,sabsa.org,Q,1,1,1,官方級別,0,25,V,16,22,14,https://sabsa.org/certification/
 CAPM,PMI Certified Associate in Project Management,pmi.org,Q,2,0,1,官方級別,0,25,K,16,23,23,https://www.pmi.org/certifications/types/certified-associate-capm
 CDP,IMI Certified in Data Protection,identitymanagementinstitute.org,Q,1,1,1,沿用 2024 原圖區段,0,25,V,18,21,17,https://www.identitymanagementinstitute.org/cdp/
-AWS SAA,Amazon Web Services Certified Solutions Architect - Associate,aws.amazon.com,Q,1,1,1,官方級別,0,25,K,19,22,9,https://aws.amazon.com/certification/certified-solutions-architect-associate/
+AWS SAA,Amazon Web Services Certified Solutions Architect - Associate,aws.amazon.com,Q,1,1,1,官方級別,0,25,V,19,22,9,https://aws.amazon.com/certification/certified-solutions-architect-associate/
 CCSA,EC First Certified Cyber Security Architect,ecfirst.biz,Q,1,1,1,官方級別,0,25,U,19,23,25,https://ecfirst.biz/index.php?route=product/product&path=59_61&product_id=77
 CCRMP,IBITGQ Certified in Managing Cyber Security Risk,itgovernance.co.uk,Q,1,1,1,沿用 2024 原圖區段,0,25,V,19,23,24,https://www.itgovernance.co.uk/shop/product/managing-cyber-security-risk-training-course
 CIST,IMI Certfied Identity and Security Technologist,identitymanagementinstitute.org,Q,1,1,1,沿用 2024 原圖區段,0,25,V,21,22,6,https://www.identitymanagementinstitute.org/cist/
@@ -455,7 +455,7 @@ SCA,SUSE Certified Administrator,suse.com,Q,1,0,1,官方級別,0,22,K,21,23,10, 
 CAD,GAQM Certified Agile Developer,gaqm.org,Q,1,0,1,沿用 2024 原圖區段,0,22,V,21,24,27,https://gaqm.org/certifications/scrum_agile/cad
 CAC,GAQM Certified Agile Coach,gaqm.org,Q,1,0,1,沿用 2024 原圖區段,0,22,V,21,24,26,https://gaqm.org/certifications/scrum_agile/cac
 DCBCA,DRI Certified Business Continuity Auditor,drii.org,Q,1,0,1,官方級別,0,22,V,21,22,27,https://drii.org/certification/cbca
-CSA CCSK,Cloud Security Alliance Certificate of Cloud Security Knowledge,cloudsecurityalliance.org,Q,1,0,1,官方級別,0,22,K,22,22,11,https://cloudsecurityalliance.org/education/ccsk/
+CSA CCSK,Cloud Security Alliance Certificate of Cloud Security Knowledge,cloudsecurityalliance.org,Q,1,0,1,官方級別,0,22,V,22,22,11,https://cloudsecurityalliance.org/education/ccsk/
 DCA,Docker Certified Associate,training.mirantis.com,Q,1,0,1,官方級別,0,22,V,22,23,11,https://training.mirantis.com/dca-certification-exam/
 LPIC-1,Linux Professional Institute Certified: Linux Administrator,lpi.org,Q,1,0,1,官方級別,0,22,V,22,23,13,https://www.lpi.org/our-certifications/lpic-1-overview
 JNCIA Sec,"Juniper Networks Certified Internet Associate, Security",juniper.net,Q,1,0,1,官方級別,0,22,U,23,23,2,https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jnciasec
@@ -478,7 +478,7 @@ CITGP,IBITGQ Certified in Implementing IT Governance - Foundation & Principles,i
 CSAP,Infosec Institute Certified Security Awareness Practitioner,app.infosecinstitute.com,Q,1,1,0,名稱所示級別,0,17,K,25,26,24,https://app.infosecinstitute.com/portal/courses/a0t0y000009lTzjAAE
 CSX-F,IBITGQ Cyber Incident Response Management Foundation,itgovernance.co.uk,Q,1,1,0,名稱所示級別,0,17,V,25,25,35,https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course
 CIRM Fdn,IBITGQ Cyber Incident Response Management Foundation,itgovernance.co.uk,Q,1,1,0,名稱所示級別,0,17,V,25,25,36,https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course
-AWS CP,Amazon Web Services Certified Cloud Practitioner,aws.amazon.com,Q,1,1,0,官方級別,0,17,K,26,24,9,https://aws.amazon.com/certification/certified-cloud-practitioner/
+AWS CP,Amazon Web Services Certified Cloud Practitioner,aws.amazon.com,Q,1,1,0,官方級別,0,17,V,26,24,9,https://aws.amazon.com/certification/certified-cloud-practitioner/
 資安職能 核心,資通安全職能評量證書：核心科目「資通安全概論」,ctts.nics.nat.gov.tw,Q,1,1,0,官方級別,0,17,V,26,23,17,https://ctts.nics.nat.gov.tw/
 C CS F,IBITGQ Certified Cyber Security Foundation,itgovernance.co.uk,Q,1,1,0,名稱所示級別,0,17,V,27,25,22,https://www.itgovernance.co.uk/shop/product/certified-cyber-security-foundation-training-course
 CIS F,IBITGQ Certified ISO 27001 Information Security Management Specialist Foundation,itgovernance.co.uk,Q,1,1,0,名稱所示級別,0,17,V,27,26,27,https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-foundation-training-course
@@ -524,7 +524,7 @@ SOG CAP,SecOps Group Certified AppSec Practitioner,secops.group,Q,0,0,0,官方�
 SOG CCSP-AWS,SecOps Group Certified Cloud Security Practitioner - AWS,secops.group,Q,0,0,0,官方級別,0,12,V,24,25,10,https://secops.group/product/certified-cloud-security-practitioner-aws-ccsp-aws/
 SOG NSP,SecOps Group Certified Network Security Practitioner,secops.group,Q,0,0,0,官方級別,0,12,V,25,25,3,https://secops.group/product/certified-network-security-practitioner/
 FCF,Fortinet Certified Fundamentals Cybersecurity,training.fortinet.com,Q,0,0,0,官方級別,0,12,V,26,24,2,https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity
-PSM I,Scrum.org Professional Scrum Master I,scrum.org,Q,0,0,0,官方級別,0,12,K,26,27,27,https://www.scrum.org/assessments/professional-scrum-master-i-certification
+PSM I,Scrum.org Professional Scrum Master I,scrum.org,Q,0,0,0,官方級別,0,12,V,26,27,27,https://www.scrum.org/assessments/professional-scrum-master-i-certification
 CBP,The SecOps Group Certified Blockchain Practitioner,pentestingexams.com,Q,0,0,0,官方級別,0,12,V,14,26,33,https://pentestingexams.com/
 CBTP,The SecOps Group Certified Blue Team Practitioner,pentestingexams.com,Q,0,0,0,官方級別,0,12,V,14,26,39,https://pentestingexams.com/
 CSEDP,The SecOps Group Certified Social Engineering Defense Practitioner,pentestingexams.com,Q,0,0,0,官方級別,0,12,V,14,27,25,https://pentestingexams.com/

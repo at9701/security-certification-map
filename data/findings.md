@@ -140,3 +140,11 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - Mile2：原 C)ISSA 頁面現在顯示 CCSSA（Cybersecurity Systems Auditor）、原 C)ISSM 頁面顯示 Certified Cybersecurity Systems Manager，確認為改名。C)NFE、C)PSH、ISCAP、C)ISMS LA/LI 頁面仍在。C)ISSO：選擇題 100 題、2 小時、須 1 年經驗。
 - Mile2 真正新增的是 C)AICSO、C)NIS2、C)CFTA、C)OL。
 - 未讀到（被限速）：IS20、C)HISSP、C)SWAE
+
+## 價格查證第二批（2026-11-25）
+- AWS：Cloud Practitioner $100（65 題 90 分鐘）、Solutions Architect Associate $150（65 題 130 分鐘）、Security Specialty $300（65 題 170 分鐘）
+- CNCF：CKA $445（實作 2 小時，含一次重考）、KCNA $250（選擇題）
+- Google Professional Cloud Security Engineer：$200，50–60 題 2 小時
+- Scrum.org：PSM I $200（80 題 60 分鐘）、PSM II $250（30 題 90 分鐘）
+- CSA CCSK：$445 含兩次機會，開書線上考 60 題 120 分鐘
+- Zero-Point Security 考試頁未列 CRTO／CRTL 的形式與價格
