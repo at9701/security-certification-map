@@ -287,11 +287,100 @@ log["renamed"].append(f"提示文字：Offensive Security → OffSec（{n_off} �
 # malformed tag in the source
 out = out.replace('<div class=""spacer"></div>', '<div class="spacer"></div>')
 
+# ---------------------------------------------------------------- 中文化
+DOMAINS_ZH = [
+    ("Communication and Network Security", "通訊與網路安全",
+     "通訊與網路安全：保護通訊管道與網路的能力，涵蓋網路架構、傳輸協定、網路設備與遠端存取的安全設計與維運。"),
+    ("IAM", "身分\n存取",
+     "身分與存取管理：身分識別、驗證、授權與帳號生命週期管理，以及針對人員入口的攻擊與防護。"),
+    ("Security Architecture and Engineering", "安全架構與工程",
+     "安全架構與工程：安全設計原則、系統與雲端架構、作業系統、密碼學，以及工控與物聯網環境的安全工程。"),
+    ("Asset Security", "資產安全",
+     "資產安全：資料的蒐集、儲存、維護、保存與銷毀，包含資料分類、隱私保護與實體資產保護。"),
+    ("Security and Risk Management", "安全與風險管理",
+     "安全與風險管理：資安治理、風險評估、法規遵循、營運持續、資安意識，以及專案與服務管理。"),
+    ("Security Assessment and Testing", "安全評估與測試",
+     "安全評估與測試：稽核、控制措施查核、弱點評估與持續監控，用來找出系統弱點並驗證防護是否有效。"),
+    ("Software Security", "軟體\n安全",
+     "軟體安全：安全的軟體開發生命週期、安全程式設計、應用程式安全測試與 DevSecOps。"),
+    ("Security Operations", "安全維運",
+     "安全維運：監控與偵測、事件處理、數位鑑識、威脅情資，以及滲透測試、紅隊與漏洞利用。"),
+]
+for en, zh, tip in DOMAINS_ZH:
+    pat = re.compile(r'(<div class="domaintitle" style="[^"]*" )(tooltiptexttitle(?:left)?)="[^"]*">' + re.escape(en) + "</div>")
+    out, n = pat.subn(lambda m: f'{m.group(1)}{m.group(2)}="     {tip}">{zh}</div>', out)
+    assert n == 1, en
+for en, zh in [("Cloud/SysOps", "雲端／系統維運"), ("ICS/IoT", "工控"), ("Forensics", "數位鑑識"),
+               ("Incident Handling", "事件處理"), ("Penetration Testing", "滲透測試"), ("Exploitation", "漏洞利用")]:
+    assert f">{en}</div>" in out, en
+    out = out.replace(f">{en}</div>", f">{zh}</div>")
+for en, zh in [("Expert", "專\n家"), ("Intermediate", "中\n階"), ("Beginner", "入\n門")]:
+    assert f">{en}</span></div>" in out, en
+    out = out.replace(f">{en}</span></div>", f">{zh}</span></div>")
+
+# 提示文字的常見片語（證照名稱維持官方英文）
+PHRASES = [
+    (r"^(~?[\$£€][\d,\.]+(?:-[\$£€]?[\d,\.]+)?\+?) [Ee]xam$", r"考試費 \1"),
+    (r"^(~?[\$£€][\d,\.]+) (?:two|2) exams$", r"兩科考試共 \1"),
+    (r"^(~?[\$£€][\d,\.]+) (?:for )?(\d+) exams$", r"\2 科考試共 \1"),
+    (r"^(~?[\$£€][\d,\.]+) written exam$", r"筆試 \1"),
+    (r"^(~?[\$£€][\d,\.]+) practical exam$", r"實作考試 \1"),
+    (r"^(~?[\$£€][\d,\.]+) (?:labs?|[Hh]ands-on [Ll]ab)$", r"實作考試 \1"),
+    (r"^(~?[\$£€][\d,\.]+) exam (?:&|and) lab$", r"筆試加實作 \1"),
+    (r"^(~?[\$£€][\d,\.]+) course exam$", r"課程含考試 \1"),
+    (r"^(~?[\$£€][\d,\.]+) course \+ exam$", r"課程加考試 \1"),
+    (r"^(~?[\$£€][\d,\.]+) course$", r"課程 \1"),
+    (r"^(~?[\$£€][\d,\.]+) certification programme$", r"認證課程 \1"),
+    (r"^(~?[\$£€][\d,\.]+) [Ii]nterview$", r"面試審查 \1"),
+    (r"^(~?[\$£€][\d,\.]+) annual sub(?:scription)?$", r"年訂閱 \1"),
+    (r"^(~?[\$£€][\d,\.]+) exam \((~?[\$£€][\d,\.]+) members\)$", r"考試費 \1（會員 \2）"),
+    (r"^(\d+)% practical\. No expiry\.$", r"\1% 實作，證照永久有效"),
+    (r"^SANS course (?:recommended|encouraged)$", "建議搭配 SANS 課程"),
+    (r"^SANS (SEC\d+) recommended$", r"建議搭配 SANS \1"),
+    (r"^(?:Branded )?[Cc]ourse [Rr]equired$", "須修官方課程"),
+    (r"^Application essay$", "須提交申請論述"),
+    (r"^Application(?: also)? req\.?$", "須另外申請審查"),
+    (r"^Learning subscription required$", "須訂閱學習方案"),
+    (r"^Exam voucher via HTB Academy subscription$", "考試券隨 HTB Academy 訂閱方案提供"),
+    (r"^Price varies by country$", "價格依國家而異"),
+    (r"^Unknown exam cost$", "考試費用不明"),
+    (r"^Two exams$", "兩科考試"),
+    (r"^Exam and training bundled$", "考試與課程綁售"),
+    (r"^[Pp]lus travel$", "另需差旅費"),
+    (r"^In person in the UK$", "須至英國現場應考"),
+    (r"^Hands on exam in UK$", "須至英國現場實作考"),
+    (r"^(\d+) exam attempts? included$", r"含 \1 次考試機會"),
+    (r"^Active CISM or CISSP required$", "須持有有效的 CISM 或 CISSP"),
+    (r"^Covers both offensive and defensive work$", "同時涵蓋攻擊與防禦"),
+]
+PHRASES = [(re.compile(p), r) for p, r in PHRASES]
+n_tip = n_tip_zh = 0
+
+
+def tip_zh(m):
+    global n_tip, n_tip_zh
+    lines = m.group(2).split("\n")
+    for i in range(1, len(lines)):
+        t = html.unescape(lines[i].strip())
+        if not t:
+            continue
+        n_tip += 1
+        for pat, repl in PHRASES:
+            if pat.match(t):
+                lines[i] = "    " + html.escape(pat.sub(repl, t), quote=True)
+                n_tip_zh += 1
+                break
+    return f'{m.group(1)}="' + "\n".join(lines) + '"'
+
+
+a0 = out.index('<div class="certcontainer">')
+out = out[:a0] + re.sub(r'(tooltip(?:text|left|right))="([^"]*)"', tip_zh, out[a0:])
+
 # ---------------------------------------------------------------- page chrome
 a = out.index('<div class="certcontainer">')
 n_cert = len(re.findall(r"<a class=", out[a:])) - 1      # minus the "Programming Language" box
 out = out.replace("481 certifications listed | July 2024",
-                  f"{n_cert} certifications listed | November 2026 (unofficial)")
+                  f"共 {n_cert} 張證照｜2026 年 11 月（非官方版）")
 
 # scale with the viewport width only, so the chart always fits a narrow panel
 out = out.replace("vmax", "vw")
@@ -300,8 +389,8 @@ out = re.sub(r'<div id="static">.*?</div>', "", out, count=1, flags=re.S)
 out = re.sub(r"@media screen and \(max-width: 897px\) \{.*?\n    \}\n", "", out, count=1, flags=re.S)
 out = out.replace(
     '<div style="text-align:left;font-size:200%;font-weight:500;padding-bottom:0.2vw;">Security Certification Roadmap',
-    '<div style="text-align:left;font-size:1.5vw;line-height:1.8vw;height:1.8vw;font-weight:500;white-space:nowrap;position:relative;top:-2.6vw;">Security Certification Roadmap'
-    ' <span style="font-size:50%;font-weight:400;color:#666;">unofficial update, November 2026</span>')
+    '<div style="text-align:left;font-size:1.5vw;line-height:1.8vw;height:1.8vw;font-weight:500;white-space:nowrap;position:relative;top:-2.6vw;">資安證照地圖'
+    ' <span style="font-size:50%;font-weight:400;color:#666;">Security Certification Roadmap｜2026 年 11 月非官方更新版</span>')
 
 
 def ul(items):
@@ -331,6 +420,7 @@ page_css = """
   body { margin: 0; background: #ffffff; color: #323232;
          font-family: "Segoe UI", "Calibri", Tahoma, "Geneva", Verdana, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; }
   .chartwrap { position: relative; overflow: hidden; }
+  .skilllevelitem { transform: none !important; justify-items: center !important; align-items: center !important; line-height: 130%; }
   #interactive { display: block !important; float: none; margin: 3.6vw 0 0 1vw; }
   .certcontainer { top: 7.4vw !important; }
   .notes { max-width: 900px; margin: 0 auto; padding: 24px 20px 48px; font-size: 15px; line-height: 1.7; }
@@ -346,7 +436,7 @@ doc = f"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Security Certification Roadmap（2026-11 非官方更新版）</title>
+<title>資安證照地圖 Security Certification Roadmap（2026-11 非官方更新版）</title>
 {page_css}
 </head>
 <body>
@@ -358,6 +448,6 @@ doc = f"""<!DOCTYPE html>
 </html>
 """
 open(out_path, "w", encoding="utf-8").write(doc)
-print("certs:", n_cert, "| edits:", len(edits), "| bytes:", len(doc))
+print("certs:", n_cert, "| edits:", len(edits), "| bytes:", len(doc), "| tooltip lines zh:", n_tip_zh, "/", n_tip)
 for k, v in log.items():
     print(k, len(v))

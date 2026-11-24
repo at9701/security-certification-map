@@ -1,0 +1,510 @@
+label,row,col,span,name,detail,url,host
+OSEE,2,46,1,OffSec Exploitation Expert,"$5,000 lab | Plus travel",https://www.offensive-security.com/awe-osee/,offensive-security.com
+CCIE Sec,3,4,3,Cisco Certified Implementation Expert - Security,"$2,050 Hands-on Lab | $12,000 est Travel cost",https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security.html,cisco.com
+CREST CRTSA,3,14,1,CREST Registered Technical Security Architect,"$2,300 two exams | In person in the UK",https://www.crest-approved.org/examination/technical-security-architecture/index.html,crest-approved.org
+ITIL Master,3,17,3,ITIL Master,"$4,000 Interview",https://www.axelos.com/certifications/itil-certifications/itil-master,axelos.com
+OSCE3,3,44,1,OffSec Certified Expert 3,"$4,649 3 labs",https://help.offensive-security.com/hc/en-us/articles/4403282452628-What-is-OSCE3-,help.offensive-security.com
+CCIE Ent,4,4,3,Cisco Certified Internetwork Expert - Enterprise Infrastructure,"~$2,050 hands-on lab | ~$12,000 in travel costs",https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security-v2.html,cisco.com
+VCDX DCV,4,10,1,VMware Certified Design Expert in Datacenter Virtualization,"$3,995 exams | Application also req.",https://www.vmware.com/education-services/certification/vcdx-dcv.html,vmware.com
+RHCA,4,12,1,Red Hat Certified Architect,"~$3,745 exam | plus travel",https://www.redhat.com/en/services/certification/rhca,redhat.com
+SABSA SCM,4,14,1,SABSA Chartered Security Architect - Master Certificate,"$3,750 exam & thesis | Branded course required",https://sabsa.org/certification/,sabsa.org
+GSE,4,22,4,GIAC Security Expert,~$7475 for 10 exams,https://www.giac.org/get-certified/giac-portfolio-certifications/#GSE,giac.org
+GREM,4,31,5,GIAC Reverse Engineering Malware,$999 exam | SANS course recommended,https://www.giac.org/certifications/reverse-engineering-malware-grem/,giac.org
+OSWE,4,43,1,OffSec Web Expert,~$1649 lab,https://www.offensive-security.com/awae-oswe/,offensive-security.com
+OSEP,4,45,2,OffSec Experienced Penetration Tester,"$1,499 lab",https://www.offensive-security.com/pen300-osep/,offensive-security.com
+OSED,4,47,1,OffSec Exploit Developer,"$1,499 lab",https://www.offensive-security.com/exp301-osed/,offensive-security.com
+PgMP,5,16,1,PMI Program Management Professional,"$1,000 exam",https://www.pmi.org/certifications/types/program-management-pgmp,pmi.org
+CISSP Concentrations,5,22,4,ISC2 Certified Information Systems Security Professional Concentrations,$599 exam,https://www.isc2.org/certifications#Specialized,isc2.org
+NCSC CCPLP,5,27,1,NCSC Certified Cybersecurity Professional - Lead Practitioner,$1388 interview,https://www.ncsc.gov.uk/information/about-certified-professional-scheme,ncsc.gov.uk
+CFCE,5,37,1,IACIS Certified Forensic Computer Examiner,$750 4 peer reviewed exams,https://www.iacis.com/certification/,iacis.com
+GXPN,5,45,2,GIAC Exploit Researcher and Advanced Penetration Tester,$999 exam | SANS course recommended,https://www.giac.org/certification/gxpn,giac.org
+VCIX DCV,6,10,1,VMware Certified Implementation Expert in Datacenter Virtualization,$900 two exams,https://www.vmware.com/education-services/certification/vcap-dcv-design.html,vmware.com
+ASIS CPP,6,17,3,ASIS Certified Protection Professional,$485 exam,https://www.asisonline.org/certification/certified-protection-professional-cpp/,asisonline.org
+Zach EAPro,6,20,1,Zachman Enterprise Architect Professional (Level 3),"$2,999 exam & case study | Level 1 & 2 cert not req'd",https://www.zachman.com/certification/what-we-certify/enterprise-architect,zachman.com
+PMP,6,21,1,PMI Project Management Professional,$555 exam,https://www.pmi.org/certifications/project-management-pmp,pmi.org
+CISM,6,22,1,ISACA Certified Information Security Manager,$760 exam,https://www.isaca.org/credentialing/cism,isaca.org
+S-ISME,6,23,1,SECO Information Security Management Expert,$850 exam,https://www.seco-institute.org/certifications/information-security-certification-track/,seco-institute.org
+AAISM,6,24,1,ISACA Advanced in AI Security Management,$599 exam ($459 members) | Active CISM or CISSP required,https://www.isaca.org/credentialing/aaism,isaca.org
+NCSC CCPSP,6,27,1,NCSC Certified Cybersecurity Professional - Senior Practitioner,$907 interview,https://www.ncsc.gov.uk/information/about-certified-professional-scheme,ncsc.gov.uk
+CSFA,6,37,1,CSIAC CyberSecurity Forensic Analyst,$750 exam & lab,https://www.csiac.org/certification/cybersecurity-forensic-analyst-csfa-certification/,csiac.org
+GIME,6,38,2,GIAC iOS and MacOS Examiner,$999 exam | SANS course recommended,https://www.giac.org/certifications/ios-macos-examiner-gime/,giac.org
+OSAI,6,44,1,OffSec AI Red Teamer,AI-300 course + exam,https://www.offsec.com/courses,offsec.com
+GAWN,6,45,2,GIAC Assessing Wireless Networks,$999 exam | SANS course recommended,https://www.giac.org/certification/gawn,giac.org
+CISSP,7,22,4,ISC2 Certified Information Systems Security Professional,$749 exam,https://www.isc2.org/Certifications/CISSP,isc2.org
+CCD,7,36,1,Certified CyberDefender,$800 course | 2 exam attempt included,https://cyberdefenders.org/blue-team-training/courses/certified-cyberdefender-certification/,cyberdefenders.org
+CAWFE,7,37,1,IACIS Certified Advanced Windows Forensic Examiner,$750 written exam & lab,https://www.iacis.com/certification/cawfe/,iacis.com
+GCFA,7,38,2,GIAC Certified Forensic Analyst,$999 exam | SANS course recommended,https://www.giac.org/certification/gcfa,giac.org
+GCTI,7,40,1,GIAC Cyber Threat Intelligence,$999 exam | SANS course recommended,https://www.giac.org/certification/gcti,giac.org
+CREST CSAM,7,45,2,CREST Certified Simulated Attack Manager,"$2,499 2 exams",https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-manager,crest-approved.org
+JNCIE Sec,8,2,1,"Juniper Networks Certified Internet Expert, Security","$1,400 Hands-on Lab",https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jnciesec,juniper.net
+CCDE,8,4,1,Cisco Certified Design Expert,"~$1,600 written exam | with hands-on lab",https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccde.html,cisco.com
+AWS SAP,8,9,1,Amazon Web Services Certified Solutions Architect - Professional,$300 exam,https://aws.amazon.com/certification/certified-solutions-architect-professional/,aws.amazon.com
+RHCE,8,12,1,Red Hat Certified Engineer,$400 exam,https://www.redhat.com/en/services/certification/rhce,redhat.com
+GDAT,8,13,1,GIAC Defending Advanced Threats,$999 exam | SANS course recommended,https://www.giac.org/certification/defending-advanced-threats-gdat,giac.org
+SC-100,8,14,1,Microsoft Cybersecurity Architect,$165 exam,https://docs.microsoft.com/en-us/certifications/exams/sc-100,docs.microsoft.com
+TOGAF,8,17,3,OpenGroup TOGAF Certified,$360 exam,https://www.opengroup.org/certifications/togaf,opengroup.org
+CCISO,8,22,1,EC Council Certified Information Security Officer,"$3,150 course exam | Branded course required",https://ciso.eccouncil.org/cciso-certification/,ciso.eccouncil.org
+EEXIN ISM,8,23,1,EXIN Information Security Management Expert,EST $799 oral exam,https://www.exin.com/certifications/information-security-management-expert-based-isoiec-27001-exam,exin.com
+AAIR,8,25,1,ISACA Advanced in AI Risk,,https://www.isaca.org/credentialing/aair,isaca.org
+GSTRT,8,26,1,"GIAC Strategic Planning, Policy and Leadership",$999 exam | SANS course recommended,https://www.giac.org/certification/gstrt,giac.org
+NCSC CCPP,8,27,1,NCSC Certified Cybersecurity Professional - Practitioner,$225 interview,https://www.ncsc.gov.uk/information/about-certified-professional-scheme,ncsc.gov.uk
+AAIA,8,30,1,ISACA Advanced in AI Audit,,https://www.isaca.org/credentialing/aaia,isaca.org
+GSNA,8,31,1,GIAC Systems and Network Auditor,$999 exam | SANS course recommended,https://www.giac.org/certification/gsna,giac.org
+CFSR,8,37,1,OpenText Certified Forensic Security Responder,$250 written exam & lab,https://www.opentext.com/products-and-solutions/services/training-and-learning-services/encase-training/forensic-security-responder-certification,opentext.com
+GNFA,8,38,1,GIAC Network Forensic Analyst,$999 exam | SANS course recommended,https://www.giac.org/certification/network-forensic-analyst-gnfa,giac.org
+eWPTX,8,43,1,eLearnSecurity Web Application Penetration Tester eXtreme,$400 exam | $2000 training,https://elearnsecurity.com/product/ewptxv2-certification/,elearnsecurity.com
+CREST CCSAS,8,44,1,CREST Certified Simulated Attack Specialist,"$2,520 2 exams & lab",https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist,crest-approved.org
+FCX,9,2,1,Fortinet Certified Expert,$400 written exam | $1600 in-person lab,https://training.fortinet.com/local/staticpage/view.php?page=fcx_cybersecurity,training.fortinet.com
+AZ-305,9,8,1,Microsoft Azure Solutions Architect Expert,$330 exam,https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect?wt.mc_id=learningredirect_certs-web-wwl,docs.microsoft.com
+VCIX NV,9,10,1,VMware Certified Implementation Expert in Network Virtualization,$900 two exams,https://www.vmware.com/education-services/certification/vcap-nv-deploy.html,vmware.com
+LPIC-3,9,12,1,Linux Professional Institute Certified: 303 Security,$200 exam,https://www.lpi.org/our-certifications/lpic-3-303-overview,lpi.org
+SABSA SCP,9,14,1,SABSA Chartered Security Architect - Practitioner Certificate,"$3,750 written exam | Branded course required",https://sabsa.org/certification/,sabsa.org
+PSM III,9,21,1,Scrum.org Professional Scrum Master III,$500 exam | Branded course required,https://www.scrum.org/assessments/professional-scrum-master-iii-certification,scrum.org
+GSP,9,22,4,GIAC Security Professional,~$3735 for 5 exams,https://www.giac.org/get-certified/giac-portfolio-certifications/#gsp,giac.org
+GISP,9,26,1,GIAC Information Security Professional,$999 exam | SANS course recommended,https://www.giac.org/certification/gisp,giac.org
+MTIA,9,36,1,Mosse Institute Certified Threat Intelligence Analyst Certification,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mtia-certified-threat-intelligence-analyst.html,mosse-institute.com
+GCFR,9,37,1,GIAC Cloud Forensics Responder,$999 exam | SANS course recommended,https://www.giac.org/certifications/cloud-forensics-responder-gcfr/,giac.org
+BTL2,9,38,2,Security Blue Team Level 2,"$2,190 course | 1 exam attempt included",https://securityblue.team/btl2/,securityblue.team
+MRT,9,41,1,Mosse Institute Certified Red Teamer Certification,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mrt-certified-red-teamer.html,mosse-institute.com
+HTB CAPE,9,43,1,Hack The Box Certified Active Directory Pentesting Expert,Exam voucher via HTB Academy subscription,https://help.hackthebox.com/en/articles/12741732-academy-certifications,help.hackthebox.com
+CREST CCTINF,9,44,1,CREST Certified Infrastructure Tester,"$2,520 exam & lab",hhttps://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester,crest-approved.org
+HTB CWEE,9,45,1,Hack the Box Certified Web Exploitation Expert,$1260 Subscription available,https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert,academy.hackthebox.com
+Google PCSA,10,9,1,Google Professional Cloud Architect,$200 exam,https://cloud.google.com/certification/cloud-architect,cloud.google.com
+SCE,10,12,1,SUSE Certified Engineer,$195 practical exam,https://www.suse.com/training/exam/sce-sles-15/,suse.com
+ISA CE,10,13,1,ISA Cybersecurity Expert,"$2,700 course + exam | Course required",https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,isa.org
+GDSA,10,14,1,GIAC Defensible Security Architecture,$999 exam | SANS course recommended,https://www.giac.org/certification/defensible-security-architecture-gdsa,giac.org
+ITIL SL,10,19,1,ITIL Strategic Leader,"$4,800 two course exams | 2 branded courses required",https://www.axelos.com/certifications/itil-certifications/itil-strategic-leader-itil-4,axelos.com
+Zach EAP,10,20,1,Zachman Enterprise Architect Practitioner (Level 2),"$2,999 exam & case study | Level 1 cert not req'd",https://www.zachman.com/certification/what-we-certify/enterprise-architect,zachman.com
+GSLC,10,21,1,GIAC Security Leadership Certification,$999 exam | SANS course recommended,https://www.giac.org/certification/gslc,giac.org
+S-CISO,10,22,1,SECO Certified Information Security Officer,Resume review,https://www.seco-institute.org/certifications/information-security-certification-track/,seco-institute.org
+HTB CDEP,10,36,1,Hack The Box Certified Detection Engineering Principal,Exam voucher via HTB Academy subscription,https://help.hackthebox.com/en/articles/12741732-academy-certifications,help.hackthebox.com
+GCFE,10,38,2,GIAC Cerified Forensics Examiner,$999 exam | SANS course recommended,https://www.giac.org/certification/gcfe,giac.org
+GEIR,10,40,1,GIAC Enterprise Incident Response,$999 exam | SANS course recommended,https://www.giac.org/certifications/enterprise-incident-responder-geir/,giac.org
+PACES,10,41,1,Pentester Academy Certified Enterprise Security Specialist,$339-749 Lab access | Exam included,https://www.pentesteracademy.com/gcb,pentesteracademy.com
+HTB CWPE,10,42,1,Hack The Box Certified Wi-Fi Pentesting Expert,Exam voucher via HTB Academy subscription,https://help.hackthebox.com/en/articles/12741732-academy-certifications,help.hackthebox.com
+S-CEHL,10,43,1,SECO Certified Ethical Hacker Leader,Application,https://www.seco-institute.org/certifications/ethical-hacking-track/leader/,seco-institute.org
+CREST CRT,10,44,1,CREST Registered Penetration Tester,$612 exam,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-penetration-tester,crest-approved.org
+CRTL,10,45,1,Zero-Point Security Certified Red Team Lead,Red Team Ops II exam | Zero-Point joined Fortra in 2026,https://training.zeropointsecurity.co.uk/pages/exams,training.zeropointsecurity.co.uk
+MCD,10,46,1,Mosse Institute Certified Code Deobfuscation Specialist Certification,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mcd-certified-code-deobfuscation-specialist.html,mosse-institute.com
+CCNP Sec,11,3,1,Cisco Certified Network Professional - Security,"~$1,200 exam",https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security-v2.html,cisco.com
+CIMP,11,6,1,Identify Management Institute Certified Identity Management Professional,$295 + Membership,https://www.identitymanagementinstitute.org/cimp/,identitymanagementinstitute.org
+SecurityX,11,22,4,CompTIA SecurityX (formerly CASP+),"Exam CAS-005 since Dec 17, 2024",https://www.comptia.org/en-us/certifications/securityx/,comptia.org
+GASF,11,37,1,GIAC Advanced Smartphone Forensics,$999 exam | SANS course recommended,https://www.giac.org/certification/advanced-smartphone-forensics-gasf,giac.org
+eCTHP,11,38,2,eLearnSecurity Certified Threat Hunting Professional,$400 lab,https://security.ine.com/certifications/ecthp-certification/,security.ine.com
+S-EHE,11,43,1,SECO Ethical Hacker Expert,TBD (still) | Being redesigned,https://www.seco-institute.org/certifications/ethical-hacking-certification-track/,seco-institute.org
+HTB COAE,11,44,1,Hack The Box Certified Offensive AI Expert,Exam voucher via HTB Academy subscription,https://help.hackthebox.com/en/articles/12741732-academy-certifications,help.hackthebox.com
+JNCIP Sec,12,2,1,"Juniper Networks Certified Internet Professional, Security",$400 exam,https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jncip-sec,juniper.net
+PA NGFW,12,3,1,Palo Alto Networks Certified Next-Generation Firewall Engineer,"Role-based successor to PCNSE (retired Jul 31, 2025)",https://www.paloaltonetworks.com/services/education/certification,paloaltonetworks.com
+FCSS ZTA,12,4,1,Fortinet Certified Solution Specialist - Zero Trust Access,$800 two exams,https://training.fortinet.com/local/staticpage/view.php?page=fcss_zta,training.fortinet.com
+FCSS SASE,12,6,1,Fortinet Certified Solution Specialist - Secure Access Service Edge,$800 two exams,https://training.fortinet.com/local/staticpage/view.php?page=fcss_SASE,training.fortinet.com
+FCSS PCS,12,8,1,Fortinet Certified Solution Specialist - Public Cloud Security,$400 exam,https://training.fortinet.com/local/staticpage/view.php?page=fcss_public_cloud_security,training.fortinet.com
+GCTD,12,9,1,GIAC Cloud Threat Detection,$999 exam | SANS course recommended,https://www.giac.org/certifications/cloud-threat-detection-gctd/,giac.org
+CACE,12,13,1,Excida IEC 62443 Certified Automation Cybersecurity Expert,$700 exam,https://www.exidacace.com/Apply/CACE,exidacace.com
+GAIPS,12,14,1,GIAC AI Platform Security,$999 exam | SANS SEC545 recommended,https://www.giac.org/certifications/ai-security-platform-security-gaips,giac.org
+ITIL MP,12,17,3,ITIL Managing Professional,"$9,600 4 course exams | 4 branded courses requires",https://www.axelos.com/certifications/itil-certifications/itil-managing-professional-itil-4,axelos.com
+Scrum SPS,12,20,1,Scrum Scaled Professional Scrum,$250 exam,https://www.scrum.org/scaled-professional-scrum-certification,scrum.org
+GLEG,12,21,1,GIAC Law of Data Security & Investigations,$999 exam | SANS course recommended,https://www.giac.org/certification/law-data-security-investigations-gleg,giac.org
+CISSM,12,22,1,GAQM Certified Information Systems Security Manager,$170 exam,https://gaqm.org/certifications/information_systems_security/cissm,gaqm.org
+CGRC,12,23,1,"ISC2 Certified in Governance, Risk and Compliance",$599 exam,https://www.isc2.org/Certifications/CGRC,isc2.org
+CRISC,12,25,5,ISACA Certified in Risk and Information Systems Control,$760 exam,https://www.isaca.org/credentialing/crisc,isaca.org
+GCCC,12,30,1,GIAC Critical Controls Certification,$999 exam | SANS course recommended,https://www.giac.org/certification/critical-controls-certification-gccc,giac.org
+PCI QSA,12,31,1,PCI Qualified Security Assessor,$3000 req'd course,https://www.pcisecuritystandards.org/assessors_and_solutions/become_qsa/,pcisecuritystandards.org
+GWEB,12,33,1,GIAC Certified Web Application Defender,$999 exam | SANS course recommended,https://www.giac.org/certification/certified-web-application-defender-gweb,giac.org
+GASAE,12,35,1,GIAC AI Security Automation Engineer,$999 exam | SANS SEC598 recommended,https://www.giac.org/certifications/ai-security-automation-engineer-gasae,giac.org
+CCNP Cyber,12,36,1,Cisco CCNP Cybersecurity,"Formerly CyberOps Professional (renamed Feb 3, 2026) | Two exams",https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/cyberops-professional.html,cisco.com
+CCFE,12,37,1,Infosec Institute Certified Computer Forensics Examiner,"$4,599 exam | Course required",https://app.infosecinstitute.com/portal/courses/a0t1A000009H5RcQAK,app.infosecinstitute.com
+GCED,12,38,2,GIAC Certified Enterprise Defender,$999 exam | SANS course recommended,https://www.giac.org/certification/certified-enterprise-defender-gced,giac.org
+MCPE,12,40,1,Mosse Institute Certified Cyber Protection Expert,$800 exam,https://www.mosse-institute.com/certifications/mcpe-certified-cyber-protection-expert.html,mosse-institute.com
+CREST CCTIM,12,42,1,CREST Certified Threat Intelligence Manager,"$2,480 3 exams",https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager,crest-approved.org
+GOAA,12,44,1,GIAC Offensive AI Analyst,$999 exam | SANS SEC535 recommended,https://www.giac.org/pricing/,giac.org
+OSCP+,12,45,2,OffSec Certified Professional (OSCP / OSCP+),"$1,749 course + exam bundle | $1,699 exam only | OSCP+ expires after 3 years; OSCP is for life",https://www.offsec.com/pwk-oscp,offsec.com
+F5 CSE Sec,13,3,1,F5 Big-IP Certified Solution Expert - Security,$135 exam,https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740,view.ceros.com
+CCNP Ent,13,4,1,Cisco Certified Network Professional - Enterprise,~$600 exam,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html,cisco.com
+GPCS,13,9,1,GIAC Public Cloud Security,$999 exam | SANS course recommended,https://www.giac.org/certifications/public-cloud-security-gpcs/,giac.org
+GCSA,13,10,1,GIAC Cloud Security Automation,$999 exam | SANS course recommended,https://www.giac.org/certification/cloud-security-automation-gcsa,giac.org
+GCWN,13,11,1,GIAC Certified Windows Security Administrator,$999 exam | SANS course recommended,https://www.giac.org/certifications/certified-windows-security-administrator-gcwn/,giac.org
+GRID,13,13,1,GIAC Response and Industrial Defense,$999 exam | SANS course encouraged,https://www.giac.org/certification/response-industrial-defense-grid,giac.org
+CIS LI,13,14,1,IBITGQ Certified ISO 27001 Information Security Management Specialist Lead Implementer,"$2,008 course exam | Branded course required",https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-implementer-training-course,itgovernance.co.uk
+CIPT,13,16,1,IAPP Certified Information Privacy Technologist,$550 exam,https://iapp.org/certify/cipt/,iapp.org
+CDPSE,13,17,3,ISACA Certified Data Privacy Solutions Engineer,$880 Application,https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer,isaca.org
+CSM,13,20,1,GAQM Certified Scrum Master,$128 exam,https://gaqm.org/certifications/scrum_agile/csm,gaqm.org
+CASM,13,21,1,GAQM Certified Agile Scrum Master,$128 exam,https://gaqm.org/certifications/scrum_agile/casm,gaqm.org
+CM)ISSO,13,22,1,Mile2 Certified Master Information Systems Security Officer,"Complete C)SP, C)ISSO, C)ISSM and IS20 ($2200)",https://www.mile2.com/master-certifications/,mile2.com
+S-ISP,13,26,1,SECO Information Security Practitioner,$550,https://www.seco-institute.org/certifications/information-security-certification-track/,seco-institute.org
+CISA,13,27,3,ISACA Certified Information Systems Auditor,$760 exam,https://www.isaca.org/credentialing/cisa,isaca.org
+GMON,13,30,1,GIAC Continuous Monitoring,$999 exam | SANS course recommended,https://www.giac.org/certification/continuous-monitoring-certification-gmon,giac.org
+CIS LA,13,31,1,IBITGQ Certified ISO 27001 Information Security Management Specialist Lead Auditor,"$2,008 course exam | Branded course required",https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-auditor-training-course,itgovernance.co.uk
+S-CSPL,13,33,1,SECO Secure Programming Certified Leader,$460 exam,https://www.seco-institute.org/certifications/certified-secure-software-developer/,seco-institute.org
+GCDA,13,35,1,GIAC Certified Detection Analyst,$999 exam | SANS course recommended,https://www.giac.org/certification/certified-detection-analyst-gcda,giac.org
+CMFE,13,37,1,Infosec Institute Certified Mobile Forensics Examiner,"$1,699 exam | Course required",https://app.infosecinstitute.com/portal/courses/a0t1A000009H6juQAC,app.infosecinstitute.com
+GX-FA,13,38,1,GIAC Experienced Forensics Analyst,$1299 exam | SANS course recommended,https://www.giac.org/certifications/experienced-forensics-analyst-gxfa/,giac.org
+GSOA,13,39,1,GIAC Strategic OSINT Analyst,SANS SEC587 recommended,https://www.giac.org/pricing/,giac.org
+GCIH,13,40,2,GIAC Certified Forensics Analystr,$999 exam | SANS course recommended,https://www.giac.org/certification/gcih,giac.org
+GX-PT,13,42,1,GIAC Experienced Penetration Tester,$1299 exam | SANS course recommended,https://www.giac.org/certifications/experienced-penetration-tester-gxpt/,giac.org
+GPEN,13,43,1,GIAC Certified Penetration Tester,$999 exam | SANS course recommended,https://www.giac.org/certification/gpen,giac.org
+OSWP,13,44,1,OffSec Wireless Professional,$450 labs,https://www.offensive-security.com/wifu-oswp/,offensive-security.com
+CRTO,13,45,1,Zero Point Security Certified Red Team Operator,$121 lab,https://courses.zeropointsecurity.co.uk/courses/red-team-ops,courses.zeropointsecurity.co.uk
+CCSM,14,2,1,Checkpoint Certified Security Master,$350 exam,https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Master%20(CCSM)%20R80.x,training-certifications.checkpoint.com
+PA XSOAR,14,3,1,Palo Alto Networks Certified XSOAR Engineer,Role-based successor to PCSAE,https://www.paloaltonetworks.com/services/education/certification,paloaltonetworks.com
+PA Cloud,14,4,1,Palo Alto Networks Certified Cloud Security Engineer,Role-based successor to PCCSE,https://www.paloaltonetworks.com/services/education/certification,paloaltonetworks.com
+CIAM,14,6,1,Identify Management Institute Certified Identify and Access Manager,$390 Exam,https://www.identitymanagementinstitute.org/ciam/,identitymanagementinstitute.org
+FCSS SO,14,8,1,Fortinet Certified Solution Specialist - Security Operations,$400 exam,https://training.fortinet.com/local/staticpage/view.php?page=fcss_security_operations,training.fortinet.com
+PDSO CDE,14,9,1,PDSO Certified DevSecOps Expert,$1199 | Exam and training bundled,https://www.practical-devsecops.com/certified-devsecops-expert,practical-devsecops.com
+VCP DCV,14,10,1,VMware Certified Professional in Datacenter Virtualization,$375 exam | Branded course required,https://www.vmware.com/education-services/certification/vcp-dcv.html,vmware.com
+CKS,14,11,1,Cloud Native Computing Foundation Certified Kubernetes Security Specialist,$375 lab | Branded course required,https://www.cncf.io/certification/cks/,cncf.io
+LFCS,14,12,1,Linux Foundation Certified System Administrator,$300 exam,https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/,training.linuxfoundation.org
+FCSS OT,14,13,1,Fortinet Certified Solution Specialist - OT Security,$400 exam,https://training.fortinet.com/local/staticpage/view.php?page=fcss_ot_security,training.fortinet.com
+CSSA,14,14,6,Infosec Institute Certified SCADA Security Architect,"$4,599 exam | Course required",https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4JIAS,app.infosecinstitute.com
+Scrum PSD,14,20,1,Scrum Professional Scrum Developer,$200 exam,https://www.scrum.org/professional-scrum-developer-certification,scrum.org
+GCPM,14,21,1,GIAC Certified Project Manager,$999 exam | SANS course recommended,https://www.giac.org/certification/gcpm,giac.org
+BCS PCIRM,14,22,1,BCS Practitioner Certificate in Information Risk Management,$287 exam,https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-practitioner-certificate-in-information-risk-management/,bcs.org
+PEXIN ISM,14,23,1,EXIN Information Security Management Professional,$268 exam,https://www.exin.com/certifications/information-security-management-professional-based-isoiec-27001-exam,exin.com
+MGRC,14,24,1,Mosse Institute Certified GRC Expert Certification,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mgrc-certified-grc-practitioner.html,mosse-institute.com
+CSSLP,14,27,9,ISC2 Certified Secure Software Lifecycle Professional,$599 exam,https://www.isc2.org/Certifications/CSSLP,isc2.org
+MTH,14,36,1,Mosse Institute Certified Threat Hunter Certification,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mth-certified-threat-hunter.html,mosse-institute.com
+CDRP,14,37,1,Infosec Institute Certified Data Recovery Professional,"$4,599 exam | Course required",https://app.infosecinstitute.com/portal/courses/a0tC0000000FovhIAC,app.infosecinstitute.com
+eCDFP,14,38,1,eLearnSecurity Certified Digital Forensics Professional,$400 exam,https://security.ine.com/certifications/ecdfp-certification/,security.ine.com
+GPYC,14,39,1,GIAC Python Coder,$999 exam | SANS course recommended,https://www.giac.org/certification/python-coder-gpyc,giac.org
+MDFIR,14,40,1,Mosse Institute Certified DFIR Specialist,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mdfir-certified-dfir-specialist.html,mosse-institute.com
+LPT,14,41,1,EC Council Licensed Penetration Tester,$899 exam,https://www.eccouncil.org/programs/licensed-penetration-tester-lpt-master/,eccouncil.org
+PNPT,14,42,1,TCM Security Practical Network Penetration Tester,$399 exam,https://certifications.tcm-sec.com/pnpt/,certifications.tcm-sec.com
+GCPN,14,43,1,GIAC Cloud Penetration Tester,"$2,499 exam | SANS course recommended",https://www.giac.org/certification/gcpn,giac.org
+GRTP,14,44,1,GIAC Red Team Professional,$999 exam | SANS course recommended,https://www.giac.org/certifications/red-team-professional-grtp/,giac.org
+SOG CAPenX,14,45,1,The SecurityOps Group Certified AppSec Pentesting eXpert,$800 exam,https://secops.group/product/certified-appsec-pentesting-expert-capenx/,secops.group
+GMOB,14,47,1,GIAC Mobile Device Security Analyst,$399 exam | SANS course recommended,https://www.giac.org/certification/mobile-device-security-analyst-gmob,giac.org
+FCSS NS,15,2,1,Fortinet Certificed Solution Specialist - Network Security,$800 two exams,https://training.fortinet.com/local/staticpage/view.php?page=fcss_network_security,training.fortinet.com
+CIDPRO,15,6,1,IDPro Certified Identity Professional,$700 exam,https://idpro.org/cidpro/,idpro.org
+CCSP,15,8,1,ISC2 Certified Cloud Security Professional,$599 exam,https://www.isc2.org/Certifications/CCSP,isc2.org
+FCP PCS,15,9,1,Fortinet Certified Professional - Public Cloud Security,$400 for 2 exams,https://training.fortinet.com/local/staticpage/view.php?page=fcp_public_cloud_security,training.fortinet.com
+FCP SO,15,11,1,Fortinet Certified Professional - Security Operations,$400 for 2 exams,https://training.fortinet.com/local/staticpage/view.php?page=fcp_security_operations,training.fortinet.com
+RHCSA,15,12,1,Red Hat Certified System Administrator,$400 exam,https://www.redhat.com/en/services/certification/rhcsa,redhat.com
+ISA CDS,15,13,1,ISA Certified Design Specialist,"$2,700 course + exam",https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,isa.org
+SFCTA,15,14,1,Salesforce Certified Technical Architect,$6000 | Must be SF SA Certified,https://trailhead.salesforce.com/help?article=Salesforce-Certified-Technical-Architect-Exam-Guide,trailhead.salesforce.com
+EPDPP,15,17,1,EXIN Privacy and Data Protection Practitioner,$243 Exam | Course req'd,https://embed.exin.totalservices.io/certifications/exin-privacy-and-data-protection-practitioner-exam,embed.exin.totalservices.io
+M_o_R P,15,19,1,Axelos M_o_R Practitioner Risk Management,$560 exam,https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner,axelos.com
+CPD,15,20,1,GAQM Certified Project Director,$210 exam,https://gaqm.org/certifications/project_management/cpd,gaqm.org
+PMI ACP,15,21,1,PMI Agile Certified Practitioner,$495 exam,https://www.pmi.org/certifications/types/agile-acp,pmi.org
+EISM,15,22,1,EC Council Information Security Manager,"$3,499 | Branded course required",https://ciso.eccouncil.org/cciso-certification/eism-program/,ciso.eccouncil.org
+CGEIT,15,23,1,ISACA Certified in the Governance of Enterprise IT,$760 exam,https://www.isaca.org/credentialing/cgeit,isaca.org
+EXIN 27001E,15,24,1,EXIN ISO/IEC 27001 Expert,~$379 Oral Presentation,https://www.exin.com/certifications/information-security-management-expert-based-isoiec-27001-exam?language_content_entity=en,exin.com
+PECB 27005LM,15,25,1,PECB ISO/IEC 27005 Lead Risk Manager,"~$1,595 exam | Course required",https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-27005-lead-risk-manager,pecb.com
+DCCRP,15,26,1,DRI Certified Cyber Resilience Professional,$400 Exam,https://drii.org/certification/ccrp,drii.org
+GCIA,15,27,3,GIAC Certified Intrusion Analyst,$999 exam | SANS course recommended,https://www.giac.org/certification/certified-intrusion-analyst-gcia,giac.org
+CTPRA,15,30,1,Shared Assessment Certified Third-Party Risk Assessor,$1295 course,https://sharedassessments.org/ctpra/,sharedassessments.org
+PECB 27001LA,15,31,1,PECB ISO/IEC 27001 Lead Auditor,$930 exam | Course required,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-auditor,pecb.com
+CCNP Auto,15,33,1,Cisco CCNP Automation,"Formerly DevNet Professional (renamed Feb 3, 2026) | Two exams",https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/professional/index.html,cisco.com
+SC-401,15,35,1,Microsoft Certified: Information Security Administrator Associate,Exam SC-401; replaced SC-400 in 2025 | Price varies by country,https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/,learn.microsoft.com
+CCE,15,36,1,ISFCE Certified Computer Examiner,$485 written exam,https://www.isfce.com/certification.htm,isfce.com
+CM)DFI,15,37,1,Mile2 Certified Master Digital Forensic Investigator,"Complete C)SP, C)DFE, C)NFE and C)CSA ($2200)",https://www.mile2.com/master-certifications/,mile2.com
+CREST CRIA,15,38,1,CREST Registered Intrusion Analyst,$612 exam & lab,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-intrusion-analyst,crest-approved.org
+CREST CRTIA,15,40,1,CREST Registered Threat Intelligence Analyst,$615 2 exams,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst,crest-approved.org
+PWPP,15,41,1,TCM Security Practical Web Pentest Professional,$399 exam,https://certifications.tcm-sec.com/product-category/exams,certifications.tcm-sec.com
+GWAPT,15,42,1,GIAC Web Application Penetration Tester,$999 exam | SANS course recommended,https://www.giac.org/certification/gwapt,giac.org
+OSMR,15,43,1,OffSec MacOS Researcher,"$2,499 exam | Learning subscription required",https://www.offensive-security.com/exp312-osmr/,offensive-security.com
+GCPT,15,44,1,GAQM Certified Penetration Tester,$128 exam,https://gaqm.org/certifications/information_systems_security/certified_penetration_tester_cpt,gaqm.org
+CCPenX-AWS,15,45,1,The SecurityOps Group Certified Cloud Pentesting eXpert-AWS,$800 exam,https://secops.group/product/certified-cloud-pentesting-expert/,secops.group
+CCSE,16,2,1,Checkpoint Certified Security Expert,$250 exam,https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Expert%20(CCSE)%20R80.x,training-certifications.checkpoint.com
+AWS CSS,16,6,3,Amazon Web Services Certified Security - Specialty,$150 exam,https://aws.amazon.com/certification/certified-security-specialty/,aws.amazon.com
+SFCCCC,16,9,1,SalesForce Certified Community Cloud Consultant,$200 exam | Must be SalesForce Admin Certified,https://trailhead.salesforce.com/help?article=Salesforce-Certified-Community-Cloud-Consultant-Exam-Guide,trailhead.salesforce.com
+EXIN PCSA,16,10,1,EXIN Professional Cloud Solution Architect,$315 exam,https://www.exin.com/certifications/ccc-professional-cloud-solution-architect-exam,exin.com
+CKA,16,11,1,Cloud Native Computing Foundation Certified Kubernetes Administrator,$375 lab | Branded course required,https://www.cncf.io/certification/cka/,cncf.io
+TUV COTCP,16,13,1,TUV Rheinland Certified Operational Technology Cybersecurity Professional (GERMAN),$415 exam,https://www.tuv.com/landingpage/en/lp-certified-operational-technology-cybersecurity-professional-program/,tuv.com
+SABSA SCF,16,14,1,SABSA Chartered Security Architect - Foundation Certificate,"$3,750 exam | Branded course required",https://sabsa.org/certification/,sabsa.org
+CIPA,16,16,1,IMI Certified Identity Protection comptia-advanced-security-practitioner,$295 Exam,https://www.identitymanagementinstitute.org/cipa/,identitymanagementinstitute.org
+DCPP,16,17,1,DSCI Certified Privacy Professional,$205 Exam,https://www.dsci.in/content/dsci-certified-privacy-professional-dcpp,dsci.in
+Scrum PAL,16,19,1,Scrum  Professional Agile Leadership,$200 exam,https://www.scrum.org/professional-agile-leadership-certification,scrum.org
+CAPM,16,20,1,PMI Certified Associate in Project Management,$300 exam,https://www.pmi.org/certifications/types/certified-associate-capm,pmi.org
+PSM II,16,21,1,Scrum.org Professional Scrum Master II,$250 exam,https://www.scrum.org/assessments/professional-scrum-master-ii-certification,scrum.org
+APMG 20000P,16,22,1,APMG ISO/IEC 20000 Practitioner,$308 Exam | Foundation or ITIL req'd,https://apmg-international.com/product/iso-iec-20000,apmg-international.com
+C)ISRM,16,23,1,Mile2 Certified Information Systems Risk Manager,$550 exam,https://www.mile2.com/information-systems-risk-mangager-outline/,mile2.com
+APMG 27001P,16,24,1,APMG ISO/IEC 27001 Practitioner,$400 exam | Application essay,https://apmg-international.com/product/isoiec-27001,apmg-international.com
+PECB 27001LI,16,25,1,PECB ISO/IEC 27001 Lead Implementer,$930 exam | Course required,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-implementer,pecb.com
+IS20,16,27,3,Mile2 IS20 Controls,$550 exam,https://www.mile2.com/is20_outline/,mile2.com
+C)ISSA,16,30,1,Mile2 Certified Information Systems Security Auditor,$550 exam,https://www.mile2.com/information_systems_security_auditor_outline/,mile2.com
+APMG 27001A,16,31,1,APMG ISO/IEC 27001 Auditor,$400 exam | Application essay,https://apmg-international.com/product/isoiec-27001,apmg-international.com
+CASE,16,33,1,EC Council Certified Application Security Engineer (.NET or Java),$550 exam,https://www.eccouncil.org/programs/certified-application-security-engineer-case/,eccouncil.org
+C)DRE,16,35,1,Mile2 Certified Disaster Recovery Engineer,$550 exam,https://www.mile2.com/cdre_outline/,mile2.com
+GSOC,16,36,1,GIAC Security Operations Certified,$999 exam | SANS course recommended,https://www.giac.org/certifications/security-operations-certified-gsoc/,giac.org
+GBFA,16,37,1,GIAC Battlefield Forensics and Acquisition,$999 exam | SANS course recommended,https://www.giac.org/certification/gbfa,giac.org
+BTL1,16,38,2,Security Blue Team Level 1,$660 course | 1 exam attempt included,https://www.securityblue.team/why-btl1/,securityblue.team
+MBT,16,40,1,Mosse Institute Certified Blue Teamer Certification,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mbt-certified-blue-teamer.html,mosse-institute.com
+MPT,16,41,1,Mosse Institute Certified Penetration Tester Certification,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mpt-certified-penetration-tester.html,mosse-institute.com
+CPENT,16,42,1,EC Council Certified Penetration Testing Professional,$999 exam,https://www.eccouncil.org/programs/certified-penetration-testing-professional-cpent/,eccouncil.org
+CREST CCTAPP,16,43,1,CREST Certified Web Application Tester,"$2,520 exam & lab",https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/,crest-approved.org
+HTB CPTS,16,45,1,Hack the Box Certified Penetration Testing Specialist,$200 modules + $210 exam | $490 Subscription available,https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist/,academy.hackthebox.com
+MRE,16,46,1,Mosse Institute Certified Reverse Engineer Certification,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mre-certified-reverse-engineer.html,mosse-institute.com
+JNCIS Sec,17,2,1,"Juniper Networks Certified Internet Specialist, Security",$300 exam,https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jncisec,juniper.net
+Programming Language,17,22,4,Learning a programming language is valuable to any IT professionals career.,"Recommendations: Python, Ruby, C++",https://www.learnpython.org/,learnpython.org
+GMLE,17,33,1,GIAC Machine Learning Engineer,$999 exam,https://www.giac.org/certifications/machine-learning-engineer-gmle/,giac.org
+OSIR,17,35,1,OffSec Incident Responder,IR-200 course + exam,https://www.offsec.com/courses,offsec.com
+CREST CCHIA,17,36,1,CREST Certified Host intrustion Analyst,"$2,481 exam & essay | Hands on exam in UK",https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-host-intrusion-analyst,crest-approved.org
+EnCE,17,37,1,OpenText EnCase Certified Examiner,$200 two exams,https://www.opentext.com/products-and-solutions/services/training-and-learning-services/encase-training/examiner-certification,opentext.com
+ACE,17,38,1,AccessData Certified Examiner,$100 + software,https://accessdata.com/training/computer-forensics-certification,accessdata.com
+eCIR,17,39,1,eLearnSecurity Certified Incident Responder,$400 lab,https://security.ine.com/certifications/ecir-certification/,security.ine.com
+C)IHE,17,40,1,Mile2 Certified Incident Handling Engineer,$550 exam,https://www.mile2.com/cihe_outline/,mile2.com
+CSTL,17,41,1,Cyber Scheme Team Leader,$1945 exam,https://thecyberscheme.org/cyber-scheme-team-leader-cstl-exam/,thecyberscheme.org
+eCPPT,17,42,1,eLearnSecurity Certified Professional Penetration Tester,$400 lab,https://security.ine.com/certifications/ecppt-certification/,security.ine.com
+eWPT,17,43,1,eLearnSecurity Web Application Penetration Tester,$400 lab,https://security.ine.com/certifications/ewpt-certification/,security.ine.com
+CM)IPS,17,44,1,Mile2 Certified Master Intrusion Prevention Specialist,"Complete C)VA, C)PEH, C)PTE and C)PTC ($2200)",https://www.mile2.com/master-certifications/,mile2.com
+HTB CWES,17,45,1,Hack The Box Certified Web Exploitation Specialist,"Formerly HTB CBBH (renamed Oct 1, 2025) | Exam voucher via HTB Academy subscription",https://www.hackthebox.com/blog/htb-cwes-announcement,hackthebox.com
+PMRP,17,46,1,TCM Security Practical Malware Research Professional,Formerly PJMR (renamed Nov 2024) | $399 exam,https://certifications.tcm-sec.com/pmrp/,certifications.tcm-sec.com
+F5 CTS APM,18,2,1,F5 Big-IP Certified Technical Specialist - Access Policy Manager,$135 exam,https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740,view.ceros.com
+FCP NS,18,3,1,Fortinet Certified Professional - Network Security,$400 for 2 exams,https://training.fortinet.com/local/staticpage/view.php?page=fcp_network_security,training.fortinet.com
+CCNA,18,4,1,Cisco Certified Network Associate,~$330 exam,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html,cisco.com
+SC-500,18,6,3,Microsoft SC-500: Build a secure Cloud and AI solution,"Successor to AZ-500 (retired Aug 31, 2026) | Price varies by country",https://learn.microsoft.com/certifications/retired-courses,learn.microsoft.com
+CSA CGC,18,9,1,Cloud Security Alliance Cloud Governance & Compliance,$315 exam,https://cloudsecurityalliance.org/education/cloud-governance-and-compliance/,cloudsecurityalliance.org
+VCP NV,18,10,1,VMware Certified Professional in Network Virtualization,$375 exam | Branded course required,https://www.vmware.com/education-services/certification/vcp-nv-tracks.html,vmware.com
+CKAD,18,11,1,Cloud Native Computing Foundation Certified Kubernetes Application Developer,$375 lab | Branded course required,https://www.cncf.io/certification/ckad/,cncf.io
+LPIC-2,18,12,1,Linux Professional Institute Certified: Linux Engineer,$400 2 exams,https://www.lpi.org/our-certifications/lpic-2-overview,lpi.org
+GCIP,18,13,1,GIAC Critical Infrastructure Protection,$999 exam | SANS course encouraged,https://www.giac.org/certification/critical-infrastructure-protection-gcip,giac.org
+CIMP,18,16,1,IMI Certified Identity Management Professional,$295 Exam,https://www.identitymanagementinstitute.org/cimp/,identitymanagementinstitute.org
+CDP,18,17,3,IMI Certified in Data Protection,$395 Exam,https://www.identitymanagementinstitute.org/cdp/,identitymanagementinstitute.org
+CCP,18,21,1,EC First Certified CCMC Professional,"$2,995 exam | Course required",https://ecfirst.biz/index.php?route=product/product&path=59_83&product_id=281,ecfirst.biz
+C)ISSO,18,22,1,Mile2 Certified Information Systems Security Officer,$550 exam,https://www.mile2.com/cisso_outline/,mile2.com
+CIS RM,18,23,1,IBITGQ Certified ISO 27005 Information Security Management Specialist Risk Management,"$2,783 course exam | Branded course required",https://www.itgovernance.co.uk/shop/product/iso-27005-certified-isms-risk-management,itgovernance.co.uk
+EXIN 27001P,18,24,1,EXIN ISO/IEC 27001 Professional,$279 exam,https://www.exin.com/certifications/information-security-management-professional-based-isoiec-27001-exam,exin.com
+PECB 27032CM,18,25,1,PECB ISO/IEC 27032 Lead Cybersecurity Manager,"$899-$2,999 course exam | Course required",https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-lead-cyber-security-manager,pecb.com
+C)HISSP,18,26,1,Mile2 Certified Healthcare Information Systems Security Practitioner,$550 exam,https://www.mile2.com/chissp_outline/,mile2.com
+APMG 20000A,18,27,3,APMG ISO/IEC 20000 Auditor,$308 Exam | Possible Course Req,https://apmg-international.com/product/iso-iec-20000,apmg-international.com
+C)ISMS-LA,18,30,1,Mile2 Certified Information security Management Systems Lead Auditor,$550 exam,https://www.mile2.com/cisms-la-li-outline/,mile2.com
+CIS IA,18,31,1,IBITGQ Certified ISO 27001 Information Security Management Specialist Internal Auditor,$1543 course exam | Branded course required,https://www.itgovernance.co.uk/shop/product/iso27001-certified-isms-internal-auditor-training-course,itgovernance.co.uk
+CASST,18,33,1,GAQM Certified Advanced Software Security Tester,$210 exam,https://gaqm.org/certifications/software_security_testing/casst,gaqm.org
+OSIP,18,35,1,IntelTechniques Open Source Intelligence Professional,$300 practical exam,https://inteltechniques.com/training-osip.html,inteltechniques.com
+CCNA Cyber,18,36,1,Cisco CCNA Cybersecurity,"Formerly CyberOps Associate (renamed Feb 3, 2026) | Exam 200-201",https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html,cisco.com
+C)CSA,18,37,1,Mile2 Certified Cybersecurity Analyst,$550 exam,https://www.mile2.com/ccsa_outline/,mile2.com
+CHFI,18,38,1,EC Council Computer Hacking Forensics Investigator,$650 exam,https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/,eccouncil.org
+S-TA,18,39,1,SECO Certified Threat Analyst,$550 exam,https://www.seco-institute.org/get-trained/cyber-defense-track/threat-analyst-certification/,seco-institute.org
+ECIH,18,40,1,EC Council Certified Incident Handler,$300 exam,https://www.eccouncil.org/programs/ec-council-certified-incident-handler-ecih/,eccouncil.org
+C)PSH,18,41,1,Mile2 Certified Powershell Hacker,$550 exam,https://www.mile2.com/cpSH_outline/,mile2.com
+CMWAPT,18,42,1,Infosec Institute Certified Mobile and Web App Penetration Tester,"$4,599 exam | Course required",https://app.infosecinstitute.com/portal/courses/a0tC0000000Fow6IAC,app.infosecinstitute.com
+C)PTC,18,43,1,Mile2 Certified Penetration Testing Consultant,$550 exam,https://mile2.com/cptc_outline/,mile2.com
+CRTOP,18,44,1,Infosec Institute Certified Red Team Operations Professional,"$4,599 exam | Course required",https://app.infosecinstitute.com/portal/courses/a0t0y00000BK8IcAAL,app.infosecinstitute.com
+CSR,18,45,2,Cyber Struggle Ranger,Location Based Cost | Course Req,https://cyberstruggle.org/ranger-certification/,cyberstruggle.org
+F5 CTS DNS,19,2,1,F5 Big-IP Certified Technical Specialist - Domain Name Services,$135 exam,https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740,view.ceros.com
+PA XDR,19,3,1,Palo Alto Networks Certified XDR Analyst,Role-based successor to PCDRA,https://www.paloaltonetworks.com/services/education/certification,paloaltonetworks.com
+SF CIAMD,19,6,1,SalesForce Certified Identity and Access Management Designer,$400 exam,https://trailhead.salesforce.com/help?article=Salesforce-Certified-Identity-and-Access-Management-Designer-Exam-Guide,trailhead.salesforce.com
+GCLD,19,8,1,GIAC Cloud Security Essentials,$999 exam SANS course recommended,https://www.giac.org/certifications/cloud-security-essentials-gcld/,giac.org
+AWS SAA,19,9,1,Amazon Web Services Certified Solutions Architect - Associate,$150 exam,https://aws.amazon.com/certification/certified-solutions-architect-associate/,aws.amazon.com
+EXIN PCSerM,19,10,1,EXIN Professional Cloud Service Manager,$315 exam,https://www.exin.com/certifications/ccc-professional-cloud-service-manager-exam,exin.com
+ISA CRAS,19,13,1,ISA Certified Risk Assesment Specialist,"$2,700 course + exam | Course required",https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,isa.org
+SPLK-3001,19,14,1,Splunk Enterprise Security Certified Administrator,$130 exam | Branded course recommended,https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html,splunk.com
+BCS PCIAA,19,17,3,BCS Practitioner Certificate in Information Assurance Architecture,$290 exam,https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-practitioner-certificate-in-information-assurance-architecture/,bcs.org
+CCSA,19,20,1,EC First Certified Cyber Security Architect,$695 exam,https://ecfirst.biz/index.php?route=product/product&path=59_61&product_id=77,ecfirst.biz
+PPM,19,21,1,GAQM Professional in Project Management,$210 exam,https://gaqm.org/certifications/project_management/ppm,gaqm.org
+C)ISSM,19,22,1,Mile2 Certified Information Systems Security Manager,$550 exam,https://mile2.com/cissm_outline/,mile2.com
+TUV ITSM,19,23,1,TUV IT Security Manager (GERMAN),$415 exam | Course required,https://www.certipedia.com/quality_marks/0000063483?locale=en,certipedia.com
+CCRMP,19,24,1,IBITGQ Certified in Managing Cyber Security Risk,"$2,629 course exam | Branded course required",https://www.itgovernance.co.uk/shop/product/managing-cyber-security-risk-training-course,itgovernance.co.uk
+PECB 27005RM,19,25,1,PECB ISO/IEC 27005 Risk Manager,~$995 exam | Course required,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-risk-manager,pecb.com
+CSBA,19,26,1,QAI Certified Software Business Analyst,$350 exam + written essay,https://www.softwarecertifications.org/csba/,softwarecertifications.org
+DCBCLA,19,27,3,DRI Certified Business Continuity Lead Auditor,$400 exam | Application req,https://drii.org/certification/cbcla,drii.org
+TUV MSA,19,30,1,TUV Rheinland Mobile Security Analyst (GERMAN),$415 exam | Course required,https://www.certipedia.com/quality_marks/0000046324?locale=en,certipedia.com
+CCNA Auto,19,33,1,Cisco CCNA Automation,"Formerly DevNet Associate (renamed Feb 3, 2026) | Exam 200-901",https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/associate/index.html,cisco.com
+CySA+,19,35,1,CompTIA Cybersecurity Analyst+,$404 exam,https://www.comptia.org/certifications/cybersecurity-analyst,comptia.org
+OSTH,19,36,1,OffSec Threat Hunter,TH-200 course + exam,https://www.offsec.com/courses,offsec.com
+C)NFE,19,37,1,Mile2 Certified Network Forensics Examiner,$550 exam | Groups only,https://www.mile2.com/network-forensics-examiner-outline/,mile2.com
+GOSI,19,38,1,GIAC Open Source Intelligence,$999 exam | SANS course recommended,https://www.giac.org/certification/open-source-intelligence-gosi,giac.org
+C)TIA,19,39,1,Mile2 Certified Threat Intelligence Analyst,$550 exam,https://www.mile2.com/threat-analyst/,mile2.com
+OSDA,19,40,2,OffSec Defense Analyst,"$2,499 exam | Learning subscription required",https://www.offensive-security.com/soc200-osda/,offensive-security.com
+eMAPT,19,42,1,eLearnSecurity Mobile Application Penetration Tester,$400,https://security.ine.com/certifications/emapt-certification/,security.ine.com
+BSCP,19,43,1,Portswigger Burp Suite Certified Practioner,$99 exam,https://portswigger.net/web-security/certification,portswigger.net
+OPST,19,44,1,ISECOM OSSTMM Professional Security Tester,Unknown,https://www.isecom.org/certification.html,isecom.org
+OSWA,19,45,1,OffSec Web Assessor,"$2,499 Exam | Learning subscription required",https://www.offensive-security.com/web200-oswa/,offensive-security.com
+CREA,19,47,1,Infosec Institute Certified Reverse Engineering Analyst,"$4,599 exam | Course required",https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4IIAS,app.infosecinstitute.com
+CWSP,20,3,1,CWNP Certified Wireless Security Professional,$325 exam,https://www.cwnp.com/certifications/cwsp,cwnp.com
+CREST CCNIA,20,4,1,CREST Certified Network Intrusion Analyst,"$2,481 exam & essay | Hands on exam in UK",https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-network-intrusion-analyst,crest-approved.org
+CIGE,20,6,1,IMI Certified Identity Governance Expert,$395 exam,https://www.identitymanagementinstitute.org/cige/,identitymanagementinstitute.org
+AZ-104,20,8,1,Microsoft Azure Administrator Associate,$165 exam,https://docs.microsoft.com/en-us/learn/certifications/azure-administrator?wt.mc_id=learningredirect_certs-web-wwl,docs.microsoft.com
+CLCSM,20,9,1,PECB Lead Cloud Security Manager,~$930 exam | Course required,https://pecb.com/en/education-and-certification-for-individuals/cloud-security/lead-cloud-security-manager,pecb.com
+CCSE,20,10,1,EC Council Certified Cloud Security Engineer,$100 exam | EC Council Course Recommended,https://cert.eccouncil.org/certified-cloud-security-engineer.html,cert.eccouncil.org
+MCSE,20,11,1,Mosse Institute Cloud Security Engineer,$600 exam,https://www.mosse-institute.com/certifications/mcse-certified-cloud-security-engineer.html,mosse-institute.com
+SFSA,20,14,1,SalesForce System Architect,$400 hands-on lab,https://trailhead.salesforce.com/credentials/systemarchitect,trailhead.salesforce.com
+ASIS APP,20,17,3,ASIS Associate Protection Professional,$350 exam,https://www.asisonline.org/certification/associate-protection-professional-app/,asisonline.org
+CNDA,20,20,1,EC Council Certified Network Defense Architect,$200 application | Requires CEH cert,https://www.eccouncil.org/programs/certified-network-defense-architect-cnda/,eccouncil.org
+DACRP,20,21,1,DRI Associate Cyber Resilience Professional,$200 exam | Course req,https://drii.org/certification/acrp,drii.org
+CISRM,20,22,1,IBITGQ Certified ISO 27005 Information Security Management Specialist Risk Management,"$2,783 course exam | Branded course required",https://www.itgovernance.co.uk/shop/product/iso-27005-certified-isms-risk-management,itgovernance.co.uk
+DCRMP,20,23,1,DRI Certified Risk Management Professional,$400 exam | Application essay,https://drii.org/certification/crmp,drii.org
+SSAP,20,24,1,SANS Security Awareness Professional,$1219 Exam | SANS MGT433 course recommended,https://www.sans.org/security-awareness-training/career-development/credential/,sans.org
+GRCP,20,25,1,"OCEG Governance, Risk, and Compliance Professional",$399 12 month license,https://www.oceg.org/certifications/grc-professional-certification/,oceg.org
+SACP,20,26,1,The H Layer Security Awareness and Culture Professional,$369 Exam,https://www.thehlayer.com/about-exam/,thehlayer.com
+CISP,20,27,1,GAQM Certified Information Security Professional,$170 exam,https://gaqm.org/certifications/information_systems_security/cisp,gaqm.org
+TUV Auditor,20,29,1,TUV Rheinland IT Security Auditor (GERMAN),$415 exam | Course required,https://www.certipedia.com/quality_marks/0000063484?locale=en,certipedia.com
+CTPRP,20,30,1,Shared Assessment Certified Third-Party Risk Professional,$1295 course,https://sharedassessments.org/ctprp/,sharedassessments.org
+IIA CIA,20,31,1,The Institute of Internal Auditors Certified Internal Auditor,$1315 3 exams,https://na.theiia.org/certification/CIA-Certification/Pages/CIA-Certification.aspx,na.theiia.org
+CCSC,20,33,1,CertNexus Cyber Secure Coder,$300 exam,https://certnexus.com/certification/cyber-secure-coder/,certnexus.com
+SC-200,20,35,1,Microsoft Certified: Security Operations Analyst Associate,~$165 exam,https://docs.microsoft.com/en-us/learn/certifications/security-operations-analyst/,docs.microsoft.com
+MRCI,20,36,1,Mosse Institute Remote Cybersecurity Internship Programme,$49 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mrci-remote-cybersecurity-internship.html,mosse-institute.com
+EDRP,20,37,1,EC Council Disaster Recovery Professional,$450 exam,https://www.eccouncil.org/programs/disaster-recovery-professional-edrp/,eccouncil.org
+HTB CDSA,20,38,1,Hack the Box Certified Defensive Security Analyst,$145 modules + $210 exam | $490 Subscription available,https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst,academy.hackthebox.com
+CFR,20,39,1,CertNexus CyberSec First Responder,$250 exam,https://certnexus.com/certification/cybersec-first-responder/,certnexus.com
+CTIA,20,40,1,EC Council Certified Threat intelligence Analyst,$450 exam,https://www.eccouncil.org/programs/certified-threat-intelligence-analyst-ctia/,eccouncil.org
+HTB CJCA,20,41,1,Hack The Box Certified Junior Cybersecurity Associate,Covers both offensive and defensive work | Exam voucher via HTB Academy subscription,https://help.hackthebox.com/en/articles/12741732-academy-certifications,help.hackthebox.com
+CSTM,20,42,1,Cyber Scheme Team Member,$610 exam,https://thecyberscheme.org/cyber-scheme-team-member-cstm-exam/,thecyberscheme.org
+eJPT,20,43,1,eLearnSecurity Junior Penetration Tester,$249 lab,https://ine.com/learning/certifications/internal/elearnsecurity-junior-penetration-tester-v2,ine.com
+S-EHP,20,44,1,SECO Ethical Hacking Practitioner,$550 exam,hhttps://www.seco-institute.org/certifications/ethical-hacking-track/practitioner/,seco-institute.org
+CHAT,20,45,1,ISECOM Certified Hacker Analyst Trainer,$100 annual sub | Unknown exam price,https://www.isecom.org/certification.html,isecom.org
+CREST CPSA,20,46,1,CREST Practitioner Security Analyst,$425 exam,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst,crest-approved.org
+F5 CA,21,2,1,F5 Big-IP Certified Administrator,$135 exam,https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740,view.ceros.com
+eNDP,21,3,1,eLearnSecurity Network Defense Professional,$400 exam,https://www.elearnsecurity.com/certification/endp/,elearnsecurity.com
+CIST,21,6,1,IMI Certfied Identity and Security Technologist,$295 exam,https://www.identitymanagementinstitute.org/cist/,identitymanagementinstitute.org
+Google PCSE,21,9,1,Google Professional Cloud Security Engineer,$200 exam,https://cloud.google.com/certification/cloud-security-engineer,cloud.google.com
+EXIN PCSM,21,10,1,EXIN Professional Cloud Security Manager,$315 exam,https://www.exin.com/certifications/ccc-professional-cloud-security-manager-exam,exin.com
+MDSO,21,11,1,Mosse Institute Certified DevSecOps Engineer,$450 exam,https://www.mosse-institute.com/certifications/mdso-certified-devsecops-engineer.html,mosse-institute.com
+SCA,21,12,1,SUSE Certified Administrator,$149 exam, https://www.suse.com/training/exam/sca-sles-15/,suse.com
+ISA CAP,21,13,1,ISA Certified Automation Specialist,$467 exam,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,isa.org
+TUV COSM,21,14,1,TUV Certified OT Security Manager,"$3,070 Course",https://limessecurity.com/en/academy/ics-211/,limessecurity.com
+Zach EAA,21,19,1,Zachman Enterprise Architect Associate (Level 1),"$2,999 course exam | Branded course required",https://www.zachman.com/certification/what-we-certify/enterprise-architect,zachman.com
+CAD,21,20,1,GAQM Certified Agile Developer,$128 exam,https://gaqm.org/certifications/scrum_agile/cad,gaqm.org
+CAC,21,21,1,GAQM Certified Agile Coach,$170,https://gaqm.org/certifications/scrum_agile/cac,gaqm.org
+ISMI CSMP,21,22,1,ISMI Certified Security Management Professional,$1159,https://www.ismi.org.uk/csmp/csmp%C2%AE-overview.aspx,ismi.org.uk
+CSCS,21,23,1,EC First Certified Security Compliance Specialist,$695 exam,https://ecfirst.biz/index.php?route=product/product&path=59_61&product_id=89,ecfirst.biz
+APMG 27001F,21,24,1,APMG ISO/IEC 27001 Foundation,$400 exam | Application essay,https://apmg-international.com/product/isoiec-27001,apmg-international.com
+PECB 27001F,21,25,1,PECB ISO/IEC 27001 Foundation,$500-749 exam | Course required,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-foundation,pecb.com
+C)SLO,21,26,1,Mile2 Certified Security Leadership Officer,$550 exam,https://www.mile2.com/cslo_outline/,mile2.com
+DCBCA,21,27,3,DRI Certified Business Continuity Auditor,$400 exam | Application req,https://drii.org/certification/cbca,drii.org
+GRCA,21,30,1,"OCEG Governance, Risk, and Compliance Auditor",$399 12 month license,https://www.oceg.org/certifications/grc-audit-certification/,oceg.org
+CISST,21,31,1,GAQM Certified Information systems Security Tester,$170 exam,https://gaqm.org/certifications/information_systems_security/cisst,gaqm.org
+C)SWAE,21,33,1,Mile2 Secure Web Application Engineer,$550 exam,https://www.mile2.com/cswae_outline/,mile2.com
+OPSA,21,35,1,ISECOM OSSTMM Professional Security Analyst,$100 annual sub | Unknown exam fee,https://www.isecom.org/certification.html,isecom.org
+CSAE,21,36,1,Cyber Struggle AEGIS,"$1,700 course exam | Branded course required",https://cyberstruggle.org/aegis-certification/,cyberstruggle.org
+ASIS PCI,21,37,1,ASIS Professional Certified Investigator,$485 exam,https://www.asisonline.org/certification/professional-certified-investigator-pci,asisonline.org
+MAD SOCA,21,38,1,Mitre Att&ck Defender Security Operations Center Assessment,$299 annual subscription,https://mitre-engenuity.org/mad/,mitre-engenuity.org
+MAD CTI,21,39,1,Mitre Att&ck Defender Cyber Threat intelligence,$299 annual subscription,https://mitre-engenuity.org/mad/,mitre-engenuity.org
+CEH,21,40,2,EC Council Certified Ethical Hacker,"$1,199 exam",https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/,eccouncil.org
+SOG CAPen,21,42,1,The SecOps Group Certified AppSec Pentester,$500 exam,https://secops.group/product/certified-appsec-pentester/,secops.group
+C)PTE,21,43,1,Mile2 Certified Penetration Testing Engineer,$550 exam,https://www.mile2.com/penetration-testing-engineer-outline/,mile2.com
+SOG CNPen,21,44,1,The SecOps Group Certified Network Pentester,$500 exam,https://secops.group/product/certified-network-pentester/,secops.group
+DV RTOS,21,45,1,Dark Vortex Red Team & Operational Security,$2500 exam | Course required,https://0xdarkvortex.dev/training-programs/red-team-and-operational-security/,0xdarkvortex.dev
+DV OTD,21,46,1,Dark Vortex Offensive Tool Development,$2000 exam | Course required,https://0xdarkvortex.dev/training-programs/offensive-tool-development/,0xdarkvortex.dev
+MVRE,21,47,1,Mosse Institute Vulnerability Researcher and Exploitation Specialist,$450 Exam,https://www.mosse-institute.com/certifications/mvre-vulnerability-researcher-and-exploitation-specialist.html,mosse-institute.com
+MNSE,22,2,1,Mosse Institute Network Security Essentials,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mnse-network-security-essentials.html,mosse-institute.com
+PA NetSec,22,3,1,Palo Alto Networks Certified Network Security Professional,Role-based successor to PCNSA,https://www.paloaltonetworks.com/services/education/certification,paloaltonetworks.com
+OWSE,22,4,1,ISECOM OSSTMM Wireless Security Expert,$100 annual sub | Unknown exam cost,https://www.isecom.org/certification.html,isecom.org
+SC-300,22,6,1,Microsoft Certfied: Identity and Access Administrator Associate,$165 exam,https://docs.microsoft.com/en-us/learn/certifications/identity-and-access-administrator/,docs.microsoft.com
+CSA CCSK,22,8,1,Cloud Security Alliance Certificate of Cloud Security Knowledge,$395 exam,https://cloudsecurityalliance.org/education/ccsk/,cloudsecurityalliance.org
+C)CSO,22,10,1,Mile2 Certified Cloud Security Officer,$550 exam,https://mile2.com/ccso_outline/,mile2.com
+DCA,22,11,1,Docker Certified Associate,$195 exam,https://training.mirantis.com/dca-certification-exam/,training.mirantis.com
+LPIC-1,22,12,1,Linux Professional Institute Certified: Linux Administrator,$400 2 exams,https://www.lpi.org/our-certifications/lpic-1-overview,lpi.org
+GICSP,22,13,1,GIAC Global Industrial Security Professional,$999 exam | SANS course encouraged,https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp,giac.org
+SecAI+,22,21,1,CompTIA SecAI+,"Exam CY0-001, launched Feb 17, 2026",https://www.comptia.org/en-us/certifications/secai/,comptia.org
+GSEC,22,22,4,GIAC Security Essentials Certification,$999 exam | SANS course recommended,https://www.giac.org/certification/security-essentials-gsec,giac.org
+MOIS,22,36,1,MOIS Certified OSINT Expert Certification,$450 certification programme | 100% practical. No expiry.,https://www.mosse-institute.com/certifications/mois-certified-osint-expert.html,mosse-institute.com
+CFA,22,37,1,GAQM Certified Forensic Analyst,$128 exam,https://gaqm.org/certifications/information_systems_security/cfa,gaqm.org
+THM SAL2,22,38,1,TryHackMe Security Analyst Level 2,Multi-stage SOC investigation scenarios,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,tryhackme.com
+CSA,22,39,1,EC Council Certified SOC Analyst,$550 exam,https://www.eccouncil.org/programs/certified-soc-analyst-csa/,eccouncil.org
+GFACT,22,40,2,GIAC Foundational Cybersecurity Technologies,$999 exam | SANS course recommended,https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/,giac.org
+SOG CMPen And,22,42,1,The SecOps Group Certified Mobile Pentester - Android,$400 exam,https://secops.group/product/certified-mobile-pentester-cmpen-android/,secops.group
+SOG CMPen iOS,22,43,1,The SecOps Group Certified Mobile Pentester - iOS,$400 exam,https://secops.group/product/certified-mobile-pentester-cmpen-ios/,secops.group
+DV MoS,22,44,1,Dark Vortex Malware on Steroids,$2000 exam | Course required,https://0xdarkvortex.dev/training-programs/malware-on-steroids/#certification,0xdarkvortex.dev
+Pentest+,22,45,1,CompTIA Pentest+,$404 exam,https://www.comptia.org/certifications/pentest,comptia.org
+CREST CSAS,22,46,1,CREST Certified Simulated Attack Specialist,"$2,520 2 exams & lab",https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist,crest-approved.org
+ECES,22,47,1,EC Council Certified Encryption Specialist,$249 exam,https://www.eccouncil.org/programs/ec-council-certified-encryption-specialist-eces/,eccouncil.org
+JNCIA Sec,23,2,1,"Juniper Networks Certified Internet Associate, Security",$200 exam,https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jnciasec,juniper.net
+FCA,23,3,1,Fortinet Certificed Associate,Free course and exam required,https://training.fortinet.com/local/staticpage/view.php?page=fca_cybersecurity,training.fortinet.com
+WCNA,23,4,1,Protocol Analysis Institute Wireshark Certified Network Analyst,$299 exam,https://www.wcnacertification.com/exam-information-1,wcnacertification.com
+Server+,23,8,1,CompTIA Server+,$319 exam,https://www.comptia.org/certifications/server,comptia.org
+PDSO CDP,23,9,1,PDSO Certified DevSecOps Professional,$799 | Exam and training bundled,https://www.practical-devsecops.com/certified-devsecops-professional/,practical-devsecops.com
+EXIN PCD,23,10,1,EXIN Professional Cloud Developer,$315 exam,https://www.exin.com/certifications/ccc-professional-cloud-developer-exam,exin.com
+KCNA,23,11,1,Cloud Native Computing Foundation Kubernetes and Cloud Native Associate,$250 exam | Branded course required,https://www.cncf.io/certification/kcna/,cncf.io
+Linux+,23,12,1,CompTIA Linux+,$369 exam,https://www.comptia.org/certifications/linux,comptia.org
+CRFS,23,16,1,IMI Certified Red Flag Specialist,$295 exam,https://www.identitymanagementinstitute.org/crfs/,identitymanagementinstitute.org
+SSCP,23,22,4,ISC2 Systems Security Certified Practitioner,$249 exam,https://www.isc2.org/Certifications/SSCP,isc2.org
+SOG CAP,23,33,1,SecOps Group Certified AppSec Practitioner,$249 exam,https://secops.group/product/certified-application-security-practitioner/,secops.group
+PSAA,23,35,1,TCM Security Practical SOC Analyst Associate,$199 exam,https://certifications.tcm-sec.com/product-category/exams,certifications.tcm-sec.com
+CCOA,23,36,1,ISACA Certified Cybersecurity Operations Analyst,$760 exam,https://www.isaca.org/credentialing/ccoa,isaca.org
+CREST CPIA,23,38,1,CREST Practitioner Intrusion Analyst,$425 exam,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-intrusion-analyst,crest-approved.org
+MESE,23,39,1,Mosse Institute Enterprise Security Engineer,$450 exam,https://www.mosse-institute.com/certifications/mese-certified-enterprise-security-engineer.html,mosse-institute.com
+CREST CPTIA,23,40,1,CREST Practitioner Threat Intelligence Analyst,$425 exam,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/,crest-approved.org
+PJPT,23,41,1,TCM Security Practical Junior Penetration Tester,$199 exam,https://certifications.tcm-sec.com/product-category/exams,certifications.tcm-sec.com
+MCPT,23,42,1,Mosse Institute Cloud Penetration Tester,$450 exam,https://www.mosse-institute.com/certifications/mcpt-cloud-penetration-tester.html,mosse-institute.com
+C)PEH,23,43,1,Mile2 Certified Professional Ethical Hacker,$550 exam,https://mile2.com/professional-ethical-hacker/,mile2.com
+GCPEH,23,44,1,GAQM Certified Professional Ethical Hacker,$170 exam,https://gaqm.org/certifications/information_systems_security/cpeh,gaqm.org
+THM PT1,23,45,1,TryHackMe Junior Penetration Tester,48-hour practical exam + report,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,tryhackme.com
+CCSA,24,2,1,Checkpoint Certified Security Administrator,$250 exam,https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Admin%20(CCSA)%20R80.x,training-certifications.checkpoint.com
+ITS-NS,24,3,1,Certiport IT Specialist - Network Security,$127 exam,https://certiport.filecamp.com/s/ITS_OD_102_Network_Security/fi,certiport.filecamp.com
+CCT,24,4,1,Cisco Certified Technician,$165 exam,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/entry/technician-cct.html,cisco.com
+Cloud+,24,8,1,CompTIA Cloud+,$369 exam,https://www.comptia.org/certifications/cloud,comptia.org
+Google ACE,24,9,1,Google Associate Cloud Engineer,$125 exam,https://cloud.google.com/certification/cloud-engineer,cloud.google.com
+SOG CCSP-AWS,24,10,1,SecOps Group Certified Cloud Security Practitioner - AWS,$249 exam,https://secops.group/product/certified-cloud-security-practitioner-aws-ccsp-aws/,secops.group
+LFCA,24,12,1,Linux Foundation Certified IT Associate,$200 exam,https://training.linuxfoundation.org/certification/certified-it-associate/,training.linuxfoundation.org
+ISA CFS,24,13,1,ISA Certified Fundamentals Specialist,"$2,700 course + exam | Course required",https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,isa.org
+EITCA/IS,24,14,1,EITCA/IS Information Security Certificate,$120 exam,https://eitca.org/eitca-is-information-security-academy/,eitca.org
+CIPP,24,16,1,IAPP Certified Information Privacy Professional,$550 exam,https://iapp.org/certify/cipp,iapp.org
+iPAS 中級,24,20,1,iPAS 資訊安全工程師 中級能力鑑定,"Taiwan MOEA iPAS Information Security Engineer (Intermediate) | 2 papers; NT$1,500 per sitting (NT$1,000 individual rate)",https://www.ipas.org.tw/ISE/AbilityIndex.aspx,ipas.org.tw
+資安職能 專業,24,21,1,資通安全職能評量證書：專業科目,"Taiwan NICS cybersecurity competency certificate (professional subjects) | Requires the core 資通安全概論 certificate | 3-day course NT$8,000 incl. one assessment (2024 rate)",https://ctts.nics.nat.gov.tw/,ctts.nics.nat.gov.tw
+Security+,24,22,4,CompTIA Security+,$404 exam,https://www.comptia.org/certifications/security,comptia.org
+ECSS,24,36,1,EC Council Certified Security Specialist,$249 exam,https://www.eccouncil.org/programs/certified-security-specialist-ecss/,eccouncil.org
+C)DFE,24,37,1,Mile2 Certified Digital Forensics Examiner,$550 exam,https://www.mile2.com/cdfe_outline/,mile2.com
+S-SA,24,39,1,SECO Associate SOC Analyst,$480 exam,https://www.seco-institute.org/get-trained/cyber-defense-track/associate-soc-analyst-certification/,seco-institute.org
+DV AOPH,24,40,1,Dark Vortex Adversary Operations and Proactive Hunting,$2500 exam | Course required,https://0xdarkvortex.dev/training-programs/adversary-operations-and-proactive-hunting/,0xdarkvortex.dev
+PWPA,24,41,1,TCM Security Practical Web Pentest Associate,$199 exam,https://certifications.tcm-sec.com/product-category/exams,certifications.tcm-sec.com
+PAPA,24,42,1,TCM Security Practical AI Pentest Associate,$199 exam,https://certifications.tcm-sec.com/product-category/exams,certifications.tcm-sec.com
+SOG NSP,25,3,1,SecOps Group Certified Network Security Practitioner,$249 exam,https://secops.group/product/certified-network-security-practitioner/,secops.group
+Net+,25,4,1,CompTIA Network+,$369 exam,https://www.comptia.org/certifications/network,comptia.org
+CAMS,25,6,1,IMI Certfied Access Management Specialist,$195 exam,https://www.identitymanagementinstitute.org/cams/,identitymanagementinstitute.org
+AZ-900,25,8,1,Microsoft Azure Fundamentals,$165 exam,https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals,docs.microsoft.com
+MCSF,25,9,1,Mosse Institute Cloud Services Fundamentals,$450 exam,https://www.mosse-institute.com/certifications/mcsf-cloud-services-fundamentals.html,mosse-institute.com
+MSAF,25,10,1,Mosse Institute System Administration Fundamentals,$450 exam,https://www.mosse-institute.com/certifications/msaf-system-administration-fundamentals.html,mosse-institute.com
+Apple ACSP,25,12,1,Apple Certified Support Professional,$250 exam | Limited test locations,https://training.apple.com/us/en/recognition,training.apple.com
+CACS,25,13,1,Excida IEC 62443 Certified Automation Cybersecurity Specialist,$700 exam,https://www.exidacace.com/Apply/CACS,exidacace.com
+TUV COSTE,25,14,1,TUV Certified OT Security Technical Expert,"$3,070 course",https://limessecurity.com/en/academy/ics-211/,limessecurity.com
+EPDPF,25,16,1,EXIN Privacy and Data Protection Foundation,$207 exam,https://www.exin.com/certifications/exin-privacy-and-data-protection-foundation-exam,exin.com
+TOGAF Fdn,25,17,3,OpenGroup TOGAF Certified,$360 exam,https://www.opengroup.org/certifications/togaf,opengroup.org
+CSP,25,20,1,GAQM Certified SAFe Practitioner,$170 exam,https://gaqm.org/certifications/scrum_agile/csp-410,gaqm.org
+IIBA CCA,25,21,1,IIBA Certification in Cybersecurity Analysis,$475 exam,https://www.iiba.org/certification/iiba-certifications/specialized-business-analysis-certifications/certificate-in-cybersecurity-analysis/,iiba.org
+CITGP,25,22,1,IBITGQ Certified in Implementing IT Governance - Foundation & Principles,"~$2,499 course exam | Branded course required",https://www.itgovernance.co.uk/shop/product/implementing-it-governance-foundation-principles-training-course,itgovernance.co.uk
+C)ISCAP,25,23,1,Mile2 Information Systems Certification and Accredidation Professional,$550 exam,https://www.mile2.com/iscap_outline/,mile2.com
+CSAP,25,24,1,Infosec Institute Certified Security Awareness Practitioner,"$2,599 exam | Course required",https://app.infosecinstitute.com/portal/courses/a0t0y000009lTzjAAE,app.infosecinstitute.com
+PECB 27032F,25,25,1,PECB ISO/IEC 27032 Foundation,$500-749 exam | Course required,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-foundation,pecb.com
+MCL,25,26,1,Mosse Institute Cybersecurity Leadership,$450 exam,https://www.mosse-institute.com/certifications/mcl-cybersecurity-leadership.html,mosse-institute.com
+ITS-C,25,27,1,Certiport IT Specialist - Cybersecurity,$127 exam,https://certiport.filecamp.com/s/JTIy1sX0ci0ZI3ss/fi,certiport.filecamp.com
+EXIN CIT,25,30,1,EXIN Cyber & IT Security,$225 exam,https://www.exin.com/qualification-program/exin-cyber-and-it-security,exin.com
+TUV CySec,25,31,1,TUV Rheinland Cybersecurity Specialist (GERMAN),$415 exam | Course required,https://www.tuv.com/landingpage/en/training-functional-safety-cyber-security/detail-pages/zertifikate/cs-specialist.html,tuv.com
+CSST,25,33,1,GAQM Certified Software Security Tester,$170 exam,https://gaqm.org/certifications/software_security_testing/csst,gaqm.org
+OPSE,25,35,1,ISECOM OSSTMM Professional Security Expert,$100 annual sub | Unknown exam cost,https://www.isecom.org/certification.html,isecom.org
+CSX-F,25,36,1,IBITGQ Cyber Incident Response Management Foundation,$768 course exam | Branded course required,https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course,itgovernance.co.uk
+DV MILF,25,38,1,Dark Vortex Malware Incident and Log Foensics,$2000 exam,https://0xdarkvortex.dev/training-programs/malware-incident-and-log-forensics/,0xdarkvortex.dev
+CIRM Fdn,25,39,1,IBITGQ Cyber Incident Response Management Foundation,$768 course exam | Branded course required,https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course,itgovernance.co.uk
+THM SAL1,25,40,1,TryHackMe Security Analyst Level 1,Live SOC simulator with graded incident reports,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,tryhackme.com
+EEHF,25,42,1,EXIN Ethical Hacking Foundation,$232 exam,https://www.exin.com/certifications/exin-ethical-hacking-foundation-exam,exin.com
+S-EHF,25,43,1,SECO Ethical Hacking Foundation,$460 exam,https://www.seco-institute.org/certifications/ethical-hacking-certification-track/ethical-hacking-foundation/,seco-institute.org
+CHA,25,44,1,ISECOM Certified Hacker Analyst,$100 annual sub | Unknown exam cost,https://www.isecom.org/certification.html,isecom.org
+FCF,26,2,1,Fortinet Certified Fundamentals Cybersecurity,Free 3 courses with exams req,https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity,training.fortinet.com
+PA Cyber,26,3,1,Palo Alto Networks Certified Cybersecurity Practitioner,Foundational level; replaces PCCET,https://www.paloaltonetworks.com/services/education/certification,paloaltonetworks.com
+AWS CP,26,9,1,Amazon Web Services Certified Cloud Practitioner,$100 exam,https://aws.amazon.com/certification/certified-cloud-practitioner/,aws.amazon.com
+EXIN PCA,26,10,1,EXIN Professional Cloud Administrator,$315 exam,https://www.exin.com/certifications/ccc-professional-cloud-administrator-exam,exin.com
+A+,26,11,1,CompTIA A+,$253 exam,https://www.comptia.org/certifications/a,comptia.org
+CIOTSP,26,13,1,CertNexus Certified Internet of Things Security Practitioner,$250 exam,https://certnexus.com/certification/ciotsp/,certnexus.com
+TUV COSP,26,14,1,TUV Certified OT Security Practitioner,$2725 course,https://limessecurity.com/en/academy/ics-201/,limessecurity.com
+EPDPE,26,16,1,EXIN Privacy and Data Protection Essentials,$145 exam,https://www.exin.com/certifications/exin-privacy-and-data-protection-essentials-exam,exin.com
+資安職能 核心,26,17,1,資通安全職能評量證書：核心科目「資通安全概論」,"Taiwan NICS cybersecurity competency certificate (core) | 3-day course NT$8,000 incl. one assessment (2024 rate)",https://ctts.nics.nat.gov.tw/,ctts.nics.nat.gov.tw
+M_o_R Fdn,26,19,1,Axelos M_o_R Framework Foundation,$495 exam,https://www.axelos.com/certifications/propath/mor-risk-management/mor-foundation,axelos.com
+Fair Fdn,26,20,1,Fair Institute Analysis Fundamentals,$1499 exam | Course required,https://risklens-academy.myshopify.com/collections/popular-courses/products/fair-analysis-fundamentals-2,risklens-academy.myshopify.com
+PSM I,26,21,1,Scrum.org Professional Scrum Master I,$150 exam,https://www.scrum.org/assessments/professional-scrum-master-i-certification,scrum.org
+APMG 20000F,26,22,1,APMG ISO/IEC 20000 Foundation,$308 exam,https://apmg-international.com/product/iso-20000,apmg-international.com
+ISMI CSM,26,23,1,ISMI Certified Security Manager,$TBD,https://www.ismi.org.uk/csmp/certified-security-manager%C2%AE,ismi.org.uk
+BCS FISMP,26,24,1,BCS Foundation Certifiate in Information Security Management Principles,$249 exam,https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-foundation-certificate-in-information-security-management-principles/,bcs.org
+CC,26,25,1,ISC2 Certified in Cybersecurity,"$199 exam | Free-exam programme closed to new enrolments May 20, 2026",https://www.isc2.org/Certifications/CC,isc2.org
+S-ISF,26,26,1,SECO Information Security Foundation,$460 exam,https://www.seco-institute.org/certifications/information-security-certification-track/,seco-institute.org
+GISF,26,27,3,GIAC Information Security Fundamentals,$999 exam | SANS course recommended,https://www.giac.org/certification/information-security-fundamentals-gisf,giac.org
+TUV CyAware,26,31,1,TUV Rheinland Cybersecurity Awareness (GERMAN),$415 exam | Course required,https://www.is-its.org/seminare/isits-seminarangebot/cybersecurity-awareness-beauftragter,is-its.org
+MASE,26,33,1,Mosse Institute Certified Application Security Engineer,$450 exam,https://www.mosse-institute.com/certifications/mase-certified-application-security-engineer.html,mosse-institute.com
+THM SEC1,26,35,1,TryHackMe Cyber Security 101 Certification,Practical assessment,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,tryhackme.com
+C)SP,26,36,1,Mile2 Certified Security Principles,$550 exam,https://www.mile2.com/csp_outline/,mile2.com
+CND,26,40,1,EC Council Certified Network Defender,$550 exam,https://www.eccouncil.org/programs/certified-network-defender-cnd/,eccouncil.org
+C)VA,26,42,1,Mile2 Certified Vulnerability Assessor,$550 exam,https://www.mile2.com/vulnerability-assessor-outline/,mile2.com
+KLCP,26,43,1,Kali Linux Certified Professional,$299 exam,https://kali.training/klcp/,kali.training
+SC-900,27,6,1,"Microsoft Certified: Security, Compliance, and Identity Fundamentals",$99 exam,https://docs.microsoft.com/en-us/learn/certifications/security-compliance-and-identity-fundamentals/,docs.microsoft.com
+Cloud Essnt,27,8,1,CompTIA Cloud Essentials,$138 exam,https://www.comptia.org/certifications/cloud-essentials,comptia.org
+OSCC,27,16,1,OffSec CyberCore Certified (OSCC-SEC),SEC-100 course + exam,https://www.offsec.com/courses,offsec.com
+ITIL Fdn,27,17,3,ITIL Foundation,$383 exam,https://www.axelos.com/certifications/itil-certifications/itil-foundation,axelos.com
+Project+,27,20,1,CompTIA Project+,$369 exam,https://www.comptia.org/certifications/project,comptia.org
+CIISec ICSF,27,21,1,CIISec Information and Cybersecurity Fundamentals,$450 exam,https://www.ciisec.org/ICSF_Exam,ciisec.org
+iPAS 初級,27,22,1,iPAS 資訊安全工程師 初級能力鑑定,Taiwan MOEA iPAS Information Security Engineer (Basic),https://www.ipas.org.tw/ISE/AbilityIndex.aspx,ipas.org.tw
+FEXIN,27,23,1,EXIN Information Security Foundation,$232 exam,https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam?language_content_entity=en,exin.com
+EXIN 27001F,27,24,1,EXIN ISO/IEC 27001 Foundation,$232 exam,https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam,exin.com
+PECB 27005F,27,25,1,PECB ISO/IEC 27005 Foundation,$500-749 exam | Course required,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-foundation,pecb.com
+C CS F,27,26,1,IBITGQ Certified Cyber Security Foundation,$725 course exam | Branded course required,https://www.itgovernance.co.uk/shop/product/certified-cyber-security-foundation-training-course,itgovernance.co.uk
+CIS F,27,27,1,IBITGQ Certified ISO 27001 Information Security Management Specialist Foundation,$853 course exam | Brandeed course required,https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-foundation-training-course,itgovernance.co.uk
+S-SPF,27,33,1,SECO Secure Programming Foundation,$460 exam,https://www.seco-institute.org/certifications/secure-software-certification-track/secure-programming-foundation/,seco-institute.org
+CSCU,27,35,1,EC Council Certified Secure Computer User,$125 exam,https://www.eccouncil.org/Certification/certified-secure-computer-user,eccouncil.org
+MICS,27,36,1,Mosse Institute Introductions to Cyber Security,Free exam,https://www.mosse-institute.com/certifications/mics-introduction-to-cyber-security.html,mosse-institute.com
