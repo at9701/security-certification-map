@@ -83,3 +83,23 @@ EXIN、SECO-Institute、ISECOM、VMware（Broadcom）、PMI、Juniper、BCS、Ax
 
 ## 進度
 約 55 / 110 個來源已讀取；逐張證照的專頁多數尚未查。
+
+## 第六、七批（2026-11-24）
+- Microsoft SC-100：有效；無強制前置證照（僅建議 AZ-500／SC-200／SC-300）
+- Practical DevSecOps CDE：24 小時 5 題實作 + 24 小時交報告；須先有 CDP；$1,199
+- PCI QSA：由公司申請，員工須通過 QSA 訓練與測驗
+- IDPro CIDPRO：考試費 $750；CWNP CWSP：60 題 90 分鐘 $349.99，須有效 CWNA
+- KLCP：80 題選擇題 90 分鐘 $299
+- IntelTechniques OSIP：10 天實作個案報告，須先完成其訓練，$300
+- Dark Vortex：3 天線上課程，只有結業證書，沒有考試，$2,500
+- ISFCE CCE：線上筆試 + 三份實作鑑識報告，90 天內完成，$485
+- The H Layer SACP：120 題；Mirantis DCA：55 題 90 分鐘 $199；WCNA：100 題 2 小時
+- EITCA/IS：12 科線上測驗，每科 15 題 45 分鐘，€950
+- SUSE SCE：80 題 90 分鐘，須先有 SCA（不是實作考）
+- Pentester Academy 網域現在轉址到 INE，PACES 現況不明
+
+## 讀不到（對方網站拒絕自動讀取或連結失效）
+CIISec、CSIAC（CSFA）、QAI（CSBA）、Shared Assessments、APMG（頁面無考試形式）
+
+## 進度
+約 75 / 110 個來源已嘗試。GIAC 缺漏的 8 張已補上。

@@ -178,6 +178,16 @@ o("MAD SOCA|MAD CTI", T=1)
 o("iPAS 初級", T=0, R=0, I=1); o("iPAS 中級", T=1, R=1, I=2)
 o("資安職能 核心", T=0, B="V"); o("資安職能 專業", T=1, B="V")
 o("Programming Language", F="C", I=0, R=0, T=1, B="K")
+# second pass, November 2026
+o("SC-100", R=1, B="V")                                  # associate certs are recommended, not required
+o("PDSO CDE", I=4, R=2, T=3, B="V"); o("PDSO CDP", B="K")
+o("CWSP", R=2, T=2, B="V"); o("KLCP", B="V")
+o("OSIP", F="P", I=5, R=1, T=1, B="V")                   # 10-day practical case file, course required
+o("DV RTOS|DV OTD|DV MoS|DV AOPH|DV MILF", F="C", I=0, R=0, B="V")   # course with certificate of completion
+o("CCE", F="X", I=5, R=1, T=2, B="V"); o("SACP", I=2, B="V"); o("DCA", T=1, B="V"); o("WCNA", B="V")
+o("EITCA/IS", I=2, B="V"); o("SCE", R=2, T=2, B="V"); o("SCA", T=1, B="K")
+o("PCI QSA", R=2, board=1, B="V")
+o("GCAD|GLIR", T=2, B="V"); o("GCIL|GSOM", T=3, B="V"); o("GX-CS|GX-FE|GX-IH|GX-IA", F="P", I=2, R=2, T=3, B="V")
 
 KEY_T = [
     (0, r"Foundation|Fundamental|Essentials|Introduction|Entry|Awareness|\bFdn\b|User"),
@@ -230,6 +240,21 @@ REHOST = [("https://secops.group/", "https://pentestingexams.com/"),
           ("https://securityblue.team/btl2/", "https://www.centri.org/certifications/blue-team-level-2"),
           ("https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-implementer-training-course",
            "https://uk.grcsolutions.io/product/certified-iso-270012022-isms-lead-implementer-training-course")]
+GIAC_PRICING = "https://www.giac.org/pricing/"
+EXTRA = [   # (label, class, column, name, price line)
+    ("GCAD", "engineeritem1", 9, "GIAC Cloud Security Architecture and Design", "考試費 $999"),
+    ("GCIL", "blueopsitem1", 39, "GIAC Cyber Incident Leader", "考試費 $999"),
+    ("GLIR", "blueopsitem1", 40, "GIAC Linux Incident Responder", "考試費 $999"),
+    ("GSOM", "mgmtitem1", 26, "GIAC Security Operations Manager", "考試費 $999"),
+    ("GX-CS", "mgmtitem1", 24, "GIAC Experienced CyberSecurity Specialist", "考試費 $1,299（持有 GSEC 為 $499）"),
+    ("GX-FE", "blueopsitem1", 37, "GIAC Experienced Forensics Examiner", "考試費 $1,299（持有 GCFE 為 $499）"),
+    ("GX-IH", "blueopsitem1", 39, "GIAC Experienced Incident Handler", "考試費 $1,299（持有 GCIH 為 $499）"),
+    ("GX-IA", "testitem1", 30, "GIAC Experienced Intrusion Analyst", "考試費 $1,299（持有 GCIA 為 $499）"),
+]
+for label, cls, col_, name, price in EXTRA:
+    h = (f'<a class="{cls}" href="{GIAC_PRICING}" tooltiptext="{html.escape(name, quote=True)}\n    '
+         f'{html.escape(price, quote=True)}" tabindex="0" target="_blank" >{label}</a>')
+    items.append(dict(html=h, cls=cls, label=label, row=14, col=col_, span=1))
 dropped = [i for i in items if i["label"] in DROP]
 items = [i for i in items if i["label"] not in DROP]
 
@@ -385,7 +410,8 @@ rules = f"""
   <p>資料來源：{by_b['V']} 張屬於本次已讀取官方頁面的發證單位（多數是讀該單位的代表頁面，不是逐張查證）；{by_b['K']} 張依發證單位公開的通用考試形式判定，本次未讀取官方頁面；
   {by_b['U']} 張的官方頁面讀不到或尚未查，考試形式暫用該單位的預設值。另有 {n_band} 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
   同分或該列已滿時會落在相鄰列。
-  本次另移除 {len(dropped)} 張已停止報考的證照：{'、'.join(d['label'] for d in dropped)}。</p>
+  本次另移除 {len(dropped)} 張已停止報考的證照：{'、'.join(d['label'] for d in dropped)}；
+  並補上 GIAC 官方價目表已有、原圖未收的 {len(EXTRA)} 張：{'、'.join(e[0] for e in EXTRA)}。</p>
 </section>
 """
 out = out.replace('<section class="notes">', rules + '<section class="notes">', 1)
