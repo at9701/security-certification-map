@@ -38,7 +38,7 @@ F_ZH = dict(P="實作考", X="實作加筆試／面試", S="情境題、論述�
             B="選擇題加實作題", Q="選擇題", C="修課結業")
 R_ZH = ["無門檻", "僅建議經驗，或須先修官方課程", "須前置證照或 1–2 年經驗", "須 3–4 年經驗或兩層前置證照", "須 5 年以上經驗"]
 I_ZH = ["1 小時內", "約 2 小時", "3–4 小時", "6–12 小時", "24–48 小時", "3 天以上（計分同 24–48 小時）"]
-T_ZH = ["入門", "初階", "專業", "專家", "頂級"]
+T_ZH = ["入門", "初階", "專業", "專家", "頂"]
 B_ZH = dict(V="本次已讀取該發證單位官方頁面", K="依發證單位公開的通用考試形式", U="官方頁面讀不到或尚未查")
 
 # ------------------------------------------------------------------ issuer defaults
@@ -135,8 +135,11 @@ o("CCISO", R=4, T=3); o("EISM", T=2, R=0); o("CNDA", T=2); o("CSCU|ECSS|ECES", T
 o("CCNA|CCNA Cyber|CCNA Auto", T=1, I=1); o("CCNP Sec|CCNP Ent|CCNP Cyber|CCNP Auto", T=2, I=2)
 o("CCIE Sec|CCIE Ent", F="X", I=3, R=1, T=4, B="V"); o("CCDE", F="X", I=3, R=1, T=4)
 # Fortinet / Palo Alto / Juniper / Check Point / F5
-o("FCF", T=0); o("FCA", T=1); o("FCP NS|FCP PCS|FCP SO", T=2); o("FCSS ZTA|FCSS SASE|FCSS PCS|FCSS SO|FCSS OT|FCSS NS", T=3, I=2)
-o("FCX", F="X", I=3, R=1, T=4, B="V")
+# Fortinet went back to NSE 1-8 on 2026-07-15; keys are the old labels, see RELABEL
+o("FCF", F="Q", I=0, R=0, T=0, B="V"); o("FCA", T=1, B="V")
+o("FCP NS|FCP PCS|FCP SO", R=2, T=2, B="V")                       # NSE 5/6 need NSE 4
+o("FCSS SASE|FCSS PCS|FCSS SO|FCSS OT|FCSS NS", R=3, T=3, B="V")   # NSE 7 needs NSE 4 and NSE 5 or 6
+o("FCX", F="X", I=3, R=3, T=4, B="V")                              # NSE 8 needs the whole chain plus two exams
 o("PA Cyber", T=0); o("PA NetSec|PA Cloud", T=2); o("PA NGFW|PA XSOAR|PA XDR", T=3)
 o("JNCIA Sec", T=1); o("JNCIS Sec", T=2); o("JNCIP Sec", T=3); o("JNCIE Sec", F="P", I=3, R=2, T=4)
 o("CCSA", T=1); o("CCSE", T=2); o("CCSM", T=3, R=2)
@@ -192,7 +195,7 @@ o("F5 CA", T=1, B="V"); o("F5 CTS APM|F5 CTS DNS", T=2, R=2, B="V"); o("F5 CSE S
 o("TUV COSP", T=1, B="V"); o("TUV COSTE", T=2, R=1, B="V"); o("TUV COSM", T=3, R=1, B="V")
 o("TUV ITSM", R=2, T=2, B="V")                            # needs the IT Security Representative (TUV) first
 o("CACE", F="S", I=2, R=4, T=3, B="V"); o("CACS", R=3, T=2, B="K")       # CACE: 10 years, MCQ + short answer + case study
-o("DCPP", T=2, B="V"); o("SSAP", R=0, I=1, T=1, B="V")                    # SSAP: 50 questions, 2 hours, open book
+o("Apple ACSP", T=1, B="V"); o("DCPP", T=2, B="V"); o("SSAP", R=0, I=1, T=1, B="V")                    # SSAP: 50 questions, 2 hours, open book
 o("GCAD|GLIR", T=2, B="V"); o("GCIL|GSOM", T=3, B="V"); o("GX-CS|GX-FE|GX-IH|GX-IA", F="P", I=2, R=2, T=3, B="V")
 
 KEY_T = [
@@ -239,10 +242,23 @@ assert end_container, "container end not found"
 
 # ------------------------------------------------------------------ data fixes found in the November 2026 pass
 DROP = {"GCPM": "GIAC 標示 In Abeyance（停止報考）", "GCWN": "GIAC 標示 In Abeyance（停止報考）",
-        "GLEG": "GIAC 標示 In Abeyance（停止報考）", "GSNA": "GIAC 標示 In Abeyance（停止報考）"}
+        "GLEG": "GIAC 標示 In Abeyance（停止報考）", "GSNA": "GIAC 標示 In Abeyance（停止報考）",
+        "FCSS ZTA": "Fortinet 新制 NSE 1–8 已無 Zero Trust 路線"}
 RELABEL = {"CM)DFI": ("CM)CFI", "Mile2 Certified Master Cyber Forensics Investigator"),
-           "CCD": ("CCDL2", "CyberDefenders Certified CyberDefender Level 2 (formerly CCD)")}
+           "CCD": ("CCDL2", "CyberDefenders Certified CyberDefender Level 2 (formerly CCD)"),
+           "FCF": ("NSE 1-3", "Fortinet NSE 1-3 Cybersecurity (online course and test)"),
+           "FCA": ("NSE 4", "Fortinet NSE 4 FortiOS"),
+           "FCP NS": ("NSE 5-6 SN", "Fortinet NSE 5 / NSE 6 Secure Networking"),
+           "FCP PCS": ("NSE 5-6 Cloud", "Fortinet NSE 5 / NSE 6 Cloud Security"),
+           "FCP SO": ("NSE 5-6 SecOps", "Fortinet NSE 5 / NSE 6 Security Operations"),
+           "FCSS NS": ("NSE 7 SN", "Fortinet NSE 7 Secure Networking"),
+           "FCSS PCS": ("NSE 7 Cloud", "Fortinet NSE 7 Cloud Security"),
+           "FCSS SO": ("NSE 7 SecOps", "Fortinet NSE 7 Security Operations"),
+           "FCSS SASE": ("NSE 7 SASE", "Fortinet NSE 7 SASE"),
+           "FCSS OT": ("Forti OT", "Fortinet OT Security (industry certification)"),
+           "FCX": ("NSE 8", "Fortinet NSE 8")}
 REHOST = [("https://secops.group/", "https://pentestingexams.com/"),
+          ("https://training.fortinet.com/", "https://www.fortinet.com/training-certification"),
           ("https://securityblue.team/btl2/", "https://www.centri.org/certifications/blue-team-level-2"),
           ("https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-implementer-training-course",
            "https://uk.grcsolutions.io/product/certified-iso-270012022-isms-lead-implementer-training-course")]

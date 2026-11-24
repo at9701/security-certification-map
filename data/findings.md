@@ -118,3 +118,10 @@ ecfirst（拒絕自動讀取）、TÜV Rheinland COTCP（連結失效）、ISMI�
 
 ## 尚未讀取（需要使用者在場同意）
 Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、FAIR／RiskLens、AccessData／Exterro、is-its
+
+## 第九批（2026-11-25）
+- Fortinet（fortinet.com/training-certification）：現行為 NSE 1–8。NSE 1–3 線上課程與測驗；NSE 4（FortiOS）一科監考；NSE 5、6 各有 Secure Networking／SASE／Cloud Security／Security Operations 四條路線，須先有 NSE 4；NSE 7 須 NSE 4 加同路線 NSE 5 或 6；NSE 8 須整條鏈加兩科（核心與選修）。另有 MSSP Security、OT Security 兩張產業認證。已無 Zero Trust 路線。
+  - 圖上舊標籤對應：FCF→NSE 1-3、FCA→NSE 4、FCP→NSE 5-6、FCSS→NSE 7、FCX→NSE 8。這是依級別順序對應，官方頁面沒有提供新舊對照表。
+- Apple：ACSP（macOS Support Essentials）仍在列
+- AccessData 網域轉到 exterro.com，ACE 現況未查
+- 讀不到：IIBA、RiskLens（FAIR）、is-its
