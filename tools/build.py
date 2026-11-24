@@ -155,17 +155,36 @@ REMOVE = [
     ("AZ-220", "AZ-220 Azure IoT Developer（2023-07-31 停考）"),
     ("CSX-P", "ISACA CSX-P（ISACA 已列為 Retired Credential；ISACA CCOA 原圖已有）"),
 ]
+SPACER = '<div class="spacer"></div>'
+JOIN = "\n                    "
+placed = {}          # (off, end, col0, span) -> {col: anchor html}
 for label, note in REMOVE:
     c = find(label)
-    edits.append((c["off"], c["end"], "\n                    ".join(['<div class="spacer"></div>'] * c["span"])))
+    placed[(c["off"], c["end"], c["col"], c["span"])] = {}     # freed; may be reused below
     log["removed"].append(note)
 
+
+def place(row, col, html_anchor):
+    """Put an anchor into a free cell: a spacer (of any width) or a cell freed by REMOVE."""
+    hits = [c for c in cells if c["row"] == row and c["col"] <= col < c["col"] + c["span"]]
+    if len(hits) != 1:
+        raise SystemExit(f"r{row}c{col}: {len(hits)} cells")
+    c = hits[0]
+    key = (c["off"], c["end"], c["col"], c["span"])
+    if not c["cls"].startswith("spacer") and key not in placed:
+        raise SystemExit(f"r{row}c{col} is occupied by {c['label']}")
+    if col in placed.setdefault(key, {}):
+        raise SystemExit(f"r{row}c{col} placed twice")
+    placed[key][col] = html_anchor
+
+
 # ---------------------------------------------------------------- additions
-# (row, col, label, href, tooltip lines)
+# (row, col, label, href, tooltip lines[, {"cls": ..., "style": ...}])
 ADD = [
-    (13, 36, "OSTH", VENDOR_PAGES["offsec"], ["OffSec Threat Hunter", "TH-200 course + exam"]),
-    (15, 39, "OSIR", VENDOR_PAGES["offsec"], ["OffSec Incident Responder", "IR-200 course + exam"]),
-    (27, 22, "OSCC", VENDOR_PAGES["offsec"], ["OffSec CyberCore Certified (OSCC-SEC)", "SEC-100 course + exam"]),
+    (19, 36, "OSTH", VENDOR_PAGES["offsec"], ["OffSec Threat Hunter", "TH-200 course + exam"]),
+    (17, 35, "OSIR", VENDOR_PAGES["offsec"], ["OffSec Incident Responder", "IR-200 course + exam"]),
+    (27, 16, "OSCC", VENDOR_PAGES["offsec"], ["OffSec CyberCore Certified (OSCC-SEC)", "SEC-100 course + exam"],
+     {"cls": "mgmtitem1"}),
     (6, 44, "OSAI", VENDOR_PAGES["offsec"], ["OffSec AI Red Teamer", "AI-300 course + exam"]),
     (9, 43, "HTB CAPE", VENDOR_PAGES["htb"],
      ["Hack The Box Certified Active Directory Pentesting Expert", "Exam voucher via HTB Academy subscription"]),
@@ -173,30 +192,28 @@ ADD = [
      ["Hack The Box Certified Wi-Fi Pentesting Expert", "Exam voucher via HTB Academy subscription"]),
     (11, 44, "HTB COAE", VENDOR_PAGES["htb"],
      ["Hack The Box Certified Offensive AI Expert", "Exam voucher via HTB Academy subscription"]),
-    (24, 41, "HTB CJCA", VENDOR_PAGES["htb"],
-     ["Hack The Box Certified Junior Cybersecurity Associate", "Exam voucher via HTB Academy subscription"]),
     (10, 36, "HTB CDEP", VENDOR_PAGES["htb"],
      ["Hack The Box Certified Detection Engineering Principal", "Exam voucher via HTB Academy subscription"]),
     (23, 41, "PJPT", VENDOR_PAGES["tcm"], ["TCM Security Practical Junior Penetration Tester", "$199 exam"]),
     (23, 35, "PSAA", VENDOR_PAGES["tcm"], ["TCM Security Practical SOC Analyst Associate", "$199 exam"]),
-    (25, 41, "PWPA", VENDOR_PAGES["tcm"], ["TCM Security Practical Web Pentest Associate", "$199 exam"]),
+    (24, 41, "PWPA", VENDOR_PAGES["tcm"], ["TCM Security Practical Web Pentest Associate", "$199 exam"]),
     (15, 41, "PWPP", VENDOR_PAGES["tcm"], ["TCM Security Practical Web Pentest Professional", "$399 exam"]),
-    (25, 45, "PAPA", VENDOR_PAGES["tcm"], ["TCM Security Practical AI Pentest Associate", "$199 exam"]),
+    (24, 42, "PAPA", VENDOR_PAGES["tcm"], ["TCM Security Practical AI Pentest Associate", "$199 exam"]),
     (25, 40, "THM SAL1", VENDOR_PAGES["thm"],
      ["TryHackMe Security Analyst Level 1", "Live SOC simulator with graded incident reports"]),
     (26, 35, "THM SEC1", VENDOR_PAGES["thm"],
      ["TryHackMe Cyber Security 101 Certification", "Practical assessment"]),
     (23, 45, "THM PT1", VENDOR_PAGES["thm"],
      ["TryHackMe Junior Penetration Tester", "48-hour practical exam + report"]),
-    (17, 35, "THM SAL2", VENDOR_PAGES["thm"],
+    (22, 38, "THM SAL2", VENDOR_PAGES["thm"],
      ["TryHackMe Security Analyst Level 2", "Multi-stage SOC investigation scenarios"]),
     (22, 21, "SecAI+", "https://www.comptia.org/en-us/certifications/secai/",
      ["CompTIA SecAI+", "Exam CY0-001, launched Feb 17, 2026"]),
-    (8, 24, "AAISM", "https://www.isaca.org/credentialing/aaism",
+    (6, 24, "AAISM", "https://www.isaca.org/credentialing/aaism",
      ["ISACA Advanced in AI Security Management", "$599 exam ($459 members)", "Active CISM or CISSP required"]),
     (8, 25, "AAIR", "https://www.isaca.org/credentialing/aair", ["ISACA Advanced in AI Risk"]),
     (8, 30, "AAIA", "https://www.isaca.org/credentialing/aaia", ["ISACA Advanced in AI Audit"]),
-    (7, 44, "GOAA", VENDOR_PAGES["giac"],
+    (12, 44, "GOAA", VENDOR_PAGES["giac"],
      ["GIAC Offensive AI Analyst", "$999 exam", "SANS SEC535 recommended"]),
     (12, 14, "GAIPS", "https://www.giac.org/certifications/ai-security-platform-security-gaips",
      ["GIAC AI Platform Security", "$999 exam", "SANS SEC545 recommended"]),
@@ -205,41 +222,49 @@ ADD = [
     (13, 39, "GSOA", VENDOR_PAGES["giac"],
      ["GIAC Strategic OSINT Analyst", "SANS SEC587 recommended"]),
 ]
-for row, col, label, href, lines in ADD:
-    c = slot(row, col)
-    edits.append((c["off"], c["end"], anchor(cls_for(col), href, tip_attr(col), lines, label)))
+for row, col, label, href, lines, *extra in ADD:
+    opt = extra[0] if extra else {}
+    place(row, col, anchor(opt.get("cls") or cls_for(col), href, tip_attr(col), lines, label, opt.get("style", "")))
     log["added"].append(f"{label} — {lines[0]}")
+
+# HTB CJCA goes on the blue/red boundary of the eJPT row. That row has no free cell
+# there, so the five certs to its right slide one column into the free cell at col 46.
+CJCA = anchor("redopsitem1", VENDOR_PAGES["htb"], "tooltiptext",
+              ["Hack The Box Certified Junior Cybersecurity Associate", "Covers both offensive and defensive work",
+               "Exam voucher via HTB Academy subscription"], "HTB CJCA",
+              "background:linear-gradient(90deg,var(--blue) 50%,var(--red) 50%);")
+first = find("CSTM", 20)
+assert first["col"] == 41, first
+gap = slot(20, 46)
+edits.append((first["off"], first["off"], CJCA + JOIN))                 # insert before CSTM
+ws = len(src[:gap["off"]]) - len(src[:gap["off"]].rstrip())
+edits.append((gap["off"] - ws, gap["end"], ""))                          # drop the spacer it displaces
+log["added"].append("HTB CJCA — Hack The Box Certified Junior Cybersecurity Associate")
 
 # ---------------------------------------------------------------- Taiwan
 IPAS = "https://www.ipas.org.tw/ISE/AbilityIndex.aspx"
 NICS = "https://ctts.nics.nat.gov.tw/"
 TW = [
-    (24, 20, "iPAS 初級", IPAS,
+    (27, 22, "iPAS 初級", IPAS,
      ["iPAS 資訊安全工程師 初級能力鑑定", "Taiwan MOEA iPAS Information Security Engineer (Basic)"], "word-break:keep-all;"),
-    (24, 21, "資安職能 核心", NICS,
+    (26, 17, "資安職能 核心", NICS,
      ["資通安全職能評量證書：核心科目「資通安全概論」", "Taiwan NICS cybersecurity competency certificate (core)",
       "3-day course NT$8,000 incl. one assessment (2024 rate)"], "font-size:0.5vw;"),
-    (18, 20, "iPAS 中級", IPAS,
+    (24, 20, "iPAS 中級", IPAS,
      ["iPAS 資訊安全工程師 中級能力鑑定", "Taiwan MOEA iPAS Information Security Engineer (Intermediate)",
       "2 papers; NT$1,500 per sitting (NT$1,000 individual rate)"], "word-break:keep-all;"),
-    (17, 21, "資安職能 專業", NICS,
+    (24, 21, "資安職能 專業", NICS,
      ["資通安全職能評量證書：專業科目", "Taiwan NICS cybersecurity competency certificate (professional subjects)",
       "Requires the core 資通安全概論 certificate", "3-day course NT$8,000 incl. one assessment (2024 rate)"],
      "font-size:0.5vw;"),
 ]
 log["taiwan"] = []
-tw_by_cell = {}
 for row, col, label, href, lines, style in TW:
-    hits = [c for c in cells if c["row"] == row and c["col"] <= col < c["col"] + c["span"]]
-    if len(hits) != 1 or not hits[0]["cls"].startswith("spacer"):
-        raise SystemExit(f"TW slot r{row}c{col} not free: {hits}")
-    c = hits[0]
-    tw_by_cell.setdefault((c["off"], c["end"], c["col"], c["span"]), {})[col] = anchor(
-        cls_for(col), href, tip_attr(col), lines, label, style)
+    place(row, col, anchor("mgmtitem1", href, tip_attr(col), lines, label, style))
     log["taiwan"].append(f"{label.replace(' ', '')} — {lines[0]}")
-for (off, end, col0, span), placed in tw_by_cell.items():
-    parts = [placed.get(col0 + i, '<div class="spacer"></div>') for i in range(span)]
-    edits.append((off, end, "\n                    ".join(parts)))
+
+for (off, end, col0, span), anchors in placed.items():
+    edits.append((off, end, JOIN.join(anchors.get(col0 + i, SPACER) for i in range(span))))
 
 # apply back to front so offsets stay valid
 edits.sort(key=lambda e: -e[0])
