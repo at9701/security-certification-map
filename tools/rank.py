@@ -93,7 +93,8 @@ o("OSCE3", T=4, R=3); o("OSWA|OSDA|OSTH|OSIR", T=2, I=4); o("OSAI", T=3, I=4, R=
 o("OSWP", T=1, I=2); o("KLCP", F="Q", I=1, T=0); o("OSCC", T=0, I=2)
 # Hack The Box
 o("HTB CJCA", T=1, B="V"); o("HTB CPTS|HTB CWES|HTB CDSA", T=2, B="V")
-o("HTB CWEE|HTB CAPE|HTB CWPE|HTB COAE|HTB CDEP", T=3, B="V")
+o("HTB CWEE|HTB CAPE|HTB CWPE|HTB CDEP", T=3, B="V")
+o("HTB COAE", T=2, B="V")      # priced with the $490 tier (CPTS, CDSA), not the $1,260 expert tier
 # TCM
 o("PJPT|PSAA|PWPA|PAPA", T=1, I=4, B="V"); o("PNPT|PWPP|PMRP", T=2, B="V")
 # TryHackMe
@@ -122,7 +123,7 @@ o("GOAA|GAIPS|GASAE|GSOA", F="P", T=2, B="V")
 o("CC", R=0, I=1, T=0, B="V"); o("SSCP", R=2, I=2, T=1, B="V"); o("CGRC", R=2, T=2, B="V")
 o("CSSLP", R=3, T=3, B="V"); o("CISSP|CCSP", R=4, T=3, B="V"); o("CISSP Concentrations", R=4, T=4, B="V")
 # ISACA
-o("CISA|CISM|CRISC|CGEIT", T=3); o("CDPSE", R=3, T=2); o("CCOA", F="B", R=0, T=1)
+o("CISA|CISM|CRISC|CGEIT", T=3); o("CDPSE", R=3, T=2); o("CCOA", F="B", I=2, R=0, T=1, B="V"); o("CISM", B="V")
 o("AAISM", T=4, B="V"); o("AAIR|AAIA", T=4)
 # CompTIA
 o("A+|Net+|Cloud Essnt|Project+", T=0, R=0); o("Security+|Linux+|Server+|Cloud+", T=1)
@@ -205,6 +206,52 @@ KEY_T = [
     (3, r"Expert|Advanced|\bLead\b|Leader|Senior|Architect|Director|Officer"),
     (2, r"Professional|Practitioner|Specialist|Engineer|Analyst|Examiner|Manager|Auditor|Tester|Administrator"),
 ]
+
+# ------------------------------------------------------------------ prices read from issuer pages, November 2026
+# label -> detail lines that replace the 2024 ones
+PRICE = {}
+
+
+def price(labels, *lines):
+    for l in labels.split("|"):
+        PRICE[l] = list(lines)
+
+
+price("CC", "考試費 $199", "免費方案已於 2026-05-20 停止新報名")
+price("SSCP", "考試費 $249"); price("CGRC|CSSLP|CCSP", "考試費 $599"); price("CISSP", "考試費 $749")
+price("CISSP Concentrations", "ISSAP、ISSEP、ISSMP 各 $599", "須 CISSP 加 2 年經驗，或累計 7 年")
+price("CISM", "考試費 $760（會員 $575）"); price("CCOA", "考試費 $499（會員 $399）", "選擇題加實作題，4 小時")
+price("OSEP|OSWE|OSED|OSWA|OSDA|OSTH|OSIR|OSAI", "課程加考試 $1,749（90 天）")
+price("GFACT", "考試費 $399"); price("GISF", "考試費 $499")
+price("GX-PT", "考試費 $1,299（持有 GPEN 為 $499）"); price("GX-FA", "考試費 $1,299（持有 GCFA 為 $499）")
+price("CREST CRTSA", "£395 + VAT", "選擇題加長篇情境筆試")
+price("LPT", "考試包 $899", "5 天實作滲透測試加報告")
+price("PSM III", "每次 $500", "24 題論述，150 分鐘")
+price("AWS SAP", "考試費 $300", "75 題，180 分鐘"); price("CKS", "考試費 $445（含一次重考）", "實作 2 小時，須先通過 CKA")
+price("LFCS", "考試費 $445", "實作 2 小時"); price("ASIS CPP", "考試費 $450（會員 $300）", "須 7–9 年經驗")
+price("CWSP", "考試費 $349.99", "60 題 90 分鐘，須有效 CWNA"); price("KLCP", "考試費 $299", "80 題 90 分鐘")
+price("OSIP", "$300", "10 天實作個案報告，須先完成官方訓練")
+price("CCE", "$485", "線上筆試加三份實作鑑識報告")
+price("DCA", "考試費 $199", "55 題 90 分鐘"); price("SPLK-3001", "考試費 $130", "48 題 60 分鐘；官方已列為 legacy")
+price("Google PCSA", "考試費 $200", "50–60 題，2 小時"); price("CIDPRO", "考試費 $750（會員另有折扣）")
+price("PDSO CDE", "$1,199", "24 小時實作加報告，須先有 CDP")
+price("BTL2", "£1,999（含訓練）", "最長 72 小時實作加報告")
+price("CCIE Sec", "核心筆試 $400 加實作考 $1,600", "實作考 8 小時")
+price("MTIA", "$699", "無考試，完成實作練習由講師審核")
+price("SACP", "申請費 $369", "120 題"); price("DCPP", "INR 15,000 加稅", "選擇題含個案，65% 及格")
+price("EITCA/IS", "€950", "12 科線上測驗"); price("SOG CAPenX", "原價 $521", "7 小時實作考")
+price("CISSM", "考試券 $190（含兩次機會）", "100 題 90 分鐘")
+price("CIMP", "$295（會員價，含三次機會）", "線上選擇題 100 題")
+price("DV RTOS", "課程 $2,500", "3 天線上課程，無考試，發結業證書")
+price("Security+", "建議報考 V8；英文版 V7 於 2027-06-11 停考")
+price("HTB CJCA", "考試券 $490", "須完成 Junior Cybersecurity Analyst 路徑", "同時涵蓋攻擊與防禦")
+price("HTB CPTS", "考試券 $490", "須完成 Penetration Tester 路徑"); price("HTB CWES", "考試券 $490", "須完成 Web Penetration Tester 路徑", "原名 HTB CBBH")
+price("HTB CDSA", "考試券 $490", "須完成 SOC Analyst 路徑"); price("HTB COAE", "考試券 $490", "須完成 AI Red Teamer 路徑")
+price("HTB CWEE", "考試券 $1,260", "須完成 Senior Web Penetration Tester 路徑"); price("HTB CAPE", "考試券 $1,260", "須完成 Active Directory Penetration Tester 路徑")
+price("HTB CWPE", "考試券 $1,260", "須完成 Wi-Fi Penetration Tester 路徑"); price("HTB CDEP", "考試券 $1,260", "須完成 Detection Engineer 路徑")
+price("CCNA", "考試費 $300"); price("CCNP Sec|CCNP Ent|CCNP Cyber|CCNP Auto", "核心考試 $400 加專精考試 $300")
+price("CCIE Ent", "核心筆試 $400 加實作考 $1,600", "實作考 8 小時")
+price("SSAP", "50 題 2 小時，開書", "無報考資格"); price("CACE", "須 10 年經驗", "選擇、簡答與個案分析兩階段考試")
 
 # ------------------------------------------------------------------ parse the built page
 spans = {}
@@ -390,6 +437,11 @@ def retip(it):
     basis = f"排序依據：{F_ZH[it['F']]}｜{I_ZH[it['I']]}｜{R_ZH[it['R']]}｜{T_ZH[it['T']]}級（{it['tsrc']}）"
     if it["board"]:
         basis += "｜須審查委員會或面試"
+    if lab in PRICE:
+        def swap(m):
+            first = m.group(2).split("\n")[0]
+            return f' {m.group(1)}="' + first + "".join("\n    " + html.escape(l, quote=True) for l in PRICE[lab]) + '"'
+        h = re.sub(r' (tooltip\w+)="([^"]*)"', swap, h, count=1)
     extra = "\n    " + html.escape(basis, quote=True) + "\n    " + html.escape(f"評分 {it['score']}｜{B_ZH[it['B']]}", quote=True)
     # tooltips open toward the centre so the longer text stays on screen
     side = "tooltipleft" if it["ncol"] <= 12 else "tooltipright" if it["ncol"] >= 36 else "tooltiptext"
@@ -433,7 +485,8 @@ rules = f"""
   {by_b['U']} 張的官方頁面讀不到或尚未查，考試形式暫用該單位的預設值。另有 {n_band} 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
   同分或該列已滿時會落在相鄰列。
   本次另移除 {len(dropped)} 張已停止報考的證照：{'、'.join(d['label'] for d in dropped)}；
-  並補上 GIAC 官方價目表已有、原圖未收的 {len(EXTRA)} 張：{'、'.join(e[0] for e in EXTRA)}。</p>
+  並補上 GIAC 官方價目表已有、原圖未收的 {len(EXTRA)} 張：{'、'.join(e[0] for e in EXTRA)}。
+  價格方面，GIAC 全系列與另外 {len(PRICE)} 張已改為 2026 年 11 月官方頁面的數字，其餘仍是 2024 年的內容。</p>
 </section>
 """
 out = out.replace('<section class="notes">', rules + '<section class="notes">', 1)

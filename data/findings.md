@@ -125,3 +125,12 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - Apple：ACSP（macOS Support Essentials）仍在列
 - AccessData 網域轉到 exterro.com，ACE 現況未查
 - 讀不到：IIBA、RiskLens（FAIR）、is-its
+
+## 價格查證（2026-11-25）
+- ISC2：CC $199、SSCP $249、CGRC／CSSLP／CCSP／ISSAP／ISSEP／ISSMP $599、CISSP $749
+- ISACA：CISM $760（會員 $575）；CCOA $499（會員 $399），選擇題加實作題，4 小時
+- OffSec：200／300 級課程加考試 $1,749（90 天）；Learn One $2,749／年
+- Cisco：CCNA $300、CCNP 核心 $400、CCNP 專精 $300、CCIE 實作考 $1,600
+- Hack The Box：CJCA／CPTS／CWES／CDSA／COAE 考試券 $490；CWEE／CAPE／CWPE／CDEP $1,260。各須完成對應的 job-role path。COAE 名為 Expert 但與 CPTS 同價位，級別改列「專業」
+- CompTIA：Security+ 建議報考 V8，英文版 V7 於 2027-06-11 停考；官方頁面未列價格
+- 查不到價格：CompTIA（定價頁失效）、EC-Council（只列課程價）、AWS 總覽頁、INE（需要 JavaScript）、Microsoft（依國家而異）

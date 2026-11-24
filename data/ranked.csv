@@ -15,17 +15,16 @@ LPT,EC Council Licensed Penetration Tester,eccouncil.org,P,5,2,3,官方級別,0,
 CCIE Sec,Cisco Certified Implementation Expert - Security,cisco.com,X,3,1,4,官方級別,0,69,V,3,7,4,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security.html
 CCIE Ent,Cisco Certified Internetwork Expert - Enterprise Infrastructure,cisco.com,X,3,1,4,官方級別,0,69,V,4,6,4,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security-v2.html
 CCDE,Cisco Certified Design Expert,cisco.com,X,3,1,4,官方級別,0,69,K,8,6,3,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccde.html
-OSWE,OffSec Web Expert,offensive-security.com,P,4,1,3,官方級別,0,68,K,4,8,41,https://www.offensive-security.com/awae-oswe/
+OSWE,OffSec Web Expert,offensive-security.com,P,4,1,3,官方級別,0,68,K,4,8,42,https://www.offensive-security.com/awae-oswe/
 OSEP,OffSec Experienced Penetration Tester,offensive-security.com,P,4,1,3,官方級別,0,68,K,4,8,45,https://www.offensive-security.com/pen300-osep/
 OSED,OffSec Exploit Developer,offensive-security.com,P,4,1,3,官方級別,0,68,K,4,7,47,https://www.offensive-security.com/exp301-osed/
 PgMP,PMI Program Management Professional,pmi.org,Q,2,4,4,官方級別,1,68,K,5,7,16,https://www.pmi.org/certifications/types/program-management-pgmp
 OSAI,OffSec AI Red Teamer,offsec.com,P,4,1,3,官方級別,0,68,K,6,8,44,https://www.offsec.com/courses
 HTB CAPE,Hack The Box Certified Active Directory Pentesting Expert,help.hackthebox.com,P,5,1,3,官方級別,0,68,V,9,7,43,https://help.hackthebox.com/en/articles/12741732-academy-certifications
-HTB CWEE,Hack the Box Certified Web Exploitation Expert,academy.hackthebox.com,P,5,1,3,官方級別,0,68,V,9,7,41,https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert
+HTB CWEE,Hack the Box Certified Web Exploitation Expert,academy.hackthebox.com,P,5,1,3,官方級別,0,68,V,9,7,44,https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert
 HTB CDEP,Hack The Box Certified Detection Engineering Principal,help.hackthebox.com,P,5,1,3,官方級別,0,68,V,10,7,36,https://help.hackthebox.com/en/articles/12741732-academy-certifications
-PACES,Pentester Academy Certified Enterprise Security Specialist,pentesteracademy.com,P,4,1,3,官方級別,0,68,U,10,6,42,https://www.pentesteracademy.com/gcb
-HTB CWPE,Hack The Box Certified Wi-Fi Pentesting Expert,help.hackthebox.com,P,5,1,3,官方級別,0,68,V,10,8,42,https://help.hackthebox.com/en/articles/12741732-academy-certifications
-HTB COAE,Hack The Box Certified Offensive AI Expert,help.hackthebox.com,P,5,1,3,官方級別,0,68,V,11,7,44,https://help.hackthebox.com/en/articles/12741732-academy-certifications
+PACES,Pentester Academy Certified Enterprise Security Specialist,pentesteracademy.com,P,4,1,3,官方級別,0,68,U,10,8,41,https://www.pentesteracademy.com/gcb
+HTB CWPE,Hack The Box Certified Wi-Fi Pentesting Expert,help.hackthebox.com,P,5,1,3,官方級別,0,68,V,10,7,41,https://help.hackthebox.com/en/articles/12741732-academy-certifications
 OSMR,OffSec MacOS Researcher,offensive-security.com,P,4,1,3,官方級別,0,68,K,15,8,43,https://www.offensive-security.com/exp312-osmr/
 CPENT,EC Council Certified Penetration Testing Professional,eccouncil.org,P,4,1,3,官方級別,0,68,K,16,7,42,https://www.eccouncil.org/programs/certified-penetration-testing-professional-cpent/
 CSR,Cyber Struggle Ranger,cyberstruggle.org,P,5,1,3,官方級別,0,68,V,18,7,45,https://cyberstruggle.org/ranger-certification/
@@ -60,15 +59,16 @@ VCIX NV,VMware Certified Implementation Expert in Network Virtualization,vmware.
 CKS,Cloud Native Computing Foundation Certified Kubernetes Security Specialist,cncf.io,P,1,2,3,官方級別,0,62,V,14,9,11,https://www.cncf.io/certification/cks/
 CAWFE,IACIS Certified Advanced Windows Forensic Examiner,iacis.com,X,3,1,3,官方級別,0,61,V,7,10,37,https://www.iacis.com/certification/cawfe/
 CFSR,OpenText Certified Forensic Security Responder,opentext.com,X,3,1,3,官方級別,0,61,K,8,11,37,https://www.opentext.com/products-and-solutions/services/training-and-learning-services/encase-training/forensic-security-responder-certification
+HTB COAE,Hack The Box Certified Offensive AI Expert,help.hackthebox.com,P,5,1,2,官方級別,0,60,V,11,11,44,https://help.hackthebox.com/en/articles/12741732-academy-certifications
 HTB CPTS,Hack the Box Certified Penetration Testing Specialist,academy.hackthebox.com,P,5,1,2,官方級別,0,60,V,16,11,45,https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist/
-HTB CWES,Hack The Box Certified Web Exploitation Specialist,hackthebox.com,P,5,1,2,官方級別,0,60,V,17,11,44,https://www.hackthebox.com/blog/htb-cwes-announcement
+HTB CWES,Hack The Box Certified Web Exploitation Specialist,hackthebox.com,P,5,1,2,官方級別,0,60,V,17,11,43,https://www.hackthebox.com/blog/htb-cwes-announcement
 HTB CDSA,Hack the Box Certified Defensive Security Analyst,academy.hackthebox.com,P,5,1,2,官方級別,0,60,V,20,11,38,https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst
 Zach EAPro,Zachman Enterprise Architect Professional (Level 3),zachman.com,S,1,3,3,官方級別,0,58,V,6,10,20,https://www.zachman.com/certification/what-we-certify/enterprise-architect
 CSTL,Cyber Scheme Team Leader,thecyberscheme.org,X,2,1,3,官方級別,0,58,V,17,11,41,https://thecyberscheme.org/cyber-scheme-team-leader-cstl-exam/
 OWSE,ISECOM OSSTMM Wireless Security Expert,isecom.org,X,2,1,3,名稱所示級別,0,58,U,22,10,4,https://www.isecom.org/certification.html
 OPSE,ISECOM OSSTMM Professional Security Expert,isecom.org,X,2,1,3,名稱所示級別,0,58,U,25,10,35,https://www.isecom.org/certification.html
 ASIS CPP,ASIS Certified Protection Professional,asisonline.org,Q,2,4,3,官方級別,0,57,V,6,10,17,https://www.asisonline.org/certification/certified-protection-professional-cpp/
-CISM,ISACA Certified Information Security Manager,isaca.org,Q,2,4,3,官方級別,0,57,K,6,10,24,https://www.isaca.org/credentialing/cism
+CISM,ISACA Certified Information Security Manager,isaca.org,Q,2,4,3,官方級別,0,57,V,6,10,24,https://www.isaca.org/credentialing/cism
 CISSP,ISC2 Certified Information Systems Security Professional,isc2.org,Q,2,4,3,官方級別,0,57,V,7,11,22,https://www.isc2.org/Certifications/CISSP
 CCD,Certified CyberDefender,cyberdefenders.org,P,4,0,2,官方級別,0,57,V,7,10,36,https://cyberdefenders.org/blue-team-training/courses/certified-cyberdefender-certification/
 RHCE,Red Hat Certified Engineer,redhat.com,P,2,2,2,官方級別,0,57,K,8,10,12,https://www.redhat.com/en/services/certification/rhce
@@ -77,7 +77,7 @@ eCTHP,eLearnSecurity Certified Threat Hunting Professional,security.ine.com,P,4,
 CRISC,ISACA Certified in Risk and Information Systems Control,isaca.org,Q,2,4,3,官方級別,0,57,K,12,10,25,https://www.isaca.org/credentialing/crisc
 OSCP+,OffSec Certified Professional (OSCP / OSCP+),offsec.com,P,4,0,2,官方級別,0,57,V,12,10,45,https://www.offsec.com/pwk-oscp
 CISA,ISACA Certified Information Systems Auditor,isaca.org,Q,2,4,3,官方級別,0,57,K,13,11,27,https://www.isaca.org/credentialing/cisa
-CRTO,Zero Point Security Certified Red Team Operator,courses.zeropointsecurity.co.uk,P,4,0,2,官方級別,0,57,K,13,11,43,https://courses.zeropointsecurity.co.uk/courses/red-team-ops
+CRTO,Zero Point Security Certified Red Team Operator,courses.zeropointsecurity.co.uk,P,4,0,2,官方級別,0,57,K,13,11,42,https://courses.zeropointsecurity.co.uk/courses/red-team-ops
 eCDFP,eLearnSecurity Certified Digital Forensics Professional,security.ine.com,P,4,0,2,官方級別,0,57,K,14,12,37,https://security.ine.com/certifications/ecdfp-certification/
 PNPT,TCM Security Practical Network Penetration Tester,certifications.tcm-sec.com,P,5,0,2,官方級別,0,57,V,14,12,42,https://certifications.tcm-sec.com/pnpt/
 CCSP,ISC2 Certified Cloud Security Professional,isc2.org,Q,2,4,3,官方級別,0,57,V,15,10,8,https://www.isc2.org/Certifications/CCSP
@@ -86,12 +86,12 @@ PWPP,TCM Security Practical Web Pentest Professional,certifications.tcm-sec.com,
 OSIR,OffSec Incident Responder,offsec.com,P,4,0,2,官方級別,0,57,K,17,11,35,https://www.offsec.com/courses
 eCIR,eLearnSecurity Certified Incident Responder,security.ine.com,P,4,0,2,官方級別,0,57,K,17,11,39,https://security.ine.com/certifications/ecir-certification/
 eCPPT,eLearnSecurity Certified Professional Penetration Tester,security.ine.com,P,4,0,2,官方級別,0,57,K,17,12,43,https://security.ine.com/certifications/ecppt-certification/
-eWPT,eLearnSecurity Web Application Penetration Tester,security.ine.com,P,4,0,2,官方級別,0,57,K,17,12,45,https://security.ine.com/certifications/ewpt-certification/
+eWPT,eLearnSecurity Web Application Penetration Tester,security.ine.com,P,4,0,2,官方級別,0,57,K,17,11,46,https://security.ine.com/certifications/ewpt-certification/
 PMRP,TCM Security Practical Malware Research Professional,certifications.tcm-sec.com,P,5,0,2,官方級別,0,57,V,17,10,47,https://certifications.tcm-sec.com/pmrp/
 OSTH,OffSec Threat Hunter,offsec.com,P,4,0,2,官方級別,0,57,K,19,11,36,https://www.offsec.com/courses
 OSDA,OffSec Defense Analyst,offensive-security.com,P,4,0,2,官方級別,0,57,K,19,10,40,https://www.offensive-security.com/soc200-osda/
 eMAPT,eLearnSecurity Mobile Application Penetration Tester,security.ine.com,P,4,0,2,官方級別,0,57,K,19,12,44,https://security.ine.com/certifications/emapt-certification/
-OSWA,OffSec Web Assessor,offensive-security.com,P,4,0,2,官方級別,0,57,K,19,11,42,https://www.offensive-security.com/web200-oswa/
+OSWA,OffSec Web Assessor,offensive-security.com,P,4,0,2,官方級別,0,57,K,19,12,45,https://www.offensive-security.com/web200-oswa/
 eNDP,eLearnSecurity Network Defense Professional,elearnsecurity.com,P,4,0,2,官方級別,0,57,K,21,10,3,https://www.elearnsecurity.com/certification/endp/
 CCE,ISFCE Certified Computer Examiner,isfce.com,X,5,1,2,官方級別,0,56,V,15,12,36,https://www.isfce.com/certification.htm
 GSP,GIAC Security Professional,giac.org,B,2,3,3,官方級別,0,55,K,9,12,22,https://www.giac.org/get-certified/giac-portfolio-certifications/#gsp
@@ -125,8 +125,8 @@ SOG CMPen iOS,The SecOps Group Certified Mobile Pentester - iOS,secops.group,P,2
 CREST CRT,CREST Registered Penetration Tester,crest-approved.org,X,2,1,2,官方級別,0,50,K,10,13,47,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-penetration-tester
 CREST CRIA,CREST Registered Intrusion Analyst,crest-approved.org,X,2,1,2,官方級別,0,50,K,15,14,37,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-intrusion-analyst
 CREST CRTIA,CREST Registered Threat Intelligence Analyst,crest-approved.org,X,2,1,2,官方級別,0,50,K,15,14,40,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst
-OPST,ISECOM OSSTMM Professional Security Tester,isecom.org,X,2,1,2,名稱所示級別,0,50,U,19,11,47,https://www.isecom.org/certification.html
-CSTM,Cyber Scheme Team Member,thecyberscheme.org,X,2,1,2,官方級別,0,50,V,20,11,46,https://thecyberscheme.org/cyber-scheme-team-member-cstm-exam/
+OPST,ISECOM OSSTMM Professional Security Tester,isecom.org,X,2,1,2,名稱所示級別,0,50,U,19,14,47,https://www.isecom.org/certification.html
+CSTM,Cyber Scheme Team Member,thecyberscheme.org,X,2,1,2,官方級別,0,50,V,20,11,47,https://thecyberscheme.org/cyber-scheme-team-member-cstm-exam/
 CHAT,ISECOM Certified Hacker Analyst Trainer,isecom.org,X,2,1,2,名稱所示級別,0,50,U,20,12,47,https://www.isecom.org/certification.html
 OPSA,ISECOM OSSTMM Professional Security Analyst,isecom.org,X,2,1,2,名稱所示級別,0,50,U,21,15,35,https://www.isecom.org/certification.html
 CHA,ISECOM Certified Hacker Analyst,isecom.org,X,2,1,2,名稱所示級別,0,50,U,25,12,46,https://www.isecom.org/certification.html
@@ -164,8 +164,8 @@ FCSS PCS,Fortinet Certified Solution Specialist - Public Cloud Security,training
 F5 CSE Sec,F5 Big-IP Certified Solution Expert - Security,view.ceros.com,Q,1,3,3,官方級別,0,48,V,13,13,3,https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740
 FCSS SO,Fortinet Certified Solution Specialist - Security Operations,training.fortinet.com,Q,1,3,3,官方級別,0,48,V,14,14,10,https://training.fortinet.com/local/staticpage/view.php?page=fcss_security_operations
 FCSS OT,Fortinet Certified Solution Specialist - OT Security,training.fortinet.com,Q,1,3,3,官方級別,0,48,V,14,13,13,https://training.fortinet.com/local/staticpage/view.php?page=fcss_ot_security
-GCPN,GIAC Cloud Penetration Tester,giac.org,B,2,1,3,官方級別,0,48,K,14,14,47,https://www.giac.org/certification/gcpn
-GRTP,GIAC Red Team Professional,giac.org,B,2,1,3,官方級別,0,48,K,14,15,46,https://www.giac.org/certifications/red-team-professional-grtp/
+GCPN,GIAC Cloud Penetration Tester,giac.org,B,2,1,3,官方級別,0,48,K,14,15,46,https://www.giac.org/certification/gcpn
+GRTP,GIAC Red Team Professional,giac.org,B,2,1,3,官方級別,0,48,K,14,15,47,https://www.giac.org/certifications/red-team-professional-grtp/
 FCSS NS,Fortinet Certificed Solution Specialist - Network Security,training.fortinet.com,Q,1,3,3,官方級別,0,48,V,15,13,2,https://training.fortinet.com/local/staticpage/view.php?page=fcss_network_security
 GCIA,GIAC Certified Intrusion Analyst,giac.org,B,2,1,3,官方級別,0,48,K,15,14,27,https://www.giac.org/certification/certified-intrusion-analyst-gcia
 CKA,Cloud Native Computing Foundation Certified Kubernetes Administrator,cncf.io,P,1,0,2,官方級別,0,48,V,16,13,11,https://www.cncf.io/certification/cka/
@@ -184,23 +184,23 @@ SC-100,Microsoft Cybersecurity Architect,docs.microsoft.com,B,1,1,3,官方級別
 AWS SAP,Amazon Web Services Certified Solutions Architect - Professional,aws.amazon.com,Q,2,1,3,官方級別,0,44,V,8,14,11,https://aws.amazon.com/certification/certified-solutions-architect-professional/
 LPIC-3,Linux Professional Institute Certified: 303 Security,lpi.org,Q,1,2,3,官方級別,0,44,V,9,14,12,https://www.lpi.org/our-certifications/lpic-3-303-overview
 MTIA,Mosse Institute Certified Threat Intelligence Analyst Certification,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,9,18,35,https://www.mosse-institute.com/certifications/mtia-certified-threat-intelligence-analyst.html
-MCD,Mosse Institute Certified Code Deobfuscation Specialist Certification,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,10,15,47,https://www.mosse-institute.com/certifications/mcd-certified-code-deobfuscation-specialist.html
+MCD,Mosse Institute Certified Code Deobfuscation Specialist Certification,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,10,16,46,https://www.mosse-institute.com/certifications/mcd-certified-code-deobfuscation-specialist.html
 CCSM,Checkpoint Certified Security Master,training-certifications.checkpoint.com,Q,1,2,3,官方級別,0,44,K,14,14,2,https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Master%20(CCSM)%20R80.x
 MTH,Mosse Institute Certified Threat Hunter Certification,mosse-institute.com,E,3,0,2,沿用 2024 原圖區段,0,44,V,14,18,36,https://www.mosse-institute.com/certifications/mth-certified-threat-hunter.html
 MDFIR,Mosse Institute Certified DFIR Specialist,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,14,17,35,https://www.mosse-institute.com/certifications/mdfir-certified-dfir-specialist.html
 AWS CSS,Amazon Web Services Certified Security - Specialty,aws.amazon.com,Q,2,1,3,官方級別,0,44,V,16,14,6,https://aws.amazon.com/certification/certified-security-specialty/
 MBT,Mosse Institute Certified Blue Teamer Certification,mosse-institute.com,E,3,0,2,沿用 2024 原圖區段,0,44,V,16,17,37,https://www.mosse-institute.com/certifications/mbt-certified-blue-teamer.html
 MPT,Mosse Institute Certified Penetration Tester Certification,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,16,16,43,https://www.mosse-institute.com/certifications/mpt-certified-penetration-tester.html
-MRE,Mosse Institute Certified Reverse Engineer Certification,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,16,16,46,https://www.mosse-institute.com/certifications/mre-certified-reverse-engineer.html
+MRE,Mosse Institute Certified Reverse Engineer Certification,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,16,16,47,https://www.mosse-institute.com/certifications/mre-certified-reverse-engineer.html
 MCSE,Mosse Institute Cloud Security Engineer,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,20,15,11,https://www.mosse-institute.com/certifications/mcse-certified-cloud-security-engineer.html
 MDSO,Mosse Institute Certified DevSecOps Engineer,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,21,15,10,https://www.mosse-institute.com/certifications/mdso-certified-devsecops-engineer.html
-MVRE,Mosse Institute Vulnerability Researcher and Exploitation Specialist,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,21,16,47,https://www.mosse-institute.com/certifications/mvre-vulnerability-researcher-and-exploitation-specialist.html
+MVRE,Mosse Institute Vulnerability Researcher and Exploitation Specialist,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,21,16,45,https://www.mosse-institute.com/certifications/mvre-vulnerability-researcher-and-exploitation-specialist.html
 MESE,Mosse Institute Enterprise Security Engineer,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,23,18,39,https://www.mosse-institute.com/certifications/mese-certified-enterprise-security-engineer.html
 MCPT,Mosse Institute Cloud Penetration Tester,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,23,16,42,https://www.mosse-institute.com/certifications/mcpt-cloud-penetration-tester.html
 MASE,Mosse Institute Certified Application Security Engineer,mosse-institute.com,E,3,0,2,名稱所示級別,0,44,V,26,15,33,https://www.mosse-institute.com/certifications/mase-certified-application-security-engineer.html
 Zach EAP,Zachman Enterprise Architect Practitioner (Level 2),zachman.com,S,1,1,2,官方級別,0,43,V,10,15,20,https://www.zachman.com/certification/what-we-certify/enterprise-architect
 CDPSE,ISACA Certified Data Privacy Solutions Engineer,isaca.org,Q,2,3,2,官方級別,0,43,K,13,16,17,https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer
-OSWP,OffSec Wireless Professional,offensive-security.com,P,2,0,1,官方級別,0,43,K,13,16,45,https://www.offensive-security.com/wifu-oswp/
+OSWP,OffSec Wireless Professional,offensive-security.com,P,2,0,1,官方級別,0,43,K,13,17,44,https://www.offensive-security.com/wifu-oswp/
 RHCSA,Red Hat Certified System Administrator,redhat.com,P,2,0,1,官方級別,0,43,K,15,15,12,https://www.redhat.com/en/services/certification/rhcsa
 ASIS PCI,ASIS Professional Certified Investigator,asisonline.org,Q,2,3,2,官方級別,0,43,V,21,18,37,https://www.asisonline.org/certification/professional-certified-investigator-pci
 THM SAL1,TryHackMe Security Analyst Level 1,tryhackme.com,P,2,0,1,官方級別,0,43,K,25,18,40,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026
@@ -238,8 +238,8 @@ DCRMP,DRI Certified Risk Management Professional,drii.org,Q,1,2,2,官方級別,1
 S-ISME,SECO Information Security Management Expert,seco-institute.org,Q,1,0,3,名稱所示級別,0,38,U,6,17,23,https://www.seco-institute.org/certifications/information-security-certification-track/
 EEXIN ISM,EXIN Information Security Management Expert,exin.com,Q,1,0,3,名稱所示級別,0,38,U,8,16,25,https://www.exin.com/certifications/information-security-management-expert-based-isoiec-27001-exam
 S-CISO,SECO Certified Information Security Officer,seco-institute.org,Q,1,0,3,名稱所示級別,0,38,U,10,17,22,https://www.seco-institute.org/certifications/information-security-certification-track/
-S-CEHL,SECO Certified Ethical Hacker Leader,seco-institute.org,Q,1,0,3,名稱所示級別,0,38,U,10,17,44,https://www.seco-institute.org/certifications/ethical-hacking-track/leader/
-S-EHE,SECO Ethical Hacker Expert,seco-institute.org,Q,1,0,3,名稱所示級別,0,38,U,11,17,45,https://www.seco-institute.org/certifications/ethical-hacking-certification-track/
+S-CEHL,SECO Certified Ethical Hacker Leader,seco-institute.org,Q,1,0,3,名稱所示級別,0,38,U,10,17,45,https://www.seco-institute.org/certifications/ethical-hacking-track/leader/
+S-EHE,SECO Ethical Hacker Expert,seco-institute.org,Q,1,0,3,名稱所示級別,0,38,U,11,18,43,https://www.seco-institute.org/certifications/ethical-hacking-certification-track/
 JNCIP Sec,"Juniper Networks Certified Internet Professional, Security",juniper.net,Q,1,0,3,官方級別,0,38,U,12,16,2,https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jncip-sec
 PA NGFW,Palo Alto Networks Certified Next-Generation Firewall Engineer,paloaltonetworks.com,Q,1,0,3,官方級別,0,38,K,12,16,3,https://www.paloaltonetworks.com/services/education/certification
 S-CSPL,SECO Secure Programming Certified Leader,seco-institute.org,Q,1,0,3,名稱所示級別,0,38,U,13,18,33,https://www.seco-institute.org/certifications/certified-secure-software-developer/
@@ -387,7 +387,7 @@ EXIN PCA,EXIN Professional Cloud Administrator,exin.com,Q,1,0,2,名稱所示級�
 CIOTSP,CertNexus Certified Internet of Things Security Practitioner,certnexus.com,Q,1,0,2,名稱所示級別,0,30,V,26,21,13,https://certnexus.com/certification/ciotsp/
 Server+,CompTIA Server+,comptia.org,B,1,1,1,官方級別,0,29,K,23,21,11,https://www.comptia.org/certifications/server
 Linux+,CompTIA Linux+,comptia.org,B,1,1,1,官方級別,0,29,K,23,20,12,https://www.comptia.org/certifications/linux
-CCOA,ISACA Certified Cybersecurity Operations Analyst,isaca.org,B,2,0,1,官方級別,0,29,K,23,23,36,https://www.isaca.org/credentialing/ccoa
+CCOA,ISACA Certified Cybersecurity Operations Analyst,isaca.org,B,2,0,1,官方級別,0,29,V,23,23,36,https://www.isaca.org/credentialing/ccoa
 Cloud+,CompTIA Cloud+,comptia.org,B,1,1,1,官方級別,0,29,K,24,21,8,https://www.comptia.org/certifications/cloud
 Security+,CompTIA Security+,comptia.org,B,1,1,1,官方級別,0,29,K,24,20,22,https://www.comptia.org/certifications/security
 SPLK-3001,Splunk Enterprise Security Certified Administrator,splunk.com,Q,0,0,2,官方級別,0,28,V,19,21,14,https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html

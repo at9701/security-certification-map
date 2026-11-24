@@ -30,13 +30,14 @@
 
 | 標記 | 張數 | 意義 |
 |---|---|---|
-| V | 208 | 2026-11 讀取過該發證單位的官方頁面。多數是讀該單位的一個代表頁面，**不是逐張查證** |
-| K | 230 | 依發證單位公開的通用考試形式判定，這一輪沒有讀官方頁面 |
+| V | 210 | 2026-11 讀取過該發證單位的官方頁面。多數是讀該單位的一個代表頁面，**不是逐張查證** |
+| K | 228 | 依發證單位公開的通用考試形式判定，這一輪沒有讀官方頁面 |
 | U | 74 | 官方頁面讀不到或尚未查，考試形式暫用預設值 |
 
 - 110 個來源中約 75 個已嘗試讀取，其中十多個被對方網站擋下或連結已失效；研究筆記在 `data/findings.md`。
 - 42 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
-- 多數證照的連結與價格仍是 2024 年 7 月的內容。已知失效或搬家的：EXIN、SECO、ISECOM、VMware（Broadcom）、The SecOps Group（已搬到 pentestingexams.com）、Security Blue Team（現為 Centri）。
+- 價格：GIAC 全系列、ISC2、Hack The Box、TCM、Cisco 主要考試與另外約 60 張已改為 2026 年 11 月官方頁面的數字；其餘仍是 2024 年 7 月的內容。CompTIA、EC-Council、Microsoft、AWS、INE 的官方頁面查不到價格（未列出、依國家而異或需要登入）。
+- 多數證照的連結仍是 2024 年 7 月的內容。已知失效或搬家的：EXIN、SECO、ISECOM、VMware（Broadcom）、The SecOps Group（已搬到 pentestingexams.com）、Security Blue Team（現為 Centri）。
 - 官方已有但圖上未收：Mile2 的 C)AICSO、C)NIS2 等；pentestingexams.com 的多張新證照。
 - 讀不到官方頁面的單位：EXIN、SECO、ISECOM、VMware、PMI、Juniper、BCS、Axelos（ITIL）、CIISec、CSIAC、QAI、Shared Assessments。這些網站拒絕自動讀取或連結已失效，相關證照維持 U。
 
