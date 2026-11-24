@@ -187,6 +187,12 @@ o("DV RTOS|DV OTD|DV MoS|DV AOPH|DV MILF", F="C", I=0, R=0, B="V")   # course wi
 o("CCE", F="X", I=5, R=1, T=2, B="V"); o("SACP", I=2, B="V"); o("DCA", T=1, B="V"); o("WCNA", B="V")
 o("EITCA/IS", I=2, B="V"); o("SCE", R=2, T=2, B="V"); o("SCA", T=1, B="K")
 o("PCI QSA", R=2, board=1, B="V")
+# third pass
+o("F5 CA", T=1, B="V"); o("F5 CTS APM|F5 CTS DNS", T=2, R=2, B="V"); o("F5 CSE Sec", T=3, R=3, B="V")   # exams chain 101 > 201 > specialist > expert
+o("TUV COSP", T=1, B="V"); o("TUV COSTE", T=2, R=1, B="V"); o("TUV COSM", T=3, R=1, B="V")
+o("TUV ITSM", R=2, T=2, B="V")                            # needs the IT Security Representative (TUV) first
+o("CACE", F="S", I=2, R=4, T=3, B="V"); o("CACS", R=3, T=2, B="K")       # CACE: 10 years, MCQ + short answer + case study
+o("DCPP", T=2, B="V"); o("SSAP", R=0, I=1, T=1, B="V")                    # SSAP: 50 questions, 2 hours, open book
 o("GCAD|GLIR", T=2, B="V"); o("GCIL|GSOM", T=3, B="V"); o("GX-CS|GX-FE|GX-IH|GX-IA", F="P", I=2, R=2, T=3, B="V")
 
 KEY_T = [

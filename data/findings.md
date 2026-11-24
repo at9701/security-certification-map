@@ -103,3 +103,18 @@ CIISec、CSIAC（CSFA）、QAI（CSBA）、Shared Assessments、APMG（頁面無
 
 ## 進度
 約 75 / 110 個來源已嘗試。GIAC 缺漏的 8 張已補上。
+
+## 第八批（2026-11-25）
+- F5：Administrator → Technical Professional → Technical Specialist → Solution Expert；每條路線都從 101 考起，後段須先通過前段
+- Limes Security／TÜV Austria COSTE：3 天課程，須先有 COSP 或 6 個月相關經驗
+- Certipedia「IT Security Manager (TÜV)」：須先有 IT Security Representative (TÜV)、上課出席 80%、選擇題筆試；頁面註記方案期間至 2024-03，是否仍招生待確認
+- exida CACE：10 年經驗（學歷可折抵）、兩階段考試（選擇、簡答、個案）、80 分及格
+- MITRE MAD：官方頁面顯示「coming soon」，目前是否可報名不明
+- DSCI DCPP：選擇題含個案，65% 及格，INR 15,000 加稅
+- SANS SSAP：50 題、2 小時、開書、78% 及格、無報考資格
+
+## 讀不到
+ecfirst（拒絕自動讀取）、TÜV Rheinland COTCP（連結失效）、ISMI（網站無回應）
+
+## 尚未讀取（需要使用者在場同意）
+Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、FAIR／RiskLens、AccessData／Exterro、is-its
