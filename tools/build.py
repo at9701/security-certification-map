@@ -390,7 +390,7 @@ out = re.sub(r"@media screen and \(max-width: 897px\) \{.*?\n    \}\n", "", out,
 out = out.replace(
     '<div style="text-align:left;font-size:200%;font-weight:500;padding-bottom:0.2vw;">Security Certification Roadmap',
     '<div style="text-align:left;font-size:1.5vw;line-height:1.8vw;height:1.8vw;font-weight:500;white-space:nowrap;position:relative;top:-2.6vw;">資安證照地圖'
-    ' <span style="font-size:50%;font-weight:400;color:#666;">Security Certification Roadmap｜2026 年 11 月非官方更新版</span>')
+    ' <span style="font-size:50%;font-weight:400;color:#666;">依公開規則重新排序｜衍生自 Paul Jerimy 的 Security Certification Roadmap｜2026 年 11 月</span>')
 
 
 def ul(items):
@@ -402,10 +402,10 @@ notes = f"""
   <h2>關於這個版本</h2>
   <p>原圖作者為 Paul Jerimy（<a href="https://pauljerimy.com/security-certification-roadmap/" target="_blank">pauljerimy.com/security-certification-roadmap</a>，
   原始碼 <a href="https://github.com/PaulJerimy/SecCertRoadmap" target="_blank">PaulJerimy/SecCertRoadmap</a>），最後一次內容更新是 2024 年 7 月。
-  本頁是<strong>非官方修改版</strong>，沿用原版版面，只更新 2024-07 之後的證照變動；與原作者無關，也未經其背書。
+  本頁是<strong>非官方衍生版</strong>：沿用原版的版面與領域分欄，更新了 2024-07 之後的證照變動，並把難度位置依上方規則全部重排，
+  所以上下位置<strong>不是</strong>原作者的評級；與原作者無關，也未經其背書。
   依原授權 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a> 釋出。</p>
-  <p>共 {n_cert} 張（原版 481）。新增證照的擺放位置是修改者的判斷，並非原作者的評級。
-  未列在下方的證照，其連結與價格維持 2024 年 7 月的內容，未逐一重驗。</p>
+  <p>共 {n_cert} 張（原版 481）。未列在下方的證照，其連結與價格多數仍是 2024 年 7 月的內容，尚未逐一重驗。</p>
   <h3>更名／取代（{len(log['renamed'])}）</h3>{ul(log['renamed'])}
   <h3>新增（{len(log['added'])}）</h3>{ul(log['added'])}
   <h3>台灣證照（{len(log['taiwan'])}）</h3>{ul(log['taiwan'])}

@@ -58,3 +58,28 @@
 
 ## 進度
 已觸及 12 / 110 個來源；多數只查到單位層級，逐張的考試形式仍待補。
+
+## 第三至五批（2026-11-24）摘要
+- Cisco CCIE Security：350-701 核心筆試 $400／120 分鐘 + 8 小時實作考 $1,600
+- ISC2：CC 無經驗要求、SSCP 1 年、CGRC 2 年、CSSLP 4 年、CISSP／CCSP 5 年、ISSAP／ISSEP／ISSMP 為 CISSP 加 2 年或累計 7 年
+- Scrum.org PSM III：24 題論述、150 分鐘、$500
+- INE eCTHP：實作威脅獵捕；原 security.ine.com 連結已轉至 ine.com/security
+- The SecOps Group → pentestingexams.com：CAPenX 7 小時實作；分 Essentials／Professional／Expert 三級，新增多張（C-APIPen、CRTeamer、C-ADPenX 等）圖上未收
+- IT Governance → uk.grcsolutions.io：IBITGQ 線上考 90 分鐘，含於課程（£2,195）
+- AWS SAP：75 題、180 分鐘、$300；CKS：實作 2 小時、$445、須先過 CKA
+- Red Hat RHCA：RHCE 加三張 RHCS；SABSA：SCF 選擇題、SCP 書面報告、SCM 進階試卷加論文
+- ASIS CPP：7–9 年經驗、200 題 4 小時、$300／$450
+- CyberDefenders CCD 現名 CCDL2：48 小時實作
+- IACIS CFCE：同儕審查實作 + 實作考 + 筆試
+- LPIC-3：60 題 90 分鐘，須有效 LPIC-2；Zachman L1：4 天課程 + 2 小時線上考，L2 個案報告
+- CertNexus CSC：80 題 120 分鐘；Cyber Scheme CSTL：範疇訪談 + 4.5 小時實作 + 面談
+- Cyber Struggle Ranger：目前無開放梯次，30 天現場訓練與實作考
+- Security Blue Team → Centri：BTL2 最長 72 小時實作加報告，£1,999
+- Google PCA：50–60 題 2 小時 $200；LFCS：實作 2 小時 $445；OCEG GRCP：開書選擇題 100 題
+- Splunk ES Admin：48 題 60 分鐘 $130，官方已列為 legacy
+
+## 讀不到的官方頁面
+EXIN、SECO-Institute、ISECOM、VMware（Broadcom）、PMI、Juniper、BCS、Axelos（ITIL）
+
+## 進度
+約 55 / 110 個來源已讀取；逐張證照的專頁多數尚未查。
