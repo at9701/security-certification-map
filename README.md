@@ -7,7 +7,7 @@
 
 - 線上版：`index.html`（GitHub Pages）
 - 原始碼來源：[PaulJerimy/SecCertRoadmap](https://github.com/PaulJerimy/SecCertRoadmap)
-- 證照數：511（原版 481）
+- 證照數：530（原版 481）
 
 ## 排序規則
 
@@ -30,21 +30,21 @@
 
 | 標記 | 張數 | 意義 |
 |---|---|---|
-| V | 210 | 2026-11 讀取過該發證單位的官方頁面。多數是讀該單位的一個代表頁面，**不是逐張查證** |
-| K | 228 | 依發證單位公開的通用考試形式判定，這一輪沒有讀官方頁面 |
+| V | 236 | 2026-11 讀取過該發證單位的官方頁面。多數是讀該單位的一個代表頁面，**不是逐張查證** |
+| K | 221 | 依發證單位公開的通用考試形式判定，這一輪沒有讀官方頁面 |
 | U | 74 | 官方頁面讀不到或尚未查，考試形式暫用預設值 |
 
 - 110 個來源中約 75 個已嘗試讀取，其中十多個被對方網站擋下或連結已失效；研究筆記在 `data/findings.md`。
 - 42 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
 - 價格：GIAC 全系列、ISC2、Hack The Box、TCM、Cisco 主要考試與另外約 60 張已改為 2026 年 11 月官方頁面的數字；其餘仍是 2024 年 7 月的內容。CompTIA、EC-Council、Microsoft、AWS、INE 的官方頁面查不到價格（未列出、依國家而異或需要登入）。
 - 多數證照的連結仍是 2024 年 7 月的內容。已知失效或搬家的：EXIN、SECO、ISECOM、VMware（Broadcom）、The SecOps Group（已搬到 pentestingexams.com）、Security Blue Team（現為 Centri）。
-- 官方已有但圖上未收：Mile2 的 C)AICSO、C)NIS2 等；pentestingexams.com 的多張新證照。
+- 「官方級別」取自發證單位自己的命名（Essentials、Professional、Expert 等）。各家標準不一，自稱 Expert 的小型發證單位會因此排得偏高，例如 The SecOps Group 的 eXpert 系列。
 - 讀不到官方頁面的單位：EXIN、SECO、ISECOM、VMware、PMI、Juniper、BCS、Axelos（ITIL）、CIISec、CSIAC、QAI、Shared Assessments。這些網站拒絕自動讀取或連結已失效，相關證照維持 U。
 
 ## 相對於 2024-07 原版的內容變更
 
-- 更名／取代 30 項（Fortinet 改回 NSE 1–8 共 11 張、SecurityX、OSCP+、HTB CWES、PMRP、CRTL、SC-401、SC-500、CCDL2、CM)CFI、Palo Alto 角色制、Cisco CCNA／CCNP Cybersecurity 與 Automation）
-- 新增 34 張（OffSec、HTB、TCM、TryHackMe、CompTIA SecAI+、ISACA 與 GIAC 的 AI 類，以及 GIAC 價目表已有的 GCAD、GCIL、GLIR、GSOM、GX-CS、GX-FE、GX-IH、GX-IA）
+- 更名／取代 32 項（Mile2 C)ISSA→C)CSSA、C)ISSM→C)CSSM、Fortinet 改回 NSE 1–8 共 11 張、SecurityX、OSCP+、HTB CWES、PMRP、CRTL、SC-401、SC-500、CCDL2、CM)CFI、Palo Alto 角色制、Cisco CCNA／CCNP Cybersecurity 與 Automation）
+- 新增 53 張（OffSec、HTB、TCM、TryHackMe、CompTIA SecAI+、ISACA 與 GIAC 的 AI 類，以及官方已有而原圖未收的 27 張：GIAC 8 張、The SecOps Group 15 張、Mile2 4 張）
 - 台灣證照 4 張（iPAS 資訊安全工程師 初級／中級、資通安全職能評量證書 核心／專業）
 - 移除 8 張（MS-100、AZ-220、ISACA CSX-P、GIAC 標示停止報考的 GCPM、GCWN、GLEG、GSNA，以及 Fortinet 新制已無對應的 FCSS ZTA）
 

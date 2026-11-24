@@ -191,6 +191,12 @@ o("DV RTOS|DV OTD|DV MoS|DV AOPH|DV MILF", F="C", I=0, R=0, B="V")   # course wi
 o("CCE", F="X", I=5, R=1, T=2, B="V"); o("SACP", I=2, B="V"); o("DCA", T=1, B="V"); o("WCNA", B="V")
 o("EITCA/IS", I=2, B="V"); o("SCE", R=2, T=2, B="V"); o("SCA", T=1, B="K")
 o("PCI QSA", R=2, board=1, B="V")
+# fourth pass: The SecOps Group tiers (Essentials 1h, Professional 4h, eXpert 7h) and Mile2
+o("CBP|CBTP|CSEDP", F="Q", I=0, R=0, T=0, B="V")
+o("C-AI/MLPen|C-APIPen|CRTeamer|CBFRPro|CKBPro|CBTeamer|CDAPen|C-AgAIPen", F="P", I=2, R=0, T=2, B="V")
+o("C-ADPenX|CRTeamerX|CCPenX-Az|CBTeamerX", F="P", I=3, R=1, T=3, B="V")
+o("C)ISSO", R=2, B="V"); o("C)AICSO|C)OL", T=2, B="V"); o("C)NIS2", T=3, B="V"); o("C)CFTA", T=2, B="V")
+o("C)ISSA|C)ISSM|C)NFE|C)PSH|C)ISCAP|C)ISMS-LA", B="V")
 # third pass
 o("F5 CA", T=1, B="V"); o("F5 CTS APM|F5 CTS DNS", T=2, R=2, B="V"); o("F5 CSE Sec", T=3, R=3, B="V")   # exams chain 101 > 201 > specialist > expert
 o("TUV COSP", T=1, B="V"); o("TUV COSTE", T=2, R=1, B="V"); o("TUV COSM", T=3, R=1, B="V")
@@ -251,6 +257,8 @@ price("HTB CWEE", "考試券 $1,260", "須完成 Senior Web Penetration Tester �
 price("HTB CWPE", "考試券 $1,260", "須完成 Wi-Fi Penetration Tester 路徑"); price("HTB CDEP", "考試券 $1,260", "須完成 Detection Engineer 路徑")
 price("CCNA", "考試費 $300"); price("CCNP Sec|CCNP Ent|CCNP Cyber|CCNP Auto", "核心考試 $400 加專精考試 $300")
 price("CCIE Ent", "核心筆試 $400 加實作考 $1,600", "實作考 8 小時")
+price("C)ISSO", "選擇題 100 題，2 小時", "須 1 年相關經驗")
+price("SOG CAPen|SOG CNPen", "$328，4 小時實作")
 price("SSAP", "50 題 2 小時，開書", "無報考資格"); price("CACE", "須 10 年經驗", "選擇、簡答與個案分析兩階段考試")
 
 # ------------------------------------------------------------------ parse the built page
@@ -293,6 +301,8 @@ DROP = {"GCPM": "GIAC 標示 In Abeyance（停止報考）", "GCWN": "GIAC 標�
         "FCSS ZTA": "Fortinet 新制 NSE 1–8 已無 Zero Trust 路線"}
 RELABEL = {"CM)DFI": ("CM)CFI", "Mile2 Certified Master Cyber Forensics Investigator"),
            "CCD": ("CCDL2", "CyberDefenders Certified CyberDefender Level 2 (formerly CCD)"),
+           "C)ISSA": ("C)CSSA", "Mile2 Certified Cybersecurity Systems Auditor (formerly C)ISSA)"),
+           "C)ISSM": ("C)CSSM", "Mile2 Certified Cybersecurity Systems Manager (formerly C)ISSM)"),
            "FCF": ("NSE 1-3", "Fortinet NSE 1-3 Cybersecurity (online course and test)"),
            "FCA": ("NSE 4", "Fortinet NSE 4 FortiOS"),
            "FCP NS": ("NSE 5-6 SN", "Fortinet NSE 5 / NSE 6 Secure Networking"),
@@ -310,19 +320,48 @@ REHOST = [("https://secops.group/", "https://pentestingexams.com/"),
           ("https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-implementer-training-course",
            "https://uk.grcsolutions.io/product/certified-iso-270012022-isms-lead-implementer-training-course")]
 GIAC_PRICING = "https://www.giac.org/pricing/"
-EXTRA = [   # (label, class, column, name, price line)
-    ("GCAD", "engineeritem1", 9, "GIAC Cloud Security Architecture and Design", "考試費 $999"),
-    ("GCIL", "blueopsitem1", 39, "GIAC Cyber Incident Leader", "考試費 $999"),
-    ("GLIR", "blueopsitem1", 40, "GIAC Linux Incident Responder", "考試費 $999"),
-    ("GSOM", "mgmtitem1", 26, "GIAC Security Operations Manager", "考試費 $999"),
-    ("GX-CS", "mgmtitem1", 24, "GIAC Experienced CyberSecurity Specialist", "考試費 $1,299（持有 GSEC 為 $499）"),
-    ("GX-FE", "blueopsitem1", 37, "GIAC Experienced Forensics Examiner", "考試費 $1,299（持有 GCFE 為 $499）"),
-    ("GX-IH", "blueopsitem1", 39, "GIAC Experienced Incident Handler", "考試費 $1,299（持有 GCIH 為 $499）"),
-    ("GX-IA", "testitem1", 30, "GIAC Experienced Intrusion Analyst", "考試費 $1,299（持有 GCIA 為 $499）"),
+PTE = "https://pentestingexams.com/"
+MILE2 = "https://www.mile2.com/master-certifications/"
+COL_CLS = [(2, 4, "networkitem1"), (6, 6, "iamitem1"), (8, 14, "engineeritem1"), (16, 17, "assetitem1"),
+           (19, 27, "mgmtitem1"), (29, 31, "testitem1"), (33, 33, "softwareitem1"), (35, 40, "blueopsitem1"),
+           (41, 47, "redopsitem1")]
+# certifications the issuer lists today that the chart lacked: (label, column, name, detail line, link)
+EXTRA = [
+    ("GCAD", 9, "GIAC Cloud Security Architecture and Design", "考試費 $999", GIAC_PRICING),
+    ("GCIL", 39, "GIAC Cyber Incident Leader", "考試費 $999", GIAC_PRICING),
+    ("GLIR", 40, "GIAC Linux Incident Responder", "考試費 $999", GIAC_PRICING),
+    ("GSOM", 26, "GIAC Security Operations Manager", "考試費 $999", GIAC_PRICING),
+    ("GX-CS", 24, "GIAC Experienced CyberSecurity Specialist", "考試費 $1,299（持有 GSEC 為 $499）", GIAC_PRICING),
+    ("GX-FE", 37, "GIAC Experienced Forensics Examiner", "考試費 $1,299（持有 GCFE 為 $499）", GIAC_PRICING),
+    ("GX-IH", 39, "GIAC Experienced Incident Handler", "考試費 $1,299（持有 GCIH 為 $499）", GIAC_PRICING),
+    ("GX-IA", 30, "GIAC Experienced Intrusion Analyst", "考試費 $1,299（持有 GCIA 為 $499）", GIAC_PRICING),
+    # The SecOps Group (pentestingexams.com)
+    ("CBP", 33, "The SecOps Group Certified Blockchain Practitioner", "Essentials 級，1 小時", PTE),
+    ("CBTP", 35, "The SecOps Group Certified Blue Team Practitioner", "Essentials 級，1 小時", PTE),
+    ("CSEDP", 21, "The SecOps Group Certified Social Engineering Defense Practitioner", "Essentials 級，1 小時", PTE),
+    ("C-AI/MLPen", 43, "The SecOps Group Certified AI/ML Pentester (C-AI/MLPen)", "$328，4 小時", PTE),
+    ("C-APIPen", 42, "The SecOps Group Certified API Pentester (C-APIPen)", "Professional 級，4 小時", PTE),
+    ("CRTeamer", 44, "The SecOps Group Certified Red Teamer", "$328，4 小時", PTE),
+    ("CBFRPro", 46, "The SecOps Group Certified Binary Fuzzing & Reversing Professional", "Professional 級，4 小時", PTE),
+    ("CKBPro", 45, "The SecOps Group Certified Kiosk Breakout Professional", "Professional 級，4 小時", PTE),
+    ("CBTeamer", 36, "The SecOps Group Certified Blue Teamer", "$328，4 小時", PTE),
+    ("CDAPen", 41, "The SecOps Group Certified Desktop Application Pentester", "Professional 級，4 小時", PTE),
+    ("C-AgAIPen", 43, "The SecOps Group Certified Agentic AI Pentester (C-AgAIPen)", "Professional 級，4 小時", PTE),
+    ("C-ADPenX", 44, "The SecOps Group Certified Active Directory Pentesting eXpert (C-ADPenX)", "$525，7 小時", PTE),
+    ("CRTeamerX", 45, "The SecOps Group Certified Red Teamer - eXpert", "eXpert 級，7 小時", PTE),
+    ("CCPenX-Az", 10, "The SecOps Group Certified Cloud Pentesting eXpert - Azure", "eXpert 級，7 小時", PTE),
+    ("CBTeamerX", 35, "The SecOps Group Certified Blue Teamer - eXpert", "eXpert 級，7 小時", PTE),
+    # Mile2
+    ("C)AICSO", 23, "Mile2 Certified AI Cybersecurity Officer", "選擇題 100 題，2 小時", MILE2),
+    ("C)NIS2", 25, "Mile2 Certified NIS2 Lead Auditor/Implementer", "選擇題 100 題，2 小時", MILE2),
+    ("C)CFTA", 38, "Mile2 Certified Cyber Forensics Threat Analyst", "選擇題 100 題，2 小時", MILE2),
+    ("C)OL", 20, "Mile2 Certified Organizational Leader", "選擇題 100 題，2 小時", MILE2),
 ]
-for label, cls, col_, name, price in EXTRA:
-    h = (f'<a class="{cls}" href="{GIAC_PRICING}" tooltiptext="{html.escape(name, quote=True)}\n    '
-         f'{html.escape(price, quote=True)}" tabindex="0" target="_blank" >{label}</a>')
+for label, col_, name, detail, link in EXTRA:
+    cls = next(c for lo_, hi_, c in COL_CLS if lo_ <= col_ <= hi_)
+    st = ' style="font-size:0.48vw;"' if len(label) > 8 else ""
+    h = (f'<a class="{cls}"{st} href="{link}" tooltiptext="{html.escape(name, quote=True)}\n    '
+         f'{html.escape(detail, quote=True)}" tabindex="0" target="_blank" >{label}</a>')
     items.append(dict(html=h, cls=cls, label=label, row=14, col=col_, span=1))
 dropped = [i for i in items if i["label"] in DROP]
 items = [i for i in items if i["label"] not in DROP]
@@ -485,7 +524,7 @@ rules = f"""
   {by_b['U']} 張的官方頁面讀不到或尚未查，考試形式暫用該單位的預設值。另有 {n_band} 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
   同分或該列已滿時會落在相鄰列。
   本次另移除 {len(dropped)} 張已停止報考的證照：{'、'.join(d['label'] for d in dropped)}；
-  並補上 GIAC 官方價目表已有、原圖未收的 {len(EXTRA)} 張：{'、'.join(e[0] for e in EXTRA)}。
+  並補上官方已有、原圖未收的 {len(EXTRA)} 張（GIAC 8 張、The SecOps Group 15 張、Mile2 4 張）。
   價格方面，GIAC 全系列與另外 {len(PRICE)} 張已改為 2026 年 11 月官方頁面的數字，其餘仍是 2024 年的內容。</p>
 </section>
 """

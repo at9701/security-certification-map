@@ -134,3 +134,9 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - Hack The Box：CJCA／CPTS／CWES／CDSA／COAE 考試券 $490；CWEE／CAPE／CWPE／CDEP $1,260。各須完成對應的 job-role path。COAE 名為 Expert 但與 CPTS 同價位，級別改列「專業」
 - CompTIA：Security+ 建議報考 V8，英文版 V7 於 2027-06-11 停考；官方頁面未列價格
 - 查不到價格：CompTIA（定價頁失效）、EC-Council（只列課程價）、AWS 總覽頁、INE（需要 JavaScript）、Microsoft（依國家而異）
+
+## The SecOps Group 與 Mile2（2026-11-25）
+- pentestingexams.com 首頁：Essentials 級 1 小時（CAP、CBP、CCSP-AWS、CNSP、CBTP、CSEDP）；Professional 級 4 小時（CAPen、CNPen、CMPen-Android、CMPen-iOS、C-AI/MLPen、C-APIPen、CRTeamer、CBFRPro、CKBPro、CBTeamer、CDAPen、C-AgAIPen）；eXpert 級 7 小時（CCPenX-AWS、CAPenX、C-ADPenX、CRTeamerX、CCPenX-Az、CBTeamerX）。標價：Professional $328、C-ADPenX $525，其餘未列。
+- Mile2：原 C)ISSA 頁面現在顯示 CCSSA（Cybersecurity Systems Auditor）、原 C)ISSM 頁面顯示 Certified Cybersecurity Systems Manager，確認為改名。C)NFE、C)PSH、ISCAP、C)ISMS LA/LI 頁面仍在。C)ISSO：選擇題 100 題、2 小時、須 1 年經驗。
+- Mile2 真正新增的是 C)AICSO、C)NIS2、C)CFTA、C)OL。
+- 未讀到（被限速）：IS20、C)HISSP、C)SWAE
