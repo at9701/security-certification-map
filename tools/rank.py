@@ -242,6 +242,7 @@ o("CSCU|ECES", F="Q", I=1, R=0, T=0, B="V"); o("ECSS", F="Q", I=2, R=0, T=0, B="
 o("PECB 27005RM|PECB 27001F", B="V")
 # assorted issuer pages, read 2026-11-25
 o("RHCSA|RHCE|PMP", B="V"); o("PDSO CDP", F="P", I=3, R=0, T=2, B="V"); o("Scrum PSD", F="Q", I=0, R=0, T=2, B="V")
+o("IIA CIA", F="Q", I=3, R=2, T=3, B="V")    # three parts; 1-2 years with a degree
 o("APMG 27001F", F="Q", I=0, R=0, T=0, B="V"); o("APMG 27001P", F="Q", I=2, R=0, T=2, B="V"); o("APMG 27001A", F="Q", I=1, R=0, T=2, B="V")
 o("THM SEC1|THM SAL1|THM SAL2", B="V"); o("THM PT1", I=4, B="V")
 o("SFSA", F="Q", I=1, R=3, T=2, B="V")       # granted once four prerequisite certifications are held
@@ -410,6 +411,7 @@ price("SFSA", "無獨立考試", "取得四張指定的 Salesforce 架構與開�
 price("PMI ACP", "考試費 $495（會員 $435）", "選擇題 120 題，3 小時；須 2,000 小時專案經驗加 1,500 小時敏捷經驗，另 21 小時訓練")
 price("Scrum SPS", "每次 $250", "40 題，60 分鐘，85% 及格"); price("Scrum PAL", "每次 $200", "36 題，60 分鐘，85% 及格")
 price("SCA", "考試費 $149", "70 題，90 分鐘，70% 及格，無報考資格")
+price("IIA CIA", "三科考試：Part 1 $445、Part 2 $415、Part 3 $415，申請費 $240（會員 $310／$280／$280，申請費 $120）", "碩士須 1 年、學士須 2 年內部稽核經驗；2027-01-04 起調整價格")
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -453,6 +455,7 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("IIA CIA", url="https://www.theiia.org/en/certifications/cia/")
 meta("APMG 27001F|APMG 27001P|APMG 27001A|APMG 20000F|APMG 20000A|APMG 20000P|THM SEC1|THM SAL1|THM SAL2|THM PT1", kind="無價格資訊")
 meta("SFSA", kind="無獨立費用")
 meta("PDSO CDP", kind="官方課程含考試"); meta("RHCSA|RHCE|BSCP", kind="無價格資訊")
@@ -545,9 +548,14 @@ MOSSE_GONE = ("發證單位的現行證照目錄已無此項（目錄未列，�
               "2026-11-25", "官方頁面")
 for _l in ("MCL", "MCD", "MESE", "MASE", "MNSE"):
     DROP[_l] = MOSSE_GONE
+NCSC_CLOSED = ("NCSC 公告 CCP 方案已停止受理新申請與換證，既有證書認可至 2026-12；由 UK Cyber Security Council 的 Chartership 頭銜取代",
+               "https://www.ncsc.gov.uk/information/about-certified-professional-scheme", "2026-11-25", "官方頁面")
+for _l in ("NCSC CCPLP", "NCSC CCPSP", "NCSC CCPP"):
+    DROP[_l] = NCSC_CLOSED
 
 # still on the chart, but the issuer's own site raises a doubt; shown dashed with the note
 FLAG = {
+    "OSMR": "現況：OffSec 的 EXP-312 課程頁未提到 OSMR 或任何考試，兩次讀取皆同（2026-11-25）",
     "CSA CGC": "現況：官方頁面只介紹 Cloud Governance & Compliance 課程，未提到考試或證書（2026-11-25）",
     "Cloud Essnt": "現況：官方頁面目前只介紹約 8 小時的自學課程，未列考試資訊（2026-11-25）",
     "CREST CCHIA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CCNIA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CRTSA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CSAS": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）",

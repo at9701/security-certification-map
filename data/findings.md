@@ -255,3 +255,9 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - CSA Cloud Governance & Compliance：官方頁面只介紹課程，未提考試或證書，改為虛線框。
 - IAPP CIPP：頁面未列考試數字，維持 K。
 - 未讀：iPAS（ipas.org.tw 的 robots 規則讀不到，無法判斷是否允許自動讀取，故不讀）；INE security.ine.com（轉址到其他網域被擋）。
+
+## NCSC、OffSec OSMR、IIA（2026-11-25）
+- NCSC CCP：官方頁面寫明方案已停止受理新申請與換證，既有證書認可到 2026-12 最後一批到期為止，之後由 UK Cyber Security Council 的 Chartership 頭銜與專長取代。圖上三張（CCPLP、CCPSP、CCPP）移至 retired.csv。
+- OffSec EXP-312 課程頁第二次讀取，仍未提到 OSMR 或任何考試，OSMR 改為虛線框。
+- IIA CIA：三科考試，非會員 Part 1 $445、Part 2 $415、Part 3 $415、申請費 $240；碩士 1 年、學士 2 年內部稽核經驗；2027-01-04 起調價。題數與時間頁面未列。門檻由「3–4 年」改記「1–2 年」。
+- 讀取失敗或被擋：OpenText EnCE／CFSR（robots 不允許）、OffSec OSCE3 說明頁、Zero-Point CRTO 課程頁、Exida CACS、Check Point 證照頁。

@@ -5,7 +5,6 @@ GSE,GIAC Security Expert,giac.org,P,2,3,4,4,官方級別,0,77,V,4,4,22,https://w
 OSEE,OffSec Exploitation Expert,offensive-security.com,P,5,1,4,4,官方級別,0,76,V,2,4,46,https://www.offensive-security.com/awe-osee/
 JNCIE Sec,"Juniper Networks Certified Internet Expert, Security",juniper.net,P,3,2,4,4,官方級別,0,76,U,8,4,3,https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jnciesec
 FCX,Fortinet Certified Expert,training.fortinet.com,X,3,3,4,4,官方級別,0,76,V,9,4,2,https://training.fortinet.com/local/staticpage/view.php?page=fcx_cybersecurity
-NCSC CCPLP,NCSC Certified Cybersecurity Professional - Lead Practitioner,ncsc.gov.uk,S,0,4,4,4,官方級別,1,73,K,5,5,27,https://www.ncsc.gov.uk/information/about-certified-professional-scheme
 CCIE Sec,Cisco Certified Implementation Expert - Security,cisco.com,X,3,2,4,4,官方級別,0,72,V,3,6,4,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security.html
 CCIE Ent,Cisco Certified Internetwork Expert - Enterprise Infrastructure,cisco.com,X,3,2,4,4,官方級別,0,72,V,4,5,4,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security-v2.html
 VCDX DCV,VMware Certified Design Expert in Datacenter Virtualization,vmware.com,S,2,3,4,4,官方級別,1,72,U,4,5,10,https://www.vmware.com/education-services/certification/vcdx-dcv.html
@@ -32,7 +31,6 @@ ITIL Master,ITIL Master,axelos.com,S,1,3,4,4,官方級別,0,66,U,3,7,17,https://
 SABSA SCM,SABSA Chartered Security Architect - Master Certificate,sabsa.org,S,1,3,4,4,官方級別,0,66,V,4,7,14,https://sabsa.org/certification/
 CISSP Concentrations,ISC2 Certified Information Systems Security Professional Concentrations,isc2.org,Q,2,4,4,4,官方級別,0,65,V,5,8,22,https://www.isc2.org/certifications#Specialized
 AAISM,ISACA Advanced in AI Security Management,isaca.org,Q,2,4,4,4,官方級別,0,65,V,6,9,24,https://www.isaca.org/credentialing/aaism
-NCSC CCPSP,NCSC Certified Cybersecurity Professional - Senior Practitioner,ncsc.gov.uk,S,0,4,3,3,官方級別,1,65,K,6,8,27,https://www.ncsc.gov.uk/information/about-certified-professional-scheme
 AAIR,ISACA Advanced in AI Risk,isaca.org,Q,2,4,4,4,官方級別,0,65,V,8,9,25,https://www.isaca.org/credentialing/aair
 AAIA,ISACA Advanced in AI Audit,isaca.org,Q,2,4,4,4,官方級別,0,65,V,8,8,30,https://www.isaca.org/credentialing/aaia
 eWPTX,eLearnSecurity Web Application Penetration Tester eXtreme,elearnsecurity.com,P,5,0,3,3,官方級別,0,65,K,8,9,43,https://elearnsecurity.com/product/ewptxv2-certification/
@@ -96,7 +94,6 @@ GSOA,GIAC Strategic OSINT Analyst,giac.org,P,2,1,2,2,官方級別,0,54,V,13,11,4
 OSIR,OffSec Incident Responder,offsec.com,P,3,0,2,2,官方級別,0,54,V,17,12,36,https://www.offsec.com/courses
 OSTH,OffSec Threat Hunter,offsec.com,P,3,0,2,2,官方級別,0,54,V,19,13,36,https://www.offsec.com/courses
 BSCP,Portswigger Burp Suite Certified Practioner,portswigger.net,P,2,1,2,2,官方級別,0,54,K,19,13,43,https://portswigger.net/web-security/certification
-IIA CIA,The Institute of Internal Auditors Certified Internal Auditor,na.theiia.org,Q,3,3,3,3,官方級別,0,54,K,20,11,31,https://na.theiia.org/certification/CIA-Certification/Pages/CIA-Certification.aspx
 THM SAL2,TryHackMe Security Analyst Level 2,tryhackme.com,P,3,0,2,2,官方級別,0,54,V,22,11,37,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026
 PDSO CDP,PDSO Certified DevSecOps Professional,practical-devsecops.com,P,3,0,2,2,官方級別,0,54,V,23,11,9,https://www.practical-devsecops.com/certified-devsecops-professional/
 CAWFE,IACIS Certified Advanced Windows Forensic Examiner,iacis.com,X,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,53,V,7,12,37,https://www.iacis.com/certification/cawfe/
@@ -106,7 +103,6 @@ EnCE,OpenText EnCase Certified Examiner,opentext.com,X,3,1,2,2,官方級別,0,53
 OSIP,IntelTechniques Open Source Intelligence Professional,inteltechniques.com,P,5,1,1,1,官方級別,0,52,V,18,13,35,https://inteltechniques.com/training-osip.html
 HTB CJCA,Hack The Box Certified Junior Cybersecurity Associate,help.hackthebox.com,P,5,1,1,1,官方級別,0,52,V,20,13,41,https://help.hackthebox.com/en/articles/12741732-academy-certifications
 PMP,PMI Project Management Professional,pmi.org,Q,2,3,3,3,官方級別,0,51,V,6,12,21,https://www.pmi.org/certifications/project-management-pmp
-NCSC CCPP,NCSC Certified Cybersecurity Professional - Practitioner,ncsc.gov.uk,S,0,3,2,2,官方級別,1,51,K,8,12,26,https://www.ncsc.gov.uk/information/about-certified-professional-scheme
 CSSLP,ISC2 Certified Secure Software Lifecycle Professional,isc2.org,Q,2,3,3,3,官方級別,0,51,V,14,12,27,https://www.isc2.org/Certifications/CSSLP
 DCBCLA,DRI Certified Business Continuity Lead Auditor,drii.org,Q,1,3,3,3,官方級別,1,51,V,19,13,27,https://drii.org/certification/cbcla
 SOG CAPen,The SecOps Group Certified AppSec Pentester,secops.group,P,2,0,2,2,官方級別,0,51,V,21,13,46,https://secops.group/product/certified-appsec-pentester/
@@ -126,6 +122,7 @@ CREST CCTINF,CREST Certified Infrastructure Tester,crest-approved.org,X,3,0,3,2,
 CREST CCTAPP,CREST Certified Web Application Tester,crest-approved.org,X,3,0,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,50,V,16,15,43,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/
 CSTL,Cyber Scheme Team Leader,thecyberscheme.org,X,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,50,V,17,15,41,https://thecyberscheme.org/cyber-scheme-team-leader-cstl-exam/
 OPST,ISECOM OSSTMM Professional Security Tester,isecom.org,X,2,1,2,2,名稱所示級別,0,50,U,19,15,47,https://www.isecom.org/certification.html
+IIA CIA,The Institute of Internal Auditors Certified Internal Auditor,na.theiia.org,Q,3,2,3,3,官方級別,0,50,V,20,13,31,https://na.theiia.org/certification/CIA-Certification/Pages/CIA-Certification.aspx
 CSTM,Cyber Scheme Team Member,thecyberscheme.org,X,2,1,2,2,官方級別,0,50,V,20,15,46,https://thecyberscheme.org/cyber-scheme-team-member-cstm-exam/
 CHAT,ISECOM Certified Hacker Analyst Trainer,isecom.org,X,2,1,2,2,名稱所示級別,0,50,U,20,15,45,https://www.isecom.org/certification.html
 OPSA,ISECOM OSSTMM Professional Security Analyst,isecom.org,X,2,1,2,2,名稱所示級別,0,50,U,21,14,35,https://www.isecom.org/certification.html
@@ -133,7 +130,7 @@ OWSE,ISECOM OSSTMM Wireless Security Expert,isecom.org,X,2,1,3,2,名稱所示級
 OPSE,ISECOM OSSTMM Professional Security Expert,isecom.org,X,2,1,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,50,U,25,12,39,https://www.isecom.org/certification.html
 CHA,ISECOM Certified Hacker Analyst,isecom.org,X,2,1,2,2,名稱所示級別,0,50,U,25,14,47,https://www.isecom.org/certification.html
 PECB 27005LM,PECB ISO/IEC 27005 Lead Risk Manager,pecb.com,Q,2,4,2,2,官方級別,0,49,V,15,13,24,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-27005-lead-risk-manager
-PECB 27001LA,PECB ISO/IEC 27001 Lead Auditor,pecb.com,Q,2,4,2,2,官方級別,0,49,V,15,13,31,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-auditor
+PECB 27001LA,PECB ISO/IEC 27001 Lead Auditor,pecb.com,Q,2,4,2,2,官方級別,0,49,V,15,13,30,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-auditor
 PECB 27001LI,PECB ISO/IEC 27001 Lead Implementer,pecb.com,Q,2,4,2,2,官方級別,0,49,V,16,13,25,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-implementer
 BTL1,Security Blue Team Level 1,securityblue.team,P,4,0,1,1,官方級別,0,49,K,16,13,38,https://www.securityblue.team/why-btl1/
 PECB 27032CM,PECB ISO/IEC 27032 Lead Cybersecurity Manager,pecb.com,Q,2,4,2,2,官方級別,0,49,V,18,13,23,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-lead-cyber-security-manager
@@ -161,7 +158,7 @@ CM)ISRM,Mile2 Certified Master Information Systems Risk Manager,mile2.com,Q,1,3,
 CM)DRE,Mile2 Certified Master Disaster Recovery Engineer,mile2.com,Q,1,3,3,3,官方級別,0,48,V,14,13,40,https://www.mile2.com/master-certifications/
 CM)CTA,Mile2 Certified Master Cyber Threat Analyst,mile2.com,Q,1,3,3,3,官方級別,0,48,V,14,14,37,https://www.mile2.com/master-certifications/
 CM)CSSA,Mile2 Certified Master Cybersecurity Systems Auditor,mile2.com,Q,1,3,3,3,官方級別,0,48,V,14,13,22,https://www.mile2.com/master-certifications/
-PCI QSA,PCI Qualified Security Assessor,pcisecuritystandards.org,Q,1,2,3,3,官方級別,1,47,V,12,13,30,https://www.pcisecuritystandards.org/assessors_and_solutions/become_qsa/
+PCI QSA,PCI Qualified Security Assessor,pcisecuritystandards.org,Q,1,2,3,3,官方級別,1,47,V,12,14,31,https://www.pcisecuritystandards.org/assessors_and_solutions/become_qsa/
 CREST CRTSA,CREST Registered Technical Security Architect,crest-approved.org,S,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,46,V,3,14,14,https://www.crest-approved.org/examination/technical-security-architecture/index.html
 CREST CSAM,CREST Certified Simulated Attack Manager,crest-approved.org,S,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,46,V,7,14,45,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-manager
 CREST CCTIM,CREST Certified Threat Intelligence Manager,crest-approved.org,S,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,46,V,12,17,42,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager

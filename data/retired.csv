@@ -1,4 +1,7 @@
 label,name,reason,source,checked,confidence
+NCSC CCPLP,NCSC Certified Cybersecurity Professional - Lead Practitioner,NCSC 公告 CCP 方案已停止受理新申請與換證，既有證書認可至 2026-12；由 UK Cyber Security Council 的 Chartership 頭銜取代,https://www.ncsc.gov.uk/information/about-certified-professional-scheme,2026-11-25,官方頁面
+NCSC CCPSP,NCSC Certified Cybersecurity Professional - Senior Practitioner,NCSC 公告 CCP 方案已停止受理新申請與換證，既有證書認可至 2026-12；由 UK Cyber Security Council 的 Chartership 頭銜取代,https://www.ncsc.gov.uk/information/about-certified-professional-scheme,2026-11-25,官方頁面
+NCSC CCPP,NCSC Certified Cybersecurity Professional - Practitioner,NCSC 公告 CCP 方案已停止受理新申請與換證，既有證書認可至 2026-12；由 UK Cyber Security Council 的 Chartership 頭銜取代,https://www.ncsc.gov.uk/information/about-certified-professional-scheme,2026-11-25,官方頁面
 GSNA,GIAC Systems and Network Auditor,GIAC 價目表標示 In Abeyance（停止報考）,https://www.giac.org/pricing/,2026-11-24,官方頁面
 MCD,Mosse Institute Certified Code Deobfuscation Specialist Certification,發證單位的現行證照目錄已無此項（目錄未列，並非停考公告）,https://www.mosse-institute.com/certifications.html,2026-11-25,官方頁面
 FCSS ZTA,Fortinet Certified Solution Specialist - Zero Trust Access,Fortinet 現行 NSE 1–8 已無 Zero Trust 路線,https://www.fortinet.com/training-certification,2026-11-25,官方頁面
