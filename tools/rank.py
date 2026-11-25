@@ -1049,6 +1049,54 @@ for it in order:
                 break
     assert placed, it["label"]
 
+# Rule 3 on the page too: packing can push an equal-score higher rung a row or two below the lower rung.
+# Where that happens the two boxes trade places (both stay inside the same domain).
+swapped = []
+for _ in range(10):
+    _changed = False
+    for a_, b_ in PAIRS:
+        if a_ in _by and b_ in _by and len(_by[a_]) == 1 and len(_by[b_]) == 1:
+            lo_it, hi_it = _by[a_][0], _by[b_][0]
+            if lo_it["span"] == 1 and hi_it["span"] == 1 and hi_it["nrow"] > lo_it["nrow"] \
+                    and within(lo_it["col"], DOMAINS) == within(hi_it["col"], DOMAINS):
+                (r1, c1), (r2, c2) = (lo_it["nrow"], lo_it["ncol"]), (hi_it["nrow"], hi_it["ncol"])
+                grid[(r1, c1)], grid[(r2, c2)] = hi_it, lo_it
+                hi_it["nrow"], hi_it["ncol"], lo_it["nrow"], lo_it["ncol"] = r1, c1, r2, c2
+                swapped.append((b_, a_)); _changed = True
+    if not _changed:
+        break
+print("rule 3 swapped on the page:", swapped)
+moved_up = []
+for _ in range(10):
+    _changed = False
+    for a_, b_ in PAIRS:                                  # different domains: lift the higher rung to a free cell
+        if a_ in _by and b_ in _by and len(_by[a_]) == 1 and len(_by[b_]) == 1:
+            lo_it, hi_it = _by[a_][0], _by[b_][0]
+            if hi_it["span"] == 1 and hi_it["nrow"] > lo_it["nrow"]:
+                done = False
+                dlo, dhi = within(hi_it["col"], DOMAINS)
+                for r in range(lo_it["nrow"], max(1, lo_it["nrow"] - 3), -1):     # higher rung up, at most two rows above
+                    cs = [c for c in sorted(range(dlo, dhi + 1), key=lambda c: abs(c - hi_it["col"])) if free(r, c, 1)]
+                    if cs:
+                        del grid[(hi_it["nrow"], hi_it["ncol"])]
+                        put(hi_it, r, cs[0]); moved_up.append(b_); done = True
+                        break
+                if not done and lo_it["span"] == 1:                                # otherwise the lower rung moves down
+                    dlo, dhi = within(lo_it["col"], DOMAINS)
+                    for r in range(hi_it["nrow"], NR + 1):
+                        cs = [c for c in sorted(range(dlo, dhi + 1), key=lambda c: abs(c - lo_it["col"])) if free(r, c, 1)]
+                        if cs:
+                            del grid[(lo_it["nrow"], lo_it["ncol"])]
+                            put(lo_it, r, cs[0]); moved_up.append(a_ + " (down)"); done = True
+                            break
+                _changed = _changed or done
+    if not _changed:
+        break
+print("rule 3 moved up on the page:", moved_up)
+still = [(b_, _by[b_][0]["nrow"], a_, _by[a_][0]["nrow"]) for a_, b_ in PAIRS
+         if a_ in _by and b_ in _by and len(_by[a_]) == 1 and len(_by[b_]) == 1 and _by[b_][0]["nrow"] > _by[a_][0]["nrow"]]
+print("still inverted on the page:", still)
+
 # ------------------------------------------------------------------ emit
 def retip(it):
     h = it["html"]
