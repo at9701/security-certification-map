@@ -202,6 +202,24 @@ o("C-AI/MLPen|C-APIPen|CRTeamer|CBFRPro|CKBPro|CBTeamer|CDAPen|C-AgAIPen", F="P"
 o("C-ADPenX|CRTeamerX|CCPenX-Az|CBTeamerX", F="P", I=3, R=1, T=3, B="V")
 o("C)ISSO", R=2, B="V"); o("C)AICSO|C)OL", T=2, B="V"); o("C)NIS2", T=3, B="V"); o("C)CFTA", T=2, B="V")
 o("C)ISSA|C)ISSM|C)NFE|C)PSH|C)ISCAP|C)ISMS-LA", B="V")
+# GIAC, read cert by cert on 2026-11-25: (questions, hours, pass %, CyberLive hands-on items)
+GIAC = {
+    "GXPN": (60, 3, 67, 1), "GREM": (66, 3, 73, 1), "GCIH": (106, 4, 69, 1), "GSEC": (106, 4, 72, 1),
+    "GWAPT": (82, 3, 71, 1), "GCTI": (82, 3, 71, 1), "GNFA": (66, 3, 70, 1), "GCFR": (82, 3, 64, 1),
+    "GCFE": (82, 3, 70, 1), "GEIR": (82, 3, 72, 1), "GMON": (82, 3, 74, 1), "GRTP": (82, 3, 76, 1),
+    "GMLE": (82, 3, 65, 1),
+    "GIME": (75, 2, 67, 0), "GAWN": (75, 2, 70, 0), "GDAT": (75, 2, 70, 0), "GSTRT": (75, 3, 76, 0),
+    "GISP": (150, 4, 70, 0), "GDSA": (75, 2, 63, 0), "GSLC": (115, 3, 70, 0), "GASF": (75, 2, 69, 0),
+    "GCTD": (75, 2, 70, 0), "GCCC": (75, 2, 71, 0), "GWEB": (75, 3, 68, 0), "GCED": (115, 3, 69, 0),
+    "GPCS": (75, 2, 64, 0), "GCSA": (75, 2, 66, 0), "GRID": (75, 2, 74, 0), "GCDA": (75, 2, 76, 0),
+    "GPYC": (75, 2, 67, 0), "GCPN": (75, 2, 70, 0), "GMOB": (75, 2, 71, 0), "GSOC": (75, 2, 67, 0),
+    "GBFA": (75, 2, 69, 0), "GCIP": (75, 3, 70, 0), "GCLD": (75, 2, 61, 0), "GOSI": (75, 2, 69, 0),
+    "GFACT": (75, 2, 71, 0), "GISF": (75, 2, 69, 0),
+}
+for _l, (_q, _h, _p, _c) in GIAC.items():
+    o(_l, F="B" if _c else "Q", I=1 if _h <= 2 else 2, B="V")
+# portfolio certifications have no exam of their own
+o("GSE", F="P", I=2, R=3, T=4, B="V"); o("GSP", F="P", I=2, R=3, T=3, B="V")
 # third pass
 o("F5 CA", T=1, B="V"); o("F5 CTS APM|F5 CTS DNS", T=2, R=2, B="V"); o("F5 CSE Sec", T=3, R=3, B="V")   # exams chain 101 > 201 > specialist > expert
 o("TUV COSP", T=1, B="V"); o("TUV COSTE", T=2, R=1, B="V"); o("TUV COSM", T=3, R=1, B="V")
@@ -288,6 +306,11 @@ price("CPENT", "24 小時實作考試", "單獨考試費：須向官方詢價", 
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
+for _l, (_q, _h, _p, _c) in GIAC.items():
+    _fee = {"GFACT": "$399", "GISF": "$499"}.get(_l, "$999")
+    price(_l, f"考試費 {_fee}", f"{_q} 題，{_h} 小時，{_p}% 及格" + ("；含 CyberLive 實作題" if _c else "；無實作題"))
+price("GSE", "無獨立考試", "須取得 6 張 Practitioner 與 4 張 Applied Knowledge 證照")
+price("GSP", "無獨立考試", "須取得 3 張 Practitioner 與 2 張 Applied Knowledge 證照")
 price("SSAP", "50 題 2 小時，開書", "無報考資格")
 
 # every PRICE entry carries: kind of price, source, date read, confidence
@@ -324,7 +347,8 @@ meta("LPT", kind="官方考試包（與維護者查核結果不一致）", conf=
 meta("SecOT+", kind="第三方預購價", conf="考試代碼與時程為官方頁面，價格為第三方", url="https://www.comptia.org/en-us/certifications/secot/")
 meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝價")
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
-meta("C)ISSO|SSAP|CACE", kind="無價格資訊"); price("CACE", "須 10 年經驗", "選擇、簡答與個案分析兩階段考試")
+meta("C)ISSO|SSAP|CACE", kind="無價格資訊")
+meta("GSE|GSP", kind="無價格資訊", url="https://www.giac.org/get-certified/giac-portfolio-certifications/"); price("CACE", "須 10 年經驗", "選擇、簡答與個案分析兩階段考試")
 
 # ------------------------------------------------------------------ parse the built page
 spans = {}

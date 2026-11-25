@@ -50,10 +50,49 @@ DCPP,DSCI Certified Privacy Professional,"INR 15,000 加稅 / 選擇題含個案
 DV RTOS,Dark Vortex Red Team & Operational Security,"課程 $2,500 / 3 天線上課程，無考試，發結業證書",官方課程或套裝價,https://0xdarkvortex.dev/training-programs/red-team-and-operational-security/,2026-11-25,官方頁面
 ECIH,EC Council Certified Incident Handler,考試券 $450（遠端監考）,官方考試券,https://store.eccouncil.org/product/ecih-ecc-exam-voucher/,2026-11-25,官方頁面
 EITCA/IS,EITCA/IS Information Security Certificate,€950 / 12 科線上測驗,官方考試費,https://eitca.org/eitca-is-information-security-academy/,2026-11-25,官方頁面
-GFACT,GIAC Foundational Cybersecurity Technologies,考試費 $399,官方考試費,https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/,2026-11-25,官方頁面
-GISF,GIAC Information Security Fundamentals,考試費 $499,官方考試費,https://www.giac.org/certification/information-security-fundamentals-gisf,2026-11-25,官方頁面
+GASF,GIAC Advanced Smartphone Forensics,考試費 $999 / 75 題，2 小時，69% 及格；無實作題,官方考試費,https://www.giac.org/certification/advanced-smartphone-forensics-gasf,2026-11-25,官方頁面
+GAWN,GIAC Assessing Wireless Networks,考試費 $999 / 75 題，2 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certification/gawn,2026-11-25,官方頁面
+GBFA,GIAC Battlefield Forensics and Acquisition,考試費 $999 / 75 題，2 小時，69% 及格；無實作題,官方考試費,https://www.giac.org/certification/gbfa,2026-11-25,官方頁面
+GCCC,GIAC Critical Controls Certification,考試費 $999 / 75 題，2 小時，71% 及格；無實作題,官方考試費,https://www.giac.org/certification/critical-controls-certification-gccc,2026-11-25,官方頁面
+GCDA,GIAC Certified Detection Analyst,考試費 $999 / 75 題，2 小時，76% 及格；無實作題,官方考試費,https://www.giac.org/certification/certified-detection-analyst-gcda,2026-11-25,官方頁面
+GCED,GIAC Certified Enterprise Defender,考試費 $999 / 115 題，3 小時，69% 及格；無實作題,官方考試費,https://www.giac.org/certification/certified-enterprise-defender-gced,2026-11-25,官方頁面
+GCFE,GIAC Cerified Forensics Examiner,考試費 $999 / 82 題，3 小時，70% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certification/gcfe,2026-11-25,官方頁面
+GCFR,GIAC Cloud Forensics Responder,考試費 $999 / 82 題，3 小時，64% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certifications/cloud-forensics-responder-gcfr/,2026-11-25,官方頁面
+GCIH,GIAC Certified Forensics Analystr,考試費 $999 / 106 題，4 小時，69% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certification/gcih,2026-11-25,官方頁面
+GCIP,GIAC Critical Infrastructure Protection,考試費 $999 / 75 題，3 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certification/critical-infrastructure-protection-gcip,2026-11-25,官方頁面
+GCLD,GIAC Cloud Security Essentials,考試費 $999 / 75 題，2 小時，61% 及格；無實作題,官方考試費,https://www.giac.org/certifications/cloud-security-essentials-gcld/,2026-11-25,官方頁面
+GCPN,GIAC Cloud Penetration Tester,考試費 $999 / 75 題，2 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certification/gcpn,2026-11-25,官方頁面
+GCSA,GIAC Cloud Security Automation,考試費 $999 / 75 題，2 小時，66% 及格；無實作題,官方考試費,https://www.giac.org/certification/cloud-security-automation-gcsa,2026-11-25,官方頁面
+GCTD,GIAC Cloud Threat Detection,考試費 $999 / 75 題，2 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certifications/cloud-threat-detection-gctd/,2026-11-25,官方頁面
+GCTI,GIAC Cyber Threat Intelligence,考試費 $999 / 82 題，3 小時，71% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certification/gcti,2026-11-25,官方頁面
+GDAT,GIAC Defending Advanced Threats,考試費 $999 / 75 題，2 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certification/defending-advanced-threats-gdat,2026-11-25,官方頁面
+GDSA,GIAC Defensible Security Architecture,考試費 $999 / 75 題，2 小時，63% 及格；無實作題,官方考試費,https://www.giac.org/certification/defensible-security-architecture-gdsa,2026-11-25,官方頁面
+GEIR,GIAC Enterprise Incident Response,考試費 $999 / 82 題，3 小時，72% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certifications/enterprise-incident-responder-geir/,2026-11-25,官方頁面
+GFACT,GIAC Foundational Cybersecurity Technologies,考試費 $399 / 75 題，2 小時，71% 及格；無實作題,官方考試費,https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/,2026-11-25,官方頁面
+GIME,GIAC iOS and MacOS Examiner,考試費 $999 / 75 題，2 小時，67% 及格；無實作題,官方考試費,https://www.giac.org/certifications/ios-macos-examiner-gime/,2026-11-25,官方頁面
+GISF,GIAC Information Security Fundamentals,考試費 $499 / 75 題，2 小時，69% 及格；無實作題,官方考試費,https://www.giac.org/certification/information-security-fundamentals-gisf,2026-11-25,官方頁面
+GISP,GIAC Information Security Professional,考試費 $999 / 150 題，4 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certification/gisp,2026-11-25,官方頁面
+GMLE,GIAC Machine Learning Engineer,考試費 $999 / 82 題，3 小時，65% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certifications/machine-learning-engineer-gmle/,2026-11-25,官方頁面
+GMOB,GIAC Mobile Device Security Analyst,考試費 $999 / 75 題，2 小時，71% 及格；無實作題,官方考試費,https://www.giac.org/certification/mobile-device-security-analyst-gmob,2026-11-25,官方頁面
+GMON,GIAC Continuous Monitoring,考試費 $999 / 82 題，3 小時，74% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certification/continuous-monitoring-certification-gmon,2026-11-25,官方頁面
+GNFA,GIAC Network Forensic Analyst,考試費 $999 / 66 題，3 小時，70% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certification/network-forensic-analyst-gnfa,2026-11-25,官方頁面
+GOSI,GIAC Open Source Intelligence,考試費 $999 / 75 題，2 小時，69% 及格；無實作題,官方考試費,https://www.giac.org/certification/open-source-intelligence-gosi,2026-11-25,官方頁面
+GPCS,GIAC Public Cloud Security,考試費 $999 / 75 題，2 小時，64% 及格；無實作題,官方考試費,https://www.giac.org/certifications/public-cloud-security-gpcs/,2026-11-25,官方頁面
+GPYC,GIAC Python Coder,考試費 $999 / 75 題，2 小時，67% 及格；無實作題,官方考試費,https://www.giac.org/certification/python-coder-gpyc,2026-11-25,官方頁面
+GREM,GIAC Reverse Engineering Malware,考試費 $999 / 66 題，3 小時，73% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certifications/reverse-engineering-malware-grem/,2026-11-25,官方頁面
+GRID,GIAC Response and Industrial Defense,考試費 $999 / 75 題，2 小時，74% 及格；無實作題,官方考試費,https://www.giac.org/certification/response-industrial-defense-grid,2026-11-25,官方頁面
+GRTP,GIAC Red Team Professional,考試費 $999 / 82 題，3 小時，76% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certifications/red-team-professional-grtp/,2026-11-25,官方頁面
+GSE,GIAC Security Expert,無獨立考試 / 須取得 6 張 Practitioner 與 4 張 Applied Knowledge 證照,無價格資訊,https://www.giac.org/get-certified/giac-portfolio-certifications/,2026-11-25,官方頁面
+GSEC,GIAC Security Essentials Certification,考試費 $999 / 106 題，4 小時，72% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certification/security-essentials-gsec,2026-11-25,官方頁面
+GSLC,GIAC Security Leadership Certification,考試費 $999 / 115 題，3 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certification/gslc,2026-11-25,官方頁面
+GSOC,GIAC Security Operations Certified,考試費 $999 / 75 題，2 小時，67% 及格；無實作題,官方考試費,https://www.giac.org/certifications/security-operations-certified-gsoc/,2026-11-25,官方頁面
+GSP,GIAC Security Professional,無獨立考試 / 須取得 3 張 Practitioner 與 2 張 Applied Knowledge 證照,無價格資訊,https://www.giac.org/get-certified/giac-portfolio-certifications/,2026-11-25,官方頁面
+GSTRT,"GIAC Strategic Planning, Policy and Leadership",考試費 $999 / 75 題，3 小時，76% 及格；無實作題,官方考試費,https://www.giac.org/certification/gstrt,2026-11-25,官方頁面
+GWAPT,GIAC Web Application Penetration Tester,考試費 $999 / 82 題，3 小時，71% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certification/gwapt,2026-11-25,官方頁面
+GWEB,GIAC Certified Web Application Defender,考試費 $999 / 75 題，3 小時，68% 及格；無實作題,官方考試費,https://www.giac.org/certification/certified-web-application-defender-gweb,2026-11-25,官方頁面
 GX-FA,GIAC Experienced Forensics Analyst,"考試費 $1,299（持有 GCFA 為 $499）",官方考試費,https://www.giac.org/certifications/experienced-forensics-analyst-gxfa/,2026-11-25,官方頁面
 GX-PT,GIAC Experienced Penetration Tester,"考試費 $1,299（持有 GPEN 為 $499）",官方考試費,https://www.giac.org/certifications/experienced-penetration-tester-gxpt/,2026-11-25,官方頁面
+GXPN,GIAC Exploit Researcher and Advanced Penetration Tester,考試費 $999 / 60 題，3 小時，67% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certification/gxpn,2026-11-25,官方頁面
 Google PCSA,Google Professional Cloud Architect,考試費 $200 / 50–60 題，2 小時,官方考試費,https://cloud.google.com/certification/cloud-architect,2026-11-25,官方頁面
 Google PCSE,Google Professional Cloud Security Engineer,考試費 $200 / 50–60 題，2 小時,官方考試費,https://cloud.google.com/certification/cloud-security-engineer,2026-11-25,官方頁面
 HTB CAPE,Hack The Box Certified Active Directory Pentesting Expert,"考試券 $1,260 / 須完成 Active Directory Penetration Tester 路徑",官方考試券,https://academy.hackthebox.com/preview/certifications,2026-11-25,官方頁面

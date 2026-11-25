@@ -175,3 +175,9 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - Cisco CCIE／CCDE 的門檻改記為「須先通過核心筆試」（官方頁面：350-701 核心考試加實作考）。
 - giac.org/cyberlive 頁面列出含 CyberLive 實作題的證照：GCFA、GCIA、GICSP、GPEN、GX-FE、GX-CS、GX-IA、GX-IH、GX-PT。該頁是否為完整清單未確認，其餘 GIAC 證照暫不更動。
 - 未讀取：GXPN、GPEN 的個別證照頁（需要使用者在場同意）
+
+## GIAC 逐張查證（2026-11-25，39 張證照頁 + portfolio 頁）
+- 含 CyberLive 實作題：GXPN（60 題 3 小時 67%）、GREM（66／3／73）、GCIH（106／4／69）、GSEC（106／4／72）、GWAPT（82／3／71）、GCTI（82／3／71）、GNFA（66／3／70）、GCFR（82／3／64）、GCFE（82／3／70）、GEIR（82／3／72）、GMON（82／3／74）、GRTP（82／3／76）、GMLE（82／3／65），加上 CyberLive 總覽頁列出的 GCFA、GCIA、GICSP、GPEN。總覽頁的清單確認不是完整的。
+- 無實作題：GIME、GAWN、GDAT、GDSA、GASF、GCTD、GCCC、GPCS、GCSA、GRID、GCDA、GPYC、GCPN、GMOB、GSOC、GBFA、GCLD、GOSI、GFACT、GISF（皆 75 題 2 小時）；GSTRT、GWEB、GCIP（75 題 3 小時）；GSLC、GCED（115 題 3 小時）；GISP（150 題 4 小時）。
+- 各證照頁皆未列報考資格。GPYC 仍在報考中。
+- GSE：6 張 Practitioner 加 4 張 Applied Knowledge 證照，無獨立考試。GSP：3 加 2。
