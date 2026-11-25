@@ -334,3 +334,8 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - 實際被調高 3 張：CREST CCT INF、CCT APP（50 → 53）、Mile2 C)PTC（22 → 33）。其餘路線原本就沒有倒掛。
 - 未納入：CREST 紅隊（CCRTS、CCRTM）與滲透測試（CRT）視為不同種類；GIAC 沒有官方升級路線，只收 GPEN → GXPN、GCFE → GCFA 兩條同課程線，兩者原本同分，未變動。
 - 維護者同時決定：CREST 四張（CCHIA、CCNIA、CRTSA、CSAS）維持虛線框；Infosec Institute 8 張維持現狀；Palo Alto Identity Security 系列不加。
+
+## 開放協作（2026-11-25）
+- 所有證照資料移到 data/certs.csv，升級路線移到 data/ladders.txt；rank.py 只留規則與排版。搬移前後產生的頁面與資料檔逐位元組相同。
+- 新增 tools/check.py、tools/make.py、CONTRIBUTING.md、Issue 表單與兩個 workflow（PR 檢查預覽、合併後重建並發布）。
+- Pages 的 Source 改為 GitHub Actions，由「重建並發布」workflow 部署。
