@@ -148,3 +148,10 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - Scrum.org：PSM I $200（80 題 60 分鐘）、PSM II $250（30 題 90 分鐘）
 - CSA CCSK：$445 含兩次機會，開書線上考 60 題 120 分鐘
 - Zero-Point Security 考試頁未列 CRTO／CRTL 的形式與價格
+
+## 維護者提供的價格與查證結果（2026-11-25）
+- Zero-Point CRTO：官方課程頁確認 £365 含一次考試；加購 Lab 的分級價格頁面未列。CRTL £399 未能讀取官方頁面。
+- EC-Council 官方商店確認：CEH 考試券 $1,199（Pearson VUE，自修須資格審查）、CHFI $650、CND $550、ECIH $450（後三者為 RPS 遠端監考）
+- Microsoft 官方常見問題頁：Associate／Expert 級通常 US$165，依國家定價。基礎級 $99 該頁未列。
+- CompTIA：A+ 兩科 $548、Network+／Cloud+／Linux+／Server+／Project+ $399、Security+／CySA+／PenTest+ $439、SecurityX $544。來源為第三方整理，未經官方查證。
+- INE：eJPT $250、其餘 $450。官方結帳頁需要 JavaScript，未能查證。維護者清單另有 eEDA、eSOC、eAIS、eIAMA、ICCA，且未列 eNDP，圖上尚未調整。

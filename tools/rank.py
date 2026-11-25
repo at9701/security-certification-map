@@ -130,7 +130,7 @@ o("A+|Net+|Cloud Essnt|Project+", T=0, R=0); o("Security+|Linux+|Server+|Cloud+"
 o("CySA+|Pentest+|SecAI+", T=2); o("SecurityX", T=3, I=2)
 o("SecAI+", I=0, B="V")
 # EC-Council
-o("LPT", F="P", I=5, R=2, T=3, B="V"); o("CPENT", F="P", I=4, T=3); o("CEH", T=2); o("CHFI|ECIH|CTIA|CND|CASE|EDRP|CSA", T=2)
+o("LPT", F="P", I=5, R=2, T=3, B="V"); o("CPENT", F="P", I=4, T=3); o("CEH", T=2, B="V"); o("CHFI|ECIH|CND", T=2, B="V"); o("CTIA|CASE|EDRP|CSA", T=2)
 o("CCISO", R=4, T=3); o("EISM", T=2, R=0); o("CNDA", T=2); o("CSCU|ECSS|ECES", T=0, I=1, R=0); o("CCSE", T=2)
 # Cisco
 o("CCNA|CCNA Cyber|CCNA Auto", T=1, I=1); o("CCNP Sec|CCNP Ent|CCNP Cyber|CCNP Auto", T=2, I=2)
@@ -249,7 +249,6 @@ price("EITCA/IS", "€950", "12 科線上測驗"); price("SOG CAPenX", "原價 $
 price("CISSM", "考試券 $190（含兩次機會）", "100 題 90 分鐘")
 price("CIMP", "$295（會員價，含三次機會）", "線上選擇題 100 題")
 price("DV RTOS", "課程 $2,500", "3 天線上課程，無考試，發結業證書")
-price("Security+", "建議報考 V8；英文版 V7 於 2027-06-11 停考")
 price("HTB CJCA", "考試券 $490", "須完成 Junior Cybersecurity Analyst 路徑", "同時涵蓋攻擊與防禦")
 price("HTB CPTS", "考試券 $490", "須完成 Penetration Tester 路徑"); price("HTB CWES", "考試券 $490", "須完成 Web Penetration Tester 路徑", "原名 HTB CBBH")
 price("HTB CDSA", "考試券 $490", "須完成 SOC Analyst 路徑"); price("HTB COAE", "考試券 $490", "須完成 AI Red Teamer 路徑")
@@ -265,6 +264,19 @@ price("CKA", "考試費 $445（含一次重考）", "實作 2 小時"); price("K
 price("Google PCSE", "考試費 $200", "50–60 題，2 小時")
 price("PSM I", "每次 $200", "80 題，60 分鐘，85% 及格"); price("PSM II", "每次 $250", "30 題，90 分鐘，85% 及格")
 price("CSA CCSK", "$445（含兩次機會）", "開書線上考，60 題，120 分鐘")
+# figures supplied by the repo owner on 2026-11-25; UNV marks the ones the issuer's page could not confirm
+UNV3 = "第三方來源的美國零售價，未能向 CompTIA 官方頁面查證"
+price("Security+", "考試費 $439", "建議報考 V8；英文版 V7 於 2027-06-11 停考", UNV3)
+price("A+", "兩科合計 $548", UNV3); price("Net+|Cloud+|Linux+|Server+|Project+", "考試費 $399", UNV3)
+price("CySA+|Pentest+", "考試費 $439", UNV3); price("SecurityX", "考試費 $544", UNV3)
+price("CRTO", "課程含一次考試 £365 起", "加購 Lab 另計")
+price("CRTL", "課程含一次考試 £399 起", "使用者提供，官方頁面本次未能讀取")
+price("CEH", "考試券 $1,199（Pearson VUE 考場）", "自修考生須先通過資格審查")
+price("CHFI", "考試券 $650（遠端監考）"); price("CND", "考試券 $550（遠端監考）"); price("ECIH", "考試券 $450（遠端監考）")
+price("SC-200|SC-300|SC-100|AZ-104|AZ-305|SC-401|SC-500", "約 $165，依國家或地區定價")
+price("SC-900|AZ-900", "約 $99，依國家或地區定價", "使用者提供，官方常見問題頁未列此數字")
+UNVI = "使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱"
+price("eJPT", "考試券 $250", UNVI); price("eCPPT|eWPT|eWPTX|eMAPT|eCIR|eCTHP|eCDFP", "考試券 $450", UNVI)
 price("SSAP", "50 題 2 小時，開書", "無報考資格"); price("CACE", "須 10 年經驗", "選擇、簡答與個案分析兩階段考試")
 
 # ------------------------------------------------------------------ parse the built page

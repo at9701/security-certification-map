@@ -279,8 +279,8 @@ CASE,EC Council Certified Application Security Engineer (.NET or Java),eccouncil
 F5 CTS APM,F5 Big-IP Certified Technical Specialist - Access Policy Manager,view.ceros.com,Q,1,2,2,官方級別,0,36,V,18,17,4,https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740
 FCP NS,Fortinet Certified Professional - Network Security,training.fortinet.com,Q,1,2,2,官方級別,0,36,V,18,18,3,https://training.fortinet.com/local/staticpage/view.php?page=fcp_network_security
 LPIC-2,Linux Professional Institute Certified: Linux Engineer,lpi.org,Q,1,2,2,官方級別,0,36,V,18,17,12,https://www.lpi.org/our-certifications/lpic-2-overview
-CHFI,EC Council Computer Hacking Forensics Investigator,eccouncil.org,Q,2,1,2,官方級別,0,36,K,18,20,38,https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
-ECIH,EC Council Certified Incident Handler,eccouncil.org,Q,2,1,2,官方級別,0,36,K,18,20,36,https://www.eccouncil.org/programs/ec-council-certified-incident-handler-ecih/
+CHFI,EC Council Computer Hacking Forensics Investigator,eccouncil.org,Q,2,1,2,官方級別,0,36,V,18,20,38,https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+ECIH,EC Council Certified Incident Handler,eccouncil.org,Q,2,1,2,官方級別,0,36,V,18,20,36,https://www.eccouncil.org/programs/ec-council-certified-incident-handler-ecih/
 F5 CTS DNS,F5 Big-IP Certified Technical Specialist - Domain Name Services,view.ceros.com,Q,1,2,2,官方級別,0,36,V,19,18,2,https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740
 TUV ITSM,TUV IT Security Manager (GERMAN),certipedia.com,Q,1,2,2,官方級別,0,36,V,19,15,24,https://www.certipedia.com/quality_marks/0000063483?locale=en
 PECB 27005RM,PECB ISO/IEC 27005 Risk Manager,pecb.com,Q,2,1,2,官方級別,0,36,K,19,17,25,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-risk-manager
@@ -291,9 +291,9 @@ MRCI,Mosse Institute Remote Cybersecurity Internship Programme,mosse-institute.c
 EDRP,EC Council Disaster Recovery Professional,eccouncil.org,Q,2,1,2,官方級別,0,36,K,20,20,35,https://www.eccouncil.org/programs/disaster-recovery-professional-edrp/
 CTIA,EC Council Certified Threat intelligence Analyst,eccouncil.org,Q,2,1,2,官方級別,0,36,K,20,20,37,https://www.eccouncil.org/programs/certified-threat-intelligence-analyst-ctia/
 GRCA,"OCEG Governance, Risk, and Compliance Auditor",oceg.org,Q,1,2,2,官方級別,0,36,V,21,17,30,https://www.oceg.org/certifications/grc-audit-certification/
-CEH,EC Council Certified Ethical Hacker,eccouncil.org,Q,2,1,2,官方級別,0,36,K,21,17,40,https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/
+CEH,EC Council Certified Ethical Hacker,eccouncil.org,Q,2,1,2,官方級別,0,36,V,21,17,40,https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/
 CSA,EC Council Certified SOC Analyst,eccouncil.org,Q,2,1,2,官方級別,0,36,K,22,20,39,https://www.eccouncil.org/programs/certified-soc-analyst-csa/
-CND,EC Council Certified Network Defender,eccouncil.org,Q,2,1,2,官方級別,0,36,K,26,20,40,https://www.eccouncil.org/programs/certified-network-defender-cnd/
+CND,EC Council Certified Network Defender,eccouncil.org,Q,2,1,2,官方級別,0,36,V,26,20,40,https://www.eccouncil.org/programs/certified-network-defender-cnd/
 SecAI+,CompTIA SecAI+,comptia.org,B,0,1,2,官方級別,0,35,V,22,18,21,https://www.comptia.org/en-us/certifications/secai/
 OSCC,OffSec CyberCore Certified (OSCC-SEC),offsec.com,P,2,0,0,官方級別,0,35,K,27,17,16,https://www.offsec.com/courses
 Google PCSA,Google Professional Cloud Architect,cloud.google.com,Q,1,1,2,官方級別,0,33,V,10,18,9,https://cloud.google.com/certification/cloud-architect

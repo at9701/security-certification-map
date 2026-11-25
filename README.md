@@ -36,7 +36,7 @@
 
 - 110 個來源中約 75 個已嘗試讀取，其中十多個被對方網站擋下或連結已失效；研究筆記在 `data/findings.md`。
 - 42 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
-- 價格：GIAC 全系列、ISC2、Hack The Box、TCM、Cisco 主要考試與另外約 60 張已改為 2026 年 11 月官方頁面的數字；其餘仍是 2024 年 7 月的內容。CompTIA、EC-Council、Microsoft、AWS、INE 的官方頁面查不到價格（未列出、依國家而異或需要登入）。
+- 價格：約 200 張已改為 2026 年 11 月的數字，其餘仍是 2024 年 7 月的內容。其中 CompTIA（第三方來源的美國零售價）、INE、Zero-Point CRTL 與 Microsoft 基礎級的數字由維護者提供，未能向官方頁面查證，提示文字中有標註。EC-Council 只查到 CEH、CHFI、CND、ECIH 四張的考試券價格。
 - 多數證照的連結仍是 2024 年 7 月的內容。已知失效或搬家的：EXIN、SECO、ISECOM、VMware（Broadcom）、The SecOps Group（已搬到 pentestingexams.com）、Security Blue Team（現為 Centri）。
 - 「官方級別」取自發證單位自己的命名（Essentials、Professional、Expert 等）。各家標準不一，自稱 Expert 的小型發證單位會因此排得偏高，例如 The SecOps Group 的 eXpert 系列。
 - 讀不到官方頁面的單位：EXIN、SECO、ISECOM、VMware、PMI、Juniper、BCS、Axelos（ITIL）、CIISec、CSIAC、QAI、Shared Assessments。這些網站拒絕自動讀取或連結已失效，相關證照維持 U。
