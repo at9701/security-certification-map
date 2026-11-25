@@ -485,6 +485,36 @@ price("JNCIE Sec", "實作考費用 $1,600", "須持有有效的 JNCIP-SEC；" +
 ITIL_N = "PeopleCert 於 2026-01 推出 ITIL（Version 5），ITIL 4 各模組預定 2027-12-31 停考（第三方報導，未向官方頁面查證）"
 price("ITIL Fdn", "PeopleCert 美國商店考試組合約 $690（第三方整理）", ITIL_N)
 price("ITIL MP|ITIL SL|ITIL Master", "Foundation 以上各模組須先上認可課程；價格官方頁面未能讀取", ITIL_N)
+# price pass 5, 2026-11-25
+price("OSCP+", "單考 $1,699；課程加一次考試 $1,499（90 天，標價 $1,749）；Learn One $2,199／年（標價 $2,749，含兩次考試）", "24 小時實作考，全程監考；OSCP+ 效期三年")
+price("AAISM", "考試費 $599（會員 $459），通過後另繳申請費 $50", "須持有有效的 CISM 或 CISSP")
+price("CCD", "48 小時實作考", "無正式報考資格，建議 1 年以上經驗；價格在購買頁，證照頁未列")
+price("CKAD", "考試費 $445（含一次免費重考）", "線上監考實作，約 2 小時")
+price("LFCA", "考試費 $250（含一次重考）", "線上監考選擇題，90 分鐘；效期兩年")
+price("Google ACE", "報名費 $125", "50–60 題，2 小時，無報考資格；效期三年")
+price("ASIS APP", "100 題計分加 25 題不計分的選擇題", "須 1 年以上相關經驗；費用在認證手冊，頁面未列")
+price("GRCP", "無單獨考試費：須購買 All Access Pass（$875），含考試與重考", "100 題計分，2 小時，70 題答對及格；無學經歷要求")
+price("CFCE", "同儕審查四個月，之後實作（最長 30 天）加筆試（最長 14 天），兩者皆須 80%", "須 72 小時鑑識訓練與背景查核；費用頁面未列，參加 BCFE 訓練者免證照費")
+price("CSTM", "考試費 £500（未稅）", "選擇題 100 題 1 小時、筆試 1 小時、實作 2 小時、口試 15–30 分鐘")
+price("SecAI+", "CY0-001，2026-02-17 推出", "最多 60 題（選擇題加實作題），60 分鐘，600 分及格；價格官方頁面未列")
+price("CSTL", "實作滲透測試 4.5 小時，前有範疇訪談、後有口頭簡報與面談", "價格與報考資格官方頁面未列")
+price("GRCA", "無單獨考試費：須購買 All Access Pass（$875），含考試與重考", "100 題計分，2 小時，70 題答對及格；建議先取得 GRCP，非必要")
+price("Zach EAA", "須上 4 天 Level 1 課程並通過 2 小時線上考試", "證照費含在課程價格內，金額官方頁面未列")
+price("Zach EAP", "繳交個案研究審查", "費用已含在 Level 1 課程內，金額官方頁面未列")
+price("Zach EAPro", "官方頁面僅列出級別名稱，未說明要求與費用")
+price("RHCA", "無獨立考試：持有 RHCE 加同一專長的三張 Specialist 證照後自動授予", "價格官方頁面未列")
+price("SCE", "考試費 $195", "80 題，90 分鐘，70% 及格；須先有 SCA（SLES 12 或 15）")
+price("WCNA", "每次 $299", "100 題是非與選擇題，2 小時，只分及格與否")
+price("PCI QSA", "公司註冊費與個人訓練認證費見官方收費表，頁面未列金額", "須任職於合格的 QSA 公司並通過 QSA 訓練課程")
+# issuers whose own pages did not give a price this pass: old 2024 figures removed rather than left as current
+price("PECB 27005LM|PECB 27001LA|PECB 27001LI|PECB 27032CM|CLCSM|PECB 27032F|PECB 27005F", "考試與證照費含在訓練課程價格內，無單獨考試價", "依 PECB 同系列官方頁面；課程價依訓練單位而定")
+price("PA NGFW|PA XSOAR|PA Cloud|PA XDR|PA NetSec|PA Cyber", "官方證照頁未列價格、題數與時間（在 PDF datasheet）", "2024 年舊價已移除")
+price("S-ISME|S-CISO|S-CEHL|S-EHE|S-ISP|S-CSPL|S-TA|S-EHP|S-SA|S-EHF|S-ISF|S-SPF", "官方路線頁未列價格與考試細節", "2024 年舊價已移除")
+price("EEXIN ISM|PEXIN ISM|EXIN 27001E|EXIN PCSA|EXIN 27001P|EXIN PCSerM|EXIN PCSM|EXIN PCD|EXIN PCA|EPDPF|EXIN CIT|EEHF|EPDPE|FEXIN|EXIN 27001F|EPDPP", "找不到官方價目；多數經訓練機構報名，價格依機構而定", "2024 年舊價已移除")
+price("CIAM|CIPA|CIGE|CRFS|CAMS|CDP|CIST", "須為 Identity Management Institute 會員並通過線上考試", "官方頁面未列費用；2024 年舊價已移除")
+price("CCFE|CMFE|CSSA|CDRP|CMWAPT|CRTOP|CREA|CSAP", "官方連結現只顯示訓練營梯次，查不到證照考試與價格", "2024 年舊價已移除")
+price("OPST|CHAT|OPSA|OWSE|OPSE|CHA", "官方頁面讀取失敗，無法查證價格", "2024 年舊價已移除")
+price("CIS LA|CIS RM|CIS IA|CISRM|CCRMP|CITGP|CSX-F|CIRM Fdn|C CS F|CIS F", "考試含在訓練課程內（IBITGQ 線上考試），本次僅查到 CIS LI 課程 £2,195 未稅", "各課程價格未逐一查證；2024 年舊價已移除")
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -528,6 +558,10 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("PECB 27005LM|PECB 27001LA|PECB 27001LI|PECB 27032CM|CLCSM|PECB 27032F|PECB 27005F|PA NGFW|PA XSOAR|PA Cloud|PA XDR|PA NetSec|PA Cyber|S-ISME|S-CISO|S-CEHL|S-EHE|S-ISP|S-CSPL|S-TA|S-EHP|S-SA|S-EHF|S-ISF|S-SPF|EEXIN ISM|PEXIN ISM|EXIN 27001E|EXIN PCSA|EXIN 27001P|EXIN PCSerM|EXIN PCSM|EXIN PCD|EXIN PCA|EPDPF|EXIN CIT|EEHF|EPDPE|FEXIN|EXIN 27001F|EPDPP|CIAM|CIPA|CIGE|CRFS|CAMS|CDP|CIST|CCFE|CMFE|CSSA|CDRP|CMWAPT|CRTOP|CREA|CSAP|OPST|CHAT|OPSA|OWSE|OPSE|CHA|CIS LA|CIS RM|CIS IA|CISRM|CCRMP|CITGP|CSX-F|CIRM Fdn|C CS F|CIS F|CSTL|Zach EAA|Zach EAP|Zach EAPro|RHCA|PCI QSA", kind="無價格資訊", conf="官方頁面未列或讀不到價格")
+meta("GRCA", kind="官方課程或套裝價")
+meta("OSCP+", kind="官方考試費與課程價（分列）", url="https://www.offsec.com/courses/pen-200/")
+meta("GRCP", kind="官方課程或套裝價"); meta("CCD|ASIS APP|CFCE|SecAI+", kind="無價格資訊")
 meta("GCPT|CASM", kind="官方考試券")
 meta("LPIC-1|LPIC-2|LPIC-3", kind="官方考試費", url="https://www.lpi.org/our-certifications/exam-pricing/")
 meta("JNCIA Sec|JNCIS Sec|JNCIP Sec|JNCIE Sec", kind="官方考試費", url="https://hpe-networking-training.zendesk.com/hc/en-us/articles/360053374674-General-Certification-Frequently-Asked-Questions")
@@ -684,6 +718,7 @@ REHOST = [("https://www.cisco.com/c/en/us/training-events/training-certification
           ("https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist", "https://www.crest-approved.org/crest-certified-red-team-specialist/"),
           ("https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-manager", "https://www.crest-approved.org/skills-certifications-careers/crest-certified-red-team-manager/"),
           ("https://secops.group/", "https://pentestingexams.com/"),
+          ("https://www.offsec.com/pwk-oscp", "https://www.offsec.com/courses/pen-200/"),
           ("https://training.fortinet.com/", "https://www.fortinet.com/training-certification"),
           ("https://securityblue.team/btl2/", "https://www.centri.org/certifications/blue-team-level-2"),
           ("https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-implementer-training-course",

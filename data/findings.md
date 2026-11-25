@@ -297,3 +297,17 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - Juniper：認證計畫官方 FAQ 列 JNCIA $200、JNCIS $300、JNCIP $400、JNCIE $1,600；JNCIE-SEC 實作考須有效 JNCIP-SEC（juniper.net/jncie）。
 - ITIL：多個第三方來源稱 PeopleCert 於 2026-01 推出 ITIL（Version 5）、ITIL 4 預定 2027-12-31 停考；PeopleCert 美國商店 Foundation 組合約 $690。第三方對 Foundation 價格的說法差異很大（$314–$750），官方頁面未能讀取。ITIL Fdn 改為虛線框，待官方查證。
 - EXIN：只找到訓練機構與題庫網站的價格，無官方價目，未採用。Identity Management Institute：搜尋無官方費用頁。
+
+## 價格補查第五批（2026-11-25）
+- OffSec PEN-200：OSCP+ 單考 $1,699；課程加一次考試 $1,499（90 天，標價 $1,749）；Learn One $2,199／年（標價 $2,749）。24 小時監考實作；OSCP+ 效期三年。
+- ISACA AAISM：$599（會員 $459），須有效 CISM 或 CISSP。
+- CyberDefenders：現名 CCDL2（原 CCD），48 小時實作考，價格在購買頁。
+- CNCF CKAD $445（含一次重考，約 2 小時實作）。Linux Foundation LFCA $250（90 分鐘選擇題，效期兩年）。Google Associate Cloud Engineer $125（50–60 題，2 小時）。
+- OCEG GRCP、GRCA：無單獨考試費，須購買 All Access Pass（$875）；各 100 題計分、2 小時、70 題及格。
+- The Cyber Scheme CSTM：£500 未稅；選擇題 1 小時、筆試 1 小時、實作 2 小時、口試 15–30 分鐘。CSTL：4.5 小時實作加訪談與面談，價格未列。
+- IACIS CFCE：同儕審查四個月，再實作（最長 30 天）加筆試（最長 14 天），皆須 80%；須 72 小時訓練；費用未列。
+- CompTIA SecAI+：CY0-001，2026-02-17 推出，最多 60 題、60 分鐘、600 分及格，價格未列。
+- SUSE SCE $195（80 題 90 分鐘，須 SCA）。WCNA $299（100 題 2 小時）。Red Hat RHCA：RHCE 加三張同專長 Specialist 後自動授予。Zachman：Level 1 為 4 天課程加 2 小時考試，費用含在課程內。
+- CertNexus 連結現為 CFR-A（CFA-110，25 題，須先通過 CFR-410）頁面，非原 CFR 頁，未採用。
+- 讀取失敗或需登入：IIBA CCA、Shared Assessments CTPRP（登入頁）、BCS CISMP、CSBA、CIISec ICSF、ASIS APP（費用在手冊）、PCI QSA（金額在另一份收費表）。
+- 整批改標「無價格資訊」並移除 2024 舊價：PECB 7、Palo Alto 6、SECO 12、EXIN 16、Identity Management Institute 7、Infosec Institute 8、ISECOM 6、IT Governance 其餘 10。
