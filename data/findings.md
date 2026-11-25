@@ -164,3 +164,8 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - EC-Council CPENT：官方頁面確認 24 小時考試；名稱仍為 C|PENT，未見 CPENT AI；拆成兩次 12 小時、70% 及格、7 日內交報告、LPT 取得方式，頁面均未提及。
 - EC-Council CSA：官方頁面未列版本、考試代碼、題數、時間與價格。
 - Zero-Point：CRTO 官方課程頁為 £365 並寫含一次免費考試；維護者資料為 £399／£449 及不限次數重考，兩者不一致，後者未採用為官方事實。
+
+## 現況確認（2026-11-25）
+- Mosse Institute 官方證照目錄現列 18 張：MCSF、MICS、MOIS、MRCI、MSAF、MBT、MCPT、MCSE、MDFIR、MGRC、MPT、MRE、MTH、MTIA、MCPE、MDSO、MRT、MVRE。圖上的 MCL、MCD、MESE、MASE、MNSE 不在目錄，移除。先前以為停售的 MGRC、MRCI、MCSF、MSAF、MICS、MCPE、MDSO 其實都在（當時只看了導覽列）。MGRC 頁面可購買，$699（促銷 $595）。
+- Exterro 首頁與導覽列未見 ACE 或任何證照，只有 Exterro Academy 訓練連結。
+- 未能讀取：Centri 證照總覽（連結失效）、Zero-Point CRTL 課程頁（讀取工具的安全機制誤擋，兩次皆失敗）

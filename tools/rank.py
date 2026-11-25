@@ -245,7 +245,7 @@ price("Google PCSA", "考試費 $200", "50–60 題，2 小時"); price("CIDPRO"
 price("PDSO CDE", "$1,199", "24 小時實作加報告，須先有 CDP")
 price("BTL2", "£1,999（含訓練）", "最長 72 小時實作加報告")
 price("CCIE Sec", "核心筆試 $400 加實作考 $1,600", "實作考 8 小時")
-price("MTIA", "$699", "無考試，完成實作練習由講師審核")
+price("MTIA", "$699", "無考試，完成實作練習由講師審核"); price("MGRC", "$699（促銷價 $595）", "無考試，完成實作練習由講師審核")
 price("SACP", "申請費 $369", "120 題"); price("DCPP", "INR 15,000 加稅", "選擇題含個案，65% 及格")
 price("EITCA/IS", "€950", "12 科線上測驗"); price("SOG CAPenX", "原價 $521", "7 小時實作考")
 price("CISSM", "考試券 $190（含兩次機會）", "100 題 90 分鐘")
@@ -365,6 +365,22 @@ DROP = {"GCPM": GIAC_ABEY, "GCWN": GIAC_ABEY, "GLEG": GIAC_ABEY, "GSNA": GIAC_AB
         "eNDP": ("由 eEDA 直接取代（INE 官方部落格 2022-10-05）；退役日 2022-10-19 為第三方推定",
                  "https://ine.com/blog/enterprise-defense-admin-learning-path", "2026-11-25",
                  "取代關係為官方頁面，退役日期為第三方")}
+MOSSE_GONE = ("發證單位的現行證照目錄已無此項（目錄未列，並非停考公告）", "https://www.mosse-institute.com/certifications.html",
+              "2026-11-25", "官方頁面")
+for _l in ("MCL", "MCD", "MESE", "MASE", "MNSE"):
+    DROP[_l] = MOSSE_GONE
+
+# still on the chart, but the issuer's own site raises a doubt; shown dashed with the note
+FLAG = {
+    "MAD SOCA": "現況：MITRE 官方頁面目前顯示 coming soon，是否可報名不明（2026-11-25）",
+    "MAD CTI": "現況：MITRE 官方頁面目前顯示 coming soon，是否可報名不明（2026-11-25）",
+    "SPLK-3001": "現況：Splunk 官方已將此證照列為 legacy（2026-11-24）",
+    "CSR": "現況：官方頁面目前沒有開放報名的梯次（2026-11-24）",
+    "PACES": "現況：原網域已轉址至 INE，找不到這張證照的官方頁面（2026-11-25）",
+    "ACE": "現況：原網域已轉址至 Exterro，官網首頁與導覽列未見此證照（2026-11-25）",
+    "TUV ITSM": "現況：官方頁面註記方案期間至 2024-03，是否仍辦理待確認（2026-11-25）",
+}
+
 RELABEL = {"CM)DFI": ("CM)CFI", "Mile2 Certified Master Cyber Forensics Investigator"),
            "CCD": ("CCDL2", "CyberDefenders Certified CyberDefender Level 2 (formerly CCD)"),
            "C)ISSA": ("C)CSSA", "Mile2 Certified Cybersecurity Systems Auditor (formerly C)ISSA)"),
@@ -548,6 +564,11 @@ def retip(it):
     basis = f"排序依據：{F_ZH[it['F']]}｜{I_ZH[it['I']]}｜{R_ZH[it['R']]}｜{T_ZH[it['T']]}級（{it['tsrc']}）"
     if it["board"]:
         basis += "｜須審查委員會或面試"
+    if lab in FLAG:
+        if ' style="' in h[:h.index("href=")]:
+            h = h.replace(' style="', ' style="opacity:0.55;border-style:dashed;', 1)
+        else:
+            h = h.replace(" href=", ' style="opacity:0.55;border-style:dashed;" href=', 1)
     if lab in PRICE:
         def swap(m):
             first = m.group(2).split("\n")[0]
@@ -557,7 +578,8 @@ def retip(it):
         src_line = f"價格來源：{md.get('conf', OFFICIAL)}｜{md.get('date', '2026-11-25')}"
     else:
         src_line = ""
-    extra = ("\n    " + html.escape(src_line, quote=True) if src_line else "") + "\n    " + html.escape(basis, quote=True) + "\n    " + html.escape(f"評分 {it['score']}｜{B_ZH[it['B']]}", quote=True)
+    extra = ("\n    " + html.escape(FLAG[lab], quote=True) if lab in FLAG else "")
+    extra += ("\n    " + html.escape(src_line, quote=True) if src_line else "") + "\n    " + html.escape(basis, quote=True) + "\n    " + html.escape(f"評分 {it['score']}｜{B_ZH[it['B']]}", quote=True)
     # tooltips open toward the centre so the longer text stays on screen
     side = "tooltipleft" if it["ncol"] <= 12 else "tooltipright" if it["ncol"] >= 36 else "tooltiptext"
     return re.sub(r' (tooltip\w+)="([^"]*)"', lambda m: f' {side}="{m.group(2)}{extra}"', h, count=1)
@@ -599,7 +621,8 @@ rules = f"""
   <p>資料來源：{by_b['V']} 張屬於本次已讀取官方頁面的發證單位（多數是讀該單位的代表頁面，不是逐張查證）；{by_b['K']} 張依發證單位公開的通用考試形式判定，本次未讀取官方頁面；
   {by_b['U']} 張的官方頁面讀不到或尚未查，考試形式暫用該單位的預設值。另有 {n_band} 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
   同分或該列已滿時會落在相鄰列。
-  本次另移除 {len(dropped)} 張停考或退役的證照（{'；'.join(d['label'] + '：' + DROP[d['label']][0] + '，依據' + DROP[d['label']][3] for d in dropped)}）；
+  本次另移除 {len(dropped)} 張停考、退役或已不在官方目錄的證照：{'、'.join(d['label'] for d in dropped)}（各自的原因與來源見 data/retired.csv）；
+  另有 {len(FLAG)} 張現況有疑問，以虛線框標示並在提示文字說明；
   並補上官方已有、原圖未收的 {len(EXTRA)} 張（GIAC 8 張、The SecOps Group 15 張、Mile2 4 張）。
   價格方面，GIAC 全系列與另外 {len(PRICE)} 張已改為 2026 年 11 月官方頁面的數字，其餘仍是 2024 年的內容。</p>
 </section>
@@ -624,6 +647,12 @@ with open(os.path.join(ddir, "prices.csv"), "w", newline="", encoding="utf-8") a
             url = md["url"] if "url" in md else i["href"]
             w.writerow([i["label"], i["name"], " / ".join(PRICE[i["label"]]), md.get("kind", "官方考試費"), url,
                         md.get("date", "2026-11-25"), md.get("conf", OFFICIAL)])
+with open(os.path.join(ddir, "flagged.csv"), "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f)
+    w.writerow(["label", "name", "note"])
+    for i in items:
+        if i["label"] in FLAG:
+            w.writerow([i["label"], i["name"], FLAG[i["label"]]])
 with open(os.path.join(ddir, "retired.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
     w.writerow(["label", "name", "reason", "source", "checked", "confidence"])

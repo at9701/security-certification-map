@@ -7,7 +7,7 @@
 
 - 線上版：`index.html`（GitHub Pages）
 - 原始碼來源：[PaulJerimy/SecCertRoadmap](https://github.com/PaulJerimy/SecCertRoadmap)
-- 證照數：533（原版 481），其中 3 張尚未開考（虛線框）
+- 證照數：528（原版 481）。虛線框共 10 張：3 張尚未開考、7 張現況有疑問
 
 ## 排序規則
 
@@ -30,7 +30,7 @@
 
 | 標記 | 張數 | 意義 |
 |---|---|---|
-| V | 247 | 2026-11 讀取過該發證單位的官方頁面。多數是讀該單位的一個代表頁面，**不是逐張查證** |
+| V | 242 | 2026-11 讀取過該發證單位的官方頁面。多數是讀該單位的一個代表頁面，**不是逐張查證** |
 | K | 210 | 依發證單位公開的通用考試形式判定，這一輪沒有讀官方頁面 |
 | U | 77 | 官方頁面讀不到或尚未查，考試形式暫用預設值 |
 
@@ -48,6 +48,7 @@
 | `data/ranked.csv` | 每張證照的計分輸入、分數、新舊位置、連結 |
 | `data/prices.csv` | 已更新的價格：價格文字、**價格種類**（官方考試費、官方考試券、官方課程含考試、第三方零售參考價、第三方預購價等，分開記錄不混用）、來源網址、查核日期、可信度 |
 | `data/retired.csv` | 已移除的證照：原因、來源、查核日期、可信度 |
+| `data/flagged.csv` | 仍在圖上但現況有疑問的證照與原因（頁面上以虛線框顯示） |
 | `data/findings.md` | 各發證單位的查核筆記與讀不到的頁面 |
 
 可信度分三種：官方頁面（本專案實際讀到）、第三方、維護者提供未經官方驗證。頁面上每張有更新價格的證照，提示文字都會顯示來源與日期。
@@ -63,7 +64,7 @@
 - 更名／取代 32 項（Mile2 C)ISSA→C)CSSA、C)ISSM→C)CSSM、Fortinet 改回 NSE 1–8 共 11 張、SecurityX、OSCP+、HTB CWES、PMRP、CRTL、SC-401、SC-500、CCDL2、CM)CFI、Palo Alto 角色制、Cisco CCNA／CCNP Cybersecurity 與 Automation）
 - 新增 57 張（INE eEDA，及尚未開考的 CompTIA SecOT+、INE eCRA、eAIPT；OffSec、HTB、TCM、TryHackMe、CompTIA SecAI+、ISACA 與 GIAC 的 AI 類，以及官方已有而原圖未收的 27 張：GIAC 8 張、The SecOps Group 15 張、Mile2 4 張）
 - 台灣證照 4 張（iPAS 資訊安全工程師 初級／中級、資通安全職能評量證書 核心／專業）
-- 移除 9 張（INE eNDP 已由 eEDA 取代、MS-100、AZ-220、ISACA CSX-P、GIAC 標示停止報考的 GCPM、GCWN、GLEG、GSNA，以及 Fortinet 新制已無對應的 FCSS ZTA）
+- 移除 14 張（Mosse Institute 的 MCL、MCD、MESE、MASE、MNSE 已不在官方證照目錄、INE eNDP 已由 eEDA 取代、MS-100、AZ-220、ISACA CSX-P、GIAC 標示停止報考的 GCPM、GCWN、GLEG、GSNA，以及 Fortinet 新制已無對應的 FCSS ZTA）
 
 ## 重新產生
 
