@@ -16,6 +16,8 @@ FORMAT     P practical exam / graded report ............ 30
            Q multiple choice ........................... 12
            C attendance / completion ...................  4
 TIER       0 foundation, 1 associate, 2 professional, 3 expert/lead, 4 top of track
+           (3 and 4 only count when backed by a required prior cert/experience, a 24h+ exam or a board;
+           otherwise the issuer's label is treated as professional)
 PREREQ     0 none, 1 recommended experience or a mandatory vendor course (3),
            2 required lower cert or 1-2 yrs (6), 3 3-4 yrs or a chain of two certs (10), 4 5+ yrs (16)
 INTENSITY  0 <=1h, 1 ~2h (2), 2 3-4h (5), 3 6-12h (8), 4 24h or longer (11)
@@ -119,6 +121,7 @@ o("GX-PT|GX-FA", F="P", I=2, R=2, T=3, B="V")
 o("GXPN|GREM|GDAT|GCFA|GNFA|GCIA|GCTI|GDSA|GSTRT|GCPN|GRTP|GIME|GASF|GEIR|GCFR|GMLE|GAWN", T=3)
 o("GISF|GFACT", T=0); o("GSEC|GICSP|GCLD", T=1)
 o("GOAA|GAIPS|GASAE|GSOA", F="P", T=2, B="V")
+o("GCFA|GCIA|GICSP|GPEN", F="B", B="V")      # named on giac.org/cyberlive as having hands-on CyberLive items
 # ISC2
 o("CC", R=0, I=1, T=0, B="V"); o("SSCP", R=2, I=2, T=1, B="V"); o("CGRC", R=2, T=2, B="V")
 o("CSSLP", R=3, T=3, B="V"); o("CISSP|CCSP", R=4, T=3, B="V"); o("CISSP Concentrations", R=4, T=4, B="V")
@@ -134,7 +137,7 @@ o("LPT", F="P", I=5, R=2, T=3, B="V"); o("CPENT", F="P", I=4, T=3); o("CEH", T=2
 o("CCISO", R=4, T=3); o("EISM", T=2, R=0); o("CNDA", T=2); o("CSCU|ECSS|ECES", T=0, I=1, R=0); o("CCSE", T=2)
 # Cisco
 o("CCNA|CCNA Cyber|CCNA Auto", T=1, I=1); o("CCNP Sec|CCNP Ent|CCNP Cyber|CCNP Auto", T=2, I=2)
-o("CCIE Sec|CCIE Ent", F="X", I=3, R=1, T=4, B="V"); o("CCDE", F="X", I=3, R=1, T=4)
+o("CCIE Sec|CCIE Ent", F="X", I=3, R=2, T=4, B="V"); o("CCDE", F="X", I=3, R=2, T=4)   # core exam required before the lab
 # Fortinet / Palo Alto / Juniper / Check Point / F5
 # Fortinet went back to NSE 1-8 on 2026-07-15; keys are the old labels, see RELABEL
 o("FCF", F="Q", I=0, R=0, T=0, B="V"); o("FCA", T=1, B="V")
@@ -476,8 +479,15 @@ def attrs(it):
             r0 = it["row"]
             T = 4 if r0 <= 6 else 3 if r0 <= 11 else 2 if r0 <= 17 else 1 if r0 <= 22 else 0
             tsrc = "沿用 2024 原圖區段"
+    # A tier above "professional" has to be backed by something: a required prior certification or
+    # experience (R >= 2), an exam of 24 hours or more (I >= 4), or a board/interview. Otherwise the
+    # issuer's own "expert" label counts as professional.
+    claimed = T
+    if T > 2 and not (R >= 2 or I >= 4 or board):
+        T = 2
+        tsrc += f"；自稱{T_ZH[claimed]}級，因無強制門檻且考試未達 24 小時，以專業級計"
     score = F_PTS[F] + 8 * T + R_PTS[R] + I_PTS[I] + 3 * board
-    return dict(href=href, host=host, name=name, F=F, I=I, R=R, T=T, B=B, board=board, tsrc=tsrc, score=score,
+    return dict(claimed=claimed, href=href, host=host, name=name, F=F, I=I, R=R, T=T, B=B, board=board, tsrc=tsrc, score=score,
                 tipattr=tipattr, tip=tip)
 
 
@@ -614,7 +624,7 @@ rules = f"""
   滑鼠移到任一張證照上，可以看到它的各項判定與分數。</p>
   <ul>
     <li><strong>考試形式</strong>：實作考 30、實作加筆試或面試 26、情境題／論述／口試 22、實作練習審核 20、選擇題加實作題 16、選擇題 12、修課結業 4。</li>
-    <li><strong>官方級別</strong>：入門 0、初階 8、專業 16、專家 24、頂級 32。</li>
+    <li><strong>官方級別</strong>：入門 0、初階 8、專業 16、專家 24、頂級 32。專家與頂級必須有東西支撐才算數：有強制的前置證照或年資、考試達 24 小時以上、或須經審查委員會或面試，三者至少其一；否則發證單位自稱的級別一律以專業級計。</li>
     <li><strong>報考門檻</strong>：無 0、僅建議經驗或須先修官方課程 3、須前置證照或 1–2 年經驗 6、3–4 年或兩層前置證照 10、5 年以上 16；另須審查委員會或面試加 3。</li>
     <li><strong>考試強度</strong>：1 小時內 0、約 2 小時 2、3–4 小時 5、6–12 小時 8、24 小時以上 11（多日制不再加分）。</li>
   </ul>
@@ -632,9 +642,9 @@ open(out_path, "w", encoding="utf-8").write(out)
 
 with open(csv_path, "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
-    w.writerow("label name host format intensity prereq tier tier_source board score basis old_row new_row col url".split())
+    w.writerow("label name host format intensity prereq tier_claimed tier tier_source board score basis old_row new_row col url".split())
     for i in sorted(items, key=lambda i: -i["score"]):
-        w.writerow([i["label"], i["name"], i["host"], i["F"], i["I"], i["R"], i["T"], i["tsrc"], i["board"], i["score"],
+        w.writerow([i["label"], i["name"], i["host"], i["F"], i["I"], i["R"], i["claimed"], i["T"], i["tsrc"], i["board"], i["score"],
                     i["B"], i["row"], i["nrow"], i["ncol"], i["href"]])
 import os
 ddir = os.path.dirname(csv_path)

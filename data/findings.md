@@ -169,3 +169,9 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - Mosse Institute 官方證照目錄現列 18 張：MCSF、MICS、MOIS、MRCI、MSAF、MBT、MCPT、MCSE、MDFIR、MGRC、MPT、MRE、MTH、MTIA、MCPE、MDSO、MRT、MVRE。圖上的 MCL、MCD、MESE、MASE、MNSE 不在目錄，移除。先前以為停售的 MGRC、MRCI、MCSF、MSAF、MICS、MCPE、MDSO 其實都在（當時只看了導覽列）。MGRC 頁面可購買，$699（促銷 $595）。
 - Exterro 首頁與導覽列未見 ACE 或任何證照，只有 Exterro Academy 訓練連結。
 - 未能讀取：Centri 證照總覽（連結失效）、Zero-Point CRTL 課程頁（讀取工具的安全機制誤擋，兩次皆失敗）
+
+## 規則調整與 GIAC（2026-11-25）
+- 新增規則：專家級與頂級須有強制前置證照或年資、24 小時以上考試、或審查委員會支撐，否則以專業級計。73 張受影響（GIAC 20、Mile2 7、SECO 5、The SecOps Group 6、Mosse 4、GAQM 4 等）。
+- Cisco CCIE／CCDE 的門檻改記為「須先通過核心筆試」（官方頁面：350-701 核心考試加實作考）。
+- giac.org/cyberlive 頁面列出含 CyberLive 實作題的證照：GCFA、GCIA、GICSP、GPEN、GX-FE、GX-CS、GX-IA、GX-IH、GX-PT。該頁是否為完整清單未確認，其餘 GIAC 證照暫不更動。
+- 未讀取：GXPN、GPEN 的個別證照頁（需要使用者在場同意）
