@@ -46,14 +46,12 @@ GX-FE,GIAC Experienced Forensics Examiner,giac.org,P,2,2,3,3,官方級別,0,65,V
 GX-IH,GIAC Experienced Incident Handler,giac.org,P,2,2,3,3,官方級別,0,65,V,14,8,40,https://www.giac.org/pricing/
 GX-IA,GIAC Experienced Intrusion Analyst,giac.org,P,2,2,3,3,官方級別,0,65,V,14,8,29,https://www.giac.org/pricing/
 CFCE,IACIS Certified Forensic Computer Examiner,iacis.com,X,5,1,3,3,官方級別,0,64,V,5,9,38,https://www.iacis.com/certification/
-CREST CCSAS,CREST Certified Simulated Attack Specialist,crest-approved.org,X,3,2,3,3,官方級別,0,64,K,8,9,44,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist
-CREST CCTAPP,CREST Certified Web Application Tester,crest-approved.org,X,3,2,3,3,官方級別,0,64,K,16,9,41,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/
 CREST CCHIA,CREST Certified Host intrustion Analyst,crest-approved.org,X,3,2,3,3,官方級別,0,64,K,17,8,36,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-host-intrusion-analyst
 CREST CCNIA,CREST Certified Network Intrusion Analyst,crest-approved.org,X,3,2,3,3,官方級別,0,64,K,20,8,4,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-network-intrusion-analyst
 CKS,Cloud Native Computing Foundation Certified Kubernetes Security Specialist,cncf.io,P,1,2,3,3,官方級別,0,62,V,14,9,11,https://www.cncf.io/certification/cks/
-HTB COAE,Hack The Box Certified Offensive AI Expert,help.hackthebox.com,P,5,1,2,2,官方級別,0,60,V,11,9,45,https://help.hackthebox.com/en/articles/12741732-academy-certifications
-HTB CPTS,Hack the Box Certified Penetration Testing Specialist,academy.hackthebox.com,P,5,1,2,2,官方級別,0,60,V,16,10,44,https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist/
-HTB CWES,Hack The Box Certified Web Exploitation Specialist,hackthebox.com,P,5,1,2,2,官方級別,0,60,V,17,10,43,https://www.hackthebox.com/blog/htb-cwes-announcement
+HTB COAE,Hack The Box Certified Offensive AI Expert,help.hackthebox.com,P,5,1,2,2,官方級別,0,60,V,11,9,44,https://help.hackthebox.com/en/articles/12741732-academy-certifications
+HTB CPTS,Hack the Box Certified Penetration Testing Specialist,academy.hackthebox.com,P,5,1,2,2,官方級別,0,60,V,16,9,45,https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist/
+HTB CWES,Hack The Box Certified Web Exploitation Specialist,hackthebox.com,P,5,1,2,2,官方級別,0,60,V,17,9,41,https://www.hackthebox.com/blog/htb-cwes-announcement
 HTB CDSA,Hack the Box Certified Defensive Security Analyst,academy.hackthebox.com,P,5,1,2,2,官方級別,0,60,V,20,10,37,https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst
 Zach EAPro,Zachman Enterprise Architect Professional (Level 3),zachman.com,S,1,3,3,3,官方級別,0,58,V,6,10,20,https://www.zachman.com/certification/what-we-certify/enterprise-architect
 ASIS CPP,ASIS Certified Protection Professional,asisonline.org,Q,2,4,3,3,官方級別,0,57,V,6,10,17,https://www.asisonline.org/certification/certified-protection-professional-cpp/
@@ -66,23 +64,23 @@ eCTHP,eLearnSecurity Certified Threat Hunting Professional,security.ine.com,P,4,
 CRISC,ISACA Certified in Risk and Information Systems Control,isaca.org,Q,2,4,3,3,官方級別,0,57,K,12,10,25,https://www.isaca.org/credentialing/crisc
 OSCP+,OffSec Certified Professional (OSCP / OSCP+),offsec.com,P,4,0,2,2,官方級別,0,57,V,12,10,45,https://www.offsec.com/pwk-oscp
 CISA,ISACA Certified Information Systems Auditor,isaca.org,Q,2,4,3,3,官方級別,0,57,K,13,11,27,https://www.isaca.org/credentialing/cisa
-CRTO,Zero Point Security Certified Red Team Operator,courses.zeropointsecurity.co.uk,P,4,0,2,2,官方級別,0,57,K,13,11,44,https://courses.zeropointsecurity.co.uk/courses/red-team-ops
+CRTO,Zero Point Security Certified Red Team Operator,courses.zeropointsecurity.co.uk,P,4,0,2,2,官方級別,0,57,K,13,10,42,https://courses.zeropointsecurity.co.uk/courses/red-team-ops
 eCDFP,eLearnSecurity Certified Digital Forensics Professional,security.ine.com,P,4,0,2,2,官方級別,0,57,K,14,11,38,https://security.ine.com/certifications/ecdfp-certification/
-PNPT,TCM Security Practical Network Penetration Tester,certifications.tcm-sec.com,P,5,0,2,2,官方級別,0,57,V,14,11,41,https://certifications.tcm-sec.com/pnpt/
-SOG CAPenX,The SecurityOps Group Certified AppSec Pentesting eXpert,secops.group,P,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,57,V,14,12,45,https://secops.group/product/certified-appsec-pentesting-expert-capenx/
+PNPT,TCM Security Practical Network Penetration Tester,certifications.tcm-sec.com,P,5,0,2,2,官方級別,0,57,V,14,11,42,https://certifications.tcm-sec.com/pnpt/
+SOG CAPenX,The SecurityOps Group Certified AppSec Pentesting eXpert,secops.group,P,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,57,V,14,11,43,https://secops.group/product/certified-appsec-pentesting-expert-capenx/
 CCSP,ISC2 Certified Cloud Security Professional,isc2.org,Q,2,4,3,3,官方級別,0,57,V,15,10,8,https://www.isc2.org/Certifications/CCSP
 CGEIT,ISACA Certified in the Governance of Enterprise IT,isaca.org,Q,2,4,3,3,官方級別,0,57,K,15,10,23,https://www.isaca.org/credentialing/cgeit
-PWPP,TCM Security Practical Web Pentest Professional,certifications.tcm-sec.com,P,5,0,2,2,官方級別,0,57,V,15,12,41,https://certifications.tcm-sec.com/product-category/exams
-CCPenX-AWS,The SecurityOps Group Certified Cloud Pentesting eXpert-AWS,secops.group,P,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,57,V,15,11,45,https://secops.group/product/certified-cloud-pentesting-expert/
+PWPP,TCM Security Practical Web Pentest Professional,certifications.tcm-sec.com,P,5,0,2,2,官方級別,0,57,V,15,11,41,https://certifications.tcm-sec.com/product-category/exams
+CCPenX-AWS,The SecurityOps Group Certified Cloud Pentesting eXpert-AWS,secops.group,P,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,57,V,15,10,43,https://secops.group/product/certified-cloud-pentesting-expert/
 eCIR,eLearnSecurity Certified Incident Responder,security.ine.com,P,4,0,2,2,官方級別,0,57,K,17,11,39,https://security.ine.com/certifications/ecir-certification/
 eCPPT,eLearnSecurity Certified Professional Penetration Tester,security.ine.com,P,4,0,2,2,官方級別,0,57,K,17,12,42,https://security.ine.com/certifications/ecppt-certification/
-eWPT,eLearnSecurity Web Application Penetration Tester,security.ine.com,P,4,0,2,2,官方級別,0,57,K,17,11,46,https://security.ine.com/certifications/ewpt-certification/
+eWPT,eLearnSecurity Web Application Penetration Tester,security.ine.com,P,4,0,2,2,官方級別,0,57,K,17,12,44,https://security.ine.com/certifications/ewpt-certification/
 PMRP,TCM Security Practical Malware Research Professional,certifications.tcm-sec.com,P,5,0,2,2,官方級別,0,57,V,17,10,47,https://certifications.tcm-sec.com/pmrp/
 OSDA,OffSec Defense Analyst,offensive-security.com,P,4,0,2,2,官方級別,0,57,V,19,10,40,https://www.offensive-security.com/soc200-osda/
-eMAPT,eLearnSecurity Mobile Application Penetration Tester,security.ine.com,P,4,0,2,2,官方級別,0,57,K,19,12,44,https://security.ine.com/certifications/emapt-certification/
-OSWA,OffSec Web Assessor,offensive-security.com,P,4,0,2,2,官方級別,0,57,V,19,11,42,https://www.offensive-security.com/web200-oswa/
-C-ADPenX,The SecOps Group Certified Active Directory Pentesting eXpert (C-ADPenX),pentestingexams.com,P,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,57,V,14,10,42,https://pentestingexams.com/
-CRTeamerX,The SecOps Group Certified Red Teamer - eXpert,pentestingexams.com,P,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,57,V,14,11,43,https://pentestingexams.com/
+eMAPT,eLearnSecurity Mobile Application Penetration Tester,security.ine.com,P,4,0,2,2,官方級別,0,57,K,19,12,41,https://security.ine.com/certifications/emapt-certification/
+OSWA,OffSec Web Assessor,offensive-security.com,P,4,0,2,2,官方級別,0,57,V,19,11,44,https://www.offensive-security.com/web200-oswa/
+C-ADPenX,The SecOps Group Certified Active Directory Pentesting eXpert (C-ADPenX),pentestingexams.com,P,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,57,V,14,10,44,https://pentestingexams.com/
+CRTeamerX,The SecOps Group Certified Red Teamer - eXpert,pentestingexams.com,P,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,57,V,14,11,45,https://pentestingexams.com/
 CCPenX-Az,The SecOps Group Certified Cloud Pentesting eXpert - Azure,pentestingexams.com,P,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,57,V,14,10,10,https://pentestingexams.com/
 CBTeamerX,The SecOps Group Certified Blue Teamer - eXpert,pentestingexams.com,P,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,57,V,14,10,35,https://pentestingexams.com/
 eEDA,INE eLearnSecurity Enterprise Defense Administrator (replaces eNDP),ine.com,P,4,0,2,2,官方級別,0,57,U,14,10,3,https://ine.com/blog/enterprise-defense-admin-learning-path
@@ -97,13 +95,13 @@ GOAA,GIAC Offensive AI Analyst,giac.org,P,2,1,2,2,官方級別,0,54,V,12,13,44,h
 GSOA,GIAC Strategic OSINT Analyst,giac.org,P,2,1,2,2,官方級別,0,54,V,13,11,40,https://www.giac.org/pricing/
 OSIR,OffSec Incident Responder,offsec.com,P,3,0,2,2,官方級別,0,54,V,17,12,36,https://www.offsec.com/courses
 OSTH,OffSec Threat Hunter,offsec.com,P,3,0,2,2,官方級別,0,54,V,19,13,36,https://www.offsec.com/courses
-BSCP,Portswigger Burp Suite Certified Practioner,portswigger.net,P,2,1,2,2,官方級別,0,54,K,19,13,43,https://portswigger.net/web-security/certification
+BSCP,Portswigger Burp Suite Certified Practioner,portswigger.net,P,2,1,2,2,官方級別,0,54,K,19,12,45,https://portswigger.net/web-security/certification
 IIA CIA,The Institute of Internal Auditors Certified Internal Auditor,na.theiia.org,Q,3,3,3,3,官方級別,0,54,K,20,11,31,https://na.theiia.org/certification/CIA-Certification/Pages/CIA-Certification.aspx
 THM SAL2,TryHackMe Security Analyst Level 2,tryhackme.com,P,3,0,2,2,官方級別,0,54,K,22,11,37,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026
 PDSO CDP,PDSO Certified DevSecOps Professional,practical-devsecops.com,P,3,0,2,2,官方級別,0,54,K,23,11,9,https://www.practical-devsecops.com/certified-devsecops-professional/
 CAWFE,IACIS Certified Advanced Windows Forensic Examiner,iacis.com,X,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,53,V,7,12,37,https://www.iacis.com/certification/cawfe/
 CFSR,OpenText Certified Forensic Security Responder,opentext.com,X,3,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,53,K,8,12,38,https://www.opentext.com/products-and-solutions/services/training-and-learning-services/encase-training/forensic-security-responder-certification
-CREST CRT,CREST Registered Penetration Tester,crest-approved.org,X,2,2,2,2,官方級別,0,53,V,10,13,45,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-penetration-tester
+CREST CRT,CREST Registered Penetration Tester,crest-approved.org,X,2,2,2,2,官方級別,0,53,V,10,13,43,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-penetration-tester
 EnCE,OpenText EnCase Certified Examiner,opentext.com,X,3,1,2,2,官方級別,0,53,K,17,13,37,https://www.opentext.com/products-and-solutions/services/training-and-learning-services/encase-training/examiner-certification
 OSIP,IntelTechniques Open Source Intelligence Professional,inteltechniques.com,P,5,1,1,1,官方級別,0,52,V,18,13,35,https://inteltechniques.com/training-osip.html
 HTB CJCA,Hack The Box Certified Junior Cybersecurity Associate,help.hackthebox.com,P,5,1,1,1,官方級別,0,52,V,20,13,41,https://help.hackthebox.com/en/articles/12741732-academy-certifications
@@ -111,29 +109,29 @@ PMP,PMI Project Management Professional,pmi.org,Q,2,3,3,3,官方級別,0,51,K,6,
 NCSC CCPP,NCSC Certified Cybersecurity Professional - Practitioner,ncsc.gov.uk,S,0,3,2,2,官方級別,1,51,K,8,12,26,https://www.ncsc.gov.uk/information/about-certified-professional-scheme
 CSSLP,ISC2 Certified Secure Software Lifecycle Professional,isc2.org,Q,2,3,3,3,官方級別,0,51,V,14,12,27,https://www.isc2.org/Certifications/CSSLP
 DCBCLA,DRI Certified Business Continuity Lead Auditor,drii.org,Q,1,3,3,3,官方級別,1,51,V,19,13,27,https://drii.org/certification/cbcla
-SOG CAPen,The SecOps Group Certified AppSec Pentester,secops.group,P,2,0,2,2,官方級別,0,51,V,21,13,46,https://secops.group/product/certified-appsec-pentester/
-SOG CNPen,The SecOps Group Certified Network Pentester,secops.group,P,2,0,2,2,官方級別,0,51,V,21,14,47,https://secops.group/product/certified-network-pentester/
-SOG CMPen And,The SecOps Group Certified Mobile Pentester - Android,secops.group,P,2,0,2,2,官方級別,0,51,V,22,13,47,https://secops.group/product/certified-mobile-pentester-cmpen-android/
-SOG CMPen iOS,The SecOps Group Certified Mobile Pentester - iOS,secops.group,P,2,0,2,2,官方級別,0,51,V,22,11,47,https://secops.group/product/certified-mobile-pentester-cmpen-ios/
+SOG CAPen,The SecOps Group Certified AppSec Pentester,secops.group,P,2,0,2,2,官方級別,0,51,V,21,12,47,https://secops.group/product/certified-appsec-pentester/
+SOG CNPen,The SecOps Group Certified Network Pentester,secops.group,P,2,0,2,2,官方級別,0,51,V,21,11,46,https://secops.group/product/certified-network-pentester/
+SOG CMPen And,The SecOps Group Certified Mobile Pentester - Android,secops.group,P,2,0,2,2,官方級別,0,51,V,22,13,46,https://secops.group/product/certified-mobile-pentester-cmpen-android/
+SOG CMPen iOS,The SecOps Group Certified Mobile Pentester - iOS,secops.group,P,2,0,2,2,官方級別,0,51,V,22,13,47,https://secops.group/product/certified-mobile-pentester-cmpen-ios/
 C-AI/MLPen,The SecOps Group Certified AI/ML Pentester (C-AI/MLPen),pentestingexams.com,P,2,0,2,2,官方級別,0,51,V,14,13,42,https://pentestingexams.com/
-C-APIPen,The SecOps Group Certified API Pentester (C-APIPen),pentestingexams.com,P,2,0,2,2,官方級別,0,51,V,14,14,42,https://pentestingexams.com/
-CRTeamer,The SecOps Group Certified Red Teamer,pentestingexams.com,P,2,0,2,2,官方級別,0,51,V,14,12,47,https://pentestingexams.com/
+C-APIPen,The SecOps Group Certified API Pentester (C-APIPen),pentestingexams.com,P,2,0,2,2,官方級別,0,51,V,14,13,45,https://pentestingexams.com/
+CRTeamer,The SecOps Group Certified Red Teamer,pentestingexams.com,P,2,0,2,2,官方級別,0,51,V,14,14,42,https://pentestingexams.com/
 CBFRPro,The SecOps Group Certified Binary Fuzzing & Reversing Professional,pentestingexams.com,P,2,0,2,2,官方級別,0,51,V,14,12,46,https://pentestingexams.com/
 CKBPro,The SecOps Group Certified Kiosk Breakout Professional,pentestingexams.com,P,2,0,2,2,官方級別,0,51,V,14,14,44,https://pentestingexams.com/
 CBTeamer,The SecOps Group Certified Blue Teamer,pentestingexams.com,P,2,0,2,2,官方級別,0,51,V,14,14,36,https://pentestingexams.com/
 CDAPen,The SecOps Group Certified Desktop Application Pentester,pentestingexams.com,P,2,0,2,2,官方級別,0,51,V,14,14,41,https://pentestingexams.com/
 C-AgAIPen,The SecOps Group Certified Agentic AI Pentester (C-AgAIPen),pentestingexams.com,P,2,0,2,2,官方級別,0,51,V,14,14,43,https://pentestingexams.com/
-CREST CCTINF,CREST Certified Infrastructure Tester,crest-approved.org,X,3,0,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,50,V,9,15,43,hhttps://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester
-CREST CRIA,CREST Registered Intrusion Analyst,crest-approved.org,X,2,1,2,2,官方級別,0,50,K,15,14,38,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-intrusion-analyst
-CREST CRTIA,CREST Registered Threat Intelligence Analyst,crest-approved.org,X,2,1,2,2,官方級別,0,50,K,15,12,40,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst
+CREST CCSAS,CREST Certified Simulated Attack Specialist,crest-approved.org,X,3,0,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,50,V,8,15,44,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist
+CREST CCTINF,CREST Certified Infrastructure Tester,crest-approved.org,X,3,0,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,50,V,9,15,45,hhttps://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester
+CREST CCTAPP,CREST Certified Web Application Tester,crest-approved.org,X,3,0,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,50,V,16,15,43,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/
 CSTL,Cyber Scheme Team Leader,thecyberscheme.org,X,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,50,V,17,15,41,https://thecyberscheme.org/cyber-scheme-team-leader-cstl-exam/
 OPST,ISECOM OSSTMM Professional Security Tester,isecom.org,X,2,1,2,2,名稱所示級別,0,50,U,19,15,46,https://www.isecom.org/certification.html
 CSTM,Cyber Scheme Team Member,thecyberscheme.org,X,2,1,2,2,官方級別,0,50,V,20,15,42,https://thecyberscheme.org/cyber-scheme-team-member-cstm-exam/
-CHAT,ISECOM Certified Hacker Analyst Trainer,isecom.org,X,2,1,2,2,名稱所示級別,0,50,U,20,15,45,https://www.isecom.org/certification.html
+CHAT,ISECOM Certified Hacker Analyst Trainer,isecom.org,X,2,1,2,2,名稱所示級別,0,50,U,20,14,47,https://www.isecom.org/certification.html
 OPSA,ISECOM OSSTMM Professional Security Analyst,isecom.org,X,2,1,2,2,名稱所示級別,0,50,U,21,14,35,https://www.isecom.org/certification.html
 OWSE,ISECOM OSSTMM Wireless Security Expert,isecom.org,X,2,1,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,50,U,22,12,4,https://www.isecom.org/certification.html
 OPSE,ISECOM OSSTMM Professional Security Expert,isecom.org,X,2,1,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,50,U,25,12,39,https://www.isecom.org/certification.html
-CHA,ISECOM Certified Hacker Analyst,isecom.org,X,2,1,2,2,名稱所示級別,0,50,U,25,15,44,https://www.isecom.org/certification.html
+CHA,ISECOM Certified Hacker Analyst,isecom.org,X,2,1,2,2,名稱所示級別,0,50,U,25,11,47,https://www.isecom.org/certification.html
 PECB 27005LM,PECB ISO/IEC 27005 Lead Risk Manager,pecb.com,Q,2,4,2,2,官方級別,0,49,V,15,13,24,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-27005-lead-risk-manager
 PECB 27001LA,PECB ISO/IEC 27001 Lead Auditor,pecb.com,Q,2,4,2,2,官方級別,0,49,V,15,13,31,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-auditor
 PECB 27001LI,PECB ISO/IEC 27001 Lead Implementer,pecb.com,Q,2,4,2,2,官方級別,0,49,V,16,13,25,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-implementer
@@ -160,16 +158,18 @@ PCI QSA,PCI Qualified Security Assessor,pcisecuritystandards.org,Q,1,2,3,3,官�
 CREST CRTSA,CREST Registered Technical Security Architect,crest-approved.org,S,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,46,V,3,14,14,https://www.crest-approved.org/examination/technical-security-architecture/index.html
 CREST CSAM,CREST Certified Simulated Attack Manager,crest-approved.org,S,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,46,V,7,14,45,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-manager
 CREST CCTIM,CREST Certified Threat Intelligence Manager,crest-approved.org,S,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,46,V,12,17,42,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager
+CREST CRTIA,CREST Registered Threat Intelligence Analyst,crest-approved.org,S,2,1,2,2,官方級別,0,46,V,15,14,40,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst
 CSAE,Cyber Struggle AEGIS,cyberstruggle.org,P,2,1,1,1,官方級別,0,46,V,21,15,36,https://cyberstruggle.org/aegis-certification/
+CREST CCIM,CREST Certified Incident Manager,crest-approved.org,S,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,46,V,14,14,38,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/
 LPIC-3,Linux Professional Institute Certified: 303 Security,lpi.org,Q,1,2,3,3,官方級別,0,44,V,9,14,12,https://www.lpi.org/our-certifications/lpic-3-303-overview
 MTIA,Mosse Institute Certified Threat Intelligence Analyst Certification,mosse-institute.com,E,3,0,2,2,名稱所示級別,0,44,V,9,15,37,https://www.mosse-institute.com/certifications/mtia-certified-threat-intelligence-analyst.html
 MRT,Mosse Institute Certified Red Teamer Certification,mosse-institute.com,E,3,0,3,2,沿用 2024 原圖區段；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,44,V,9,17,45,https://www.mosse-institute.com/certifications/mrt-certified-red-teamer.html
-MCPE,Mosse Institute Certified Cyber Protection Expert,mosse-institute.com,E,3,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,44,V,12,14,39,https://www.mosse-institute.com/certifications/mcpe-certified-cyber-protection-expert.html
+MCPE,Mosse Institute Certified Cyber Protection Expert,mosse-institute.com,E,3,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,44,V,12,15,40,https://www.mosse-institute.com/certifications/mcpe-certified-cyber-protection-expert.html
 CCSM,Checkpoint Certified Security Master,training-certifications.checkpoint.com,Q,1,2,3,3,官方級別,0,44,K,14,14,2,https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Master%20(CCSM)%20R80.x
 MGRC,Mosse Institute Certified GRC Expert Certification,mosse-institute.com,E,3,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,44,V,14,14,24,https://www.mosse-institute.com/certifications/mgrc-certified-grc-practitioner.html
 MTH,Mosse Institute Certified Threat Hunter Certification,mosse-institute.com,E,3,0,2,2,沿用 2024 原圖區段,0,44,V,14,14,37,https://www.mosse-institute.com/certifications/mth-certified-threat-hunter.html
-MDFIR,Mosse Institute Certified DFIR Specialist,mosse-institute.com,E,3,0,2,2,名稱所示級別,0,44,V,14,15,40,https://www.mosse-institute.com/certifications/mdfir-certified-dfir-specialist.html
-MBT,Mosse Institute Certified Blue Teamer Certification,mosse-institute.com,E,3,0,2,2,沿用 2024 原圖區段,0,44,V,16,14,40,https://www.mosse-institute.com/certifications/mbt-certified-blue-teamer.html
+MDFIR,Mosse Institute Certified DFIR Specialist,mosse-institute.com,E,3,0,2,2,名稱所示級別,0,44,V,14,15,39,https://www.mosse-institute.com/certifications/mdfir-certified-dfir-specialist.html
+MBT,Mosse Institute Certified Blue Teamer Certification,mosse-institute.com,E,3,0,2,2,沿用 2024 原圖區段,0,44,V,16,14,39,https://www.mosse-institute.com/certifications/mbt-certified-blue-teamer.html
 MPT,Mosse Institute Certified Penetration Tester Certification,mosse-institute.com,E,3,0,2,2,名稱所示級別,0,44,V,16,17,44,https://www.mosse-institute.com/certifications/mpt-certified-penetration-tester.html
 MRE,Mosse Institute Certified Reverse Engineer Certification,mosse-institute.com,E,3,0,2,2,名稱所示級別,0,44,V,16,17,46,https://www.mosse-institute.com/certifications/mre-certified-reverse-engineer.html
 C)ISSO,Mile2 Certified Information Systems Security Officer,mile2.com,Q,1,2,3,3,名稱所示級別,0,44,V,18,14,22,https://www.mile2.com/cisso_outline/
@@ -183,16 +183,17 @@ Zach EAP,Zachman Enterprise Architect Practitioner (Level 2),zachman.com,S,1,1,2
 CDPSE,ISACA Certified Data Privacy Solutions Engineer,isaca.org,Q,2,3,2,2,官方級別,0,43,K,13,15,17,https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer
 OSWP,OffSec Wireless Professional,offensive-security.com,P,2,0,1,1,官方級別,0,43,V,13,18,44,https://www.offensive-security.com/wifu-oswp/
 RHCSA,Red Hat Certified System Administrator,redhat.com,P,2,0,1,1,官方級別,0,43,K,15,15,12,https://www.redhat.com/en/services/certification/rhcsa
+CREST CRIA,CREST Registered Intrusion Analyst,crest-approved.org,B,2,2,2,2,官方級別,0,43,V,15,16,37,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-intrusion-analyst
 ASIS PCI,ASIS Professional Certified Investigator,asisonline.org,Q,2,3,2,2,官方級別,0,43,V,21,15,38,https://www.asisonline.org/certification/professional-certified-investigator-pci
-THM SAL1,TryHackMe Security Analyst Level 1,tryhackme.com,P,2,0,1,1,官方級別,0,43,K,25,15,39,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026
+THM SAL1,TryHackMe Security Analyst Level 1,tryhackme.com,P,2,0,1,1,官方級別,0,43,K,25,13,40,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026
 GREM,GIAC Reverse Engineering Malware,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,4,16,31,https://www.giac.org/certifications/reverse-engineering-malware-grem/
 GXPN,GIAC Exploit Researcher and Advanced Penetration Tester,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,5,16,45,https://www.giac.org/certification/gxpn
 GCFA,GIAC Certified Forensic Analyst,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,7,16,38,https://www.giac.org/certification/gcfa
-GCTI,GIAC Cyber Threat Intelligence,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,7,17,37,https://www.giac.org/certification/gcti
-GNFA,GIAC Network Forensic Analyst,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,8,18,37,https://www.giac.org/certification/network-forensic-analyst-gnfa
-GCFR,GIAC Cloud Forensics Responder,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,9,16,37,https://www.giac.org/certifications/cloud-forensics-responder-gcfr/
+GCTI,GIAC Cyber Threat Intelligence,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,7,17,36,https://www.giac.org/certification/gcti
+GNFA,GIAC Network Forensic Analyst,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,8,18,36,https://www.giac.org/certification/network-forensic-analyst-gnfa
+GCFR,GIAC Cloud Forensics Responder,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,9,17,37,https://www.giac.org/certifications/cloud-forensics-responder-gcfr/
 GCFE,GIAC Cerified Forensics Examiner,giac.org,B,2,1,2,2,名稱所示級別,0,40,V,10,17,38,https://www.giac.org/certification/gcfe
-GEIR,GIAC Enterprise Incident Response,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,10,17,36,https://www.giac.org/certifications/enterprise-incident-responder-geir/
+GEIR,GIAC Enterprise Incident Response,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,10,17,35,https://www.giac.org/certifications/enterprise-incident-responder-geir/
 SecurityX,CompTIA SecurityX (formerly CASP+),comptia.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,K,11,16,22,https://www.comptia.org/en-us/certifications/securityx/
 GMON,GIAC Continuous Monitoring,giac.org,B,2,1,2,2,沿用 2024 原圖區段,0,40,V,13,16,30,https://www.giac.org/certification/continuous-monitoring-certification-gmon
 GCIH,GIAC Certified Forensics Analystr,giac.org,B,2,1,2,2,名稱所示級別,0,40,V,13,16,40,https://www.giac.org/certification/gcih
@@ -205,7 +206,7 @@ GMLE,GIAC Machine Learning Engineer,giac.org,B,2,1,3,2,官方級別；自稱專�
 CACS,Excida IEC 62443 Certified Automation Cybersecurity Specialist,exidacace.com,Q,1,3,2,2,官方級別,0,40,K,25,16,13,https://www.exidacace.com/Apply/CACS
 GCAD,GIAC Cloud Security Architecture and Design,giac.org,B,2,1,2,2,官方級別,0,40,V,14,16,9,https://www.giac.org/pricing/
 GCIL,GIAC Cyber Incident Leader,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,14,18,40,https://www.giac.org/pricing/
-GLIR,GIAC Linux Incident Responder,giac.org,B,2,1,2,2,官方級別,0,40,V,14,17,35,https://www.giac.org/pricing/
+GLIR,GIAC Linux Incident Responder,giac.org,B,2,1,2,2,官方級別,0,40,V,14,18,37,https://www.giac.org/pricing/
 GSOM,GIAC Security Operations Manager,giac.org,B,2,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,40,V,14,16,26,https://www.giac.org/pricing/
 CGRC,"ISC2 Certified in Governance, Risk and Compliance",isc2.org,Q,2,2,2,2,官方級別,0,39,V,12,17,23,https://www.isc2.org/Certifications/CGRC
 PMI ACP,PMI Agile Certified Practitioner,pmi.org,Q,2,2,2,2,官方級別,0,39,K,15,16,21,https://www.pmi.org/certifications/types/agile-acp
@@ -233,7 +234,7 @@ F5 CTS APM,F5 Big-IP Certified Technical Specialist - Access Policy Manager,view
 FCP NS,Fortinet Certified Professional - Network Security,training.fortinet.com,Q,1,2,2,2,官方級別,0,36,V,18,18,3,https://training.fortinet.com/local/staticpage/view.php?page=fcp_network_security
 LPIC-2,Linux Professional Institute Certified: Linux Engineer,lpi.org,Q,1,2,2,2,官方級別,0,36,V,18,17,12,https://www.lpi.org/our-certifications/lpic-2-overview
 CHFI,EC Council Computer Hacking Forensics Investigator,eccouncil.org,Q,2,1,2,2,官方級別,0,36,V,18,19,37,https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
-ECIH,EC Council Certified Incident Handler,eccouncil.org,Q,2,1,2,2,官方級別,0,36,V,18,19,35,https://www.eccouncil.org/programs/ec-council-certified-incident-handler-ecih/
+ECIH,EC Council Certified Incident Handler,eccouncil.org,Q,2,1,2,2,官方級別,0,36,V,18,20,40,https://www.eccouncil.org/programs/ec-council-certified-incident-handler-ecih/
 F5 CTS DNS,F5 Big-IP Certified Technical Specialist - Domain Name Services,view.ceros.com,Q,1,2,2,2,官方級別,0,36,V,19,17,4,https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740
 TUV ITSM,TUV IT Security Manager (GERMAN),certipedia.com,Q,1,2,2,2,官方級別,0,36,V,19,17,24,https://www.certipedia.com/quality_marks/0000063483?locale=en
 PECB 27005RM,PECB ISO/IEC 27005 Risk Manager,pecb.com,Q,2,1,2,2,官方級別,0,36,K,19,17,25,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-risk-manager
@@ -242,10 +243,10 @@ CCSE,EC Council Certified Cloud Security Engineer,cert.eccouncil.org,Q,2,1,2,2,�
 CNDA,EC Council Certified Network Defense Architect,eccouncil.org,Q,2,1,2,2,官方級別,0,36,K,20,17,20,https://www.eccouncil.org/programs/certified-network-defense-architect-cnda/
 MRCI,Mosse Institute Remote Cybersecurity Internship Programme,mosse-institute.com,E,3,0,1,1,沿用 2024 原圖區段,0,36,V,20,20,36,https://www.mosse-institute.com/certifications/mrci-remote-cybersecurity-internship.html
 EDRP,EC Council Disaster Recovery Professional,eccouncil.org,Q,2,1,2,2,官方級別,0,36,K,20,20,37,https://www.eccouncil.org/programs/disaster-recovery-professional-edrp/
-CTIA,EC Council Certified Threat intelligence Analyst,eccouncil.org,Q,2,1,2,2,官方級別,0,36,K,20,19,36,https://www.eccouncil.org/programs/certified-threat-intelligence-analyst-ctia/
+CTIA,EC Council Certified Threat intelligence Analyst,eccouncil.org,Q,2,1,2,2,官方級別,0,36,K,20,19,35,https://www.eccouncil.org/programs/certified-threat-intelligence-analyst-ctia/
 GRCA,"OCEG Governance, Risk, and Compliance Auditor",oceg.org,Q,1,2,2,2,官方級別,0,36,V,21,17,30,https://www.oceg.org/certifications/grc-audit-certification/
 CEH,EC Council Certified Ethical Hacker,eccouncil.org,Q,2,1,2,2,官方級別,0,36,V,21,17,40,https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/
-CSA,EC Council Certified SOC Analyst,eccouncil.org,Q,2,1,2,2,官方級別,0,36,K,22,18,36,https://www.eccouncil.org/programs/certified-soc-analyst-csa/
+CSA,EC Council Certified SOC Analyst,eccouncil.org,Q,2,1,2,2,官方級別,0,36,K,22,19,36,https://www.eccouncil.org/programs/certified-soc-analyst-csa/
 CND,EC Council Certified Network Defender,eccouncil.org,Q,2,1,2,2,官方級別,0,36,V,26,19,40,https://www.eccouncil.org/programs/certified-network-defender-cnd/
 SecAI+,CompTIA SecAI+,comptia.org,B,0,1,2,2,官方級別,0,35,V,22,18,21,https://www.comptia.org/en-us/certifications/secai/
 GIME,GIAC iOS and MacOS Examiner,giac.org,Q,1,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,33,V,6,19,38,https://www.giac.org/certifications/ios-macos-examiner-gime/
@@ -255,7 +256,7 @@ Google PCSA,Google Professional Cloud Architect,cloud.google.com,Q,1,1,2,2,官�
 GDSA,GIAC Defensible Security Architecture,giac.org,Q,1,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,33,V,10,20,14,https://www.giac.org/certification/defensible-security-architecture-gdsa
 CCNP Sec,Cisco Certified Network Professional - Security,cisco.com,Q,2,0,2,2,官方級別,0,33,K,11,18,2,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security-v2.html
 CIMP,Identify Management Institute Certified Identity Management Professional,identitymanagementinstitute.org,Q,1,1,2,2,名稱所示級別,0,33,V,11,21,6,https://www.identitymanagementinstitute.org/cimp/
-GASF,GIAC Advanced Smartphone Forensics,giac.org,Q,1,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,33,V,11,21,37,https://www.giac.org/certification/advanced-smartphone-forensics-gasf
+GASF,GIAC Advanced Smartphone Forensics,giac.org,Q,1,1,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,33,V,11,21,36,https://www.giac.org/certification/advanced-smartphone-forensics-gasf
 GCTD,GIAC Cloud Threat Detection,giac.org,Q,1,1,2,2,沿用 2024 原圖區段,0,33,V,12,18,9,https://www.giac.org/certifications/cloud-threat-detection-gctd/
 GCCC,GIAC Critical Controls Certification,giac.org,Q,1,1,2,2,沿用 2024 原圖區段,0,33,V,12,19,31,https://www.giac.org/certification/critical-controls-certification-gccc
 CCNP Cyber,Cisco CCNP Cybersecurity,cisco.com,Q,2,0,2,2,官方級別,0,33,K,12,20,35,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/cyberops-professional.html
@@ -268,7 +269,7 @@ CIS LI,IBITGQ Certified ISO 27001 Information Security Management Specialist Lea
 CIPT,IAPP Certified Information Privacy Technologist,iapp.org,Q,2,0,2,2,官方級別,0,33,K,13,16,17,https://iapp.org/certify/cipt/
 CIS LA,IBITGQ Certified ISO 27001 Information Security Management Specialist Lead Auditor,itgovernance.co.uk,Q,1,1,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,33,V,13,18,30,https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-auditor-training-course
 GCDA,GIAC Certified Detection Analyst,giac.org,Q,1,1,2,2,名稱所示級別,0,33,V,13,21,35,https://www.giac.org/certification/certified-detection-analyst-gcda
-CMFE,Infosec Institute Certified Mobile Forensics Examiner,app.infosecinstitute.com,Q,1,1,2,2,名稱所示級別,0,33,K,13,20,40,https://app.infosecinstitute.com/portal/courses/a0t1A000009H6juQAC
+CMFE,Infosec Institute Certified Mobile Forensics Examiner,app.infosecinstitute.com,Q,1,1,2,2,名稱所示級別,0,33,K,13,21,37,https://app.infosecinstitute.com/portal/courses/a0t1A000009H6juQAC
 CIAM,Identify Management Institute Certified Identify and Access Manager,identitymanagementinstitute.org,Q,1,1,2,2,名稱所示級別,0,33,V,14,19,6,https://www.identitymanagementinstitute.org/ciam/
 VCP DCV,VMware Certified Professional in Datacenter Virtualization,vmware.com,Q,1,1,2,2,官方級別,0,33,U,14,20,10,https://www.vmware.com/education-services/certification/vcp-dcv.html
 CSSA,Infosec Institute Certified SCADA Security Architect,app.infosecinstitute.com,Q,1,1,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,33,K,14,18,14,https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4JIAS
@@ -282,8 +283,8 @@ CTPRA,Shared Assessment Certified Third-Party Risk Assessor,sharedassessments.or
 CCNP Auto,Cisco CCNP Automation,cisco.com,Q,2,0,2,2,官方級別,0,33,K,15,20,33,https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/professional/index.html
 TUV COTCP,TUV Rheinland Certified Operational Technology Cybersecurity Professional (GERMAN),tuv.com,Q,1,1,2,2,名稱所示級別,0,33,U,16,20,12,https://www.tuv.com/landingpage/en/lp-certified-operational-technology-cybersecurity-professional-program/
 CIPA,IMI Certified Identity Protection comptia-advanced-security-practitioner,identitymanagementinstitute.org,Q,1,1,2,2,沿用 2024 原圖區段,0,33,V,16,17,16,https://www.identitymanagementinstitute.org/cipa/
-GSOC,GIAC Security Operations Certified,giac.org,Q,1,1,2,2,沿用 2024 原圖區段,0,33,V,16,21,38,https://www.giac.org/certifications/security-operations-certified-gsoc/
-GBFA,GIAC Battlefield Forensics and Acquisition,giac.org,Q,1,1,2,2,沿用 2024 原圖區段,0,33,V,16,21,36,https://www.giac.org/certification/gbfa
+GSOC,GIAC Security Operations Certified,giac.org,Q,1,1,2,2,沿用 2024 原圖區段,0,33,V,16,21,40,https://www.giac.org/certifications/security-operations-certified-gsoc/
+GBFA,GIAC Battlefield Forensics and Acquisition,giac.org,Q,1,1,2,2,沿用 2024 原圖區段,0,33,V,16,21,38,https://www.giac.org/certification/gbfa
 VCP NV,VMware Certified Professional in Network Virtualization,vmware.com,Q,1,1,2,2,官方級別,0,33,U,18,20,9,https://www.vmware.com/education-services/certification/vcp-nv-tracks.html
 CIMP,IMI Certified Identity Management Professional,identitymanagementinstitute.org,Q,1,1,2,2,名稱所示級別,0,33,V,18,19,16,https://www.identitymanagementinstitute.org/cimp/
 CCP,EC First Certified CCMC Professional,ecfirst.biz,Q,1,1,2,2,名稱所示級別,0,33,U,18,19,21,https://ecfirst.biz/index.php?route=product/product&path=59_83&product_id=281
@@ -311,7 +312,7 @@ TUV CySec,TUV Rheinland Cybersecurity Specialist (GERMAN),tuv.com,Q,1,1,2,2,名�
 ISMI CSM,ISMI Certified Security Manager,ismi.org.uk,Q,1,1,2,2,名稱所示級別,0,33,U,26,20,20,https://www.ismi.org.uk/csmp/certified-security-manager%C2%AE
 GICSP,GIAC Global Industrial Security Professional,giac.org,B,2,1,1,1,官方級別,0,32,V,22,20,11,https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
 GSEC,GIAC Security Essentials Certification,giac.org,B,2,1,1,1,官方級別,0,32,V,22,18,22,https://www.giac.org/certification/security-essentials-gsec
-THM SEC1,TryHackMe Cyber Security 101 Certification,tryhackme.com,P,1,0,0,0,官方級別,0,32,K,26,21,40,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026
+THM SEC1,TryHackMe Cyber Security 101 Certification,tryhackme.com,P,1,0,0,0,官方級別,0,32,K,26,22,35,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026
 ASIS APP,ASIS Associate Protection Professional,asisonline.org,Q,2,2,1,1,官方級別,0,31,V,20,19,17,https://www.asisonline.org/certification/associate-protection-professional-app/
 SSCP,ISC2 Systems Security Certified Practitioner,isc2.org,Q,2,2,1,1,官方級別,0,31,V,23,19,22,https://www.isc2.org/Certifications/SSCP
 S-ISME,SECO Information Security Management Expert,seco-institute.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,6,15,24,https://www.seco-institute.org/certifications/information-security-certification-track/
@@ -338,7 +339,7 @@ EPDPP,EXIN Privacy and Data Protection Practitioner,embed.exin.totalservices.io,
 M_o_R P,Axelos M_o_R Practitioner Risk Management,axelos.com,Q,1,0,2,2,名稱所示級別,0,30,U,15,23,21,https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner
 CPD,GAQM Certified Project Director,gaqm.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,V,15,16,20,https://gaqm.org/certifications/project_management/cpd
 EXIN 27001E,EXIN ISO/IEC 27001 Expert,exin.com,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,15,23,24,https://www.exin.com/certifications/information-security-management-expert-based-isoiec-27001-exam?language_content_entity=en
-CM)DFI,Mile2 Certified Master Digital Forensic Investigator,mile2.com,Q,1,0,4,2,名稱所示級別；自稱頂級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,K,15,23,36,https://www.mile2.com/master-certifications/
+CM)DFI,Mile2 Certified Master Digital Forensic Investigator,mile2.com,Q,1,0,4,2,名稱所示級別；自稱頂級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,K,15,23,38,https://www.mile2.com/master-certifications/
 GCPT,GAQM Certified Penetration Tester,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,15,20,42,https://gaqm.org/certifications/information_systems_security/certified_penetration_tester_cpt
 CCSE,Checkpoint Certified Security Expert,training-certifications.checkpoint.com,Q,1,0,2,2,官方級別,0,30,K,16,19,2,https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Expert%20(CCSE)%20R80.x
 SFCCCC,SalesForce Certified Community Cloud Consultant,trailhead.salesforce.com,Q,1,0,2,2,沿用 2024 原圖區段,0,30,K,16,22,9,https://trailhead.salesforce.com/help?article=Salesforce-Certified-Community-Cloud-Consultant-Exam-Guide
@@ -352,7 +353,7 @@ APMG 27001P,APMG ISO/IEC 27001 Practitioner,apmg-international.com,Q,1,0,2,2,名
 IS20,Mile2 IS20 Controls,mile2.com,Q,1,0,2,2,沿用 2024 原圖區段,0,30,K,16,20,27,https://www.mile2.com/is20_outline/
 C)ISSA,Mile2 Certified Information Systems Security Auditor,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,V,16,21,31,https://www.mile2.com/information_systems_security_auditor_outline/
 APMG 27001A,APMG ISO/IEC 27001 Auditor,apmg-international.com,Q,1,0,2,2,名稱所示級別,0,30,K,16,20,31,https://apmg-international.com/product/isoiec-27001
-C)DRE,Mile2 Certified Disaster Recovery Engineer,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,16,22,35,https://www.mile2.com/cdre_outline/
+C)DRE,Mile2 Certified Disaster Recovery Engineer,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,16,22,39,https://www.mile2.com/cdre_outline/
 JNCIS Sec,"Juniper Networks Certified Internet Specialist, Security",juniper.net,Q,1,0,2,2,官方級別,0,30,U,17,19,4,https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jncisec
 C)IHE,Mile2 Certified Incident Handling Engineer,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,17,22,40,https://www.mile2.com/cihe_outline/
 CM)IPS,Mile2 Certified Master Intrusion Prevention Specialist,mile2.com,Q,1,0,4,2,名稱所示級別；自稱頂級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,K,17,20,44,https://www.mile2.com/master-certifications/
@@ -362,14 +363,14 @@ APMG 20000A,APMG ISO/IEC 20000 Auditor,apmg-international.com,Q,1,0,2,2,名稱�
 C)ISMS-LA,Mile2 Certified Information security Management Systems Lead Auditor,mile2.com,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,V,18,21,30,https://www.mile2.com/cisms-la-li-outline/
 CASST,GAQM Certified Advanced Software Security Tester,gaqm.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,V,18,22,33,https://gaqm.org/certifications/software_security_testing/casst
 C)CSA,Mile2 Certified Cybersecurity Analyst,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,18,22,37,https://www.mile2.com/ccsa_outline/
-S-TA,SECO Certified Threat Analyst,seco-institute.org,Q,1,0,2,2,名稱所示級別,0,30,U,18,23,38,https://www.seco-institute.org/get-trained/cyber-defense-track/threat-analyst-certification/
+S-TA,SECO Certified Threat Analyst,seco-institute.org,Q,1,0,2,2,名稱所示級別,0,30,U,18,23,35,https://www.seco-institute.org/get-trained/cyber-defense-track/threat-analyst-certification/
 PA XDR,Palo Alto Networks Certified XDR Analyst,paloaltonetworks.com,Q,1,0,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,K,19,21,3,https://www.paloaltonetworks.com/services/education/certification
 EXIN PCSerM,EXIN Professional Cloud Service Manager,exin.com,Q,1,0,2,2,名稱所示級別,0,30,U,19,21,14,https://www.exin.com/certifications/ccc-professional-cloud-service-manager-exam
 BCS PCIAA,BCS Practitioner Certificate in Information Assurance Architecture,bcs.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,19,20,17,https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-practitioner-certificate-in-information-assurance-architecture/
 PPM,GAQM Professional in Project Management,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,19,23,26,https://gaqm.org/certifications/project_management/ppm
 C)ISSM,Mile2 Certified Information Systems Security Manager,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,V,19,22,22,https://mile2.com/cissm_outline/
 CSBA,QAI Certified Software Business Analyst,softwarecertifications.org,Q,1,0,2,2,名稱所示級別,0,30,U,19,16,19,https://www.softwarecertifications.org/csba/
-C)NFE,Mile2 Certified Network Forensics Examiner,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,V,19,22,39,https://www.mile2.com/network-forensics-examiner-outline/
+C)NFE,Mile2 Certified Network Forensics Examiner,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,V,19,23,37,https://www.mile2.com/network-forensics-examiner-outline/
 C)TIA,Mile2 Certified Threat Intelligence Analyst,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,19,23,39,https://www.mile2.com/threat-analyst/
 SFSA,SalesForce System Architect,trailhead.salesforce.com,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,K,20,22,14,https://trailhead.salesforce.com/credentials/systemarchitect
 CISP,GAQM Certified Information Security Professional,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,20,22,27,https://gaqm.org/certifications/information_systems_security/cisp
@@ -381,7 +382,7 @@ C)SWAE,Mile2 Secure Web Application Engineer,mile2.com,Q,1,0,2,2,名稱所示級
 C)PTE,Mile2 Certified Penetration Testing Engineer,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,21,20,43,https://www.mile2.com/penetration-testing-engineer-outline/
 PA NetSec,Palo Alto Networks Certified Network Security Professional,paloaltonetworks.com,Q,1,0,2,2,官方級別,0,30,K,22,20,2,https://www.paloaltonetworks.com/services/education/certification
 C)CSO,Mile2 Certified Cloud Security Officer,mile2.com,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,K,22,21,10,https://mile2.com/ccso_outline/
-CFA,GAQM Certified Forensic Analyst,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,22,23,37,https://gaqm.org/certifications/information_systems_security/cfa
+CFA,GAQM Certified Forensic Analyst,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,22,23,36,https://gaqm.org/certifications/information_systems_security/cfa
 WCNA,Protocol Analysis Institute Wireshark Certified Network Analyst,wcnacertification.com,Q,1,0,2,2,名稱所示級別,0,30,V,23,21,4,https://www.wcnacertification.com/exam-information-1
 EXIN PCD,EXIN Professional Cloud Developer,exin.com,Q,1,0,2,2,名稱所示級別,0,30,U,23,21,11,https://www.exin.com/certifications/ccc-professional-cloud-developer-exam
 C)PEH,Mile2 Certified Professional Ethical Hacker,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,23,19,41,https://mile2.com/professional-ethical-hacker/
@@ -399,7 +400,7 @@ C)CFTA,Mile2 Certified Cyber Forensics Threat Analyst,mile2.com,Q,1,0,2,2,官方
 C)OL,Mile2 Certified Organizational Leader,mile2.com,Q,1,0,2,2,官方級別,0,30,V,14,22,20,https://www.mile2.com/master-certifications/
 Server+,CompTIA Server+,comptia.org,B,1,1,1,1,官方級別,0,29,K,23,22,10,https://www.comptia.org/certifications/server
 Linux+,CompTIA Linux+,comptia.org,B,1,1,1,1,官方級別,0,29,K,23,22,12,https://www.comptia.org/certifications/linux
-CCOA,ISACA Certified Cybersecurity Operations Analyst,isaca.org,B,2,0,1,1,官方級別,0,29,V,23,23,35,https://www.isaca.org/credentialing/ccoa
+CCOA,ISACA Certified Cybersecurity Operations Analyst,isaca.org,B,2,0,1,1,官方級別,0,29,V,23,24,36,https://www.isaca.org/credentialing/ccoa
 Cloud+,CompTIA Cloud+,comptia.org,B,1,1,1,1,官方級別,0,29,K,24,22,8,https://www.comptia.org/certifications/cloud
 Security+,CompTIA Security+,comptia.org,B,1,1,1,1,官方級別,0,29,K,24,20,22,https://www.comptia.org/certifications/security
 GCIP,GIAC Critical Infrastructure Protection,giac.org,Q,2,1,1,1,沿用 2024 原圖區段,0,28,V,18,22,13,https://www.giac.org/certification/critical-infrastructure-protection-gcip
@@ -410,11 +411,11 @@ iPAS 中級,iPAS 資訊安全工程師 中級能力鑑定,ipas.org.tw,Q,2,1,1,1,
 MCSF,Mosse Institute Cloud Services Fundamentals,mosse-institute.com,E,3,0,0,0,名稱所示級別,0,28,V,25,22,11,https://www.mosse-institute.com/certifications/mcsf-cloud-services-fundamentals.html
 MSAF,Mosse Institute System Administration Fundamentals,mosse-institute.com,E,3,0,0,0,名稱所示級別,0,28,V,25,16,10,https://www.mosse-institute.com/certifications/msaf-system-administration-fundamentals.html
 ITS-C,Certiport IT Specialist - Cybersecurity,certiport.filecamp.com,Q,0,0,2,2,名稱所示級別,0,28,K,25,24,27,https://certiport.filecamp.com/s/JTIy1sX0ci0ZI3ss/fi
-MICS,Mosse Institute Introductions to Cyber Security,mosse-institute.com,E,3,0,0,0,名稱所示級別,0,28,V,27,24,36,https://www.mosse-institute.com/certifications/mics-introduction-to-cyber-security.html
-SC-401,Microsoft Certified: Information Security Administrator Associate,learn.microsoft.com,B,1,0,1,1,官方級別,0,26,K,15,24,37,https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/
+MICS,Mosse Institute Introductions to Cyber Security,mosse-institute.com,E,3,0,0,0,名稱所示級別,0,28,V,27,24,35,https://www.mosse-institute.com/certifications/mics-introduction-to-cyber-security.html
+SC-401,Microsoft Certified: Information Security Administrator Associate,learn.microsoft.com,B,1,0,1,1,官方級別,0,26,K,15,24,40,https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/
 SC-500,Microsoft SC-500: Build a secure Cloud and AI solution,learn.microsoft.com,B,1,0,1,1,官方級別,0,26,K,18,20,6,https://learn.microsoft.com/certifications/retired-courses
 AZ-104,Microsoft Azure Administrator Associate,docs.microsoft.com,B,1,0,1,1,官方級別,0,26,K,20,23,8,https://docs.microsoft.com/en-us/learn/certifications/azure-administrator?wt.mc_id=learningredirect_certs-web-wwl
-SC-200,Microsoft Certified: Security Operations Analyst Associate,docs.microsoft.com,B,1,0,1,1,官方級別,0,26,K,20,24,35,https://docs.microsoft.com/en-us/learn/certifications/security-operations-analyst/
+SC-200,Microsoft Certified: Security Operations Analyst Associate,docs.microsoft.com,B,1,0,1,1,官方級別,0,26,K,20,24,37,https://docs.microsoft.com/en-us/learn/certifications/security-operations-analyst/
 MAD SOCA,Mitre Att&ck Defender Security Operations Center Assessment,mitre-engenuity.org,B,1,0,1,1,官方級別,0,26,U,21,24,38,https://mitre-engenuity.org/mad/
 MAD CTI,Mitre Att&ck Defender Cyber Threat intelligence,mitre-engenuity.org,B,1,0,1,1,官方級別,0,26,U,21,24,39,https://mitre-engenuity.org/mad/
 SC-300,Microsoft Certfied: Identity and Access Administrator Associate,docs.microsoft.com,B,1,0,1,1,官方級別,0,26,K,22,22,6,https://docs.microsoft.com/en-us/learn/certifications/identity-and-access-administrator/
@@ -425,7 +426,7 @@ GCLD,GIAC Cloud Security Essentials,giac.org,Q,1,1,1,1,官方級別,0,25,V,19,23
 AWS SAA,Amazon Web Services Certified Solutions Architect - Associate,aws.amazon.com,Q,1,1,1,1,官方級別,0,25,V,19,23,9,https://aws.amazon.com/certification/certified-solutions-architect-associate/
 CCSA,EC First Certified Cyber Security Architect,ecfirst.biz,Q,1,1,1,1,官方級別,0,25,U,19,25,21,https://ecfirst.biz/index.php?route=product/product&path=59_61&product_id=77
 CCRMP,IBITGQ Certified in Managing Cyber Security Risk,itgovernance.co.uk,Q,1,1,1,1,沿用 2024 原圖區段,0,25,V,19,25,24,https://www.itgovernance.co.uk/shop/product/managing-cyber-security-risk-training-course
-GOSI,GIAC Open Source Intelligence,giac.org,Q,1,1,1,1,沿用 2024 原圖區段,0,25,V,19,24,40,https://www.giac.org/certification/open-source-intelligence-gosi
+GOSI,GIAC Open Source Intelligence,giac.org,Q,1,1,1,1,沿用 2024 原圖區段,0,25,V,19,25,38,https://www.giac.org/certification/open-source-intelligence-gosi
 CIST,IMI Certfied Identity and Security Technologist,identitymanagementinstitute.org,Q,1,1,1,1,沿用 2024 原圖區段,0,25,V,21,23,6,https://www.identitymanagementinstitute.org/cist/
 Zach EAA,Zachman Enterprise Architect Associate (Level 1),zachman.com,Q,1,1,1,1,官方級別,0,25,V,21,25,22,https://www.zachman.com/certification/what-we-certify/enterprise-architect
 Google ACE,Google Associate Cloud Engineer,cloud.google.com,Q,1,1,1,1,官方級別,0,25,V,24,23,11,https://cloud.google.com/certification/cloud-engineer
@@ -445,7 +446,7 @@ SSAP,SANS Security Awareness Professional,sans.org,Q,1,0,1,1,官方級別,0,22,V
 GRCP,"OCEG Governance, Risk, and Compliance Professional",oceg.org,Q,1,0,1,1,官方級別,0,22,V,20,26,25,https://www.oceg.org/certifications/grc-professional-certification/
 CCSC,CertNexus Cyber Secure Coder,certnexus.com,Q,1,0,1,1,沿用 2024 原圖區段,0,22,V,20,25,33,https://certnexus.com/certification/cyber-secure-coder/
 CFR,CertNexus CyberSec First Responder,certnexus.com,Q,1,0,1,1,沿用 2024 原圖區段,0,22,V,20,25,39,https://certnexus.com/certification/cybersec-first-responder/
-CREST CPSA,CREST Practitioner Security Analyst,crest-approved.org,Q,1,0,1,1,官方級別,0,22,K,20,21,46,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst
+CREST CPSA,CREST Practitioner Security Analyst,crest-approved.org,Q,1,0,1,1,官方級別,0,22,V,20,21,46,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst
 F5 CA,F5 Big-IP Certified Administrator,view.ceros.com,Q,1,0,1,1,官方級別,0,22,V,21,23,2,https://view.ceros.com/f5/certification-roadmap/p/9?heightOverride=740
 SCA,SUSE Certified Administrator,suse.com,Q,1,0,1,1,官方級別,0,22,K,21,24,10, https://www.suse.com/training/exam/sca-sles-15/
 CAD,GAQM Certified Agile Developer,gaqm.org,Q,1,0,1,1,沿用 2024 原圖區段,0,22,V,21,25,26,https://gaqm.org/certifications/scrum_agile/cad
@@ -456,10 +457,10 @@ DCA,Docker Certified Associate,training.mirantis.com,Q,1,0,1,1,官方級別,0,22
 LPIC-1,Linux Professional Institute Certified: Linux Administrator,lpi.org,Q,1,0,1,1,官方級別,0,22,V,22,24,13,https://www.lpi.org/our-certifications/lpic-1-overview
 JNCIA Sec,"Juniper Networks Certified Internet Associate, Security",juniper.net,Q,1,0,1,1,官方級別,0,22,U,23,23,4,https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jnciasec
 FCA,Fortinet Certificed Associate,training.fortinet.com,Q,1,0,1,1,官方級別,0,22,V,23,23,3,https://training.fortinet.com/local/staticpage/view.php?page=fca_cybersecurity
-CREST CPIA,CREST Practitioner Intrusion Analyst,crest-approved.org,Q,1,0,1,1,官方級別,0,22,K,23,25,38,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-intrusion-analyst
-CREST CPTIA,CREST Practitioner Threat Intelligence Analyst,crest-approved.org,Q,1,0,1,1,官方級別,0,22,K,23,25,40,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/
+CREST CPIA,CREST Practitioner Intrusion Analyst,crest-approved.org,Q,1,0,1,1,官方級別,0,22,V,23,25,37,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-intrusion-analyst
+CREST CPTIA,CREST Practitioner Threat Intelligence Analyst,crest-approved.org,Q,1,0,1,1,官方級別,0,22,V,23,25,40,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/
 CCSA,Checkpoint Certified Security Administrator,training-certifications.checkpoint.com,Q,1,0,1,1,官方級別,0,22,K,24,22,2,https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Admin%20(CCSA)%20R80.x
-S-SA,SECO Associate SOC Analyst,seco-institute.org,Q,1,0,1,1,名稱所示級別,0,22,U,24,25,37,https://www.seco-institute.org/get-trained/cyber-defense-track/associate-soc-analyst-certification/
+S-SA,SECO Associate SOC Analyst,seco-institute.org,Q,1,0,1,1,名稱所示級別,0,22,U,24,25,35,https://www.seco-institute.org/get-trained/cyber-defense-track/associate-soc-analyst-certification/
 Apple ACSP,Apple Certified Support Professional,training.apple.com,Q,1,0,1,1,官方級別,0,22,V,25,24,12,https://training.apple.com/us/en/recognition
 PECB 27001F,PECB ISO/IEC 27001 Foundation,pecb.com,Q,1,2,0,0,官方級別,0,20,K,21,26,26,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-foundation
 PECB 27032F,PECB ISO/IEC 27032 Foundation,pecb.com,Q,1,2,0,0,官方級別,0,20,K,25,26,27,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-foundation
@@ -474,7 +475,7 @@ EITCA/IS,EITCA/IS Information Security Certificate,eitca.org,Q,2,0,0,0,沿用 20
 CITGP,IBITGQ Certified in Implementing IT Governance - Foundation & Principles,itgovernance.co.uk,Q,1,1,0,0,名稱所示級別,0,17,V,25,26,19,https://www.itgovernance.co.uk/shop/product/implementing-it-governance-foundation-principles-training-course
 CSAP,Infosec Institute Certified Security Awareness Practitioner,app.infosecinstitute.com,Q,1,1,0,0,名稱所示級別,0,17,K,25,27,24,https://app.infosecinstitute.com/portal/courses/a0t0y000009lTzjAAE
 CSX-F,IBITGQ Cyber Incident Response Management Foundation,itgovernance.co.uk,Q,1,1,0,0,名稱所示級別,0,17,V,25,26,36,https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course
-CIRM Fdn,IBITGQ Cyber Incident Response Management Foundation,itgovernance.co.uk,Q,1,1,0,0,名稱所示級別,0,17,V,25,25,35,https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course
+CIRM Fdn,IBITGQ Cyber Incident Response Management Foundation,itgovernance.co.uk,Q,1,1,0,0,名稱所示級別,0,17,V,25,26,39,https://www.itgovernance.co.uk/shop/product/cyber-incident-response-management-foundation-training-course
 AWS CP,Amazon Web Services Certified Cloud Practitioner,aws.amazon.com,Q,1,1,0,0,官方級別,0,17,V,26,25,9,https://aws.amazon.com/certification/certified-cloud-practitioner/
 資安職能 核心,資通安全職能評量證書：核心科目「資通安全概論」,ctts.nics.nat.gov.tw,Q,1,1,0,0,官方級別,0,17,V,26,23,16,https://ctts.nics.nat.gov.tw/
 GISF,GIAC Information Security Fundamentals,giac.org,Q,1,1,0,0,官方級別,0,17,V,26,23,27,https://www.giac.org/certification/information-security-fundamentals-gisf
@@ -488,7 +489,7 @@ ECES,EC Council Certified Encryption Specialist,eccouncil.org,Q,1,0,0,0,官方�
 KCNA,Cloud Native Computing Foundation Kubernetes and Cloud Native Associate,cncf.io,Q,1,0,0,0,官方級別,0,14,V,23,26,11,https://www.cncf.io/certification/kcna/
 CCT,Cisco Certified Technician,cisco.com,Q,1,0,0,0,沿用 2024 原圖區段,0,14,K,24,24,3,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/entry/technician-cct.html
 LFCA,Linux Foundation Certified IT Associate,training.linuxfoundation.org,Q,1,0,0,0,官方級別,0,14,V,24,25,12,https://training.linuxfoundation.org/certification/certified-it-associate/
-ECSS,EC Council Certified Security Specialist,eccouncil.org,Q,1,0,0,0,官方級別,0,14,K,24,26,39,https://www.eccouncil.org/programs/certified-security-specialist-ecss/
+ECSS,EC Council Certified Security Specialist,eccouncil.org,Q,1,0,0,0,官方級別,0,14,K,24,26,40,https://www.eccouncil.org/programs/certified-security-specialist-ecss/
 EPDPF,EXIN Privacy and Data Protection Foundation,exin.com,Q,1,0,0,0,名稱所示級別,0,14,U,25,25,16,https://www.exin.com/certifications/exin-privacy-and-data-protection-foundation-exam
 TOGAF Fdn,OpenGroup TOGAF Certified,opengroup.org,Q,1,0,0,0,官方級別,0,14,K,25,25,17,https://www.opengroup.org/certifications/togaf
 IIBA CCA,IIBA Certification in Cybersecurity Analysis,iiba.org,Q,1,0,0,0,沿用 2024 原圖區段,0,14,U,25,14,21,https://www.iiba.org/certification/iiba-certifications/specialized-business-analysis-certifications/certificate-in-cybersecurity-analysis/
@@ -524,7 +525,7 @@ SOG NSP,SecOps Group Certified Network Security Practitioner,secops.group,Q,0,0,
 FCF,Fortinet Certified Fundamentals Cybersecurity,training.fortinet.com,Q,0,0,0,0,官方級別,0,12,V,26,25,2,https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity
 PSM I,Scrum.org Professional Scrum Master I,scrum.org,Q,0,0,0,0,官方級別,0,12,V,26,14,27,https://www.scrum.org/assessments/professional-scrum-master-i-certification
 CBP,The SecOps Group Certified Blockchain Practitioner,pentestingexams.com,Q,0,0,0,0,官方級別,0,12,V,14,27,33,https://pentestingexams.com/
-CBTP,The SecOps Group Certified Blue Team Practitioner,pentestingexams.com,Q,0,0,0,0,官方級別,0,12,V,14,26,40,https://pentestingexams.com/
+CBTP,The SecOps Group Certified Blue Team Practitioner,pentestingexams.com,Q,0,0,0,0,官方級別,0,12,V,14,27,35,https://pentestingexams.com/
 CSEDP,The SecOps Group Certified Social Engineering Defense Practitioner,pentestingexams.com,Q,0,0,0,0,官方級別,0,12,V,14,14,25,https://pentestingexams.com/
 DV AOPH,Dark Vortex Adversary Operations and Proactive Hunting,0xdarkvortex.dev,C,0,0,0,0,沿用 2024 原圖區段,0,4,V,24,27,40,https://0xdarkvortex.dev/training-programs/adversary-operations-and-proactive-hunting/
 DV MILF,Dark Vortex Malware Incident and Log Foensics,0xdarkvortex.dev,C,0,0,0,0,沿用 2024 原圖區段,0,4,V,25,27,38,https://0xdarkvortex.dev/training-programs/malware-incident-and-log-forensics/

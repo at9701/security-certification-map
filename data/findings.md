@@ -186,3 +186,14 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - OffSec 課程頁（offsec.com/courses/<代碼>/）：OSEP、OSWE、OSED 實作考 48 小時；OSEE 72 小時、僅實體授課、價格未列；OSWA、OSDA、OSAI 24 小時；OSTH、OSIR 8 小時；OSWP 4 小時；OSCC-SEC 6 小時（攻擊、防禦、建置各約 2 小時），課程 $899。全部監考、皆無強制報考資格（OSEP 寫「完成 PEN-200 並通過 OSCP+ 或具同等知識」）。OSAI 已開放報名。EXP-312 頁面未提到 OSMR，現況待查。舊網域 offensive-security.com 的連結會轉址。
 - CREST：CCT INF 為筆試（選擇題 1 小時、情境題 2 小時）加 3 小時實作，無報考資格；CRT 為 2.5 小時實作（選擇題、flag、簡答），須持有有效 CPSA；CCSAM 為選擇題加長篇與情境筆試分兩階段；CCTIM 為簡答、長篇、情境分兩階段。價格皆依國家經 Pearson VUE。
 - CREST 網站一次只允許讀一頁，尚未讀：CPSA、CRIA、CCSAS、CCT APP、CCHIA、CCNIA、CRTIA、CPIA、CPTIA
+
+## CREST 第二批（2026-11-25，一次一頁）
+- 官方證照總表（crest-approved.org/certification-careers/crest-certifications/）現列 12 張：CPSA、CRT、CCT INF、CCT APP、CCRTS、CCRTM、CPTIA、CRTIA、CCTIM、CPIA、CRIA、CCIM。
+- 改名（總表註記）：CCSAS → CCRTS（Certified Red Team Specialist）、CCSAM → CCRTM（Certified Red Team Manager）。圖上標籤與連結已更新。
+- 新增 CCIM（Certified Incident Manager）：選擇題加長篇與情境筆試，分兩階段，第二階段須於三個月內完成，無報考資格。
+- 總表未列、也找不到停考公告，改為虛線框：CCHIA、CCNIA（原頁面讀取失敗）、CRTSA、CSAS（原圖連結與 CCSAS 同頁）。
+- CPSA、CPIA：選擇題 120 題、2 小時、無報考資格。CPTIA：選擇題，題數與時間頁面未列。
+- CRIA：選擇題 150 題、2.5 小時，考場提供 Kali 與 Windows 環境，須持有有效 CPIA，效期三年。形式記為「選擇題加實作題」（頁面稱選擇題，但提供操作環境，此歸類為維護判斷）。
+- CRTIA：選擇題加長篇問答，官方「預期」兩年經驗，未寫明強制。
+- CCT APP、CCRTS：筆試 3 小時（選擇題 1 加情境題 2）加實作 3 小時，皆無報考資格 → 依規則 2 以專業級計。CCT APP 頁面的實作考閱讀時間有 15 與 20 分鐘兩種寫法。
+- 各頁皆未列價格（依國家，經 Pearson VUE）。

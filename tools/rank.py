@@ -213,6 +213,13 @@ o("CREST CCTINF", F="X", I=3, R=0, T=3, B="V")        # MCQ 1h + scenario 2h + p
 o("CREST CSAM", F="S", I=2, R=1, T=3, B="V")          # MCQ + long-form + scenario, two parts
 o("CREST CCTIM", F="S", I=2, R=1, T=3, B="V")         # short-form, long-form, scenario, two parts
 o("CREST CRT", F="X", I=2, R=2, T=2, B="V")           # 2.5h practical with MCQ/flags; valid CPSA required
+# CREST pages read one at a time, 2026-11-25 (second batch); the certification index lists 12 current certifications
+o("CREST CPSA|CREST CPIA", F="Q", I=1, R=0, T=1, B="V")   # 120 MCQ, 2h, no prerequisite
+o("CREST CPTIA", F="Q", I=1, R=0, T=1, B="V")             # MCQ; length not on the page
+o("CREST CRIA", F="B", I=2, R=2, T=2, B="V")              # 150 MCQ in 2.5h with Kali/Windows environment; valid CPIA required
+o("CREST CRTIA", F="S", I=2, R=1, T=2, B="V")             # MCQ + long-form; two years "expected"
+o("CREST CCTAPP|CREST CCSAS", F="X", I=3, R=0, T=3, B="V")  # written 3h + practical 3h, no prerequisite
+o("CREST CCIM", F="S", I=2, R=1, T=3, B="V")              # MCQ + long-form/scenario, two parts within three months
 # GIAC, read cert by cert on 2026-11-25: (questions, hours, pass %, CyberLive hands-on items)
 GIAC = {
     "GXPN": (60, 3, 67, 1), "GREM": (66, 3, 73, 1), "GCIH": (106, 4, 69, 1), "GSEC": (106, 4, 72, 1),
@@ -269,6 +276,13 @@ price("OSWP", "實作考 4 小時，全程監考"); price("OSCC", "課程 $899",
 price("CREST CCTINF", "筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時", "無報考資格；價格依國家，經 Pearson VUE 報名")
 price("CREST CRT", "實作考 2.5 小時（選擇題、flag、簡答）", "須持有有效的 CPSA")
 price("CREST CSAM", "選擇題加長篇與情境筆試，分兩階段"); price("CREST CCTIM", "簡答、長篇、情境三部分，分兩階段")
+price("CREST CPSA|CREST CPIA", "選擇題 120 題，2 小時", "無報考資格；價格依國家，經 Pearson VUE 報名")
+price("CREST CPTIA", "選擇題筆試，及格標準三分之二", "無報考資格；價格依國家，經 Pearson VUE 報名")
+price("CREST CRIA", "選擇題 150 題，2.5 小時，考場提供 Kali 與 Windows 環境", "須持有有效的 CPIA；效期三年")
+price("CREST CRTIA", "選擇題加長篇問答", "官方預期兩年以上威脅情資經驗，未列為硬性條件")
+price("CREST CCTAPP", "筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時", "無報考資格；價格依國家，經 Pearson VUE 報名")
+price("CREST CCSAS", "筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時", "無報考資格；原名 CCSAS，會員公司員工可享七折")
+price("CREST CCIM", "選擇題加長篇與情境筆試，分兩階段，須於三個月內完成", "無報考資格；價格依國家，經 Pearson VUE 報名")
 price("GFACT", "考試費 $399"); price("GISF", "考試費 $499")
 price("GX-PT", "考試費 $1,299（持有 GPEN 為 $499）"); price("GX-FA", "考試費 $1,299（持有 GCFA 為 $499）")
 price("CREST CRTSA", "£395 + VAT", "選擇題加長篇情境筆試")
@@ -367,6 +381,7 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("CREST CPSA|CREST CPIA|CREST CPTIA|CREST CRIA|CREST CRTIA|CREST CCTAPP|CREST CCSAS|CREST CCIM", kind="無價格資訊")
 meta("GSE|GSP", kind="無價格資訊", url="https://www.giac.org/get-certified/giac-portfolio-certifications/"); price("CACE", "須 10 年經驗", "選擇、簡答與個案分析兩階段考試")
 
 # ------------------------------------------------------------------ parse the built page
@@ -418,6 +433,7 @@ for _l in ("MCL", "MCD", "MESE", "MASE", "MNSE"):
 
 # still on the chart, but the issuer's own site raises a doubt; shown dashed with the note
 FLAG = {
+    "CREST CCHIA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CCNIA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CRTSA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CSAS": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）",
     "MAD SOCA": "現況：MITRE 官方頁面目前顯示 coming soon，是否可報名不明（2026-11-25）",
     "MAD CTI": "現況：MITRE 官方頁面目前顯示 coming soon，是否可報名不明（2026-11-25）",
     "SPLK-3001": "現況：Splunk 官方已將此證照列為 legacy（2026-11-24）",
@@ -427,7 +443,9 @@ FLAG = {
     "TUV ITSM": "現況：官方頁面註記方案期間至 2024-03，是否仍辦理待確認（2026-11-25）",
 }
 
-RELABEL = {"CM)DFI": ("CM)CFI", "Mile2 Certified Master Cyber Forensics Investigator"),
+RELABEL = {"CREST CCSAS": ("CREST CCRTS", "CREST Certified Red Team Specialist (formerly CCSAS)"),
+           "CREST CSAM": ("CREST CCRTM", "CREST Certified Red Team Manager (formerly CCSAM)"),
+           "CM)DFI": ("CM)CFI", "Mile2 Certified Master Cyber Forensics Investigator"),
            "CCD": ("CCDL2", "CyberDefenders Certified CyberDefender Level 2 (formerly CCD)"),
            "C)ISSA": ("C)CSSA", "Mile2 Certified Cybersecurity Systems Auditor (formerly C)ISSA)"),
            "C)ISSM": ("C)CSSM", "Mile2 Certified Cybersecurity Systems Manager (formerly C)ISSM)"),
@@ -442,7 +460,10 @@ RELABEL = {"CM)DFI": ("CM)CFI", "Mile2 Certified Master Cyber Forensics Investig
            "FCSS SASE": ("NSE 7 SASE", "Fortinet NSE 7 SASE"),
            "FCSS OT": ("Forti OT", "Fortinet OT Security (industry certification)"),
            "FCX": ("NSE 8", "Fortinet NSE 8")}
-REHOST = [("https://secops.group/", "https://pentestingexams.com/"),
+REHOST = [("hhttps://", "https://"),
+          ("https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist", "https://www.crest-approved.org/crest-certified-red-team-specialist/"),
+          ("https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-manager", "https://www.crest-approved.org/skills-certifications-careers/crest-certified-red-team-manager/"),
+          ("https://secops.group/", "https://pentestingexams.com/"),
           ("https://training.fortinet.com/", "https://www.fortinet.com/training-certification"),
           ("https://securityblue.team/btl2/", "https://www.centri.org/certifications/blue-team-level-2"),
           ("https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-implementer-training-course",
@@ -455,6 +476,7 @@ COL_CLS = [(2, 4, "networkitem1"), (6, 6, "iamitem1"), (8, 14, "engineeritem1"),
            (41, 47, "redopsitem1")]
 # certifications the issuer lists today that the chart lacked: (label, column, name, detail line, link)
 EXTRA = [
+    ("CREST CCIM", 38, "CREST Certified Incident Manager", "", "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/"),
     ("GCAD", 9, "GIAC Cloud Security Architecture and Design", "考試費 $999", GIAC_PRICING),
     ("GCIL", 39, "GIAC Cyber Incident Leader", "考試費 $999", GIAC_PRICING),
     ("GLIR", 40, "GIAC Linux Incident Responder", "考試費 $999", GIAC_PRICING),
