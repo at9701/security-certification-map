@@ -240,6 +240,8 @@ o("CTIA|CASE", F="Q", I=1, R=1, T=2, B="V")   # 50 q, 2h
 o("CNDA", R=2, B="V")                         # CEH plus government or military employment
 o("CSCU|ECES", F="Q", I=1, R=0, T=0, B="V"); o("ECSS", F="Q", I=2, R=0, T=0, B="V")
 o("PECB 27005RM|PECB 27001F", B="V")
+# assorted issuer pages, read 2026-11-25
+o("RHCSA|RHCE|PMP", B="V"); o("PDSO CDP", F="P", I=3, R=0, T=2, B="V"); o("Scrum PSD", F="Q", I=0, R=0, T=2, B="V")
 o("CCFE|CMFE|CSSA|CDRP|CMWAPT|CRTOP|CREA|CSAP", B="U")   # portal pages show boot camps only, no certification facts
 # GIAC, read cert by cert on 2026-11-25: (questions, hours, pass %, CyberLive hands-on items)
 GIAC = {
@@ -385,6 +387,12 @@ price("CSCU", "112-12，選擇題 50 題，2 小時，70% 及格", "無報考資
 price("ECSS", "100 題，3 小時，70% 及格")
 price("PECB 27005RM", "考試與證照費含在訓練課程價格內", "Risk Manager 級別須 2 年工作經驗（其中 1 年風險管理）與 200 小時實務；Provisional 級別無經驗要求")
 price("PECB 27001F", "考試與證照費含在訓練課程價格內", "須完成 Foundation 課程；未通過可於 12 個月內免費重考")
+price("RHCSA", "EX200，實作考", "無報考資格；官方頁面未列時間與價格")
+price("RHCE", "須通過 EX200 加一科進階考試（Enterprise Linux 為 EX342，Ansible 為 EX294）", "官方頁面未列時間與價格")
+price("PMP", "考試費 $555（會員 $405）", "180 題；大學學歷須 36 個月專案經驗，否則 60 個月，另須 35 小時訓練或 CAPM")
+price("PDSO CDP", "課程 $899（含一次考試）", "5 題實作挑戰 6 小時，之後 24 小時內交報告；無硬性報考資格")
+price("Scrum PSD", "每次 $200", "80 題，60 分鐘，85% 及格")
+price("BSCP", "證照效期五年", "應考須有有效的 Burp Suite Professional 訂閱；考試形式與價格在另一頁，未讀")
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -428,6 +436,7 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("PDSO CDP", kind="官方課程含考試"); meta("RHCSA|RHCE|BSCP", kind="無價格資訊")
 meta("CPENT", kind="無價格資訊；套裝價為維護者提供", conf="考試規則為官方頁面，套裝價為維護者提供", url="https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html", date="2026-11-25")
 meta("LPT", kind="無獨立費用", conf=OFFICIAL, url="https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html", date="2026-11-25")
 meta("CSA", conf="考試形式為官方頁面，價格為維護者提供", url="https://cert.eccouncil.org/certified-soc-analyst.html", date="2026-11-25")

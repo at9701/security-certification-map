@@ -10,6 +10,7 @@ AWS SAP,Amazon Web Services Certified Solutions Architect - Professional,考試�
 AZ-104,Microsoft Azure Administrator Associate,約 $165，依國家或地區定價 / 100 分鐘，中階，無報考資格；每 12 個月免費線上更新,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
 AZ-305,Microsoft Azure Solutions Architect Expert,約 $165，依國家或地區定價 / 須先取得 Azure Administrator Associate（AZ-104）,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
 AZ-900,Microsoft Azure Fundamentals,約 $99，依國家或地區定價 / 45 分鐘，入門級 / 價格為使用者提供，官方頁面只寫依國家或地區定價,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
+BSCP,Portswigger Burp Suite Certified Practioner,證照效期五年 / 應考須有有效的 Burp Suite Professional 訂閱；考試形式與價格在另一頁，未讀,無價格資訊,https://portswigger.net/web-security/certification,2026-11-25,官方頁面
 BTL2,Security Blue Team Level 2,"£1,999（含訓練） / 最長 72 小時實作加報告",官方課程或套裝價,https://securityblue.team/btl2/,2026-11-25,官方頁面
 C)ISSO,Mile2 Certified Information Systems Security Officer,選擇題 100 題，2 小時 / 須 1 年相關經驗,無價格資訊,https://www.mile2.com/cisso_outline/,2026-11-25,官方頁面
 C)PTE,Mile2 Certified Penetration Testing Engineer,選擇題 100 題，2 小時，線上應考 / 建議 12 個月網路經驗；效期三年，每年 20 CEU,無價格資訊,https://www.mile2.com/penetration-testing-engineer-outline/,2026-11-25,官方頁面
@@ -165,13 +166,17 @@ OSWA,OffSec Web Assessor,"課程加考試 $1,749（90 天） / 實作考 24 小�
 OSWE,OffSec Web Expert,"課程加考試 $1,749（90 天） / 實作考 48 小時，全程監考",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
 OSWP,OffSec Wireless Professional,實作考 4 小時，全程監考,無價格資訊,https://www.offensive-security.com/wifu-oswp/,2026-11-25,官方頁面
 PDSO CDE,PDSO Certified DevSecOps Expert,"$1,199 / 24 小時實作加報告，須先有 CDP",官方課程或套裝價,https://www.practical-devsecops.com/certified-devsecops-expert,2026-11-25,官方頁面
+PDSO CDP,PDSO Certified DevSecOps Professional,課程 $899（含一次考試） / 5 題實作挑戰 6 小時，之後 24 小時內交報告；無硬性報考資格,官方課程含考試,https://www.practical-devsecops.com/certified-devsecops-professional/,2026-11-25,官方頁面
 PECB 27001F,PECB ISO/IEC 27001 Foundation,考試與證照費含在訓練課程價格內 / 須完成 Foundation 課程；未通過可於 12 個月內免費重考,無價格資訊,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-foundation,2026-11-25,官方頁面
 PECB 27005RM,PECB ISO/IEC 27005 Risk Manager,考試與證照費含在訓練課程價格內 / Risk Manager 級別須 2 年工作經驗（其中 1 年風險管理）與 200 小時實務；Provisional 級別無經驗要求,無價格資訊,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-risk-manager,2026-11-25,官方頁面
+PMP,PMI Project Management Professional,考試費 $555（會員 $405） / 180 題；大學學歷須 36 個月專案經驗，否則 60 個月，另須 35 小時訓練或 CAPM,官方考試費,https://www.pmi.org/certifications/project-management-pmp,2026-11-25,官方頁面
 PSM I,Scrum.org Professional Scrum Master I,每次 $200 / 80 題，60 分鐘，85% 及格,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-i-certification,2026-11-25,官方頁面
 PSM II,Scrum.org Professional Scrum Master II,每次 $250 / 30 題，90 分鐘，85% 及格,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-ii-certification,2026-11-25,官方頁面
 PSM III,Scrum.org Professional Scrum Master III,每次 $500 / 24 題論述，150 分鐘,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-iii-certification,2026-11-25,官方頁面
 Pentest+,CompTIA Pentest+,考試費 $439 / PT0-003，最多 90 題，165 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 Project+,CompTIA Project+,考試費 $399 / PK0-005，最多 90 題，90 分鐘，710 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
+RHCE,Red Hat Certified Engineer,須通過 EX200 加一科進階考試（Enterprise Linux 為 EX342，Ansible 為 EX294） / 官方頁面未列時間與價格,無價格資訊,https://www.redhat.com/en/services/certification/rhce,2026-11-25,官方頁面
+RHCSA,Red Hat Certified System Administrator,EX200，實作考 / 無報考資格；官方頁面未列時間與價格,無價格資訊,https://www.redhat.com/en/services/certification/rhcsa,2026-11-25,官方頁面
 SACP,The H Layer Security Awareness and Culture Professional,申請費 $369 / 120 題,官方考試費,https://www.thehlayer.com/about-exam/,2026-11-25,官方頁面
 SC-100,Microsoft Cybersecurity Architect,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
 SC-200,Microsoft Certified: Security Operations Analyst Associate,約 $165，依國家或地區定價 / 100 分鐘，中階，無報考資格；每 12 個月免費線上更新,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
@@ -185,6 +190,7 @@ SOG CNPen,The SecOps Group Certified Network Pentester,$328，4 小時實作,官
 SPLK-3001,Splunk Enterprise Security Certified Administrator,考試費 $130 / 48 題 60 分鐘；官方已列為 legacy,官方考試費,https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html,2026-11-25,官方頁面
 SSAP,SANS Security Awareness Professional,50 題 2 小時，開書 / 無報考資格,無價格資訊,https://www.sans.org/security-awareness-training/career-development/credential/,2026-11-25,官方頁面
 SSCP,ISC2 Systems Security Certified Practitioner,考試費 $249,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
+Scrum PSD,Scrum Professional Scrum Developer,每次 $200 / 80 題，60 分鐘，85% 及格,官方考試費,https://www.scrum.org/professional-scrum-developer-certification,2026-11-25,官方頁面
 SecOT+,CompTIA SecOT+,預購中，預計 2026-12 推出，考試代碼 SOT-001 / 第三方預購價 $294，非官方定價,第三方預購價,https://www.comptia.org/en-us/certifications/secot/,2026-11-25,考試代碼與時程為官方頁面，價格為第三方
 Security+,CompTIA Security+,考試費 $439 / 建議報考 V8；英文版 V7 於 2027-06-11 停考 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,第三方
 SecurityX,CompTIA SecurityX (formerly CASP+),考試費 $544 / CAS-005，最多 90 題，165 分鐘，選擇題加實作題，只分及格與不及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方

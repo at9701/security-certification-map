@@ -233,3 +233,13 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - CNDA：須先取得 CEH 且任職於政府、軍方或其承包商，處理費 $200；考試細節未列。
 - 證照部門總表另有圖上沒有的項目：CCT、ECDE、WAHS、各 Essentials 系列（NDE、EHE、DFE 等）、ICS/SCADA，以及 Beta 階段的 CAIPM、CRAGE、COASP，尚未加入。總表只讀到前半頁。
 - PECB ISO/IEC 27005 Risk Manager：考試與證照費含在課程內；Risk Manager 級別須 2 年經驗（1 年風險管理）加 200 小時實務。ISO/IEC 27001 Foundation：須完成課程，無經驗要求，12 個月內可免費重考。兩頁均未列考試題數與時間。
+
+## 零散發證單位（2026-11-25）
+- Red Hat：RHCSA 為 EX200 實作考，無報考資格；RHCE 須 EX200 加一科進階考試（Enterprise Linux 為 EX342、Ansible 為 EX294，另有 OpenShift、Cloud-native 路線）。頁面未列時間與價格。
+- PMI PMP：180 題，$555（會員 $405）；大學學歷 36 個月專案經驗，否則 60 個月，另須 35 小時訓練或 CAPM。考試時間未列。
+- Practical DevSecOps CDP：5 題實作挑戰 6 小時，之後 24 小時交報告；課程 $899（頁面顯示價 $764.15），含一次考試。
+- Scrum.org PSD：80 題、60 分鐘、85% 及格、每次 $200，無報考資格。
+- PortSwigger BSCP：效期五年，應考須有有效的 Burp Suite Professional 訂閱；考試形式與價格在其他頁面，未讀，維持 K。
+- The Open Group TOGAF：現行名稱為 TOGAF Enterprise Architecture Foundation／Practitioner（考試 OGEA-101、102、103），另保留 TOGAF 9；題數、時間、價格在另外的 PDF，維持 K。圖上標籤尚未改。
+- IAPP CIPT：頁面未列題數、時間、價格，維持 K。
+- 未讀：iPAS（ipas.org.tw 的讀取需要使用者在場同意，無人回應）、Security Blue Team BTL1（網站會轉址到其他網域，被擋）。
