@@ -22,7 +22,7 @@ A衍生自 [Paul Jerimy 的 Security Certification Roadmap](https://pauljerimy.c
 | 報考門檻 | 無 0、僅建議經驗或須先修官方課程 3、須前置證照或 1–2 年經驗 6、3–4 年或兩層前置證照 10、5 年以上 16 |
 | 考試強度 | 1 小時內 0、約 2 小時 2、3–4 小時 5、6–12 小時 8、24 小時以上 11（多日制不再加分） |
 
-**同系列不倒掛**：同一發證單位、同一路線內，進階證照的分數不低於它下面那一階（例如 CREST 的 CPSA → CRT → CCT INF／CCT APP）。只套用在發證單位自己定義的升級路線上，不同路線（例如滲透測試與紅隊）或不同發證單位之間不套用。路線清單寫在 `tools/rank.py` 的 `LADDERS`，目前有 3 張因此被調高：CREST CCT INF、CCT APP（50 → 53，不低於 CRT）與 Mile2 C)PTC（22 → 33，不低於 C)PTE）。版面上若因該列已滿而把進階證照排到下一階的下方，兩者會對調或就近挪動（另有 8 組因此調整位置）。仍有 2 組因所在領域的欄位已滿而無法調整：CREST CCTIM 與 CRTIA 同分，但 CCTIM 低三列；The SecOps Group 的 CAP（選擇題入門）因所屬欄位已滿被擠到高處，位置高於 CAPen。這兩組的分數是對的，只是位置受版面限制。
+**同系列不倒掛**：同一發證單位、同一路線內，進階證照的分數不低於它下面那一階（例如 CREST 的 CPSA → CRT → CCT INF／CCT APP）。只套用在發證單位自己定義的升級路線上，不同路線（例如滲透測試與紅隊）或不同發證單位之間不套用。路線清單寫在 `data/ladders.txt`，目前有 3 張因此被調高：CREST CCT INF、CCT APP（50 → 53，不低於 CRT）與 Mile2 C)PTC（22 → 33，不低於 C)PTE）。版面上若因該列已滿而把進階證照排到下一階的下方，兩者會對調或就近挪動（另有 8 組因此調整位置）。仍有 2 組因所在領域的欄位已滿而無法調整：CREST CCTIM 與 CRTIA 同分，但 CCTIM 低三列；The SecOps Group 的 CAP（選擇題入門）因所屬欄位已滿被擠到高處，位置高於 CAPen。這兩組的分數是對的，只是位置受版面限制。
 
 分數線性對應到 26 列；該列已滿時落在相鄰列。左右欄位（領域）不動。每張證照的判定與分數在頁面上滑鼠移過去就看得到，完整清單在 `data/ranked.csv`。
 
@@ -47,10 +47,12 @@ A衍生自 [Paul Jerimy 的 Security Certification Roadmap](https://pauljerimy.c
 
 | 檔案 | 內容 |
 |---|---|
-| `data/ranked.csv` | 每張證照的計分輸入、分數、新舊位置、連結 |
-| `data/prices.csv` | 已更新的價格：價格文字、**價格種類**（官方考試費、官方考試券、官方課程含考試、第三方零售參考價、第三方預購價等，分開記錄不混用）、來源網址、查核日期、可信度 |
-| `data/retired.csv` | 已移除的證照：原因、來源、查核日期、可信度 |
-| `data/flagged.csv` | 仍在圖上但現況有疑問的證照與原因（頁面上以虛線框顯示） |
+| `data/certs.csv` | **唯一需要手動維護的資料檔**：每張證照的計分輸入、價格、來源網址、查核日期、可信度、現況 |
+| `data/ladders.txt` | 同系列升級路線（規則 3） |
+| `data/ranked.csv` | （自動產生）每張證照的計分輸入、分數、新舊位置、連結 |
+| `data/prices.csv` | （自動產生）已更新的價格：價格文字、**價格種類**（官方考試費、官方考試券、官方課程含考試、第三方零售參考價、第三方預購價等，分開記錄不混用）、來源網址、查核日期、可信度 |
+| `data/retired.csv` | （自動產生）已移除的證照：原因、來源、查核日期、可信度 |
+| `data/flagged.csv` | （自動產生）仍在圖上但現況有疑問的證照與原因（頁面上以虛線框顯示） |
 | `data/findings.md` | 各發證單位的查核筆記與讀不到的頁面 |
 
 可信度分三種：官方頁面（本專案實際讀到）、第三方、維護者提供未經官方驗證。頁面上每張有更新價格的證照，提示文字都會顯示來源與日期。
@@ -68,18 +70,27 @@ A衍生自 [Paul Jerimy 的 Security Certification Roadmap](https://pauljerimy.c
 - 台灣證照 4 張（iPAS 資訊安全工程師 初級／中級、資通安全職能評量證書 核心／專業）
 - 移除 14 張（Mosse Institute 的 MCL、MCD、MESE、MASE、MNSE 已不在官方證照目錄、INE eNDP 已由 eEDA 取代、MS-100、AZ-220、ISACA CSX-P、GIAC 標示停止報考的 GCPM、GCWN、GLEG、GSNA，以及 Fortinet 新制已無對應的 FCSS ZTA）
 
+## 一起維護
+
+證照的價格、考試形式和停考改名變動很快，歡迎一起更新。不會寫程式也可以，[開 Issue 回報](../../issues/new/choose)就行；想直接改的話，所有證照資料都在 [`data/certs.csv`](data/certs.csv) 一個檔案裡，改完送 PR，合併後頁面會自動重建並發布。
+
+唯一的硬性要求是**附發證單位官方頁面的網址與查核日期**。欄位說明、計分代碼與常見情況的改法見 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+排序規則不接受直接 PR，請先開 Issue 討論。
+
 ## 重新產生
 
-`index.html` 由腳本產生，不要手改。
+只需要 Python 3，不用裝套件：
 
-```bash
-python3 tools/grid.py  source/Security-Certification-Roadmap9.html cells.json
-python3 tools/build.py source/Security-Certification-Roadmap9.html cells.json built.html
-python3 tools/rank.py  built.html index.html data/ranked.csv
+```
+python3 tools/check.py     # 檢查資料格式
+python3 tools/make.py      # 重建 index.html 與 data/ 下的產生檔
 ```
 
-- `tools/build.py`：內容變更（更名、新增、移除、中文化），清單在檔案內的 `REPLACE`、`REMOVE`、`ADD`、`TW`。
-- `tools/rank.py`：計分與重新排版。各發證單位的預設值在 `HOST`，個別證照的判定用 `o(...)` 覆寫；改這裡再重跑就會重排。
+- `data/certs.csv`：所有證照的資料（考試形式、門檻、級別、價格、來源、現況）。**要改資料就改這個檔。**
+- `data/ladders.txt`：規則 3 用的同系列升級路線。
+- `tools/rank.py`：只放計分規則與排版，不放個別證照的資料。
+- `tools/build.py`：從 2024 原圖到本版的基礎修改（更名、新增、移除、中文化），一般不需要動。
 
 ## 授權
 

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 參與說明
+    url: https://github.com/at9701/security-certification-map/blob/main/CONTRIBUTING.md
+    about: 欄位說明、計分代碼與來源要求

@@ -1,0 +1,45 @@
+name: 停考或改名
+description: 證照已停考、退役、改名或被其他證照取代
+title: "[現況] "
+labels: ["停考或改名"]
+body:
+  - type: input
+    id: cert
+    attributes:
+      label: 證照
+      placeholder: eNDP（INE）
+    validations:
+      required: true
+  - type: dropdown
+    id: what
+    attributes:
+      label: 發生了什麼
+      options:
+        - 官方公告停考或退役
+        - 官網已找不到，但沒有公告
+        - 改名
+        - 被另一張證照取代
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 說明
+      description: 新名稱、取代它的證照、停考日期等
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 官方來源網址
+      description: 官方公告或現行證照總表。只是「官網找不到」的話，請貼官方證照總表的網址
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: 你查的日期
+      placeholder: 2026-11-25
+    validations:
+      required: true

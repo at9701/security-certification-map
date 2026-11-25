@@ -1,0 +1,73 @@
+name: 新增證照
+description: 圖上沒有的資安證照
+title: "[新增] "
+labels: ["新增證照"]
+body:
+  - type: markdown
+    attributes:
+      value: 請先確認圖上真的沒有，包含它改名前的舊名。只收資安相關、有官方頁面、目前可以報考（或已公布開考時間）的證照。
+  - type: input
+    id: name
+    attributes:
+      label: 證照全名與縮寫
+      placeholder: Practical Web Pentest Expert（PWPE）
+    validations:
+      required: true
+  - type: input
+    id: issuer
+    attributes:
+      label: 發證單位
+      placeholder: TCM Security
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: 官方證照頁網址
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: 領域
+      options:
+        - 通訊與網路安全
+        - 身分與存取管理
+        - 安全架構與工程（雲端、作業系統、工控、其他）
+        - 資產安全
+        - 安全與風險管理
+        - 安全評估與測試
+        - 軟體安全
+        - 安全維運：防禦、鑑識、事件處理
+        - 安全維運：滲透測試、漏洞利用
+    validations:
+      required: true
+  - type: textarea
+    id: exam
+    attributes:
+      label: 考試形式
+      description: 選擇題或實作、題數、時間、是否要交報告或面試。照官方頁面寫
+    validations:
+      required: true
+  - type: textarea
+    id: prereq
+    attributes:
+      label: 報考門檻
+      description: 官方寫的是「必須」還是「建議」？需要前置證照、年資或先上官方課程嗎
+    validations:
+      required: true
+  - type: input
+    id: price
+    attributes:
+      label: 價格
+      description: 註明是只含考試、含課程、還是套裝。官方沒列就寫「未列」
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: 你查的日期
+      placeholder: 2026-11-25
+    validations:
+      required: true

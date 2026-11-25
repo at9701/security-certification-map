@@ -1,0 +1,55 @@
+name: 資料更正
+description: 價格、考試形式、報考門檻或連結有變
+title: "[更正] "
+labels: ["資料更正"]
+body:
+  - type: input
+    id: cert
+    attributes:
+      label: 證照
+      description: 圖上的縮寫與發證單位
+      placeholder: OSCP+（OffSec）
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: 哪裡要改
+      description: 現在寫的是什麼、應該是什麼
+      placeholder: 考試費現在寫 $1,699，官方已改為 $1,749
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 官方來源網址
+      description: 必須是發證單位自己的頁面。訓練機構、題庫網站、部落格不算
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: 你查的日期
+      placeholder: 2026-11-25
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 如果是價格，屬於哪一種
+      options:
+        - 不是價格
+        - 官方考試費（只含考試）
+        - 官方考試券
+        - 官方課程含考試
+        - 官方套裝或組合價
+        - 限時促銷價（請另外寫原價）
+        - 第三方或經銷商價格
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: 補充
+      description: 官方頁面互相矛盾、或有其他要注意的地方

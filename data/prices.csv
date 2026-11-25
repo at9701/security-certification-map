@@ -1,5 +1,5 @@
 label,name,price_text,price_kind,source_url,checked,confidence
-A+,CompTIA A+,兩科合計 $548 / 須通過 Core 1 與 Core 2 兩科（V15） / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
+A+,CompTIA A+,兩科合計 $548 / 須通過 Core 1 與 Core 2 兩科（V15） / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,https://www.comptia.org/en-us/certifications/a/,2026-11-25,考試形式為官方頁面，價格為第三方
 AAIA,ISACA Advanced in AI Audit,考試費 $599（會員 $459） / 須持有有效 CISA，或官方列出的稽核類資格,官方考試費,https://www.isaca.org/credentialing/aaia,2026-11-25,官方頁面
 AAIR,ISACA Advanced in AI Risk,考試費 $599（會員 $459） / 須持有 CISA、CISM、CRISC、CGEIT、CDPSE 或官方列出的其他資格,官方考試費,https://www.isaca.org/credentialing/aair,2026-11-25,官方頁面
 AAISM,ISACA Advanced in AI Security Management,考試費 $599（會員 $459），通過後另繳申請費 $50 / 須持有有效的 CISM 或 CISSP,官方考試費,https://www.isaca.org/credentialing/aaism,2026-11-25,官方頁面
@@ -167,7 +167,7 @@ CREST CCNIA,CREST Certified Network Intrusion Analyst,不在 CREST 官方現行�
 CREST CCSAS,CREST Certified Simulated Attack Specialist,筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時 / 無報考資格；原名 CCSAS，會員公司員工可享七折,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist,2026-11-25,官方頁面
 CREST CCTAPP,CREST Certified Web Application Tester,筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時 / 無報考資格；價格依國家，經 Pearson VUE 報名,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/,2026-11-25,官方頁面
 CREST CCTIM,CREST Certified Threat Intelligence Manager,簡答、長篇、情境三部分，分兩階段,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager,2026-11-25,官方頁面
-CREST CCTINF,CREST Certified Infrastructure Tester,筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時 / 無報考資格；價格依國家，經 Pearson VUE 報名,無價格資訊,hhttps://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester,2026-11-25,官方頁面
+CREST CCTINF,CREST Certified Infrastructure Tester,筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時 / 無報考資格；價格依國家，經 Pearson VUE 報名,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester,2026-11-25,官方頁面
 CREST CPIA,CREST Practitioner Intrusion Analyst,選擇題 120 題，2 小時 / 無報考資格；價格依國家，經 Pearson VUE 報名,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-intrusion-analyst,2026-11-25,官方頁面
 CREST CPSA,CREST Practitioner Security Analyst,選擇題 120 題，2 小時 / 無報考資格；價格依國家，經 Pearson VUE 報名,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst,2026-11-25,官方頁面
 CREST CPTIA,CREST Practitioner Threat Intelligence Analyst,選擇題筆試，及格標準三分之二 / 無報考資格；價格依國家，經 Pearson VUE 報名,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/,2026-11-25,官方頁面
@@ -208,8 +208,8 @@ CTPRA,Shared Assessment Certified Third-Party Risk Assessor,官方頁面讀取�
 CTPRP,Shared Assessment Certified Third-Party Risk Professional,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://sharedassessments.org/ctprp/,2026-11-25,官方頁面未列或讀不到價格
 CWSP,CWNP Certified Wireless Security Professional,考試費 $349.99 / 60 題 90 分鐘，須有效 CWNA,官方考試費,https://www.cwnp.com/certifications/cwsp,2026-11-25,官方頁面
 Cloud Essnt,CompTIA Cloud Essentials,官方頁面現只介紹課程，未列考試與價格 / 2024 年舊價已移除,無價格資訊,https://www.comptia.org/certifications/cloud-essentials,2026-11-25,官方頁面未列或讀不到價格
-Cloud+,CompTIA Cloud+,考試費 $399 / CV0-004，最多 90 題，90 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
-CySA+,CompTIA Cybersecurity Analyst+,考試費 $439 / V4 為新版；英文版 V3 於 2026-12-22 停考 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
+Cloud+,CompTIA Cloud+,考試費 $399 / CV0-004，最多 90 題，90 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,https://www.comptia.org/en-us/certifications/cloud/,2026-11-25,考試形式為官方頁面，價格為第三方
+CySA+,CompTIA Cybersecurity Analyst+,考試費 $439 / V4 為新版；英文版 V3 於 2026-12-22 停考 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,https://www.comptia.org/en-us/certifications/cybersecurity-analyst/,2026-11-25,考試形式為官方頁面，價格為第三方
 DACRP,DRI Associate Cyber Resilience Professional,申請費 $200，年費 $200；考試費官方頁面未列 / 適用於經驗未滿 2 年者；Cyber Resilience 考試 75% 及格,官方申請費（不含考試費）,https://drii.org/certification/acrp,2026-11-25,官方頁面
 DCA,Docker Certified Associate,考試費 $199 / 55 題 90 分鐘,官方考試費,https://training.mirantis.com/dca-certification-exam/,2026-11-25,官方頁面
 DCBCA,DRI Certified Business Continuity Auditor,申請費 $400，年費 $225；考試費官方頁面未列 / 須 2 年實務經驗（近十年內），稽核考試 75% 及格，五篇專題論述,官方申請費（不含考試費）,https://drii.org/certification/cbca,2026-11-25,官方頁面
@@ -365,7 +365,7 @@ LPIC-1,Linux Professional Institute Certified: Linux Administrator,兩科（101�
 LPIC-2,Linux Professional Institute Certified: Linux Engineer,兩科（201、202），每科 $200（$165／$132） / 依國家分三級定價，括號內為第二、三級,官方考試費,https://www.lpi.org/our-certifications/exam-pricing/,2026-11-25,官方頁面
 LPIC-3,Linux Professional Institute Certified: 303 Security,每個專長一科（303 為 Security），每科 $200（$165／$132） / 依國家分三級定價，括號內為第二、三級,官方考試費,https://www.lpi.org/our-certifications/exam-pricing/,2026-11-25,官方頁面
 LPT,EC Council Licensed Penetration Tester,與 CPENT 同一場 24 小時實作考，90% 以上即同時取得 LPT (Master) / 不是獨立考試；eccouncil.org 的舊 LPT 頁面仍寫五天考試與 $899 考試包,無獨立費用,https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html,2026-11-25,官方頁面
-Linux+,CompTIA Linux+,考試費 $399 / XK0-006，最多 90 題，90 分鐘，720 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
+Linux+,CompTIA Linux+,考試費 $399 / XK0-006，最多 90 題，90 分鐘，720 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,https://www.comptia.org/en-us/certifications/linux/,2026-11-25,考試形式為官方頁面，價格為第三方
 MAD CTI,Mitre Att&ck Defender Cyber Threat intelligence,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://mitre-engenuity.org/mad/,2026-11-25,官方頁面未列或讀不到價格
 MAD SOCA,Mitre Att&ck Defender Security Operations Center Assessment,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://mitre-engenuity.org/mad/,2026-11-25,官方頁面未列或讀不到價格
 MBT,Mosse Institute Certified Blue Teamer Certification,$699 / 無考試，完成實作練習由講師審核；促銷碼另有折扣,官方課程或套裝價,https://www.mosse-institute.com/certifications.html,2026-11-25,官方頁面
@@ -388,7 +388,7 @@ MTIA,Mosse Institute Certified Threat Intelligence Analyst Certification,$699 / 
 MVRE,Mosse Institute Vulnerability Researcher and Exploitation Specialist,$699 / 無考試，完成實作練習由講師審核；促銷碼另有折扣,官方課程或套裝價,https://www.mosse-institute.com/certifications.html,2026-11-25,官方頁面
 M_o_R Fdn,Axelos M_o_R Framework Foundation,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.axelos.com/certifications/propath/mor-risk-management/mor-foundation,2026-11-25,官方頁面未列或讀不到價格
 M_o_R P,Axelos M_o_R Practitioner Risk Management,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner,2026-11-25,官方頁面未列或讀不到價格
-Net+,CompTIA Network+,考試費 $399 / N10-009，最多 90 題，90 分鐘，720 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
+Net+,CompTIA Network+,考試費 $399 / N10-009，最多 90 題，90 分鐘，720 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,https://www.comptia.org/en-us/certifications/network/,2026-11-25,考試形式為官方頁面，價格為第三方
 OPSA,ISECOM OSSTMM Professional Security Analyst,官方頁面讀取失敗，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.isecom.org/certification.html,2026-11-25,官方頁面未列或讀不到價格
 OPSE,ISECOM OSSTMM Professional Security Expert,官方頁面讀取失敗，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.isecom.org/certification.html,2026-11-25,官方頁面未列或讀不到價格
 OPST,ISECOM OSSTMM Professional Security Tester,官方頁面讀取失敗，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.isecom.org/certification.html,2026-11-25,官方頁面未列或讀不到價格
@@ -445,9 +445,9 @@ PSM III,Scrum.org Professional Scrum Master III,每次 $500 / 24 題論述，150
 PWPA,TCM Security Practical Web Pentest Associate,$249（含 12 個月訓練教材與一次免費重考） / 實作 2 天，另 2 天寫報告；促銷價 $199 至 11/30,官方課程含考試,https://certifications.tcm-sec.com/product-category/exams,2026-11-25,官方頁面
 PWPE,TCM Practical Web Pentest Expert,$799（含一次免費重考） / 實作 3 天，另 2 天寫報告；無硬性報考資格,官方課程含考試,https://certifications.tcm-sec.com/pwpe/,2026-11-25,官方頁面
 PWPP,TCM Security Practical Web Pentest Professional,$499（含 12 個月訓練教材與一次免費重考） / 實作 3 天，另 2 天寫報告；促銷價 $399 至 11/30,官方課程含考試,https://certifications.tcm-sec.com/product-category/exams,2026-11-25,官方頁面
-Pentest+,CompTIA Pentest+,考試費 $439 / PT0-003，最多 90 題，165 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
+Pentest+,CompTIA Pentest+,考試費 $439 / PT0-003，最多 90 題，165 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,https://www.comptia.org/en-us/certifications/pentest/,2026-11-25,考試形式為官方頁面，價格為第三方
 PgMP,PMI Program Management Professional,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.pmi.org/certifications/types/program-management-pgmp,2026-11-25,官方頁面未列或讀不到價格
-Project+,CompTIA Project+,考試費 $399 / PK0-005，最多 90 題，90 分鐘，710 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
+Project+,CompTIA Project+,考試費 $399 / PK0-005，最多 90 題，90 分鐘，710 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,https://www.comptia.org/en-us/certifications/project/,2026-11-25,考試形式為官方頁面，價格為第三方
 RHCA,Red Hat Certified Architect,無獨立考試：持有 RHCE 加同一專長的三張 Specialist 證照後自動授予 / 價格官方頁面未列,無價格資訊,https://www.redhat.com/en/services/certification/rhca,2026-11-25,官方頁面未列或讀不到價格
 RHCE,Red Hat Certified Engineer,須通過 EX200 加一科進階考試（Enterprise Linux 為 EX342，Ansible 為 EX294） / 官方頁面未列時間與價格,無價格資訊,https://www.redhat.com/en/services/certification/rhce,2026-11-25,官方頁面
 RHCSA,Red Hat Certified System Administrator,EX200，實作考 / 無報考資格；官方頁面未列時間與價格,無價格資訊,https://www.redhat.com/en/services/certification/rhcsa,2026-11-25,官方頁面
@@ -456,7 +456,7 @@ S-CISO,SECO Certified Information Security Officer,官方路線頁未列價格�
 S-CSPL,SECO Secure Programming Certified Leader,官方路線頁未列價格與考試細節 / 2024 年舊價已移除,無價格資訊,https://www.seco-institute.org/certifications/certified-secure-software-developer/,2026-11-25,官方頁面未列或讀不到價格
 S-EHE,SECO Ethical Hacker Expert,官方路線頁未列價格與考試細節 / 2024 年舊價已移除,無價格資訊,https://www.seco-institute.org/certifications/ethical-hacking-certification-track/,2026-11-25,官方頁面未列或讀不到價格
 S-EHF,SECO Ethical Hacking Foundation,官方路線頁未列價格與考試細節 / 2024 年舊價已移除,無價格資訊,https://www.seco-institute.org/certifications/ethical-hacking-certification-track/ethical-hacking-foundation/,2026-11-25,官方頁面未列或讀不到價格
-S-EHP,SECO Ethical Hacking Practitioner,官方路線頁未列價格與考試細節 / 2024 年舊價已移除,無價格資訊,hhttps://www.seco-institute.org/certifications/ethical-hacking-track/practitioner/,2026-11-25,官方頁面未列或讀不到價格
+S-EHP,SECO Ethical Hacking Practitioner,官方路線頁未列價格與考試細節 / 2024 年舊價已移除,無價格資訊,https://www.seco-institute.org/certifications/ethical-hacking-track/practitioner/,2026-11-25,官方頁面未列或讀不到價格
 S-ISF,SECO Information Security Foundation,官方路線頁未列價格與考試細節 / 2024 年舊價已移除,無價格資訊,https://www.seco-institute.org/certifications/information-security-certification-track/,2026-11-25,官方頁面未列或讀不到價格
 S-ISME,SECO Information Security Management Expert,官方路線頁未列價格與考試細節 / 2024 年舊價已移除,無價格資訊,https://www.seco-institute.org/certifications/information-security-certification-track/,2026-11-25,官方頁面未列或讀不到價格
 S-ISP,SECO Information Security Practitioner,官方路線頁未列價格與考試細節 / 2024 年舊價已移除,無價格資訊,https://www.seco-institute.org/certifications/information-security-certification-track/,2026-11-25,官方頁面未列或讀不到價格
@@ -473,7 +473,7 @@ SC-300,Microsoft Certfied: Identity and Access Administrator Associate,約 $165�
 SC-401,Microsoft Certified: Information Security Administrator Associate,約 $165，依國家或地區定價 / 100 分鐘，中階，無報考資格；每 12 個月免費線上更新,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
 SC-500,Microsoft SC-500: Build a secure Cloud and AI solution,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
 SC-900,"Microsoft Certified: Security, Compliance, and Identity Fundamentals",約 $99，依國家或地區定價 / 45 分鐘，入門級 / 價格為使用者提供，官方頁面只寫依國家或地區定價,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
-SCA,SUSE Certified Administrator,考試費 $149 / 70 題，90 分鐘，70% 及格，無報考資格,官方考試費, https://www.suse.com/training/exam/sca-sles-15/,2026-11-25,官方頁面
+SCA,SUSE Certified Administrator,考試費 $149 / 70 題，90 分鐘，70% 及格，無報考資格,官方考試費,https://www.suse.com/training/exam/sca-sles-15/,2026-11-25,官方頁面
 SCE,SUSE Certified Engineer,考試費 $195 / 80 題，90 分鐘，70% 及格；須先有 SCA（SLES 12 或 15）,官方考試費,https://www.suse.com/training/exam/sce-sles-15/,2026-11-25,官方頁面
 SF CIAMD,SalesForce Certified Identity and Access Management Designer,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://trailhead.salesforce.com/help?article=Salesforce-Certified-Identity-and-Access-Management-Designer-Exam-Guide,2026-11-25,官方頁面未列或讀不到價格
 SFCCCC,SalesForce Certified Community Cloud Consultant,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://trailhead.salesforce.com/help?article=Salesforce-Certified-Community-Cloud-Consultant-Exam-Guide,2026-11-25,官方頁面未列或讀不到價格
@@ -495,9 +495,9 @@ Scrum PSD,Scrum Professional Scrum Developer,每次 $200 / 80 題，60 分鐘，
 Scrum SPS,Scrum Scaled Professional Scrum,每次 $250 / 40 題，60 分鐘，85% 及格,官方考試費,https://www.scrum.org/scaled-professional-scrum-certification,2026-11-25,官方頁面
 SecAI+,CompTIA SecAI+,CY0-001，2026-02-17 推出 / 最多 60 題（選擇題加實作題），60 分鐘，600 分及格；價格官方頁面未列,無價格資訊,https://www.comptia.org/en-us/certifications/secai/,2026-11-25,官方頁面
 SecOT+,CompTIA SecOT+,預購中，預計 2026-12 推出，考試代碼 SOT-001 / 第三方預購價 $294，非官方定價,第三方預購價,https://www.comptia.org/en-us/certifications/secot/,2026-11-25,考試代碼與時程為官方頁面，價格為第三方
-Security+,CompTIA Security+,考試費 $439 / 建議報考 V8；英文版 V7 於 2027-06-11 停考 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,第三方
-SecurityX,CompTIA SecurityX (formerly CASP+),考試費 $544 / CAS-005，最多 90 題，165 分鐘，選擇題加實作題，只分及格與不及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
-Server+,CompTIA Server+,考試費 $399 / SK0-005，最多 90 題，90 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
+Security+,CompTIA Security+,考試費 $439 / 建議報考 V8；英文版 V7 於 2027-06-11 停考 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,https://www.comptia.org/en-us/certifications/security/,2026-11-25,第三方
+SecurityX,CompTIA SecurityX (formerly CASP+),考試費 $544 / CAS-005，最多 90 題，165 分鐘，選擇題加實作題，只分及格與不及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,https://www.comptia.org/en-us/certifications/securityx/,2026-11-25,考試形式為官方頁面，價格為第三方
+Server+,CompTIA Server+,考試費 $399 / SK0-005，最多 90 題，90 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,https://www.comptia.org/en-us/certifications/server/,2026-11-25,考試形式為官方頁面，價格為第三方
 THM PT1,TryHackMe Junior Penetration Tester,48 小時實作（網頁、網路、AD）加報告 / 無正式報考資格；價格官方文章未列,無價格資訊,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,2026-11-25,官方頁面
 THM SAL1,TryHackMe Security Analyst Level 1,在模擬 SOC 環境處理告警並撰寫事件報告 / 無正式報考資格；時間與價格官方文章未列,無價格資訊,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,2026-11-25,官方頁面
 THM SAL2,TryHackMe Security Analyst Level 2,SAL1 形式的進階版，多階段調查情境 / 無正式報考資格；時間與價格官方文章未列,無價格資訊,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,2026-11-25,官方頁面
@@ -523,11 +523,11 @@ WCNA,Protocol Analysis Institute Wireshark Certified Network Analyst,每次 $299
 Zach EAA,Zachman Enterprise Architect Associate (Level 1),須上 4 天 Level 1 課程並通過 2 小時線上考試 / 證照費含在課程價格內，金額官方頁面未列,無價格資訊,https://www.zachman.com/certification/what-we-certify/enterprise-architect,2026-11-25,官方頁面未列或讀不到價格
 Zach EAP,Zachman Enterprise Architect Practitioner (Level 2),繳交個案研究審查 / 費用已含在 Level 1 課程內，金額官方頁面未列,無價格資訊,https://www.zachman.com/certification/what-we-certify/enterprise-architect,2026-11-25,官方頁面未列或讀不到價格
 Zach EAPro,Zachman Enterprise Architect Professional (Level 3),官方頁面僅列出級別名稱，未說明要求與費用,無價格資訊,https://www.zachman.com/certification/what-we-certify/enterprise-architect,2026-11-25,官方頁面未列或讀不到價格
-eAIPT,INE Artificial Intelligence Penetration Tester,即將推出，預計 2026 年秋冬；專業級實作考試 / 維護者提供，未能向官方頁面查證,尚未開賣,,2026-11-25,維護者提供，未經官方驗證
+eAIPT,INE Artificial Intelligence Penetration Tester,即將推出，預計 2026 年秋冬；專業級實作考試 / 維護者提供，未能向官方頁面查證,尚未開賣,https://ine.com/security/certifications,2026-11-25,維護者提供，未經官方驗證
 eCDFP,eLearnSecurity Certified Digital Forensics Professional,考試券 $450 / 使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱,官方考試券（未驗證）,https://checkout.ine.com/account,2026-11-25,維護者提供，未經官方驗證
 eCIR,eLearnSecurity Certified Incident Responder,考試券 $450 / 使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱,官方考試券（未驗證）,https://checkout.ine.com/account,2026-11-25,維護者提供，未經官方驗證
 eCPPT,eLearnSecurity Certified Professional Penetration Tester,考試券 $450 / 使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱,官方考試券（未驗證）,https://checkout.ine.com/account,2026-11-25,維護者提供，未經官方驗證
-eCRA,INE Certified Risk Analyst,即將推出，預計 2026 年秋冬 / 維護者提供，未能向官方頁面查證,尚未開賣,,2026-11-25,維護者提供，未經官方驗證
+eCRA,INE Certified Risk Analyst,即將推出，預計 2026 年秋冬 / 維護者提供，未能向官方頁面查證,尚未開賣,https://ine.com/security/certifications,2026-11-25,維護者提供，未經官方驗證
 eCTHP,eLearnSecurity Certified Threat Hunting Professional,考試券 $450 / 使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱,官方考試券（未驗證）,https://checkout.ine.com/account,2026-11-25,維護者提供，未經官方驗證
 eEDA,INE eLearnSecurity Enterprise Defense Administrator (replaces eNDP),考試券 $450 / 使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱,官方考試券（未驗證）,https://checkout.ine.com/account,2026-11-25,維護者提供，未經官方驗證
 eJPT,eLearnSecurity Junior Penetration Tester,考試券 $250 / 使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱,官方考試券（未驗證）,https://checkout.ine.com/account,2026-11-25,維護者提供，未經官方驗證
