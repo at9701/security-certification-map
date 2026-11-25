@@ -7,7 +7,7 @@
 
 - 線上版：`index.html`（GitHub Pages）
 - 原始碼來源：[PaulJerimy/SecCertRoadmap](https://github.com/PaulJerimy/SecCertRoadmap)
-- 證照數：530（原版 481）
+- 證照數：533（原版 481），其中 3 張尚未開考（虛線框）
 
 ## 排序規則
 
@@ -30,9 +30,9 @@
 
 | 標記 | 張數 | 意義 |
 |---|---|---|
-| V | 236 | 2026-11 讀取過該發證單位的官方頁面。多數是讀該單位的一個代表頁面，**不是逐張查證** |
-| K | 221 | 依發證單位公開的通用考試形式判定，這一輪沒有讀官方頁面 |
-| U | 74 | 官方頁面讀不到或尚未查，考試形式暫用預設值 |
+| V | 247 | 2026-11 讀取過該發證單位的官方頁面。多數是讀該單位的一個代表頁面，**不是逐張查證** |
+| K | 210 | 依發證單位公開的通用考試形式判定，這一輪沒有讀官方頁面 |
+| U | 77 | 官方頁面讀不到或尚未查，考試形式暫用預設值 |
 
 - 110 個來源中約 75 個已嘗試讀取，其中十多個被對方網站擋下或連結已失效；研究筆記在 `data/findings.md`。
 - 42 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
@@ -41,12 +41,29 @@
 - 「官方級別」取自發證單位自己的命名（Essentials、Professional、Expert 等）。各家標準不一，自稱 Expert 的小型發證單位會因此排得偏高，例如 The SecOps Group 的 eXpert 系列。
 - 讀不到官方頁面的單位：EXIN、SECO、ISECOM、VMware、PMI、Juniper、BCS、Axelos（ITIL）、CIISec、CSIAC、QAI、Shared Assessments。這些網站拒絕自動讀取或連結已失效，相關證照維持 U。
 
+## 資料檔
+
+| 檔案 | 內容 |
+|---|---|
+| `data/ranked.csv` | 每張證照的計分輸入、分數、新舊位置、連結 |
+| `data/prices.csv` | 已更新的價格：價格文字、**價格種類**（官方考試費、官方考試券、官方課程含考試、第三方零售參考價、第三方預購價等，分開記錄不混用）、來源網址、查核日期、可信度 |
+| `data/retired.csv` | 已移除的證照：原因、來源、查核日期、可信度 |
+| `data/findings.md` | 各發證單位的查核筆記與讀不到的頁面 |
+
+可信度分三種：官方頁面（本專案實際讀到）、第三方、維護者提供未經官方驗證。頁面上每張有更新價格的證照，提示文字都會顯示來源與日期。
+
+目前已知互相矛盾、待釐清的：
+
+- **EC-Council LPT (Master)**：官方 LPT 頁面寫的是獨立的五天實作考、考試包 $899；另一說是 CPENT 考 90% 以上即取得、不另計費。兩者都列在提示文字中。
+- **Zero-Point CRTO**：官方課程頁 2026-11-25 顯示 £365，第三方紀錄（2026-11-10）為 £399。圖上以官方頁面為準。
+- **CPENT**：官方頁面仍稱 C|PENT，未見「CPENT AI」名稱，故標籤未改。
+
 ## 相對於 2024-07 原版的內容變更
 
 - 更名／取代 32 項（Mile2 C)ISSA→C)CSSA、C)ISSM→C)CSSM、Fortinet 改回 NSE 1–8 共 11 張、SecurityX、OSCP+、HTB CWES、PMRP、CRTL、SC-401、SC-500、CCDL2、CM)CFI、Palo Alto 角色制、Cisco CCNA／CCNP Cybersecurity 與 Automation）
-- 新增 53 張（OffSec、HTB、TCM、TryHackMe、CompTIA SecAI+、ISACA 與 GIAC 的 AI 類，以及官方已有而原圖未收的 27 張：GIAC 8 張、The SecOps Group 15 張、Mile2 4 張）
+- 新增 57 張（INE eEDA，及尚未開考的 CompTIA SecOT+、INE eCRA、eAIPT；OffSec、HTB、TCM、TryHackMe、CompTIA SecAI+、ISACA 與 GIAC 的 AI 類，以及官方已有而原圖未收的 27 張：GIAC 8 張、The SecOps Group 15 張、Mile2 4 張）
 - 台灣證照 4 張（iPAS 資訊安全工程師 初級／中級、資通安全職能評量證書 核心／專業）
-- 移除 8 張（MS-100、AZ-220、ISACA CSX-P、GIAC 標示停止報考的 GCPM、GCWN、GLEG、GSNA，以及 Fortinet 新制已無對應的 FCSS ZTA）
+- 移除 9 張（INE eNDP 已由 eEDA 取代、MS-100、AZ-220、ISACA CSX-P、GIAC 標示停止報考的 GCPM、GCWN、GLEG、GSNA，以及 Fortinet 新制已無對應的 FCSS ZTA）
 
 ## 重新產生
 

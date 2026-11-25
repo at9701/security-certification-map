@@ -155,3 +155,12 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - Microsoft 官方常見問題頁：Associate／Expert 級通常 US$165，依國家定價。基礎級 $99 該頁未列。
 - CompTIA：A+ 兩科 $548、Network+／Cloud+／Linux+／Server+／Project+ $399、Security+／CySA+／PenTest+ $439、SecurityX $544。來源為第三方整理，未經官方查證。
 - INE：eJPT $250、其餘 $450。官方結帳頁需要 JavaScript，未能查證。維護者清單另有 eEDA、eSOC、eAIS、eIAMA、ICCA，且未列 eNDP，圖上尚未調整。
+
+## 2026-11-25 維護者查核結果與本專案對照
+- INE eEDA：官方部落格（2022-10-05）寫明全名為 eLearnSecurity Enterprise Defense **Administrator**，是 eNDP 的直接替代。維護者第一份資料寫 Analyst，以官方頁面為準。
+- INE eNDP：依上述取代關係移除；退役日 2022-10-19 為第三方推定。INE 舊版社群貼文未能讀取。
+- INE eCRA、eAIPT：維護者提供，官方頁面需要 JavaScript，未能查證。以虛線框標示為尚未開考。
+- CompTIA SecOT+：官方頁面確認考試代碼 SOT-001、預購中、上市日寫 2026-12-01（同頁另寫約 12-08）。價格頁面未列，$294 為第三方預購價。
+- EC-Council CPENT：官方頁面確認 24 小時考試；名稱仍為 C|PENT，未見 CPENT AI；拆成兩次 12 小時、70% 及格、7 日內交報告、LPT 取得方式，頁面均未提及。
+- EC-Council CSA：官方頁面未列版本、考試代碼、題數、時間與價格。
+- Zero-Point：CRTO 官方課程頁為 £365 並寫含一次免費考試；維護者資料為 £399／£449 及不限次數重考，兩者不一致，後者未採用為官方事實。

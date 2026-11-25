@@ -191,6 +191,8 @@ o("DV RTOS|DV OTD|DV MoS|DV AOPH|DV MILF", F="C", I=0, R=0, B="V")   # course wi
 o("CCE", F="X", I=5, R=1, T=2, B="V"); o("SACP", I=2, B="V"); o("DCA", T=1, B="V"); o("WCNA", B="V")
 o("EITCA/IS", I=2, B="V"); o("SCE", R=2, T=2, B="V"); o("SCA", T=1, B="K")
 o("PCI QSA", R=2, board=1, B="V")
+o("eEDA", F="P", I=4, R=0, T=2, B="U"); o("eAIPT", F="P", I=4, R=0, T=2, B="U"); o("eCRA", F="Q", I=1, R=0, T=2, B="U")
+o("SecOT+", F="B", I=1, R=1, T=2, B="V"); o("CSA", I=2); o("CPENT", B="V")
 # fourth pass: The SecOps Group tiers (Essentials 1h, Professional 4h, eXpert 7h) and Mile2
 o("CBP|CBTP|CSEDP", F="Q", I=0, R=0, T=0, B="V")
 o("C-AI/MLPen|C-APIPen|CRTeamer|CBFRPro|CKBPro|CBTeamer|CDAPen|C-AgAIPen", F="P", I=2, R=0, T=2, B="V")
@@ -231,7 +233,7 @@ price("OSEP|OSWE|OSED|OSWA|OSDA|OSTH|OSIR|OSAI", "課程加考試 $1,749（90 �
 price("GFACT", "考試費 $399"); price("GISF", "考試費 $499")
 price("GX-PT", "考試費 $1,299（持有 GPEN 為 $499）"); price("GX-FA", "考試費 $1,299（持有 GCFA 為 $499）")
 price("CREST CRTSA", "£395 + VAT", "選擇題加長篇情境筆試")
-price("LPT", "考試包 $899", "5 天實作滲透測試加報告")
+price("LPT", "官方 LPT 頁面：5 天實作考加報告，考試包 $899", "維護者查核：CPENT 考 90% 以上即取得，不另計費（未能向官方頁面查證）")
 price("PSM III", "每次 $500", "24 題論述，150 分鐘")
 price("AWS SAP", "考試費 $300", "75 題，180 分鐘"); price("CKS", "考試費 $445（含一次重考）", "實作 2 小時，須先通過 CKA")
 price("LFCS", "考試費 $445", "實作 2 小時"); price("ASIS CPP", "考試費 $450（會員 $300）", "須 7–9 年經驗")
@@ -265,19 +267,61 @@ price("Google PCSE", "考試費 $200", "50–60 題，2 小時")
 price("PSM I", "每次 $200", "80 題，60 分鐘，85% 及格"); price("PSM II", "每次 $250", "30 題，90 分鐘，85% 及格")
 price("CSA CCSK", "$445（含兩次機會）", "開書線上考，60 題，120 分鐘")
 # figures supplied by the repo owner on 2026-11-25; UNV marks the ones the issuer's page could not confirm
-UNV3 = "第三方來源的美國零售價，未能向 CompTIA 官方頁面查證"
+UNV3 = "美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認"
 price("Security+", "考試費 $439", "建議報考 V8；英文版 V7 於 2027-06-11 停考", UNV3)
 price("A+", "兩科合計 $548", UNV3); price("Net+|Cloud+|Linux+|Server+|Project+", "考試費 $399", UNV3)
 price("CySA+|Pentest+", "考試費 $439", UNV3); price("SecurityX", "考試費 $544", UNV3)
-price("CRTO", "課程含一次考試 £365 起", "加購 Lab 另計")
-price("CRTL", "課程含一次考試 £399 起", "使用者提供，官方頁面本次未能讀取")
+price("CRTO", "課程含一次考試 £365（官方課程頁）", "第三方紀錄為 £399（2026-11-10），未經官方驗證")
+price("CRTL", "課程含考試 £449（第三方紀錄，2026-11-10）", "官方頁面本次未能讀取")
 price("CEH", "考試券 $1,199（Pearson VUE 考場）", "自修考生須先通過資格審查")
 price("CHFI", "考試券 $650（遠端監考）"); price("CND", "考試券 $550（遠端監考）"); price("ECIH", "考試券 $450（遠端監考）")
 price("SC-200|SC-300|SC-100|AZ-104|AZ-305|SC-401|SC-500", "約 $165，依國家或地區定價")
 price("SC-900|AZ-900", "約 $99，依國家或地區定價", "使用者提供，官方常見問題頁未列此數字")
 UNVI = "使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱"
 price("eJPT", "考試券 $250", UNVI); price("eCPPT|eWPT|eWPTX|eMAPT|eCIR|eCTHP|eCDFP", "考試券 $450", UNVI)
-price("SSAP", "50 題 2 小時，開書", "無報考資格"); price("CACE", "須 10 年經驗", "選擇、簡答與個案分析兩階段考試")
+price("eEDA", "考試券 $450", UNVI)
+price("CSA", "考試費 $450；電子教材含考試 $550", "312-39，100 題選擇題，180 分鐘", "維護者提供，官方頁面未列這些數字")
+price("CPENT", "24 小時實作考試", "單獨考試費：須向官方詢價", "教材與 Lab 套裝 $899，不含考試（維護者提供）")
+price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
+price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
+price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
+price("SSAP", "50 題 2 小時，開書", "無報考資格")
+
+# every PRICE entry carries: kind of price, source, date read, confidence
+META = {}
+
+
+def meta(labels, **kw):
+    for l in labels.split("|"):
+        META.setdefault(l, {}).update(kw)
+
+
+OFFICIAL = "官方頁面"; THIRD = "第三方"; OWNER = "維護者提供，未經官方驗證"
+meta("Security+|A+|Net+|Cloud+|Linux+|Server+|Project+|CySA+|Pentest+|SecurityX", kind="第三方零售參考價", conf=THIRD,
+     date="2026-11-23", url="")
+meta("eJPT|eCPPT|eWPT|eWPTX|eMAPT|eCIR|eCTHP|eCDFP|eEDA", kind="官方考試券（未驗證）", conf=OWNER,
+     url="https://checkout.ine.com/account")
+meta("eCRA|eAIPT", kind="尚未開賣", conf=OWNER, url="")
+meta("CRTO", kind="官方課程含考試", url="https://training.zeropointsecurity.co.uk/courses/red-team-ops")
+meta("CRTL", kind="第三方價格", conf=THIRD, date="2026-11-10", url="https://training.zeropointsecurity.co.uk/courses/red-team-ops-ii")
+meta("SC-900|AZ-900", conf=OWNER, url="https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions")
+meta("SC-200|SC-300|SC-100|AZ-104|AZ-305|SC-401|SC-500", url="https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions")
+meta("OSEP|OSWE|OSED|OSWA|OSDA|OSTH|OSIR|OSAI", kind="官方課程含考試", url="https://www.offsec.com/pricing/")
+meta("HTB CJCA|HTB CPTS|HTB CWES|HTB CDSA|HTB COAE|HTB CWEE|HTB CAPE|HTB CWPE|HTB CDEP", kind="官方考試券",
+     url="https://academy.hackthebox.com/preview/certifications")
+meta("CC|SSCP|CGRC|CSSLP|CCSP|CISSP|CISSP Concentrations", url="https://www.isc2.org/register-for-exam/isc2-exam-pricing")
+meta("CCNA|CCNP Sec|CCNP Ent|CCNP Cyber|CCNP Auto|CCIE Ent", url="https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html")
+meta("CEH", kind="官方考試券", url="https://store.eccouncil.org/product/ceh-vue-exam-voucher/")
+meta("CHFI", kind="官方考試券", url="https://store.eccouncil.org/product/chfi-ecc-exam-voucher/")
+meta("CND", kind="官方考試券", url="https://store.eccouncil.org/product/cnd-ecc-exam-voucher/")
+meta("ECIH", kind="官方考試券", url="https://store.eccouncil.org/product/ecih-ecc-exam-voucher/")
+meta("CSA", conf=OWNER); meta("CPENT", kind="官方詢價；套裝價為維護者提供", conf="考試時數為官方頁面，其餘維護者提供",
+     url="https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/")
+meta("LPT", kind="官方考試包（與維護者查核結果不一致）", conf="兩個來源互相矛盾，待釐清", date="2026-11-24")
+meta("SecOT+", kind="第三方預購價", conf="考試代碼與時程為官方頁面，價格為第三方", url="https://www.comptia.org/en-us/certifications/secot/")
+meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝價")
+meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
+meta("C)ISSO|SSAP|CACE", kind="無價格資訊"); price("CACE", "須 10 年經驗", "選擇、簡答與個案分析兩階段考試")
 
 # ------------------------------------------------------------------ parse the built page
 spans = {}
@@ -314,9 +358,13 @@ for m in tok.finditer(src, body_start):
 assert end_container, "container end not found"
 
 # ------------------------------------------------------------------ data fixes found in the November 2026 pass
-DROP = {"GCPM": "GIAC 標示 In Abeyance（停止報考）", "GCWN": "GIAC 標示 In Abeyance（停止報考）",
-        "GLEG": "GIAC 標示 In Abeyance（停止報考）", "GSNA": "GIAC 標示 In Abeyance（停止報考）",
-        "FCSS ZTA": "Fortinet 新制 NSE 1–8 已無 Zero Trust 路線"}
+GIAC_ABEY = ("GIAC 價目表標示 In Abeyance（停止報考）", "https://www.giac.org/pricing/", "2026-11-24", "官方頁面")
+DROP = {"GCPM": GIAC_ABEY, "GCWN": GIAC_ABEY, "GLEG": GIAC_ABEY, "GSNA": GIAC_ABEY,
+        "FCSS ZTA": ("Fortinet 現行 NSE 1–8 已無 Zero Trust 路線", "https://www.fortinet.com/training-certification",
+                     "2026-11-25", "官方頁面"),
+        "eNDP": ("由 eEDA 直接取代（INE 官方部落格 2022-10-05）；退役日 2022-10-19 為第三方推定",
+                 "https://ine.com/blog/enterprise-defense-admin-learning-path", "2026-11-25",
+                 "取代關係為官方頁面，退役日期為第三方")}
 RELABEL = {"CM)DFI": ("CM)CFI", "Mile2 Certified Master Cyber Forensics Investigator"),
            "CCD": ("CCDL2", "CyberDefenders Certified CyberDefender Level 2 (formerly CCD)"),
            "C)ISSA": ("C)CSSA", "Mile2 Certified Cybersecurity Systems Auditor (formerly C)ISSA)"),
@@ -369,15 +417,21 @@ EXTRA = [
     ("CRTeamerX", 45, "The SecOps Group Certified Red Teamer - eXpert", "eXpert 級，7 小時", PTE),
     ("CCPenX-Az", 10, "The SecOps Group Certified Cloud Pentesting eXpert - Azure", "eXpert 級，7 小時", PTE),
     ("CBTeamerX", 35, "The SecOps Group Certified Blue Teamer - eXpert", "eXpert 級，7 小時", PTE),
+    # INE and CompTIA, supplied by the maintainer on 2026-11-25
+    ("eEDA", 3, "INE eLearnSecurity Enterprise Defense Administrator (replaces eNDP)", "", "https://ine.com/blog/enterprise-defense-admin-learning-path"),
+    ("eCRA", 24, "INE Certified Risk Analyst", "", "https://ine.com/security/certifications", "soon"),
+    ("eAIPT", 43, "INE Artificial Intelligence Penetration Tester", "", "https://ine.com/security/certifications", "soon"),
+    ("SecOT+", 13, "CompTIA SecOT+", "", "https://www.comptia.org/en-us/certifications/secot/", "soon"),
     # Mile2
     ("C)AICSO", 23, "Mile2 Certified AI Cybersecurity Officer", "選擇題 100 題，2 小時", MILE2),
     ("C)NIS2", 25, "Mile2 Certified NIS2 Lead Auditor/Implementer", "選擇題 100 題，2 小時", MILE2),
     ("C)CFTA", 38, "Mile2 Certified Cyber Forensics Threat Analyst", "選擇題 100 題，2 小時", MILE2),
     ("C)OL", 20, "Mile2 Certified Organizational Leader", "選擇題 100 題，2 小時", MILE2),
 ]
-for label, col_, name, detail, link in EXTRA:
+for label, col_, name, detail, link, *flag in EXTRA:
     cls = next(c for lo_, hi_, c in COL_CLS if lo_ <= col_ <= hi_)
-    st = ' style="font-size:0.48vw;"' if len(label) > 8 else ""
+    css = ("font-size:0.48vw;" if len(label) > 8 else "") + ("opacity:0.55;border-style:dashed;" if flag else "")
+    st = f' style="{css}"' if css else ""
     h = (f'<a class="{cls}"{st} href="{link}" tooltiptext="{html.escape(name, quote=True)}\n    '
          f'{html.escape(detail, quote=True)}" tabindex="0" target="_blank" >{label}</a>')
     items.append(dict(html=h, cls=cls, label=label, row=14, col=col_, span=1))
@@ -499,7 +553,11 @@ def retip(it):
             first = m.group(2).split("\n")[0]
             return f' {m.group(1)}="' + first + "".join("\n    " + html.escape(l, quote=True) for l in PRICE[lab]) + '"'
         h = re.sub(r' (tooltip\w+)="([^"]*)"', swap, h, count=1)
-    extra = "\n    " + html.escape(basis, quote=True) + "\n    " + html.escape(f"評分 {it['score']}｜{B_ZH[it['B']]}", quote=True)
+        md = META.get(lab, {})
+        src_line = f"價格來源：{md.get('conf', OFFICIAL)}｜{md.get('date', '2026-11-25')}"
+    else:
+        src_line = ""
+    extra = ("\n    " + html.escape(src_line, quote=True) if src_line else "") + "\n    " + html.escape(basis, quote=True) + "\n    " + html.escape(f"評分 {it['score']}｜{B_ZH[it['B']]}", quote=True)
     # tooltips open toward the centre so the longer text stays on screen
     side = "tooltipleft" if it["ncol"] <= 12 else "tooltipright" if it["ncol"] >= 36 else "tooltiptext"
     return re.sub(r' (tooltip\w+)="([^"]*)"', lambda m: f' {side}="{m.group(2)}{extra}"', h, count=1)
@@ -541,7 +599,7 @@ rules = f"""
   <p>資料來源：{by_b['V']} 張屬於本次已讀取官方頁面的發證單位（多數是讀該單位的代表頁面，不是逐張查證）；{by_b['K']} 張依發證單位公開的通用考試形式判定，本次未讀取官方頁面；
   {by_b['U']} 張的官方頁面讀不到或尚未查，考試形式暫用該單位的預設值。另有 {n_band} 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
   同分或該列已滿時會落在相鄰列。
-  本次另移除 {len(dropped)} 張已停止報考的證照：{'、'.join(d['label'] for d in dropped)}；
+  本次另移除 {len(dropped)} 張停考或退役的證照（{'；'.join(d['label'] + '：' + DROP[d['label']][0] + '，依據' + DROP[d['label']][3] for d in dropped)}）；
   並補上官方已有、原圖未收的 {len(EXTRA)} 張（GIAC 8 張、The SecOps Group 15 張、Mile2 4 張）。
   價格方面，GIAC 全系列與另外 {len(PRICE)} 張已改為 2026 年 11 月官方頁面的數字，其餘仍是 2024 年的內容。</p>
 </section>
@@ -555,6 +613,23 @@ with open(csv_path, "w", newline="", encoding="utf-8") as f:
     for i in sorted(items, key=lambda i: -i["score"]):
         w.writerow([i["label"], i["name"], i["host"], i["F"], i["I"], i["R"], i["T"], i["tsrc"], i["board"], i["score"],
                     i["B"], i["row"], i["nrow"], i["ncol"], i["href"]])
+import os
+ddir = os.path.dirname(csv_path)
+with open(os.path.join(ddir, "prices.csv"), "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f)
+    w.writerow(["label", "name", "price_text", "price_kind", "source_url", "checked", "confidence"])
+    for i in sorted(items, key=lambda i: i["label"]):
+        if i["label"] in PRICE:
+            md = META.get(i["label"], {})
+            url = md["url"] if "url" in md else i["href"]
+            w.writerow([i["label"], i["name"], " / ".join(PRICE[i["label"]]), md.get("kind", "官方考試費"), url,
+                        md.get("date", "2026-11-25"), md.get("conf", OFFICIAL)])
+with open(os.path.join(ddir, "retired.csv"), "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f)
+    w.writerow(["label", "name", "reason", "source", "checked", "confidence"])
+    for d in dropped:
+        nm = html.unescape(re.search(r'tooltip\w+="([^"\n]*)', d["html"]).group(1))
+        w.writerow([d["label"], nm, *DROP[d["label"]]])
 moved = sum(1 for i in items if i["nrow"] != i["row"])
 off = sum(1 for i in items if i["nrow"] != i["target"])
 print(f"items {len(items)} | score {lo}-{hi} | basis {by_b} | moved rows {moved} | placed off-target {off} | dropped {len(dropped)}")
