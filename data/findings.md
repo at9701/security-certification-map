@@ -214,3 +214,11 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - CompTIA 各證照頁（皆未列價格）：SecurityX CAS-005（最多 90 題、165 分鐘、只分及格與否）；PenTest+ PT0-003（165 分鐘、750）；Network+ N10-009（90 分鐘、720）；Linux+ XK0-006（720）；Cloud+ CV0-004（750）；Server+ SK0-005（750）；Project+ PK0-005（710）。皆為選擇題加實作題，經驗僅為建議。
 - CySA+：V4 為新版，英文版 V3 於 2026-12-22 停考。Security+：建議 V8，英文版 V7 於 2027-06-11 停考。A+：Core 1、Core 2 兩科（V15）。這三張的總覽頁未列題數與時間，維持 K。
 - Cloud Essentials+：官方頁面只介紹約 8 小時自學課程，未列考試資訊，改為虛線框。
+
+## Microsoft、EC-Council、Palo Alto、Infosec Institute（2026-11-25）
+- Microsoft Learn：SC-401、SC-200、SC-300、AZ-104 皆 100 分鐘、中階、無報考資格，每 12 個月免費線上更新。AZ-305 須先取得 Azure Administrator Associate。SC-900、AZ-900 為 45 分鐘、入門級。各頁價格只寫「依國家或地區定價」。SC-500 的連結仍指向停考課程頁，未查證。
+- EC-Council EISM：選擇題 150 題、2 小時、70% 及格，無年資要求但須先完成官方 CCISO 訓練，價格未列。C|CSE：選擇題 125 題、4 小時、70% 及格，須 2 年資安經驗（申請費 $100）或參加官方訓練，考試券價格未列。
+- EC-Council 讀到但無考試資訊：CCISO 頁（只寫須符合基本資格）、EDRP 頁（考試欄位為 Info Needed 佔位文字）。讀取失敗：CTIA、CASE、CSA 三頁。未讀：CNDA、ECES、ECSS、CSCU。
+- Palo Alto 證照總表：級別順序為 Foundational、Professional、Specialist、Architect。圖上六張的級別：Cybersecurity Practitioner 為 Foundational；Network Security Professional 為 Professional；NGFW Engineer、XSOAR Engineer、XDR Analyst、Cloud Security Engineer 為 Specialist。個別頁面沒有題數、時間、價格（在 PDF datasheet），維持 K。總表另有 Identity Security 系列等圖上沒有的證照，尚未加入。
+- Infosec Institute：圖上連結的 portal 頁面只顯示訓練營梯次，沒有證照名稱、考試形式或價格；證照總覽頁也沒有 IACRB 證照資訊。CCFE、CMFE、CSSA、CDRP、CMWAPT、CRTOP、CREA、CSAP 改記為 U。
+- 修正：圖上有兩張 CCSE（EC-Council 與 Check Point）、兩張 CCSA（ecfirst 與 Check Point），原本共用同一組設定。rank.py 新增「標籤@網域」寫法，EC-Council 的 C|CSE 資料不再套到 Check Point 那張。

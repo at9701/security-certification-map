@@ -227,6 +227,12 @@ o("C)PTE", F="Q", I=1, R=1, T=2, B="V")                   # 100 MCQ, 2h, online
 # ISACA credential pages and CompTIA certification pages, read 2026-11-25
 o("CISA|CRISC|CGEIT|CDPSE|AAIR|AAIA", B="V")
 o("SecurityX|Net+|Linux+|Cloud+|Server+|Project+", B="V"); o("Pentest+", I=2, B="V")
+# Microsoft Learn, EC-Council, Palo Alto and Infosec pages, read 2026-11-25
+o("SC-401|SC-200|SC-300|AZ-104|AZ-305|SC-900|AZ-900", B="V")
+o("EISM", F="Q", I=1, R=1, T=2, B="V")       # 150 MCQ, 2h, 70%; official CCISO training required
+o("CCSE@cert.eccouncil.org", F="Q", I=2, R=1, T=2, B="V")       # 125 MCQ, 4h, 70%; 2 years or official training
+o("PA Cloud", T=3)                           # listed as Specialist, same level as the other engineer exams
+o("CCFE|CMFE|CSSA|CDRP|CMWAPT|CRTOP|CREA|CSAP", B="U")   # portal pages show boot camps only, no certification facts
 # GIAC, read cert by cert on 2026-11-25: (questions, hours, pass %, CyberLive hands-on items)
 GIAC = {
     "GXPN": (60, 3, 67, 1), "GREM": (66, 3, 73, 1), "GCIH": (106, 4, 69, 1), "GSEC": (106, 4, 72, 1),
@@ -354,6 +360,11 @@ price("A+", "兩科合計 $548", "須通過 Core 1 與 Core 2 兩科（V15）", 
 price("CISA|CRISC|CGEIT|CDPSE", "考試費 $760（會員 $575）", "通過後另繳申請費 $50，並須提出經驗證明")
 price("AAIR", "考試費 $599（會員 $459）", "須持有 CISA、CISM、CRISC、CGEIT、CDPSE 或官方列出的其他資格")
 price("AAIA", "考試費 $599（會員 $459）", "須持有有效 CISA，或官方列出的稽核類資格")
+price("SC-401|SC-200|SC-300|AZ-104", "約 $165，依國家或地區定價", "100 分鐘，中階，無報考資格；每 12 個月免費線上更新")
+price("AZ-305", "約 $165，依國家或地區定價", "須先取得 Azure Administrator Associate（AZ-104）")
+price("SC-900|AZ-900", "約 $99，依國家或地區定價", "45 分鐘，入門級", "價格為使用者提供，官方頁面只寫依國家或地區定價")
+price("EISM", "選擇題 150 題，2 小時，70% 及格", "無年資要求，但須先完成官方 CCISO 訓練；官方頁面未列價格")
+price("CCSE@cert.eccouncil.org", "選擇題 125 題，4 小時，70% 及格", "須 2 年資安經驗（申請費 $100），或參加官方訓練；考試券價格未列")
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -400,6 +411,13 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("SC-401", url="https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/"); meta("SC-200", url="https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/")
+meta("SC-300", url="https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/"); meta("AZ-104", url="https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/")
+meta("AZ-305", url="https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/"); meta("SC-900", url="https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/")
+meta("AZ-900", url="https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/")
+meta("SC-401|SC-200|SC-300|AZ-104|AZ-305|SC-900|AZ-900", conf="考試時間與門檻為官方頁面；金額非官方頁面數字", date="2026-11-25")
+meta("EISM", kind="無價格資訊", url="https://ciso.eccouncil.org/cciso-certification/eism-program/")
+meta("CCSE@cert.eccouncil.org", kind="無價格資訊", url="https://cert.eccouncil.org/certified-cloud-security-engineer.html")
 meta("CISA", url="https://www.isaca.org/credentialing/cisa"); meta("CRISC", url="https://www.isaca.org/credentialing/crisc"); meta("CGEIT", url="https://www.isaca.org/credentialing/cgeit")
 meta("CDPSE", url="https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer"); meta("AAIR", url="https://www.isaca.org/credentialing/aair"); meta("AAIA", url="https://www.isaca.org/credentialing/aaia")
 meta("CISA|CRISC|CGEIT|CDPSE|AAIR|AAIA", kind="官方考試費", conf=OFFICIAL, date="2026-11-25")
@@ -580,7 +598,7 @@ def attrs(it):
     host = urlparse(href).netloc.replace("www.", "")
     name = html.unescape(tip.split("\n")[0].strip())
     F, I, R, B = HOST.get(host, DEFAULT)
-    ov = O.get(it["label"], {})
+    ov = {**O.get(it["label"], {}), **O.get(it["label"] + "@" + host, {})}   # label@host wins where two issuers share a label
     F, I, R, B = ov.get("F", F), ov.get("I", I), ov.get("R", R), ov.get("B", B)
     board = ov.get("board", 0)
     if "T" in ov:
@@ -695,12 +713,13 @@ def retip(it):
             h = h.replace(' style="', ' style="opacity:0.55;border-style:dashed;', 1)
         else:
             h = h.replace(" href=", ' style="opacity:0.55;border-style:dashed;" href=', 1)
-    if lab in PRICE:
+    pk = lab + "@" + it["host"] if lab + "@" + it["host"] in PRICE else lab
+    if pk in PRICE and not (pk == lab and any(k.startswith(lab + "@") for k in PRICE)):
         def swap(m):
             first = m.group(2).split("\n")[0]
-            return f' {m.group(1)}="' + first + "".join("\n    " + html.escape(l, quote=True) for l in PRICE[lab]) + '"'
+            return f' {m.group(1)}="' + first + "".join("\n    " + html.escape(l, quote=True) for l in PRICE[pk]) + '"'
         h = re.sub(r' (tooltip\w+)="([^"]*)"', swap, h, count=1)
-        md = META.get(lab, {})
+        md = META.get(pk, {})
         src_line = f"價格來源：{md.get('conf', OFFICIAL)}｜{md.get('date', '2026-11-25')}"
     else:
         src_line = ""
@@ -768,10 +787,11 @@ with open(os.path.join(ddir, "prices.csv"), "w", newline="", encoding="utf-8") a
     w = csv.writer(f)
     w.writerow(["label", "name", "price_text", "price_kind", "source_url", "checked", "confidence"])
     for i in sorted(items, key=lambda i: i["label"]):
-        if i["label"] in PRICE:
-            md = META.get(i["label"], {})
+        pk = i["label"] + "@" + i["host"] if i["label"] + "@" + i["host"] in PRICE else i["label"]
+        if pk in PRICE and not (pk == i["label"] and any(k.startswith(pk + "@") for k in PRICE)):
+            md = META.get(pk, {})
             url = md["url"] if "url" in md else i["href"]
-            w.writerow([i["label"], i["name"], " / ".join(PRICE[i["label"]]), md.get("kind", "官方考試費"), url,
+            w.writerow([i["label"], i["name"], " / ".join(PRICE[pk]), md.get("kind", "官方考試費"), url,
                         md.get("date", "2026-11-25"), md.get("conf", OFFICIAL)])
 with open(os.path.join(ddir, "flagged.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)

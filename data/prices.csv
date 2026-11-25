@@ -7,9 +7,9 @@ AWS CP,Amazon Web Services Certified Cloud Practitioner,考試費 $100 / 65 題�
 AWS CSS,Amazon Web Services Certified Security - Specialty,考試費 $300 / 65 題，170 分鐘,官方考試費,https://aws.amazon.com/certification/certified-security-specialty/,2026-11-25,官方頁面
 AWS SAA,Amazon Web Services Certified Solutions Architect - Associate,考試費 $150 / 65 題，130 分鐘,官方考試費,https://aws.amazon.com/certification/certified-solutions-architect-associate/,2026-11-25,官方頁面
 AWS SAP,Amazon Web Services Certified Solutions Architect - Professional,考試費 $300 / 75 題，180 分鐘,官方考試費,https://aws.amazon.com/certification/certified-solutions-architect-professional/,2026-11-25,官方頁面
-AZ-104,Microsoft Azure Administrator Associate,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
-AZ-305,Microsoft Azure Solutions Architect Expert,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
-AZ-900,Microsoft Azure Fundamentals,約 $99，依國家或地區定價 / 使用者提供，官方常見問題頁未列此數字,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,維護者提供，未經官方驗證
+AZ-104,Microsoft Azure Administrator Associate,約 $165，依國家或地區定價 / 100 分鐘，中階，無報考資格；每 12 個月免費線上更新,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
+AZ-305,Microsoft Azure Solutions Architect Expert,約 $165，依國家或地區定價 / 須先取得 Azure Administrator Associate（AZ-104）,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
+AZ-900,Microsoft Azure Fundamentals,約 $99，依國家或地區定價 / 45 分鐘，入門級 / 價格為使用者提供，官方頁面只寫依國家或地區定價,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
 BTL2,Security Blue Team Level 2,"£1,999（含訓練） / 最長 72 小時實作加報告",官方課程或套裝價,https://securityblue.team/btl2/,2026-11-25,官方頁面
 C)ISSO,Mile2 Certified Information Systems Security Officer,選擇題 100 題，2 小時 / 須 1 年相關經驗,無價格資訊,https://www.mile2.com/cisso_outline/,2026-11-25,官方頁面
 C)PTE,Mile2 Certified Penetration Testing Engineer,選擇題 100 題，2 小時，線上應考 / 建議 12 個月網路經驗；效期三年，每年 20 CEU,無價格資訊,https://www.mile2.com/penetration-testing-engineer-outline/,2026-11-25,官方頁面
@@ -27,6 +27,7 @@ CCNP Cyber,Cisco CCNP Cybersecurity,核心考試加一科專精考試 / 無正�
 CCNP Ent,Cisco Certified Network Professional - Enterprise,核心考試 350-401 $400（120 分鐘）加一科專精考試 $300（90 分鐘） / 無報考資格；效期三年,官方考試費,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html,2026-11-25,官方頁面
 CCNP Sec,Cisco Certified Network Professional - Security,核心考試 350-701 $400（120 分鐘）加一科專精考試 $300（90 分鐘） / 無報考資格；效期三年,官方考試費,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security-v2.html,2026-11-25,官方頁面
 CCOA,ISACA Certified Cybersecurity Operations Analyst,考試費 $499（會員 $399） / 選擇題加實作題，4 小時,官方考試費,https://www.isaca.org/credentialing/ccoa,2026-11-25,官方頁面
+CCSE,EC Council Certified Cloud Security Engineer,選擇題 125 題，4 小時，70% 及格 / 須 2 年資安經驗（申請費 $100），或參加官方訓練；考試券價格未列,無價格資訊,https://cert.eccouncil.org/certified-cloud-security-engineer.html,2026-11-25,官方頁面
 CCSP,ISC2 Certified Cloud Security Professional,考試費 $599,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
 CCT,Cisco Certified Technician,須通過一科考試 / 無正式報考資格；此頁未列考試代碼與價格,無價格資訊,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/entry/technician-cct.html,2026-11-25,官方頁面
 CDPSE,ISACA Certified Data Privacy Solutions Engineer,考試費 $760（會員 $575） / 通過後另繳申請費 $50，並須提出經驗證明,官方考試費,https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer,2026-11-25,官方頁面
@@ -79,6 +80,7 @@ DCA,Docker Certified Associate,考試費 $199 / 55 題 90 分鐘,官方考試費
 DCPP,DSCI Certified Privacy Professional,"INR 15,000 加稅 / 選擇題含個案，65% 及格",官方考試費,https://www.dsci.in/content/dsci-certified-privacy-professional-dcpp,2026-11-25,官方頁面
 DV RTOS,Dark Vortex Red Team & Operational Security,"課程 $2,500 / 3 天線上課程，無考試，發結業證書",官方課程或套裝價,https://0xdarkvortex.dev/training-programs/red-team-and-operational-security/,2026-11-25,官方頁面
 ECIH,EC Council Certified Incident Handler,考試券 $450（遠端監考）,官方考試券,https://store.eccouncil.org/product/ecih-ecc-exam-voucher/,2026-11-25,官方頁面
+EISM,EC Council Information Security Manager,選擇題 150 題，2 小時，70% 及格 / 無年資要求，但須先完成官方 CCISO 訓練；官方頁面未列價格,無價格資訊,https://ciso.eccouncil.org/cciso-certification/eism-program/,2026-11-25,官方頁面
 EITCA/IS,EITCA/IS Information Security Certificate,€950 / 12 科線上測驗,官方考試費,https://eitca.org/eitca-is-information-security-academy/,2026-11-25,官方頁面
 GASF,GIAC Advanced Smartphone Forensics,考試費 $999 / 75 題，2 小時，69% 及格；無實作題,官方考試費,https://www.giac.org/certification/advanced-smartphone-forensics-gasf,2026-11-25,官方頁面
 GAWN,GIAC Assessing Wireless Networks,考試費 $999 / 75 題，2 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certification/gawn,2026-11-25,官方頁面
@@ -162,11 +164,11 @@ Pentest+,CompTIA Pentest+,考試費 $439 / PT0-003，最多 90 題，165 分鐘�
 Project+,CompTIA Project+,考試費 $399 / PK0-005，最多 90 題，90 分鐘，710 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 SACP,The H Layer Security Awareness and Culture Professional,申請費 $369 / 120 題,官方考試費,https://www.thehlayer.com/about-exam/,2026-11-25,官方頁面
 SC-100,Microsoft Cybersecurity Architect,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
-SC-200,Microsoft Certified: Security Operations Analyst Associate,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
-SC-300,Microsoft Certfied: Identity and Access Administrator Associate,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
-SC-401,Microsoft Certified: Information Security Administrator Associate,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
+SC-200,Microsoft Certified: Security Operations Analyst Associate,約 $165，依國家或地區定價 / 100 分鐘，中階，無報考資格；每 12 個月免費線上更新,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
+SC-300,Microsoft Certfied: Identity and Access Administrator Associate,約 $165，依國家或地區定價 / 100 分鐘，中階，無報考資格；每 12 個月免費線上更新,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
+SC-401,Microsoft Certified: Information Security Administrator Associate,約 $165，依國家或地區定價 / 100 分鐘，中階，無報考資格；每 12 個月免費線上更新,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
 SC-500,Microsoft SC-500: Build a secure Cloud and AI solution,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
-SC-900,"Microsoft Certified: Security, Compliance, and Identity Fundamentals",約 $99，依國家或地區定價 / 使用者提供，官方常見問題頁未列此數字,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,維護者提供，未經官方驗證
+SC-900,"Microsoft Certified: Security, Compliance, and Identity Fundamentals",約 $99，依國家或地區定價 / 45 分鐘，入門級 / 價格為使用者提供，官方頁面只寫依國家或地區定價,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
 SOG CAPen,The SecOps Group Certified AppSec Pentester,$328，4 小時實作,官方考試費,https://pentestingexams.com/,2026-11-25,官方頁面
 SOG CAPenX,The SecurityOps Group Certified AppSec Pentesting eXpert,原價 $521 / 7 小時實作考,官方考試費,https://pentestingexams.com/,2026-11-25,官方頁面
 SOG CNPen,The SecOps Group Certified Network Pentester,$328，4 小時實作,官方考試費,https://pentestingexams.com/,2026-11-25,官方頁面
