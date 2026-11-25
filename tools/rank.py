@@ -417,6 +417,35 @@ price("SCA", "考試費 $149", "70 題，90 分鐘，70% 及格，無報考資�
 price("IIA CIA", "三科考試：Part 1 $445、Part 2 $415、Part 3 $415，申請費 $240（會員 $310／$280／$280，申請費 $120）", "碩士須 1 年、學士須 2 年內部稽核經驗；2027-01-04 起調整價格")
 price("iPAS 初級", "報名費每科 NT$1,200（新考生優惠 NT$800），共兩科", "每科單選 50 題、75 分鐘；兩科同考平均 70 分且單科不低於 60 分", "無報考資格；證書永久有效；115 年考試日 05/23、10/31")
 price("iPAS 中級", "報名費每科 NT$1,500（新考生優惠 NT$1,000），共兩科", "每科 40 題（單選、複選、題組）、90 分鐘；兩科皆須 70 分", "無報考資格，可跳過初級；證書效期 5 年，換證須 48 小時資安訓練；115 年考試日 04/11、08/22")
+# price pass, 2026-11-25: regular prices only; time-limited sale prices are noted but not used as the price
+price("PJPT", "$249（含 12 個月訓練教材與一次免費重考）", "實作 2 天，另 2 天寫報告；無報考資格")
+price("PNPT", "$499（含 12 個月訓練教材與一次免費重考）", "實作 5 天，另 2 天寫報告，再加 15 分鐘口頭簡報；無報考資格")
+price("PWPP", "$499（含 12 個月訓練教材與一次免費重考）", "實作 3 天，另 2 天寫報告；促銷價 $399 至 11/30")
+price("PWPA", "$249（含 12 個月訓練教材與一次免費重考）", "實作 2 天，另 2 天寫報告；促銷價 $199 至 11/30")
+price("PSAA", "$249（含 12 個月訓練教材與一次免費重考）", "實作 2 天，另 2 天寫報告；促銷價 $199 至 11/30")
+price("PAPA", "$249（含 12 個月訓練教材與一次免費重考）", "實作 2 天，另 2 天寫報告")
+price("PMRP", "$499（含 12 個月訓練教材與一次免費重考）", "實作 5 天，另 2 天寫報告；促銷價 $399 至 11/30")
+MOSSE_NOTE = "無考試，完成實作練習由講師審核；促銷碼另有折扣"
+price("MOIS|MBT|MCPT|MDFIR|MRE|MDSO|MRT|MVRE", "$699", MOSSE_NOTE)
+price("MCSE|MPT|MTH", "$699（促銷價 $595）", MOSSE_NOTE)
+price("MCSF|MSAF", "$699（促銷價 $450）", MOSSE_NOTE)
+price("MCPE", "$1,000（促銷價 $800）", MOSSE_NOTE); price("MRCI", "$249（促銷價 $199）", MOSSE_NOTE)
+price("MICS", "目錄頁未列價格", MOSSE_NOTE)
+SOG_BF = "官網目前有限時 90% 折扣，未採計"
+price("C-AI/MLPen|CRTeamer|CBTeamer", "$328", "4 小時實作考", SOG_BF)
+price("C-ADPenX", "$525", "7 小時實作考", SOG_BF)
+price("C-APIPen|CBFRPro|CKBPro|CDAPen|C-AgAIPen|SOG CMPen And|SOG CMPen iOS", "原價官網首頁未列", "4 小時實作考", SOG_BF)
+price("CRTeamerX|CCPenX-Az|CBTeamerX|CCPenX-AWS", "原價官網首頁未列", "7 小時實作考", SOG_BF)
+price("CBP|CBTP|CSEDP|SOG CAP|SOG CCSP-AWS|SOG NSP", "原價官網首頁未列", "1 小時選擇題", SOG_BF)
+GIAC_STD = "重考 $899，換證 $499，模擬考 $399"
+price("GAIPS|GASAE|GOAA|GSOA|GCFA|GPEN|GCIA|GCAD|GCIL|GLIR|GSOM|GICSP", "考試費 $999", GIAC_STD)
+price("GX-CS|GX-FE|GX-IH|GX-IA", "考試費 $1,299（持有對應的有效證照為 $499）", "重考 $1,199；換證 $499")
+FTNT = "官方總覽頁未列考試價格與時間"
+price("FCF", "NSE 1–3：完成線上課程與測驗", FTNT); price("FCA", "NSE 4：通過監考考試（Pearson）", FTNT)
+price("FCP NS|FCP PCS|FCP SO", "NSE 5／6：須先有 NSE 4，再通過一科監考考試", FTNT)
+price("FCSS NS|FCSS PCS|FCSS SO|FCSS SASE", "NSE 7：須先有 NSE 4 與同路線的 NSE 5 或 6", FTNT)
+price("FCSS OT", "須先有 NSE 4、NSE 5 或 6、NSE 7，再通過監考考試", FTNT)
+price("FCX", "NSE 8：核心考試加一科選修，含實作考（ProctorU）", "須先有同路線的 NSE 4、5 或 6、7；" + FTNT)
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -460,6 +489,13 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("PJPT|PNPT|PWPP|PWPA|PSAA|PAPA|PMRP", kind="官方課程含考試")
+meta("MOIS|MBT|MCPT|MDFIR|MRE|MDSO|MRT|MVRE|MCSE|MPT|MTH|MCSF|MSAF|MCPE|MRCI", kind="官方課程或套裝價", url="https://www.mosse-institute.com/certifications.html")
+meta("MICS", kind="無價格資訊", url="https://www.mosse-institute.com/certifications.html")
+meta("C-AI/MLPen|CRTeamer|CBTeamer|C-ADPenX", kind="官方考試費", url="https://pentestingexams.com/")
+meta("C-APIPen|CBFRPro|CKBPro|CDAPen|C-AgAIPen|SOG CMPen And|SOG CMPen iOS|CRTeamerX|CCPenX-Az|CBTeamerX|CCPenX-AWS|CBP|CBTP|CSEDP|SOG CAP|SOG CCSP-AWS|SOG NSP", kind="無價格資訊", url="https://pentestingexams.com/")
+meta("GAIPS|GASAE|GOAA|GSOA|GCFA|GPEN|GCIA|GCAD|GCIL|GLIR|GSOM|GICSP|GX-CS|GX-FE|GX-IH|GX-IA", url="https://www.giac.org/pricing/")
+meta("FCF|FCA|FCP NS|FCP PCS|FCP SO|FCSS NS|FCSS PCS|FCSS SO|FCSS SASE|FCSS OT|FCX", kind="無價格資訊", url="https://www.fortinet.com/training-certification")
 meta("iPAS 初級|iPAS 中級", kind="官方報名費", conf="官方簡章（115 年度）", url="https://www.ipas.org.tw/api/proxy/uploads/certification/ISE/115%E5%B9%B4%E5%BA%A6%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%83%BD%E5%8A%9B%E9%91%91%E5%AE%9A%E7%B0%A1%E7%AB%A0(%E5%88%9D%E3%80%81%E4%B8%AD%E7%B4%9A)_1150410_20260410115218.pdf", date="2026-11-25")
 meta("IIA CIA", url="https://www.theiia.org/en/certifications/cia/")
 meta("APMG 27001F|APMG 27001P|APMG 27001A|APMG 20000F|APMG 20000A|APMG 20000P|THM SEC1|THM SAL1|THM SAL2|THM PT1", kind="無價格資訊")
@@ -544,7 +580,7 @@ assert end_container, "container end not found"
 
 # ------------------------------------------------------------------ data fixes found in the November 2026 pass
 GIAC_ABEY = ("GIAC 價目表標示 In Abeyance（停止報考）", "https://www.giac.org/pricing/", "2026-11-24", "官方頁面")
-DROP = {"GCPM": GIAC_ABEY, "GCWN": GIAC_ABEY, "GLEG": GIAC_ABEY, "GSNA": GIAC_ABEY,
+DROP = {"GEVA": GIAC_ABEY, "GCPM": GIAC_ABEY, "GCWN": GIAC_ABEY, "GLEG": GIAC_ABEY, "GSNA": GIAC_ABEY,
         "FCSS ZTA": ("Fortinet 現行 NSE 1–8 已無 Zero Trust 路線", "https://www.fortinet.com/training-certification",
                      "2026-11-25", "官方頁面"),
         "eNDP": ("由 eEDA 直接取代（INE 官方部落格 2022-10-05）；退役日 2022-10-19 為第三方推定",

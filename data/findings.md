@@ -268,3 +268,11 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - 簡章另列每科 NT$600／NT$700 的優惠價，適用條件（團報或舊考生）本次讀取結果不一致，未寫入。
 - 單科及格成績保留三年。主辦：經濟部產業發展署；承辦：工研院；執行：電腦技能基金會。
 - ipas.org.tw 的網頁與新站 ipd.nat.gov.tw 無法直接讀取（轉址被擋、robots 規則讀不到），資料來自搜尋結果中的官方簡章 PDF。
+
+## 價格補查第一批（2026-11-25）
+- 原則：只採原價；限時促銷（黑色星期五等）只加註。官方沒列價格的，移除 2024 舊價並標「無價格資訊」。
+- TCM Security（各證照頁）：PJPT、PWPA、PSAA、PAPA $249；PNPT、PWPP、PMRP $499。皆含 12 個月訓練與一次免費重考。考試長度：PJPT／PWPA／PSAA／PAPA 實作 2 天加報告 2 天；PWPP 3 天加 2 天；PNPT／PMRP 5 天加 2 天（PNPT 另有 15 分鐘口頭簡報）。官網另列圖上沒有的 PIPA、PHDA、PMPA、PORP、PSAP、PWPE。
+- Mosse Institute（目錄頁）：多數 $699；MCPE $1,000；MRCI $249；MICS 未列價。部分有促銷價。
+- The SecOps Group（pentestingexams.com 首頁）：Professional 級 $328、C-ADPenX $525；多張首頁只顯示 90% 折扣後價格、未列原價。分級：Essentials 1 小時選擇題、Professional 4 小時實作、eXpert 7 小時實作。
+- GIAC 價目表：標準 $999（重考 $899、換證 $499）；GX 系列 $1,299（持有對應有效證照 $499）。停止報考清單多了 GEVA（圖上沒有這張）。
+- Fortinet 總覽頁：只有各級門檻（NSE 5 以上須 NSE 4；NSE 7 須同路線 NSE 5 或 6；NSE 8 須 4、5 或 6、7，考核心加選修，含實作），未列價格與時間。
