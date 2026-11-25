@@ -408,7 +408,7 @@ GCIP,GIAC Critical Infrastructure Protection,giac.org,Q,2,1,1,1,沿用 2024 原�
 SPLK-3001,Splunk Enterprise Security Certified Administrator,splunk.com,Q,0,0,2,2,官方級別,0,28,V,19,16,10,https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html
 CREST CSAS,CREST Certified Simulated Attack Specialist,crest-approved.org,Q,2,1,1,1,官方級別,0,28,K,22,20,46,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist
 ITS-NS,Certiport IT Specialist - Network Security,certiport.filecamp.com,Q,0,0,2,2,名稱所示級別,0,28,K,24,22,3,https://certiport.filecamp.com/s/ITS_OD_102_Network_Security/fi
-iPAS 中級,iPAS 資訊安全工程師 中級能力鑑定,ipas.org.tw,Q,2,1,1,1,官方級別,0,28,K,24,24,26,https://www.ipas.org.tw/ISE/AbilityIndex.aspx
+iPAS 中級,iPAS 資訊安全工程師 中級能力鑑定,ipas.org.tw,Q,2,1,1,1,官方級別,0,28,V,24,24,26,https://www.ipas.org.tw/ISE/AbilityIndex.aspx
 MCSF,Mosse Institute Cloud Services Fundamentals,mosse-institute.com,E,3,0,0,0,名稱所示級別,0,28,V,25,22,11,https://www.mosse-institute.com/certifications/mcsf-cloud-services-fundamentals.html
 MSAF,Mosse Institute System Administration Fundamentals,mosse-institute.com,E,3,0,0,0,名稱所示級別,0,28,V,25,22,14,https://www.mosse-institute.com/certifications/msaf-system-administration-fundamentals.html
 ITS-C,Certiport IT Specialist - Cybersecurity,certiport.filecamp.com,Q,0,0,2,2,名稱所示級別,0,28,K,25,15,27,https://certiport.filecamp.com/s/JTIy1sX0ci0ZI3ss/fi
@@ -481,6 +481,7 @@ CIRM Fdn,IBITGQ Cyber Incident Response Management Foundation,itgovernance.co.uk
 AWS CP,Amazon Web Services Certified Cloud Practitioner,aws.amazon.com,Q,1,1,0,0,官方級別,0,17,V,26,25,9,https://aws.amazon.com/certification/certified-cloud-practitioner/
 資安職能 核心,資通安全職能評量證書：核心科目「資通安全概論」,ctts.nics.nat.gov.tw,Q,1,1,0,0,官方級別,0,17,V,26,23,16,https://ctts.nics.nat.gov.tw/
 GISF,GIAC Information Security Fundamentals,giac.org,Q,1,1,0,0,官方級別,0,17,V,26,23,27,https://www.giac.org/certification/information-security-fundamentals-gisf
+iPAS 初級,iPAS 資訊安全工程師 初級能力鑑定,ipas.org.tw,Q,2,0,0,0,官方級別,0,17,V,27,27,22,https://www.ipas.org.tw/ISE/AbilityIndex.aspx
 C CS F,IBITGQ Certified Cyber Security Foundation,itgovernance.co.uk,Q,1,1,0,0,名稱所示級別,0,17,V,27,26,27,https://www.itgovernance.co.uk/shop/product/certified-cyber-security-foundation-training-course
 CIS F,IBITGQ Certified ISO 27001 Information Security Management Specialist Foundation,itgovernance.co.uk,Q,1,1,0,0,名稱所示級別,0,17,V,27,26,22,https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-foundation-training-course
 AZ-900,Microsoft Azure Fundamentals,docs.microsoft.com,B,0,0,0,0,官方級別,0,16,V,25,25,10,https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals
@@ -492,15 +493,15 @@ CCT,Cisco Certified Technician,cisco.com,Q,1,0,0,0,沿用 2024 原圖區段,0,14
 LFCA,Linux Foundation Certified IT Associate,training.linuxfoundation.org,Q,1,0,0,0,官方級別,0,14,V,24,25,12,https://training.linuxfoundation.org/certification/certified-it-associate/
 EPDPF,EXIN Privacy and Data Protection Foundation,exin.com,Q,1,0,0,0,名稱所示級別,0,14,U,25,25,16,https://www.exin.com/certifications/exin-privacy-and-data-protection-foundation-exam
 TOGAF Fdn,OpenGroup TOGAF Certified,opengroup.org,Q,1,0,0,0,官方級別,0,14,K,25,25,17,https://www.opengroup.org/certifications/togaf
-IIBA CCA,IIBA Certification in Cybersecurity Analysis,iiba.org,Q,1,0,0,0,沿用 2024 原圖區段,0,14,U,25,27,27,https://www.iiba.org/certification/iiba-certifications/specialized-business-analysis-certifications/certificate-in-cybersecurity-analysis/
+IIBA CCA,IIBA Certification in Cybersecurity Analysis,iiba.org,Q,1,0,0,0,沿用 2024 原圖區段,0,14,U,25,14,21,https://www.iiba.org/certification/iiba-certifications/specialized-business-analysis-certifications/certificate-in-cybersecurity-analysis/
 EXIN CIT,EXIN Cyber & IT Security,exin.com,Q,1,0,0,0,沿用 2024 原圖區段,0,14,U,25,24,30,https://www.exin.com/qualification-program/exin-cyber-and-it-security
 EEHF,EXIN Ethical Hacking Foundation,exin.com,Q,1,0,0,0,名稱所示級別,0,14,U,25,24,41,https://www.exin.com/certifications/exin-ethical-hacking-foundation-exam
 S-EHF,SECO Ethical Hacking Foundation,seco-institute.org,Q,1,0,0,0,名稱所示級別,0,14,U,25,24,44,https://www.seco-institute.org/certifications/ethical-hacking-certification-track/ethical-hacking-foundation/
 PA Cyber,Palo Alto Networks Certified Cybersecurity Practitioner,paloaltonetworks.com,Q,1,0,0,0,官方級別,0,14,K,26,24,2,https://www.paloaltonetworks.com/services/education/certification
 EPDPE,EXIN Privacy and Data Protection Essentials,exin.com,Q,1,0,0,0,名稱所示級別,0,14,U,26,24,16,https://www.exin.com/certifications/exin-privacy-and-data-protection-essentials-exam
 M_o_R Fdn,Axelos M_o_R Framework Foundation,axelos.com,Q,1,0,0,0,名稱所示級別,0,14,U,26,14,19,https://www.axelos.com/certifications/propath/mor-risk-management/mor-foundation
-Fair Fdn,Fair Institute Analysis Fundamentals,risklens-academy.myshopify.com,Q,1,0,0,0,名稱所示級別,0,14,U,26,27,19,https://risklens-academy.myshopify.com/collections/popular-courses/products/fair-analysis-fundamentals-2
-APMG 20000F,APMG ISO/IEC 20000 Foundation,apmg-international.com,Q,1,0,0,0,名稱所示級別,0,14,K,26,27,22,https://apmg-international.com/product/iso-20000
+Fair Fdn,Fair Institute Analysis Fundamentals,risklens-academy.myshopify.com,Q,1,0,0,0,名稱所示級別,0,14,U,26,27,27,https://risklens-academy.myshopify.com/collections/popular-courses/products/fair-analysis-fundamentals-2
+APMG 20000F,APMG ISO/IEC 20000 Foundation,apmg-international.com,Q,1,0,0,0,名稱所示級別,0,14,K,26,27,21,https://apmg-international.com/product/iso-20000
 BCS FISMP,BCS Foundation Certifiate in Information Security Management Principles,bcs.org,Q,1,0,0,0,名稱所示級別,0,14,U,26,27,24,https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-foundation-certificate-in-information-security-management-principles/
 CC,ISC2 Certified in Cybersecurity,isc2.org,Q,1,0,0,0,官方級別,0,14,V,26,27,25,https://www.isc2.org/Certifications/CC
 S-ISF,SECO Information Security Foundation,seco-institute.org,Q,1,0,0,0,名稱所示級別,0,14,U,26,14,26,https://www.seco-institute.org/certifications/information-security-certification-track/
@@ -509,9 +510,8 @@ C)SP,Mile2 Certified Security Principles,mile2.com,Q,1,0,0,0,沿用 2024 原圖�
 C)VA,Mile2 Certified Vulnerability Assessor,mile2.com,Q,1,0,0,0,沿用 2024 原圖區段,0,14,K,26,24,42,https://www.mile2.com/vulnerability-assessor-outline/
 KLCP,Kali Linux Certified Professional,kali.training,Q,1,0,0,0,官方級別,0,14,V,26,24,43,https://kali.training/klcp/
 ITIL Fdn,ITIL Foundation,axelos.com,Q,1,0,0,0,官方級別,0,14,U,27,24,17,https://www.axelos.com/certifications/itil-certifications/itil-foundation
-CIISec ICSF,CIISec Information and Cybersecurity Fundamentals,ciisec.org,Q,1,0,0,0,名稱所示級別,0,14,U,27,27,21,https://www.ciisec.org/ICSF_Exam
-iPAS 初級,iPAS 資訊安全工程師 初級能力鑑定,ipas.org.tw,Q,1,0,0,0,官方級別,0,14,K,27,14,21,https://www.ipas.org.tw/ISE/AbilityIndex.aspx
-FEXIN,EXIN Information Security Foundation,exin.com,Q,1,0,0,0,名稱所示級別,0,14,U,27,27,20,https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam?language_content_entity=en
+CIISec ICSF,CIISec Information and Cybersecurity Fundamentals,ciisec.org,Q,1,0,0,0,名稱所示級別,0,14,U,27,27,20,https://www.ciisec.org/ICSF_Exam
+FEXIN,EXIN Information Security Foundation,exin.com,Q,1,0,0,0,名稱所示級別,0,14,U,27,27,19,https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam?language_content_entity=en
 EXIN 27001F,EXIN ISO/IEC 27001 Foundation,exin.com,Q,1,0,0,0,名稱所示級別,0,14,U,27,27,23,https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam
 S-SPF,SECO Secure Programming Foundation,seco-institute.org,Q,1,0,0,0,名稱所示級別,0,14,U,27,26,33,https://www.seco-institute.org/certifications/secure-software-certification-track/secure-programming-foundation/
 CSCU,EC Council Certified Secure Computer User,eccouncil.org,Q,1,0,0,0,官方級別,0,14,V,27,27,35,https://www.eccouncil.org/Certification/certified-secure-computer-user

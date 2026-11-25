@@ -242,6 +242,9 @@ o("CSCU|ECES", F="Q", I=1, R=0, T=0, B="V"); o("ECSS", F="Q", I=2, R=0, T=0, B="
 o("PECB 27005RM|PECB 27001F", B="V")
 # assorted issuer pages, read 2026-11-25
 o("RHCSA|RHCE|PMP", B="V"); o("PDSO CDP", F="P", I=3, R=0, T=2, B="V"); o("Scrum PSD", F="Q", I=0, R=0, T=2, B="V")
+# iPAS 115 年度簡章 (official PDF on ipas.org.tw), read 2026-11-25
+o("iPAS 初級", F="Q", I=2, R=0, T=0, B="V")   # two subjects, 75 min each, 50 single-choice questions each
+o("iPAS 中級", F="Q", I=2, R=1, T=1, B="V")   # two subjects, 90 min each, 40 questions each incl. multi-select and case sets
 o("IIA CIA", F="Q", I=3, R=2, T=3, B="V")    # three parts; 1-2 years with a degree
 o("APMG 27001F", F="Q", I=0, R=0, T=0, B="V"); o("APMG 27001P", F="Q", I=2, R=0, T=2, B="V"); o("APMG 27001A", F="Q", I=1, R=0, T=2, B="V")
 o("THM SEC1|THM SAL1|THM SAL2", B="V"); o("THM PT1", I=4, B="V")
@@ -412,6 +415,8 @@ price("PMI ACP", "考試費 $495（會員 $435）", "選擇題 120 題，3 小�
 price("Scrum SPS", "每次 $250", "40 題，60 分鐘，85% 及格"); price("Scrum PAL", "每次 $200", "36 題，60 分鐘，85% 及格")
 price("SCA", "考試費 $149", "70 題，90 分鐘，70% 及格，無報考資格")
 price("IIA CIA", "三科考試：Part 1 $445、Part 2 $415、Part 3 $415，申請費 $240（會員 $310／$280／$280，申請費 $120）", "碩士須 1 年、學士須 2 年內部稽核經驗；2027-01-04 起調整價格")
+price("iPAS 初級", "報名費每科 NT$1,200（新考生優惠 NT$800），共兩科", "每科單選 50 題、75 分鐘；兩科同考平均 70 分且單科不低於 60 分", "無報考資格；證書永久有效；115 年考試日 05/23、10/31")
+price("iPAS 中級", "報名費每科 NT$1,500（新考生優惠 NT$1,000），共兩科", "每科 40 題（單選、複選、題組）、90 分鐘；兩科皆須 70 分", "無報考資格，可跳過初級；證書效期 5 年，換證須 48 小時資安訓練；115 年考試日 04/11、08/22")
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -455,6 +460,7 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("iPAS 初級|iPAS 中級", kind="官方報名費", conf="官方簡章（115 年度）", url="https://www.ipas.org.tw/api/proxy/uploads/certification/ISE/115%E5%B9%B4%E5%BA%A6%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%83%BD%E5%8A%9B%E9%91%91%E5%AE%9A%E7%B0%A1%E7%AB%A0(%E5%88%9D%E3%80%81%E4%B8%AD%E7%B4%9A)_1150410_20260410115218.pdf", date="2026-11-25")
 meta("IIA CIA", url="https://www.theiia.org/en/certifications/cia/")
 meta("APMG 27001F|APMG 27001P|APMG 27001A|APMG 20000F|APMG 20000A|APMG 20000P|THM SEC1|THM SAL1|THM SAL2|THM PT1", kind="無價格資訊")
 meta("SFSA", kind="無獨立費用")
