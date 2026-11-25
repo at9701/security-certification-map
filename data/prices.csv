@@ -14,11 +14,13 @@ BTL2,Security Blue Team Level 2,"£1,999（含訓練） / 最長 72 小時實作
 C)ISSO,Mile2 Certified Information Systems Security Officer,選擇題 100 題，2 小時 / 須 1 年相關經驗,無價格資訊,https://www.mile2.com/cisso_outline/,2026-11-25,官方頁面
 C)PTE,Mile2 Certified Penetration Testing Engineer,選擇題 100 題，2 小時，線上應考 / 建議 12 個月網路經驗；效期三年，每年 20 CEU,無價格資訊,https://www.mile2.com/penetration-testing-engineer-outline/,2026-11-25,官方頁面
 CACE,Excida IEC 62443 Certified Automation Cybersecurity Expert,須 10 年經驗 / 選擇、簡答與個案分析兩階段考試,無價格資訊,https://www.exidacace.com/Apply/CACE,2026-11-25,官方頁面
+CASE,EC Council Certified Application Security Engineer (.NET or Java),50 題，2 小時，70% 及格（分 .NET 與 Java 兩種） / 須上官方課程、或 2 年相關經驗（申請費 $100）,無價格資訊,https://cert.eccouncil.org/ec-certified-application-security-engineer.html,2026-11-25,官方頁面
 CC,ISC2 Certified in Cybersecurity,考試費 $199 / 免費方案已於 2026-05-20 停止新報名,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
 CCDE,Cisco Certified Design Expert,"核心筆試 400-007 $450（120 分鐘）加實作考 $1,600 / 實作考 8 小時，情境式；效期三年",官方考試費,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccde.html,2026-11-25,官方頁面
 CCE,ISFCE Certified Computer Examiner,$485 / 線上筆試加三份實作鑑識報告,官方課程或套裝價,https://www.isfce.com/certification.htm,2026-11-25,官方頁面
 CCIE Ent,Cisco Certified Internetwork Expert - Enterprise Infrastructure,"核心筆試 $400 加實作考 $1,600 / 實作考 8 小時",官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html,2026-11-25,官方頁面
 CCIE Sec,Cisco Certified Implementation Expert - Security,"核心筆試 $400 加實作考 $1,600 / 實作考 8 小時",官方課程或套裝價,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security.html,2026-11-25,官方頁面
+CCISO,EC Council Certified Information Security Officer,150 題，2.5 小時，及格線依題本 60%–85% / 須五個領域各 5 年經驗（上官方課程者為其中三個領域）；自行報考申請費 $100,無價格資訊,https://cert.eccouncil.org/certified-chief-information-security-officer.html,2026-11-25,官方頁面
 CCNA,Cisco Certified Network Associate,考試 200-301 $300，120 分鐘 / 無報考資格；v2.0 自 2027-02-03 起開考,官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html,2026-11-25,官方頁面
 CCNA Auto,Cisco CCNA Automation,考試 200-901 $300，120 分鐘 / 無報考資格；效期三年,官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/associate/index.html,2026-11-25,官方頁面
 CCNA Cyber,Cisco CCNA Cybersecurity,考試 200-201 $300，120 分鐘 / 無正式報考資格；效期三年,官方考試費,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html,2026-11-25,官方頁面
@@ -53,7 +55,8 @@ CM)IPS,Mile2 Certified Master Intrusion Prevention Specialist,"四張證照套�
 CM)ISRM,Mile2 Certified Master Information Systems Risk Manager,"四張證照套裝 $3,180（原價 $3,980） / 通過指定四張 Mile2 證照考試後授予，無獨立考試",官方課程或套裝價,https://www.mile2.com/master-certifications/,2026-11-25,官方頁面
 CM)ISSO,Mile2 Certified Master Information Systems Security Officer,"四張證照套裝 $3,180（原價 $3,980） / 通過指定四張 Mile2 證照考試後授予，無獨立考試",官方課程或套裝價,https://www.mile2.com/master-certifications/,2026-11-25,官方頁面
 CND,EC Council Certified Network Defender,考試券 $550（遠端監考）,官方考試券,https://store.eccouncil.org/product/cnd-ecc-exam-voucher/,2026-11-25,官方頁面
-CPENT,EC Council Certified Penetration Testing Professional,24 小時實作考試 / 單獨考試費：須向官方詢價 / 教材與 Lab 套裝 $899，不含考試（維護者提供）,官方詢價；套裝價為維護者提供,https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/,2026-11-25,考試時數為官方頁面，其餘維護者提供
+CNDA,EC Council Certified Network Defense Architect,須先取得 CEH，且任職於政府、軍方或其承包商 / 處理費 $200,無價格資訊,https://cert.eccouncil.org/cnda.html,2026-11-25,官方頁面
+CPENT,EC Council Certified Penetration Testing Professional,24 小時實作考試，可拆成兩場 12 小時 / 無報考資格；須在考試儀表板啟用後 30 天內完成並交報告（延長 7 天 $100） / 考試費官方頁面未列；教材與 Lab 套裝 $899 不含考試（維護者提供）,無價格資訊；套裝價為維護者提供,https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html,2026-11-25,考試規則為官方頁面，套裝價為維護者提供
 CREST CCIM,CREST Certified Incident Manager,選擇題加長篇與情境筆試，分兩階段，須於三個月內完成 / 無報考資格；價格依國家，經 Pearson VUE 報名,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/,2026-11-25,官方頁面
 CREST CCSAS,CREST Certified Simulated Attack Specialist,筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時 / 無報考資格；原名 CCSAS，會員公司員工可享七折,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist,2026-11-25,官方頁面
 CREST CCTAPP,CREST Certified Web Application Tester,筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時 / 無報考資格；價格依國家，經 Pearson VUE 報名,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/,2026-11-25,官方頁面
@@ -70,16 +73,21 @@ CREST CSAM,CREST Certified Simulated Attack Manager,選擇題加長篇與情境�
 CRISC,ISACA Certified in Risk and Information Systems Control,考試費 $760（會員 $575） / 通過後另繳申請費 $50，並須提出經驗證明,官方考試費,https://www.isaca.org/credentialing/crisc,2026-11-25,官方頁面
 CRTL,Zero-Point Security Certified Red Team Lead,課程含考試 £449（第三方紀錄，2026-11-10） / 官方頁面本次未能讀取,第三方價格,https://training.zeropointsecurity.co.uk/courses/red-team-ops-ii,2026-11-10,第三方
 CRTO,Zero Point Security Certified Red Team Operator,課程含一次考試 £365（官方課程頁） / 第三方紀錄為 £399（2026-11-10），未經官方驗證,官方課程含考試,https://training.zeropointsecurity.co.uk/courses/red-team-ops,2026-11-25,官方頁面
-CSA,EC Council Certified SOC Analyst,考試費 $450；電子教材含考試 $550 / 312-39，100 題選擇題，180 分鐘 / 維護者提供，官方頁面未列這些數字,官方考試費,https://www.eccouncil.org/programs/certified-soc-analyst-csa/,2026-11-25,維護者提供，未經官方驗證
+CSA,EC Council Certified SOC Analyst,312-39，100 題，3 小時，70% 及格 / 考試費 $450、電子教材含考試 $550 為維護者提供，官方頁面未列,官方考試費,https://cert.eccouncil.org/certified-soc-analyst.html,2026-11-25,考試形式為官方頁面，價格為維護者提供
 CSA CCSK,Cloud Security Alliance Certificate of Cloud Security Knowledge,$445（含兩次機會） / 開書線上考，60 題，120 分鐘,官方考試費,https://cloudsecurityalliance.org/education/ccsk/,2026-11-25,官方頁面
+CSCU,EC Council Certified Secure Computer User,112-12，選擇題 50 題，2 小時，70% 及格 / 無報考資格,無價格資訊,https://cert.eccouncil.org/certified-secure-computer-user.html,2026-11-25,官方頁面
 CSSLP,ISC2 Certified Secure Software Lifecycle Professional,考試費 $599,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
+CTIA,EC Council Certified Threat intelligence Analyst,312-85，50 題，2 小時，70% 及格 / 考試費官方頁面未列,無價格資訊,https://cert.eccouncil.org/certified-threat-intelligence-analyst.html,2026-11-25,官方頁面
 CWSP,CWNP Certified Wireless Security Professional,考試費 $349.99 / 60 題 90 分鐘，須有效 CWNA,官方考試費,https://www.cwnp.com/certifications/cwsp,2026-11-25,官方頁面
 Cloud+,CompTIA Cloud+,考試費 $399 / CV0-004，最多 90 題，90 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 CySA+,CompTIA Cybersecurity Analyst+,考試費 $439 / V4 為新版；英文版 V3 於 2026-12-22 停考 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 DCA,Docker Certified Associate,考試費 $199 / 55 題 90 分鐘,官方考試費,https://training.mirantis.com/dca-certification-exam/,2026-11-25,官方頁面
 DCPP,DSCI Certified Privacy Professional,"INR 15,000 加稅 / 選擇題含個案，65% 及格",官方考試費,https://www.dsci.in/content/dsci-certified-privacy-professional-dcpp,2026-11-25,官方頁面
 DV RTOS,Dark Vortex Red Team & Operational Security,"課程 $2,500 / 3 天線上課程，無考試，發結業證書",官方課程或套裝價,https://0xdarkvortex.dev/training-programs/red-team-and-operational-security/,2026-11-25,官方頁面
+ECES,EC Council Certified Encryption Specialist,50 題，2 小時，70% 及格,無價格資訊,https://cert.eccouncil.org/ec-council-certified-encryption-specialist.html,2026-11-25,官方頁面
 ECIH,EC Council Certified Incident Handler,考試券 $450（遠端監考）,官方考試券,https://store.eccouncil.org/product/ecih-ecc-exam-voucher/,2026-11-25,官方頁面
+ECSS,EC Council Certified Security Specialist,100 題，3 小時，70% 及格,無價格資訊,https://cert.eccouncil.org/ec-council-certified-security-specialist.html,2026-11-25,官方頁面
+EDRP,EC Council Disaster Recovery Professional,312-76，150 題，4 小時，70% 及格 / 考試費官方頁面未列,無價格資訊,https://cert.eccouncil.org/ec-council-disaster-recovery-professional.html,2026-11-25,官方頁面
 EISM,EC Council Information Security Manager,選擇題 150 題，2 小時，70% 及格 / 無年資要求，但須先完成官方 CCISO 訓練；官方頁面未列價格,無價格資訊,https://ciso.eccouncil.org/cciso-certification/eism-program/,2026-11-25,官方頁面
 EITCA/IS,EITCA/IS Information Security Certificate,€950 / 12 科線上測驗,官方考試費,https://eitca.org/eitca-is-information-security-academy/,2026-11-25,官方頁面
 GASF,GIAC Advanced Smartphone Forensics,考試費 $999 / 75 題，2 小時，69% 及格；無實作題,官方考試費,https://www.giac.org/certification/advanced-smartphone-forensics-gasf,2026-11-25,官方頁面
@@ -139,7 +147,7 @@ HTB CWPE,Hack The Box Certified Wi-Fi Pentesting Expert,"考試券 $1,260 / 須�
 KCNA,Cloud Native Computing Foundation Kubernetes and Cloud Native Associate,考試費 $250（含一次重考） / 選擇題,官方考試費,https://www.cncf.io/certification/kcna/,2026-11-25,官方頁面
 KLCP,Kali Linux Certified Professional,考試費 $299 / 80 題 90 分鐘,官方考試費,https://kali.training/klcp/,2026-11-25,官方頁面
 LFCS,Linux Foundation Certified System Administrator,考試費 $445 / 實作 2 小時,官方考試費,https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/,2026-11-25,官方頁面
-LPT,EC Council Licensed Penetration Tester,官方 LPT 頁面：5 天實作考加報告，考試包 $899 / 維護者查核：CPENT 考 90% 以上即取得，不另計費（未能向官方頁面查證）,官方考試包（與維護者查核結果不一致）,https://www.eccouncil.org/programs/licensed-penetration-tester-lpt-master/,2026-11-24,兩個來源互相矛盾，待釐清
+LPT,EC Council Licensed Penetration Tester,與 CPENT 同一場 24 小時實作考，90% 以上即同時取得 LPT (Master) / 不是獨立考試；eccouncil.org 的舊 LPT 頁面仍寫五天考試與 $899 考試包,無獨立費用,https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html,2026-11-25,官方頁面
 Linux+,CompTIA Linux+,考試費 $399 / XK0-006，最多 90 題，90 分鐘，720 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 MGRC,Mosse Institute Certified GRC Expert Certification,$699（促銷價 $595） / 無考試，完成實作練習由講師審核,官方考試費,https://www.mosse-institute.com/certifications/mgrc-certified-grc-practitioner.html,2026-11-25,官方頁面
 MTIA,Mosse Institute Certified Threat Intelligence Analyst Certification,$699 / 無考試，完成實作練習由講師審核,官方課程或套裝價,https://www.mosse-institute.com/certifications/mtia-certified-threat-intelligence-analyst.html,2026-11-25,官方頁面
@@ -157,6 +165,8 @@ OSWA,OffSec Web Assessor,"課程加考試 $1,749（90 天） / 實作考 24 小�
 OSWE,OffSec Web Expert,"課程加考試 $1,749（90 天） / 實作考 48 小時，全程監考",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
 OSWP,OffSec Wireless Professional,實作考 4 小時，全程監考,無價格資訊,https://www.offensive-security.com/wifu-oswp/,2026-11-25,官方頁面
 PDSO CDE,PDSO Certified DevSecOps Expert,"$1,199 / 24 小時實作加報告，須先有 CDP",官方課程或套裝價,https://www.practical-devsecops.com/certified-devsecops-expert,2026-11-25,官方頁面
+PECB 27001F,PECB ISO/IEC 27001 Foundation,考試與證照費含在訓練課程價格內 / 須完成 Foundation 課程；未通過可於 12 個月內免費重考,無價格資訊,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-foundation,2026-11-25,官方頁面
+PECB 27005RM,PECB ISO/IEC 27005 Risk Manager,考試與證照費含在訓練課程價格內 / Risk Manager 級別須 2 年工作經驗（其中 1 年風險管理）與 200 小時實務；Provisional 級別無經驗要求,無價格資訊,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-risk-manager,2026-11-25,官方頁面
 PSM I,Scrum.org Professional Scrum Master I,每次 $200 / 80 題，60 分鐘，85% 及格,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-i-certification,2026-11-25,官方頁面
 PSM II,Scrum.org Professional Scrum Master II,每次 $250 / 30 題，90 分鐘，85% 及格,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-ii-certification,2026-11-25,官方頁面
 PSM III,Scrum.org Professional Scrum Master III,每次 $500 / 24 題論述，150 分鐘,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-iii-certification,2026-11-25,官方頁面

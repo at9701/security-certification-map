@@ -232,6 +232,14 @@ o("SC-401|SC-200|SC-300|AZ-104|AZ-305|SC-900|AZ-900", B="V")
 o("EISM", F="Q", I=1, R=1, T=2, B="V")       # 150 MCQ, 2h, 70%; official CCISO training required
 o("CCSE@cert.eccouncil.org", F="Q", I=2, R=1, T=2, B="V")       # 125 MCQ, 4h, 70%; 2 years or official training
 o("PA Cloud", T=3)                           # listed as Specialist, same level as the other engineer exams
+# cert.eccouncil.org certification pages, read 2026-11-25
+o("CPENT|LPT", F="P", I=4, R=0, T=3, B="V")   # one 24h exam (or two 12h sessions); LPT (Master) = 90% or above on it
+o("CCISO", F="Q", I=2, R=4, T=3, B="V")       # 150 questions, 2.5h; five years in the domains
+o("CSA|EDRP", F="Q", I=2, R=1, T=2, B="V")    # CSA 100 q 3h; EDRP 150 q 4h
+o("CTIA|CASE", F="Q", I=1, R=1, T=2, B="V")   # 50 q, 2h
+o("CNDA", R=2, B="V")                         # CEH plus government or military employment
+o("CSCU|ECES", F="Q", I=1, R=0, T=0, B="V"); o("ECSS", F="Q", I=2, R=0, T=0, B="V")
+o("PECB 27005RM|PECB 27001F", B="V")
 o("CCFE|CMFE|CSSA|CDRP|CMWAPT|CRTOP|CREA|CSAP", B="U")   # portal pages show boot camps only, no certification facts
 # GIAC, read cert by cert on 2026-11-25: (questions, hours, pass %, CyberLive hands-on items)
 GIAC = {
@@ -365,6 +373,18 @@ price("AZ-305", "約 $165，依國家或地區定價", "須先取得 Azure Admin
 price("SC-900|AZ-900", "約 $99，依國家或地區定價", "45 分鐘，入門級", "價格為使用者提供，官方頁面只寫依國家或地區定價")
 price("EISM", "選擇題 150 題，2 小時，70% 及格", "無年資要求，但須先完成官方 CCISO 訓練；官方頁面未列價格")
 price("CCSE@cert.eccouncil.org", "選擇題 125 題，4 小時，70% 及格", "須 2 年資安經驗（申請費 $100），或參加官方訓練；考試券價格未列")
+price("CPENT", "24 小時實作考試，可拆成兩場 12 小時", "無報考資格；須在考試儀表板啟用後 30 天內完成並交報告（延長 7 天 $100）", "考試費官方頁面未列；教材與 Lab 套裝 $899 不含考試（維護者提供）")
+price("LPT", "與 CPENT 同一場 24 小時實作考，90% 以上即同時取得 LPT (Master)", "不是獨立考試；eccouncil.org 的舊 LPT 頁面仍寫五天考試與 $899 考試包")
+price("CSA", "312-39，100 題，3 小時，70% 及格", "考試費 $450、電子教材含考試 $550 為維護者提供，官方頁面未列")
+price("CCISO", "150 題，2.5 小時，及格線依題本 60%–85%", "須五個領域各 5 年經驗（上官方課程者為其中三個領域）；自行報考申請費 $100")
+price("CTIA", "312-85，50 題，2 小時，70% 及格", "考試費官方頁面未列")
+price("CASE", "50 題，2 小時，70% 及格（分 .NET 與 Java 兩種）", "須上官方課程、或 2 年相關經驗（申請費 $100）")
+price("EDRP", "312-76，150 題，4 小時，70% 及格", "考試費官方頁面未列")
+price("CNDA", "須先取得 CEH，且任職於政府、軍方或其承包商", "處理費 $200")
+price("CSCU", "112-12，選擇題 50 題，2 小時，70% 及格", "無報考資格"); price("ECES", "50 題，2 小時，70% 及格")
+price("ECSS", "100 題，3 小時，70% 及格")
+price("PECB 27005RM", "考試與證照費含在訓練課程價格內", "Risk Manager 級別須 2 年工作經驗（其中 1 年風險管理）與 200 小時實務；Provisional 級別無經驗要求")
+price("PECB 27001F", "考試與證照費含在訓練課程價格內", "須完成 Foundation 課程；未通過可於 12 個月內免費重考")
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -403,14 +423,19 @@ meta("CEH", kind="官方考試券", url="https://store.eccouncil.org/product/ceh
 meta("CHFI", kind="官方考試券", url="https://store.eccouncil.org/product/chfi-ecc-exam-voucher/")
 meta("CND", kind="官方考試券", url="https://store.eccouncil.org/product/cnd-ecc-exam-voucher/")
 meta("ECIH", kind="官方考試券", url="https://store.eccouncil.org/product/ecih-ecc-exam-voucher/")
-meta("CSA", conf=OWNER); meta("CPENT", kind="官方詢價；套裝價為維護者提供", conf="考試時數為官方頁面，其餘維護者提供",
-     url="https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/")
-meta("LPT", kind="官方考試包（與維護者查核結果不一致）", conf="兩個來源互相矛盾，待釐清", date="2026-11-24")
 meta("SecOT+", kind="第三方預購價", conf="考試代碼與時程為官方頁面，價格為第三方", url="https://www.comptia.org/en-us/certifications/secot/")
 meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝價")
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("CPENT", kind="無價格資訊；套裝價為維護者提供", conf="考試規則為官方頁面，套裝價為維護者提供", url="https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html", date="2026-11-25")
+meta("LPT", kind="無獨立費用", conf=OFFICIAL, url="https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html", date="2026-11-25")
+meta("CSA", conf="考試形式為官方頁面，價格為維護者提供", url="https://cert.eccouncil.org/certified-soc-analyst.html", date="2026-11-25")
+meta("CCISO", url="https://cert.eccouncil.org/certified-chief-information-security-officer.html"); meta("CTIA", url="https://cert.eccouncil.org/certified-threat-intelligence-analyst.html")
+meta("CASE", url="https://cert.eccouncil.org/ec-certified-application-security-engineer.html"); meta("EDRP", url="https://cert.eccouncil.org/ec-council-disaster-recovery-professional.html")
+meta("CNDA", url="https://cert.eccouncil.org/cnda.html"); meta("CSCU", url="https://cert.eccouncil.org/certified-secure-computer-user.html")
+meta("ECES", url="https://cert.eccouncil.org/ec-council-certified-encryption-specialist.html"); meta("ECSS", url="https://cert.eccouncil.org/ec-council-certified-security-specialist.html")
+meta("CCISO|CTIA|CASE|EDRP|CNDA|CSCU|ECES|ECSS|PECB 27005RM|PECB 27001F", kind="無價格資訊")
 meta("SC-401", url="https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/"); meta("SC-200", url="https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/")
 meta("SC-300", url="https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/"); meta("AZ-104", url="https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/")
 meta("AZ-305", url="https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/"); meta("SC-900", url="https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/")

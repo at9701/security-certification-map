@@ -222,3 +222,14 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - Palo Alto 證照總表：級別順序為 Foundational、Professional、Specialist、Architect。圖上六張的級別：Cybersecurity Practitioner 為 Foundational；Network Security Professional 為 Professional；NGFW Engineer、XSOAR Engineer、XDR Analyst、Cloud Security Engineer 為 Specialist。個別頁面沒有題數、時間、價格（在 PDF datasheet），維持 K。總表另有 Identity Security 系列等圖上沒有的證照，尚未加入。
 - Infosec Institute：圖上連結的 portal 頁面只顯示訓練營梯次，沒有證照名稱、考試形式或價格；證照總覽頁也沒有 IACRB 證照資訊。CCFE、CMFE、CSSA、CDRP、CMWAPT、CRTOP、CREA、CSAP 改記為 U。
 - 修正：圖上有兩張 CCSE（EC-Council 與 Check Point）、兩張 CCSA（ecfirst 與 Check Point），原本共用同一組設定。rank.py 新增「標籤@網域」寫法，EC-Council 的 C|CSE 資料不再套到 Check Point 那張。
+
+## EC-Council 證照部門頁面與 PECB（2026-11-25）
+- 改讀 cert.eccouncil.org（證照部門）頁面，原本 eccouncil.org/programs 多頁讀取失敗。
+- CPENT：名稱無「AI」；24 小時可拆兩場 12 小時；無報考資格；須於儀表板啟用後 30 天內完成並交報告，可付 $100 延長 7 天；及格線依題本 60%–85%，達標至 89% 為 CPENT。考試費未列。
+- LPT (Master)：同一場考試 90% 以上即取得，不是獨立考試。先前「五天考試、$899 考試包」來自 eccouncil.org 的舊 LPT 頁面，矛盾以證照部門頁面為準。LPT 與 CPENT 現在同分（65）。維護者先前提供的「7 日內交報告」與官方頁面不同，「70% 及格」官方寫的是依題本 60%–85%。
+- CSA：312-39、100 題、3 小時、70% 及格（維護者提供的形式獲官方確認，價格仍未列）。
+- CCISO：150 題、2.5 小時；五個領域各 5 年經驗（上官方課程者三個領域）；自行報考申請費 $100。
+- CTIA 312-85：50 題 2 小時。CASE：50 題 2 小時，分 .NET 與 Java，須官方課程或 2 年經驗。EDRP 312-76：150 題 4 小時。CSCU 112-12：選擇題 50 題 2 小時，無報考資格。ECES：50 題 2 小時。ECSS：100 題 3 小時。皆 70% 及格，考試費未列。
+- CNDA：須先取得 CEH 且任職於政府、軍方或其承包商，處理費 $200；考試細節未列。
+- 證照部門總表另有圖上沒有的項目：CCT、ECDE、WAHS、各 Essentials 系列（NDE、EHE、DFE 等）、ICS/SCADA，以及 Beta 階段的 CAIPM、CRAGE、COASP，尚未加入。總表只讀到前半頁。
+- PECB ISO/IEC 27005 Risk Manager：考試與證照費含在課程內；Risk Manager 級別須 2 年經驗（1 年風險管理）加 200 小時實務。ISO/IEC 27001 Foundation：須完成課程，無經驗要求，12 個月內可免費重考。兩頁均未列考試題數與時間。
