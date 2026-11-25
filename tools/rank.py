@@ -242,6 +242,10 @@ o("CSCU|ECES", F="Q", I=1, R=0, T=0, B="V"); o("ECSS", F="Q", I=2, R=0, T=0, B="
 o("PECB 27005RM|PECB 27001F", B="V")
 # assorted issuer pages, read 2026-11-25
 o("RHCSA|RHCE|PMP", B="V"); o("PDSO CDP", F="P", I=3, R=0, T=2, B="V"); o("Scrum PSD", F="Q", I=0, R=0, T=2, B="V")
+o("APMG 27001F", F="Q", I=0, R=0, T=0, B="V"); o("APMG 27001P", F="Q", I=2, R=0, T=2, B="V"); o("APMG 27001A", F="Q", I=1, R=0, T=2, B="V")
+o("THM SEC1|THM SAL1|THM SAL2", B="V"); o("THM PT1", I=4, B="V")
+o("SFSA", F="Q", I=1, R=3, T=2, B="V")       # granted once four prerequisite certifications are held
+o("PMI ACP", F="Q", I=2, R=2, T=2, B="V"); o("Scrum SPS|Scrum PAL", F="Q", I=0, R=0, T=2, B="V"); o("SCA", F="Q", I=1, R=0, T=1, B="V")
 o("CCFE|CMFE|CSSA|CDRP|CMWAPT|CRTOP|CREA|CSAP", B="U")   # portal pages show boot camps only, no certification facts
 # GIAC, read cert by cert on 2026-11-25: (questions, hours, pass %, CyberLive hands-on items)
 GIAC = {
@@ -393,6 +397,19 @@ price("PMP", "考試費 $555（會員 $405）", "180 題；大學學歷須 36 �
 price("PDSO CDP", "課程 $899（含一次考試）", "5 題實作挑戰 6 小時，之後 24 小時內交報告；無硬性報考資格")
 price("Scrum PSD", "每次 $200", "80 題，60 分鐘，85% 及格")
 price("BSCP", "證照效期五年", "應考須有有效的 Burp Suite Professional 訂閱；考試形式與價格在另一頁，未讀")
+price("APMG 27001F", "選擇題 50 題，40 分鐘，50% 及格，閉卷", "價格依考試地點，官方頁面未列")
+price("APMG 27001P", "情境題 4 大題（各 20 分），2.5 小時，50% 及格，開書", "價格依考試地點，官方頁面未列")
+price("APMG 27001A", "選擇題含小型情境 40 題，120 分鐘，50% 及格", "價格依考試地點，官方頁面未列")
+price("APMG 20000F|APMG 20000A", "及格標準 26/40（65%）", "題型、時間、價格官方頁面未列；Auditor 不開放自修報考")
+price("APMG 20000P", "及格標準 40/80（50%）", "題型、時間、價格官方頁面未列")
+price("THM SEC1", "實作評量，答案來自實際操作而非選擇題", "無正式報考資格；時間與價格官方文章未列")
+price("THM SAL1", "在模擬 SOC 環境處理告警並撰寫事件報告", "無正式報考資格；時間與價格官方文章未列")
+price("THM SAL2", "SAL1 形式的進階版，多階段調查情境", "無正式報考資格；時間與價格官方文章未列")
+price("THM PT1", "48 小時實作（網頁、網路、AD）加報告", "無正式報考資格；價格官方文章未列")
+price("SFSA", "無獨立考試", "取得四張指定的 Salesforce 架構與開發證照後自動授予")
+price("PMI ACP", "考試費 $495（會員 $435）", "選擇題 120 題，3 小時；須 2,000 小時專案經驗加 1,500 小時敏捷經驗，另 21 小時訓練")
+price("Scrum SPS", "每次 $250", "40 題，60 分鐘，85% 及格"); price("Scrum PAL", "每次 $200", "36 題，60 分鐘，85% 及格")
+price("SCA", "考試費 $149", "70 題，90 分鐘，70% 及格，無報考資格")
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -436,6 +453,8 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("APMG 27001F|APMG 27001P|APMG 27001A|APMG 20000F|APMG 20000A|APMG 20000P|THM SEC1|THM SAL1|THM SAL2|THM PT1", kind="無價格資訊")
+meta("SFSA", kind="無獨立費用")
 meta("PDSO CDP", kind="官方課程含考試"); meta("RHCSA|RHCE|BSCP", kind="無價格資訊")
 meta("CPENT", kind="無價格資訊；套裝價為維護者提供", conf="考試規則為官方頁面，套裝價為維護者提供", url="https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html", date="2026-11-25")
 meta("LPT", kind="無獨立費用", conf=OFFICIAL, url="https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html", date="2026-11-25")
@@ -529,6 +548,7 @@ for _l in ("MCL", "MCD", "MESE", "MASE", "MNSE"):
 
 # still on the chart, but the issuer's own site raises a doubt; shown dashed with the note
 FLAG = {
+    "CSA CGC": "現況：官方頁面只介紹 Cloud Governance & Compliance 課程，未提到考試或證書（2026-11-25）",
     "Cloud Essnt": "現況：官方頁面目前只介紹約 8 小時的自學課程，未列考試資訊（2026-11-25）",
     "CREST CCHIA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CCNIA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CRTSA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CSAS": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）",
     "MAD SOCA": "現況：MITRE 官方頁面目前顯示 coming soon，是否可報名不明（2026-11-25）",

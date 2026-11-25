@@ -2,6 +2,12 @@ label,name,price_text,price_kind,source_url,checked,confidence
 A+,CompTIA A+,兩科合計 $548 / 須通過 Core 1 與 Core 2 兩科（V15） / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 AAIA,ISACA Advanced in AI Audit,考試費 $599（會員 $459） / 須持有有效 CISA，或官方列出的稽核類資格,官方考試費,https://www.isaca.org/credentialing/aaia,2026-11-25,官方頁面
 AAIR,ISACA Advanced in AI Risk,考試費 $599（會員 $459） / 須持有 CISA、CISM、CRISC、CGEIT、CDPSE 或官方列出的其他資格,官方考試費,https://www.isaca.org/credentialing/aair,2026-11-25,官方頁面
+APMG 20000A,APMG ISO/IEC 20000 Auditor,及格標準 26/40（65%） / 題型、時間、價格官方頁面未列；Auditor 不開放自修報考,無價格資訊,https://apmg-international.com/product/iso-iec-20000,2026-11-25,官方頁面
+APMG 20000F,APMG ISO/IEC 20000 Foundation,及格標準 26/40（65%） / 題型、時間、價格官方頁面未列；Auditor 不開放自修報考,無價格資訊,https://apmg-international.com/product/iso-20000,2026-11-25,官方頁面
+APMG 20000P,APMG ISO/IEC 20000 Practitioner,及格標準 40/80（50%） / 題型、時間、價格官方頁面未列,無價格資訊,https://apmg-international.com/product/iso-iec-20000,2026-11-25,官方頁面
+APMG 27001A,APMG ISO/IEC 27001 Auditor,選擇題含小型情境 40 題，120 分鐘，50% 及格 / 價格依考試地點，官方頁面未列,無價格資訊,https://apmg-international.com/product/isoiec-27001,2026-11-25,官方頁面
+APMG 27001F,APMG ISO/IEC 27001 Foundation,選擇題 50 題，40 分鐘，50% 及格，閉卷 / 價格依考試地點，官方頁面未列,無價格資訊,https://apmg-international.com/product/isoiec-27001,2026-11-25,官方頁面
+APMG 27001P,APMG ISO/IEC 27001 Practitioner,情境題 4 大題（各 20 分），2.5 小時，50% 及格，開書 / 價格依考試地點，官方頁面未列,無價格資訊,https://apmg-international.com/product/isoiec-27001,2026-11-25,官方頁面
 ASIS CPP,ASIS Certified Protection Professional,考試費 $450（會員 $300） / 須 7–9 年經驗,官方考試費,https://www.asisonline.org/certification/certified-protection-professional-cpp/,2026-11-25,官方頁面
 AWS CP,Amazon Web Services Certified Cloud Practitioner,考試費 $100 / 65 題，90 分鐘,官方考試費,https://aws.amazon.com/certification/certified-cloud-practitioner/,2026-11-25,官方頁面
 AWS CSS,Amazon Web Services Certified Security - Specialty,考試費 $300 / 65 題，170 分鐘,官方考試費,https://aws.amazon.com/certification/certified-security-specialty/,2026-11-25,官方頁面
@@ -169,6 +175,7 @@ PDSO CDE,PDSO Certified DevSecOps Expert,"$1,199 / 24 小時實作加報告，�
 PDSO CDP,PDSO Certified DevSecOps Professional,課程 $899（含一次考試） / 5 題實作挑戰 6 小時，之後 24 小時內交報告；無硬性報考資格,官方課程含考試,https://www.practical-devsecops.com/certified-devsecops-professional/,2026-11-25,官方頁面
 PECB 27001F,PECB ISO/IEC 27001 Foundation,考試與證照費含在訓練課程價格內 / 須完成 Foundation 課程；未通過可於 12 個月內免費重考,無價格資訊,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-foundation,2026-11-25,官方頁面
 PECB 27005RM,PECB ISO/IEC 27005 Risk Manager,考試與證照費含在訓練課程價格內 / Risk Manager 級別須 2 年工作經驗（其中 1 年風險管理）與 200 小時實務；Provisional 級別無經驗要求,無價格資訊,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-risk-manager,2026-11-25,官方頁面
+PMI ACP,PMI Agile Certified Practitioner,"考試費 $495（會員 $435） / 選擇題 120 題，3 小時；須 2,000 小時專案經驗加 1,500 小時敏捷經驗，另 21 小時訓練",官方考試費,https://www.pmi.org/certifications/types/agile-acp,2026-11-25,官方頁面
 PMP,PMI Project Management Professional,考試費 $555（會員 $405） / 180 題；大學學歷須 36 個月專案經驗，否則 60 個月，另須 35 小時訓練或 CAPM,官方考試費,https://www.pmi.org/certifications/project-management-pmp,2026-11-25,官方頁面
 PSM I,Scrum.org Professional Scrum Master I,每次 $200 / 80 題，60 分鐘，85% 及格,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-i-certification,2026-11-25,官方頁面
 PSM II,Scrum.org Professional Scrum Master II,每次 $250 / 30 題，90 分鐘，85% 及格,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-ii-certification,2026-11-25,官方頁面
@@ -184,17 +191,25 @@ SC-300,Microsoft Certfied: Identity and Access Administrator Associate,約 $165�
 SC-401,Microsoft Certified: Information Security Administrator Associate,約 $165，依國家或地區定價 / 100 分鐘，中階，無報考資格；每 12 個月免費線上更新,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
 SC-500,Microsoft SC-500: Build a secure Cloud and AI solution,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
 SC-900,"Microsoft Certified: Security, Compliance, and Identity Fundamentals",約 $99，依國家或地區定價 / 45 分鐘，入門級 / 價格為使用者提供，官方頁面只寫依國家或地區定價,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
+SCA,SUSE Certified Administrator,考試費 $149 / 70 題，90 分鐘，70% 及格，無報考資格,官方考試費, https://www.suse.com/training/exam/sca-sles-15/,2026-11-25,官方頁面
+SFSA,SalesForce System Architect,無獨立考試 / 取得四張指定的 Salesforce 架構與開發證照後自動授予,無獨立費用,https://trailhead.salesforce.com/credentials/systemarchitect,2026-11-25,官方頁面
 SOG CAPen,The SecOps Group Certified AppSec Pentester,$328，4 小時實作,官方考試費,https://pentestingexams.com/,2026-11-25,官方頁面
 SOG CAPenX,The SecurityOps Group Certified AppSec Pentesting eXpert,原價 $521 / 7 小時實作考,官方考試費,https://pentestingexams.com/,2026-11-25,官方頁面
 SOG CNPen,The SecOps Group Certified Network Pentester,$328，4 小時實作,官方考試費,https://pentestingexams.com/,2026-11-25,官方頁面
 SPLK-3001,Splunk Enterprise Security Certified Administrator,考試費 $130 / 48 題 60 分鐘；官方已列為 legacy,官方考試費,https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html,2026-11-25,官方頁面
 SSAP,SANS Security Awareness Professional,50 題 2 小時，開書 / 無報考資格,無價格資訊,https://www.sans.org/security-awareness-training/career-development/credential/,2026-11-25,官方頁面
 SSCP,ISC2 Systems Security Certified Practitioner,考試費 $249,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
+Scrum PAL,Scrum  Professional Agile Leadership,每次 $200 / 36 題，60 分鐘，85% 及格,官方考試費,https://www.scrum.org/professional-agile-leadership-certification,2026-11-25,官方頁面
 Scrum PSD,Scrum Professional Scrum Developer,每次 $200 / 80 題，60 分鐘，85% 及格,官方考試費,https://www.scrum.org/professional-scrum-developer-certification,2026-11-25,官方頁面
+Scrum SPS,Scrum Scaled Professional Scrum,每次 $250 / 40 題，60 分鐘，85% 及格,官方考試費,https://www.scrum.org/scaled-professional-scrum-certification,2026-11-25,官方頁面
 SecOT+,CompTIA SecOT+,預購中，預計 2026-12 推出，考試代碼 SOT-001 / 第三方預購價 $294，非官方定價,第三方預購價,https://www.comptia.org/en-us/certifications/secot/,2026-11-25,考試代碼與時程為官方頁面，價格為第三方
 Security+,CompTIA Security+,考試費 $439 / 建議報考 V8；英文版 V7 於 2027-06-11 停考 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,第三方
 SecurityX,CompTIA SecurityX (formerly CASP+),考試費 $544 / CAS-005，最多 90 題，165 分鐘，選擇題加實作題，只分及格與不及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 Server+,CompTIA Server+,考試費 $399 / SK0-005，最多 90 題，90 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
+THM PT1,TryHackMe Junior Penetration Tester,48 小時實作（網頁、網路、AD）加報告 / 無正式報考資格；價格官方文章未列,無價格資訊,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,2026-11-25,官方頁面
+THM SAL1,TryHackMe Security Analyst Level 1,在模擬 SOC 環境處理告警並撰寫事件報告 / 無正式報考資格；時間與價格官方文章未列,無價格資訊,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,2026-11-25,官方頁面
+THM SAL2,TryHackMe Security Analyst Level 2,SAL1 形式的進階版，多階段調查情境 / 無正式報考資格；時間與價格官方文章未列,無價格資訊,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,2026-11-25,官方頁面
+THM SEC1,TryHackMe Cyber Security 101 Certification,實作評量，答案來自實際操作而非選擇題 / 無正式報考資格；時間與價格官方文章未列,無價格資訊,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026,2026-11-25,官方頁面
 eAIPT,INE Artificial Intelligence Penetration Tester,即將推出，預計 2026 年秋冬；專業級實作考試 / 維護者提供，未能向官方頁面查證,尚未開賣,,2026-11-25,維護者提供，未經官方驗證
 eCDFP,eLearnSecurity Certified Digital Forensics Professional,考試券 $450 / 使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱,官方考試券（未驗證）,https://checkout.ine.com/account,2026-11-25,維護者提供，未經官方驗證
 eCIR,eLearnSecurity Certified Incident Responder,考試券 $450 / 使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱,官方考試券（未驗證）,https://checkout.ine.com/account,2026-11-25,維護者提供，未經官方驗證

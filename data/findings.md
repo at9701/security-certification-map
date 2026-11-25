@@ -243,3 +243,15 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - The Open Group TOGAF：現行名稱為 TOGAF Enterprise Architecture Foundation／Practitioner（考試 OGEA-101、102、103），另保留 TOGAF 9；題數、時間、價格在另外的 PDF，維持 K。圖上標籤尚未改。
 - IAPP CIPT：頁面未列題數、時間、價格，維持 K。
 - 未讀：iPAS（ipas.org.tw 的讀取需要使用者在場同意，無人回應）、Security Blue Team BTL1（網站會轉址到其他網域，被擋）。
+
+## APMG、TryHackMe、Salesforce、PMI、Scrum.org、SUSE、CSA（2026-11-25）
+- APMG ISO/IEC 27001：Foundation 選擇題 50 題 40 分鐘閉卷；Practitioner 情境題 4 大題 2.5 小時開書（同頁 FAQ 另寫 90–120 分鐘）；Auditor 40 題 120 分鐘。及格皆 50%，無報考資格，價格依考試地點。
+- APMG ISO/IEC 20000：頁面只有及格標準（Foundation、Auditor 26/40；Practitioner 40/80），題型、時間、價格未列，維持 K。Auditor 不開放自修報考。
+- TryHackMe 官方文章：SEC1 為實作評量；SAL1 在模擬 SOC 處理告警並寫報告；SAL2 為進階多階段調查；PT1 為 48 小時實作加報告。皆無正式報考資格，SEC1、SAL1、SAL2 的時間與所有價格未列（時間沿用原設定）。
+- Salesforce System Architect：無獨立考試，取得四張指定證照後自動授予。門檻改記兩層以上前置證照。
+- PMI-ACP：選擇題 120 題 3 小時，$495（會員 $435），須 2,000 加 1,500 小時經驗與 21 小時訓練。PgMP、CAPM 頁面讀取失敗。
+- Scrum.org：SPS 40 題 60 分鐘 $250；PAL 36 題 60 分鐘 $200；皆 85% 及格、無報考資格。
+- SUSE SCA（SLES 15，2025 更新）：70 題 90 分鐘 70% 及格 $149，無報考資格。
+- CSA Cloud Governance & Compliance：官方頁面只介紹課程，未提考試或證書，改為虛線框。
+- IAPP CIPP：頁面未列考試數字，維持 K。
+- 未讀：iPAS（ipas.org.tw 的 robots 規則讀不到，無法判斷是否允許自動讀取，故不讀）；INE security.ine.com（轉址到其他網域被擋）。
