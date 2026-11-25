@@ -99,12 +99,14 @@ CSA,EC Council Certified SOC Analyst,312-39，100 題，3 小時，70% 及格 / 
 CSA CCSK,Cloud Security Alliance Certificate of Cloud Security Knowledge,$445（含兩次機會） / 開書線上考，60 題，120 分鐘,官方考試費,https://cloudsecurityalliance.org/education/ccsk/,2026-11-25,官方頁面
 CSCU,EC Council Certified Secure Computer User,112-12，選擇題 50 題，2 小時，70% 及格 / 無報考資格,無價格資訊,https://cert.eccouncil.org/certified-secure-computer-user.html,2026-11-25,官方頁面
 CSEDP,The SecOps Group Certified Social Engineering Defense Practitioner,原價官網首頁未列 / 1 小時選擇題 / 官網目前有限時 90% 折扣，未採計,無價格資訊,https://pentestingexams.com/,2026-11-25,官方頁面
+CSM,GAQM Certified Scrum Master,考試券 $150（含線上課程的套裝 $170） / 選擇題 40 題，60 分鐘，70% 及格，無報考資格,官方考試券,https://gaqm.org/certifications/scrum_agile/csm,2026-11-25,官方頁面
 CSSLP,ISC2 Certified Secure Software Lifecycle Professional,考試費 $599,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
 CTIA,EC Council Certified Threat intelligence Analyst,312-85，50 題，2 小時，70% 及格 / 考試費官方頁面未列,無價格資訊,https://cert.eccouncil.org/certified-threat-intelligence-analyst.html,2026-11-25,官方頁面
 CWSP,CWNP Certified Wireless Security Professional,考試費 $349.99 / 60 題 90 分鐘，須有效 CWNA,官方考試費,https://www.cwnp.com/certifications/cwsp,2026-11-25,官方頁面
 Cloud+,CompTIA Cloud+,考試費 $399 / CV0-004，最多 90 題，90 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 CySA+,CompTIA Cybersecurity Analyst+,考試費 $439 / V4 為新版；英文版 V3 於 2026-12-22 停考 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 DCA,Docker Certified Associate,考試費 $199 / 55 題 90 分鐘,官方考試費,https://training.mirantis.com/dca-certification-exam/,2026-11-25,官方頁面
+DCBCLA,DRI Certified Business Continuity Lead Auditor,申請費 $400，年費 $225；考試費官方頁面未列 / 須 5 年實務經驗（近十年內）、稽核考試 75% 及格、七篇專題論述與推薦人,官方申請費（不含考試費）,https://drii.org/certification/cbcla,2026-11-25,官方頁面
 DCPP,DSCI Certified Privacy Professional,"INR 15,000 加稅 / 選擇題含個案，65% 及格",官方考試費,https://www.dsci.in/content/dsci-certified-privacy-professional-dcpp,2026-11-25,官方頁面
 DV RTOS,Dark Vortex Red Team & Operational Security,"課程 $2,500 / 3 天線上課程，無考試，發結業證書",官方課程或套裝價,https://0xdarkvortex.dev/training-programs/red-team-and-operational-security/,2026-11-25,官方頁面
 ECES,EC Council Certified Encryption Specialist,50 題，2 小時，70% 及格,無價格資訊,https://cert.eccouncil.org/ec-council-certified-encryption-specialist.html,2026-11-25,官方頁面
@@ -195,6 +197,10 @@ HTB CWEE,Hack the Box Certified Web Exploitation Expert,"考試券 $1,260 / 須�
 HTB CWES,Hack The Box Certified Web Exploitation Specialist,考試券 $490 / 須完成 Web Penetration Tester 路徑 / 原名 HTB CBBH,官方考試券,https://academy.hackthebox.com/preview/certifications,2026-11-25,官方頁面
 HTB CWPE,Hack The Box Certified Wi-Fi Pentesting Expert,"考試券 $1,260 / 須完成 Wi-Fi Penetration Tester 路徑",官方考試券,https://academy.hackthebox.com/preview/certifications,2026-11-25,官方頁面
 IIA CIA,The Institute of Internal Auditors Certified Internal Auditor,三科考試：Part 1 $445、Part 2 $415、Part 3 $415，申請費 $240（會員 $310／$280／$280，申請費 $120） / 碩士須 1 年、學士須 2 年內部稽核經驗；2027-01-04 起調整價格,官方考試費,https://www.theiia.org/en/certifications/cia/,2026-11-25,官方頁面
+ISA CDS,ISA Certified Design Specialist,須先有 Fundamentals Specialist；完成 IC34 課程並通過考試 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
+ISA CE,ISA Cybersecurity Expert,無獨立考試：取得四張 ISA/IEC 62443 證書後自動授予 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
+ISA CFS,ISA Certified Fundamentals Specialist,完成 IC32 課程並通過考試 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
+ISA CRAS,ISA Certified Risk Assesment Specialist,須先有 Fundamentals Specialist；完成 IC33 課程並通過考試 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
 KCNA,Cloud Native Computing Foundation Kubernetes and Cloud Native Associate,考試費 $250（含一次重考） / 選擇題,官方考試費,https://www.cncf.io/certification/kcna/,2026-11-25,官方頁面
 KLCP,Kali Linux Certified Professional,考試費 $299 / 80 題 90 分鐘,官方考試費,https://kali.training/klcp/,2026-11-25,官方頁面
 LFCS,Linux Foundation Certified System Administrator,考試費 $445 / 實作 2 小時,官方考試費,https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/,2026-11-25,官方頁面
@@ -251,6 +257,9 @@ Pentest+,CompTIA Pentest+,考試費 $439 / PT0-003，最多 90 題，165 分鐘�
 Project+,CompTIA Project+,考試費 $399 / PK0-005，最多 90 題，90 分鐘，710 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 RHCE,Red Hat Certified Engineer,須通過 EX200 加一科進階考試（Enterprise Linux 為 EX342，Ansible 為 EX294） / 官方頁面未列時間與價格,無價格資訊,https://www.redhat.com/en/services/certification/rhce,2026-11-25,官方頁面
 RHCSA,Red Hat Certified System Administrator,EX200，實作考 / 無報考資格；官方頁面未列時間與價格,無價格資訊,https://www.redhat.com/en/services/certification/rhcsa,2026-11-25,官方頁面
+SABSA SCF,SABSA Chartered Security Architect - Foundation Certificate,兩個選擇題模組，各 48 題 60 分鐘，各須 75% / 須先上官方 Foundation 課程；價格官方頁面未列，須洽授權訓練單位,無價格資訊,https://sabsa.org/certification/,2026-11-25,官方頁面
+SABSA SCM,SABSA Chartered Security Architect - Master Certificate,再上第二門進階課程並通過其考試，另須提交碩士級論文並通過審查 / 須有 SCP；價格官方頁面未列，須洽授權訓練單位,無價格資訊,https://sabsa.org/certification/,2026-11-25,官方頁面
+SABSA SCP,SABSA Chartered Security Architect - Practitioner Certificate,申論作業：5 題選 2 題，四週內繳交，由兩位 SABSA Master 評分，75% 及格 / 須有 SCF 並上一門進階課程；價格官方頁面未列，須洽授權訓練單位,無價格資訊,https://sabsa.org/certification/,2026-11-25,官方頁面
 SACP,The H Layer Security Awareness and Culture Professional,申請費 $369 / 120 題,官方考試費,https://www.thehlayer.com/about-exam/,2026-11-25,官方頁面
 SC-100,Microsoft Cybersecurity Architect,約 $165，依國家或地區定價,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,官方頁面
 SC-200,Microsoft Certified: Security Operations Analyst Associate,約 $165，依國家或地區定價 / 100 分鐘，中階，無報考資格；每 12 個月免費線上更新,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字

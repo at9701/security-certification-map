@@ -242,6 +242,8 @@ o("CSCU|ECES", F="Q", I=1, R=0, T=0, B="V"); o("ECSS", F="Q", I=2, R=0, T=0, B="
 o("PECB 27005RM|PECB 27001F", B="V")
 # assorted issuer pages, read 2026-11-25
 o("RHCSA|RHCE|PMP", B="V"); o("PDSO CDP", F="P", I=3, R=0, T=2, B="V"); o("Scrum PSD", F="Q", I=0, R=0, T=2, B="V")
+o("ISA CDS|ISA CRAS", R=2)   # Fundamentals Specialist certificate required first
+o("CSM", I=0)
 # iPAS 115 年度簡章 (official PDF on ipas.org.tw), read 2026-11-25
 o("iPAS 初級", F="Q", I=2, R=0, T=0, B="V")   # two subjects, 75 min each, 50 single-choice questions each
 o("iPAS 中級", F="Q", I=2, R=1, T=1, B="V")   # two subjects, 90 min each, 40 questions each incl. multi-select and case sets
@@ -446,6 +448,17 @@ price("FCP NS|FCP PCS|FCP SO", "NSE 5／6：須先有 NSE 4，再通過一科監
 price("FCSS NS|FCSS PCS|FCSS SO|FCSS SASE", "NSE 7：須先有 NSE 4 與同路線的 NSE 5 或 6", FTNT)
 price("FCSS OT", "須先有 NSE 4、NSE 5 或 6、NSE 7，再通過監考考試", FTNT)
 price("FCX", "NSE 8：核心考試加一科選修，含實作考（ProctorU）", "須先有同路線的 NSE 4、5 或 6、7；" + FTNT)
+price("CSM", "考試券 $150（含線上課程的套裝 $170）", "選擇題 40 題，60 分鐘，70% 及格，無報考資格")
+price("DCBCLA", "申請費 $400，年費 $225；考試費官方頁面未列", "須 5 年實務經驗（近十年內）、稽核考試 75% 及格、七篇專題論述與推薦人")
+ISA_N = "官方總覽頁未列價格、題數與時間；不需換證"
+price("ISA CFS", "完成 IC32 課程並通過考試", ISA_N)
+price("ISA CRAS", "須先有 Fundamentals Specialist；完成 IC33 課程並通過考試", ISA_N)
+price("ISA CDS", "須先有 Fundamentals Specialist；完成 IC34 課程並通過考試", ISA_N)
+price("ISA CE", "無獨立考試：取得四張 ISA/IEC 62443 證書後自動授予", ISA_N)
+SABSA_N = "價格官方頁面未列，須洽授權訓練單位"
+price("SABSA SCF", "兩個選擇題模組，各 48 題 60 分鐘，各須 75%", "須先上官方 Foundation 課程；" + SABSA_N)
+price("SABSA SCP", "申論作業：5 題選 2 題，四週內繳交，由兩位 SABSA Master 評分，75% 及格", "須有 SCF 並上一門進階課程；" + SABSA_N)
+price("SABSA SCM", "再上第二門進階課程並通過其考試，另須提交碩士級論文並通過審查", "須有 SCP；" + SABSA_N)
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -489,6 +502,8 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("CSM", kind="官方考試券"); meta("DCBCLA", kind="官方申請費（不含考試費）")
+meta("ISA CFS|ISA CRAS|ISA CDS|ISA CE|SABSA SCF|SABSA SCP|SABSA SCM", kind="無價格資訊")
 meta("PJPT|PNPT|PWPP|PWPA|PSAA|PAPA|PMRP", kind="官方課程含考試")
 meta("MOIS|MBT|MCPT|MDFIR|MRE|MDSO|MRT|MVRE|MCSE|MPT|MTH|MCSF|MSAF|MCPE|MRCI", kind="官方課程或套裝價", url="https://www.mosse-institute.com/certifications.html")
 meta("MICS", kind="無價格資訊", url="https://www.mosse-institute.com/certifications.html")

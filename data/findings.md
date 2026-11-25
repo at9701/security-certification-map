@@ -276,3 +276,10 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - The SecOps Group（pentestingexams.com 首頁）：Professional 級 $328、C-ADPenX $525；多張首頁只顯示 90% 折扣後價格、未列原價。分級：Essentials 1 小時選擇題、Professional 4 小時實作、eXpert 7 小時實作。
 - GIAC 價目表：標準 $999（重考 $899、換證 $499）；GX 系列 $1,299（持有對應有效證照 $499）。停止報考清單多了 GEVA（圖上沒有這張）。
 - Fortinet 總覽頁：只有各級門檻（NSE 5 以上須 NSE 4；NSE 7 須同路線 NSE 5 或 6；NSE 8 須 4、5 或 6、7，考核心加選修，含實作），未列價格與時間。
+
+## 價格補查第二批（2026-11-25）
+- GAQM CSM：考試券 $150（含課程套裝 $170），40 題 60 分鐘 70%。GAQM 各考試價格不同（同頁另見 ISO 20000 $100），其餘 13 張尚未逐張查。
+- DRI CBCLA：申請費 $400、年費 $225，考試費未列；5 年經驗（同頁另一處寫 2 年，以要求清單的 5 年為準）。
+- ISA/IEC 62443：Fundamentals（IC32）為其餘三張的前置；四張全拿自動成為 Expert，無獨立考試；不需換證；價格未列。Design、Risk Assessment 的門檻改記「須前置證照」。
+- SABSA：SCF 兩模組各 48 題 60 分鐘 75%，須上官方課程；SCP 為申論作業（5 選 2，四週），須 SCF 加一門進階課程；SCM 須 SCP、第二門進階課程與論文。價格未列。
+- Identity Management Institute CIAM 頁、SECO 資安路線頁：無價格與考試細節。ISECOM、Axelos：讀取失敗或頁面無內容。
