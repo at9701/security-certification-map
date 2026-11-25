@@ -1,6 +1,6 @@
 # 資安證照地圖 Security Certification Roadmap（2026-11）
 
-衍生自 [Paul Jerimy 的 Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)（最後更新 2024 年 7 月）。
+A衍生自 [Paul Jerimy 的 Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)（最後更新 2024 年 7 月）。
 沿用原版的版面與領域分欄，介面改為繁體中文，更新了之後的證照變動、加入台灣證照，並**把難度位置依公開規則全部重排**。
 
 **本專案與原作者無關，也未經其背書；上下位置不是原作者的評級。**
