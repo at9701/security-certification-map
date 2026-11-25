@@ -290,3 +290,10 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - DRI CCRP、CBCA：申請費 $400、年費 $225，考試費未列；皆須 2 年經驗、考試 75%。CBCA 門檻由「無」改記「1–2 年經驗」。
 - IT Governance（GRC Solutions）CIS LI：課程 £2,195 未稅，含 IBITGQ 線上考試（90 分鐘）。
 - 資通安全職能評量：評量 70 分及格、電腦化即測即評，複測每次 NT$300（資安署 114-11-06 訂定之收費標準，行政院公報）；115 年起有免訓評量科目（實施要點）。訓練費核心 NT$8,000（3 日）、專業 NT$8,000（3 日）或 NT$6,000（2 日），含一次評量，數字取自機關轉載的 114 年上半年官方訓練說明。專業科目須先持有「資通安全概論」有效證書，門檻改記「須前置證照」。
+
+## 價格補查第四批（2026-11-25）
+- GAQM CPT：考試券 $150，40 題 60 分鐘；CASM：$150，50 題 60 分鐘。皆 70% 及格、240 天內兩次機會。GAQM 其餘 9 張（CPD、CASST、PPM、CISST、CFA、CSP、CSST、CAD、CAC）未查。
+- LPI 官方價目：LPIC-1、LPIC-2 各兩科，LPIC-3 每專長一科，每科 $200／$165／$132（依國家三級）；Linux Essentials $120／$100／$80。
+- Juniper：認證計畫官方 FAQ 列 JNCIA $200、JNCIS $300、JNCIP $400、JNCIE $1,600；JNCIE-SEC 實作考須有效 JNCIP-SEC（juniper.net/jncie）。
+- ITIL：多個第三方來源稱 PeopleCert 於 2026-01 推出 ITIL（Version 5）、ITIL 4 預定 2027-12-31 停考；PeopleCert 美國商店 Foundation 組合約 $690。第三方對 Foundation 價格的說法差異很大（$314–$750），官方頁面未能讀取。ITIL Fdn 改為虛線框，待官方查證。
+- EXIN：只找到訓練機構與題庫網站的價格，無官方價目，未採用。Identity Management Institute：搜尋無官方費用頁。

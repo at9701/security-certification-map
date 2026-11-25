@@ -242,6 +242,7 @@ o("CSCU|ECES", F="Q", I=1, R=0, T=0, B="V"); o("ECSS", F="Q", I=2, R=0, T=0, B="
 o("PECB 27005RM|PECB 27001F", B="V")
 # assorted issuer pages, read 2026-11-25
 o("RHCSA|RHCE|PMP", B="V"); o("PDSO CDP", F="P", I=3, R=0, T=2, B="V"); o("Scrum PSD", F="Q", I=0, R=0, T=2, B="V")
+o("GCPT|CASM", I=0)   # 60-minute exams
 o("DCBCA", R=2); o("資安職能 專業", R=2)   # two years of experience; core certificate required before professional subjects
 o("ISA CDS|ISA CRAS", R=2)   # Fundamentals Specialist certificate required first
 o("CSM", I=0)
@@ -471,6 +472,19 @@ price("DCBCA", "申請費 $400，年費 $225；考試費官方頁面未列", "�
 price("CIS LI", "課程 £2,195（未稅），含 IBITGQ 線上考試", "考試 90 分鐘；無報考資格，建議先上 Foundation 課程")
 price("資安職能 核心", "訓練費 NT$8,000（3 日課程，含一次評量）", "評量 70 分及格，電腦化即測即評；複測每次 NT$300", "115 年起部分科目開放免訓評量；訓練費為 114 年上半年訓練說明的數字")
 price("資安職能 專業", "訓練費 NT$8,000（3 日課程）或 NT$6,000（2 日課程），含一次評量", "須先持有「資通安全概論」有效證書；評量 70 分及格；複測每次 NT$300", "訓練費為 114 年上半年訓練說明的數字")
+# price pass 4, 2026-11-25
+price("GCPT", "考試券 $150（240 天內兩次機會）", "選擇題 40 題，60 分鐘，70% 及格，無報考資格")
+price("CASM", "考試券 $150（240 天內兩次機會）", "選擇題 50 題，60 分鐘，70% 及格，無報考資格")
+LPI_N = "依國家分三級定價，括號內為第二、三級"
+price("LPIC-1", "兩科（101、102），每科 $200（$165／$132）", LPI_N)
+price("LPIC-2", "兩科（201、202），每科 $200（$165／$132）", LPI_N)
+price("LPIC-3", "每個專長一科（303 為 Security），每科 $200（$165／$132）", LPI_N)
+JNPR = "Juniper 認證計畫官方 FAQ（HPE Networking 訓練支援站）"
+price("JNCIA Sec", "考試費 $200", JNPR); price("JNCIS Sec", "考試費 $300", JNPR); price("JNCIP Sec", "考試費 $400", JNPR)
+price("JNCIE Sec", "實作考費用 $1,600", "須持有有效的 JNCIP-SEC；" + JNPR)
+ITIL_N = "PeopleCert 於 2026-01 推出 ITIL（Version 5），ITIL 4 各模組預定 2027-12-31 停考（第三方報導，未向官方頁面查證）"
+price("ITIL Fdn", "PeopleCert 美國商店考試組合約 $690（第三方整理）", ITIL_N)
+price("ITIL MP|ITIL SL|ITIL Master", "Foundation 以上各模組須先上認可課程；價格官方頁面未能讀取", ITIL_N)
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -514,6 +528,11 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("GCPT|CASM", kind="官方考試券")
+meta("LPIC-1|LPIC-2|LPIC-3", kind="官方考試費", url="https://www.lpi.org/our-certifications/exam-pricing/")
+meta("JNCIA Sec|JNCIS Sec|JNCIP Sec|JNCIE Sec", kind="官方考試費", url="https://hpe-networking-training.zendesk.com/hc/en-us/articles/360053374674-General-Certification-Frequently-Asked-Questions")
+meta("ITIL Fdn", kind="第三方價格", conf=THIRD, url="https://tutorsbot.com/blog/itil-certification-cost")
+meta("ITIL MP|ITIL SL|ITIL Master", kind="無價格資訊", conf=THIRD, url="https://www.superprof.com/blog/itil-certification-cost/")
 meta("資安職能 核心|資安職能 專業", kind="官方訓練費（含評量）", conf="複測費與及格標準為資安署法規公告；訓練費取自機關轉載的官方訓練說明", url="https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg031209/ch05/type1/gov87/num6/Eg.pdf", date="2026-11-25")
 meta("C)ISRM|IS20|C)ISSA|C)DRE|C)IHE|C)HISSP|C)CSA|C)ISSM|C)TIA|C)SLO|C)SWAE|C)CSO|C)PEH|C)DFE|C)AICSO|C)NIS2|C)CFTA|C)PSH|C)PTC|C)SP|C)VA|C)OL|C)PTE", kind="官方考試組合價", url="https://mile2.com/exam-combos/")
 meta("C)ISMS-LA|C)NFE|C)ISCAP", kind="無價格資訊", url="https://mile2.com/exam-combos/")
@@ -628,6 +647,7 @@ for _l in ("NCSC CCPLP", "NCSC CCPSP", "NCSC CCPP"):
 
 # still on the chart, but the issuer's own site raises a doubt; shown dashed with the note
 FLAG = {
+    "ITIL Fdn": "現況：第三方報導 ITIL 已出 Version 5（2026-01），ITIL 4 預定 2027-12-31 停考；官方頁面未能讀取（2026-11-25）",
     "OSMR": "現況：OffSec 的 EXP-312 課程頁未提到 OSMR 或任何考試，兩次讀取皆同（2026-11-25）",
     "CSA CGC": "現況：官方頁面只介紹 Cloud Governance & Compliance 課程，未提到考試或證書（2026-11-25）",
     "Cloud Essnt": "現況：官方頁面目前只介紹約 8 小時的自學課程，未列考試資訊（2026-11-25）",

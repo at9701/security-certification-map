@@ -322,16 +322,15 @@ GSEC,GIAC Security Essentials Certification,giac.org,B,2,1,1,1,官方級別,0,32
 THM SEC1,TryHackMe Cyber Security 101 Certification,tryhackme.com,P,1,0,0,0,官方級別,0,32,V,26,22,37,https://tryhackme.com/resources/blog/cyber-security-certification-roadmap-2026
 ASIS APP,ASIS Associate Protection Professional,asisonline.org,Q,2,2,1,1,官方級別,0,31,V,20,19,17,https://www.asisonline.org/certification/associate-protection-professional-app/
 SSCP,ISC2 Systems Security Certified Practitioner,isc2.org,Q,2,2,1,1,官方級別,0,31,V,23,19,22,https://www.isc2.org/Certifications/SSCP
-S-ISME,SECO Information Security Management Expert,seco-institute.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,6,15,23,https://www.seco-institute.org/certifications/information-security-certification-track/
+S-ISME,SECO Information Security Management Expert,seco-institute.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,6,23,26,https://www.seco-institute.org/certifications/information-security-certification-track/
 TOGAF,OpenGroup TOGAF Certified,opengroup.org,Q,1,0,2,2,官方級別,0,30,K,8,21,17,https://www.opengroup.org/certifications/togaf
-EEXIN ISM,EXIN Information Security Management Expert,exin.com,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,8,23,23,https://www.exin.com/certifications/information-security-management-expert-based-isoiec-27001-exam
-S-CISO,SECO Certified Information Security Officer,seco-institute.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,10,23,26,https://www.seco-institute.org/certifications/information-security-certification-track/
+EEXIN ISM,EXIN Information Security Management Expert,exin.com,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,8,22,24,https://www.exin.com/certifications/information-security-management-expert-based-isoiec-27001-exam
+S-CISO,SECO Certified Information Security Officer,seco-institute.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,10,23,25,https://www.seco-institute.org/certifications/information-security-certification-track/
 S-CEHL,SECO Certified Ethical Hacker Leader,seco-institute.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,10,20,41,https://www.seco-institute.org/certifications/ethical-hacking-track/leader/
-S-EHE,SECO Ethical Hacker Expert,seco-institute.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,11,21,43,https://www.seco-institute.org/certifications/ethical-hacking-certification-track/
+S-EHE,SECO Ethical Hacker Expert,seco-institute.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,11,20,45,https://www.seco-institute.org/certifications/ethical-hacking-certification-track/
 JNCIP Sec,"Juniper Networks Certified Internet Professional, Security",juniper.net,Q,1,0,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,12,19,3,https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jncip-sec
 PA NGFW,Palo Alto Networks Certified Next-Generation Firewall Engineer,paloaltonetworks.com,Q,1,0,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,K,12,20,3,https://www.paloaltonetworks.com/services/education/certification
 CISSM,GAQM Certified Information Systems Security Manager,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,12,22,22,https://gaqm.org/certifications/information_systems_security/cissm
-CASM,GAQM Certified Agile Scrum Master,gaqm.org,Q,1,0,4,2,名稱所示級別；自稱頂級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,V,13,22,21,https://gaqm.org/certifications/scrum_agile/casm
 S-ISP,SECO Information Security Practitioner,seco-institute.org,Q,1,0,2,2,名稱所示級別,0,30,U,13,15,26,https://www.seco-institute.org/certifications/information-security-certification-track/
 S-CSPL,SECO Secure Programming Certified Leader,seco-institute.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,13,15,33,https://www.seco-institute.org/certifications/certified-secure-software-developer/
 PA XSOAR,Palo Alto Networks Certified XSOAR Engineer,paloaltonetworks.com,Q,1,0,3,2,官方級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,K,14,21,2,https://www.paloaltonetworks.com/services/education/certification
@@ -340,9 +339,8 @@ BCS PCIRM,BCS Practitioner Certificate in Information Risk Management,bcs.org,Q,
 PEXIN ISM,EXIN Information Security Management Professional,exin.com,Q,1,0,2,2,名稱所示級別,0,30,U,14,23,22,https://www.exin.com/certifications/information-security-management-professional-based-isoiec-27001-exam
 EPDPP,EXIN Privacy and Data Protection Practitioner,embed.exin.totalservices.io,Q,1,0,2,2,名稱所示級別,0,30,U,15,23,17,https://embed.exin.totalservices.io/certifications/exin-privacy-and-data-protection-practitioner-exam
 M_o_R P,Axelos M_o_R Practitioner Risk Management,axelos.com,Q,1,0,2,2,名稱所示級別,0,30,U,15,23,19,https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner
-CPD,GAQM Certified Project Director,gaqm.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,V,15,22,23,https://gaqm.org/certifications/project_management/cpd
+CPD,GAQM Certified Project Director,gaqm.org,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,V,15,22,21,https://gaqm.org/certifications/project_management/cpd
 EXIN 27001E,EXIN ISO/IEC 27001 Expert,exin.com,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,15,23,24,https://www.exin.com/certifications/information-security-management-expert-based-isoiec-27001-exam?language_content_entity=en
-GCPT,GAQM Certified Penetration Tester,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,15,20,45,https://gaqm.org/certifications/information_systems_security/certified_penetration_tester_cpt
 CCSE,Checkpoint Certified Security Expert,training-certifications.checkpoint.com,Q,1,0,2,2,官方級別,0,30,K,16,19,2,https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Expert%20(CCSE)%20R80.x
 SFCCCC,SalesForce Certified Community Cloud Consultant,trailhead.salesforce.com,Q,1,0,2,2,沿用 2024 原圖區段,0,30,K,16,22,9,https://trailhead.salesforce.com/help?article=Salesforce-Certified-Community-Cloud-Consultant-Exam-Guide
 EXIN PCSA,EXIN Professional Cloud Solution Architect,exin.com,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,U,16,21,8,https://www.exin.com/certifications/ccc-professional-cloud-solution-architect-exam
@@ -356,7 +354,7 @@ APMG 27001A,APMG ISO/IEC 27001 Auditor,apmg-international.com,Q,1,0,2,2,官方�
 C)DRE,Mile2 Certified Disaster Recovery Engineer,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,16,23,35,https://www.mile2.com/cdre_outline/
 JNCIS Sec,"Juniper Networks Certified Internet Specialist, Security",juniper.net,Q,1,0,2,2,官方級別,0,30,U,17,19,4,https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jncisec
 C)IHE,Mile2 Certified Incident Handling Engineer,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,17,23,39,https://www.mile2.com/cihe_outline/
-EXIN 27001P,EXIN ISO/IEC 27001 Professional,exin.com,Q,1,0,2,2,名稱所示級別,0,30,U,18,23,25,https://www.exin.com/certifications/information-security-management-professional-based-isoiec-27001-exam
+EXIN 27001P,EXIN ISO/IEC 27001 Professional,exin.com,Q,1,0,2,2,名稱所示級別,0,30,U,18,23,23,https://www.exin.com/certifications/information-security-management-professional-based-isoiec-27001-exam
 C)HISSP,Mile2 Certified Healthcare Information Systems Security Practitioner,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,18,21,26,https://www.mile2.com/chissp_outline/
 APMG 20000A,APMG ISO/IEC 20000 Auditor,apmg-international.com,Q,1,0,2,2,名稱所示級別,0,30,K,18,19,27,https://apmg-international.com/product/iso-iec-20000
 C)ISMS-LA,Mile2 Certified Information security Management Systems Lead Auditor,mile2.com,Q,1,0,3,2,名稱所示級別；自稱專家級，因無強制門檻且考試未達 24 小時，以專業級計,0,30,V,18,21,30,https://www.mile2.com/cisms-la-li-outline/
@@ -385,7 +383,7 @@ EXIN PCD,EXIN Professional Cloud Developer,exin.com,Q,1,0,2,2,名稱所示級別
 C)PEH,Mile2 Certified Professional Ethical Hacker,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,23,20,42,https://mile2.com/professional-ethical-hacker/
 GCPEH,GAQM Certified Professional Ethical Hacker,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,23,20,44,https://gaqm.org/certifications/information_systems_security/cpeh
 C)DFE,Mile2 Certified Digital Forensics Examiner,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,K,24,23,37,https://www.mile2.com/cdfe_outline/
-CSP,GAQM Certified SAFe Practitioner,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,25,22,24,https://gaqm.org/certifications/scrum_agile/csp-410
+CSP,GAQM Certified SAFe Practitioner,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,25,22,23,https://gaqm.org/certifications/scrum_agile/csp-410
 C)ISCAP,Mile2 Information Systems Certification and Accredidation Professional,mile2.com,Q,1,0,2,2,名稱所示級別,0,30,V,25,21,25,https://www.mile2.com/iscap_outline/
 CSST,GAQM Certified Software Security Tester,gaqm.org,Q,1,0,2,2,名稱所示級別,0,30,V,25,23,33,https://gaqm.org/certifications/software_security_testing/csst
 EXIN PCA,EXIN Professional Cloud Administrator,exin.com,Q,1,0,2,2,名稱所示級別,0,30,U,26,21,9,https://www.exin.com/certifications/ccc-professional-cloud-administrator-exam
@@ -401,8 +399,10 @@ CCOA,ISACA Certified Cybersecurity Operations Analyst,isaca.org,B,2,0,1,1,官方
 Cloud+,CompTIA Cloud+,comptia.org,B,1,1,1,1,官方級別,0,29,V,24,22,8,https://www.comptia.org/certifications/cloud
 Security+,CompTIA Security+,comptia.org,B,1,1,1,1,官方級別,0,29,K,24,20,22,https://www.comptia.org/certifications/security
 Scrum SPS,Scrum Scaled Professional Scrum,scrum.org,Q,0,0,2,2,官方級別,0,28,V,12,24,21,https://www.scrum.org/scaled-professional-scrum-certification
-CSM,GAQM Certified Scrum Master,gaqm.org,Q,0,0,4,2,名稱所示級別；自稱頂級，因無強制門檻且考試未達 24 小時，以專業級計,0,28,V,13,15,22,https://gaqm.org/certifications/scrum_agile/csm
+CSM,GAQM Certified Scrum Master,gaqm.org,Q,0,0,4,2,名稱所示級別；自稱頂級，因無強制門檻且考試未達 24 小時，以專業級計,0,28,V,13,15,23,https://gaqm.org/certifications/scrum_agile/csm
+CASM,GAQM Certified Agile Scrum Master,gaqm.org,Q,0,0,4,2,名稱所示級別；自稱頂級，因無強制門檻且考試未達 24 小時，以專業級計,0,28,V,13,15,22,https://gaqm.org/certifications/scrum_agile/casm
 Scrum PSD,Scrum Professional Scrum Developer,scrum.org,Q,0,0,2,2,官方級別,0,28,V,14,24,20,https://www.scrum.org/professional-scrum-developer-certification
+GCPT,GAQM Certified Penetration Tester,gaqm.org,Q,0,0,2,2,名稱所示級別,0,28,V,15,21,43,https://gaqm.org/certifications/information_systems_security/certified_penetration_tester_cpt
 Scrum PAL,Scrum  Professional Agile Leadership,scrum.org,Q,0,0,2,2,官方級別,0,28,V,16,15,25,https://www.scrum.org/professional-agile-leadership-certification
 GCIP,GIAC Critical Infrastructure Protection,giac.org,Q,2,1,1,1,沿用 2024 原圖區段,0,28,V,18,22,13,https://www.giac.org/certification/critical-infrastructure-protection-gcip
 SPLK-3001,Splunk Enterprise Security Certified Administrator,splunk.com,Q,0,0,2,2,官方級別,0,28,V,19,16,10,https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html

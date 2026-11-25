@@ -50,6 +50,7 @@ C-APIPen,The SecOps Group Certified API Pentester (C-APIPen),原價官網首頁�
 C-AgAIPen,The SecOps Group Certified Agentic AI Pentester (C-AgAIPen),原價官網首頁未列 / 4 小時實作考 / 官網目前有限時 90% 折扣，未採計,無價格資訊,https://pentestingexams.com/,2026-11-25,官方頁面
 CACE,Excida IEC 62443 Certified Automation Cybersecurity Expert,須 10 年經驗 / 選擇、簡答與個案分析兩階段考試,無價格資訊,https://www.exidacace.com/Apply/CACE,2026-11-25,官方頁面
 CASE,EC Council Certified Application Security Engineer (.NET or Java),50 題，2 小時，70% 及格（分 .NET 與 Java 兩種） / 須上官方課程、或 2 年相關經驗（申請費 $100）,無價格資訊,https://cert.eccouncil.org/ec-certified-application-security-engineer.html,2026-11-25,官方頁面
+CASM,GAQM Certified Agile Scrum Master,考試券 $150（240 天內兩次機會） / 選擇題 50 題，60 分鐘，70% 及格，無報考資格,官方考試券,https://gaqm.org/certifications/scrum_agile/casm,2026-11-25,官方頁面
 CBFRPro,The SecOps Group Certified Binary Fuzzing & Reversing Professional,原價官網首頁未列 / 4 小時實作考 / 官網目前有限時 90% 折扣，未採計,無價格資訊,https://pentestingexams.com/,2026-11-25,官方頁面
 CBP,The SecOps Group Certified Blockchain Practitioner,原價官網首頁未列 / 1 小時選擇題 / 官網目前有限時 90% 折扣，未採計,無價格資訊,https://pentestingexams.com/,2026-11-25,官方頁面
 CBTP,The SecOps Group Certified Blue Team Practitioner,原價官網首頁未列 / 1 小時選擇題 / 官網目前有限時 90% 折扣，未採計,無價格資訊,https://pentestingexams.com/,2026-11-25,官方頁面
@@ -173,6 +174,7 @@ GCIP,GIAC Critical Infrastructure Protection,考試費 $999 / 75 題，3 小時�
 GCLD,GIAC Cloud Security Essentials,考試費 $999 / 75 題，2 小時，61% 及格；無實作題,官方考試費,https://www.giac.org/certifications/cloud-security-essentials-gcld/,2026-11-25,官方頁面
 GCPEH,GAQM Certified Professional Ethical Hacker,考試券 $190（240 天內兩次機會） / 選擇題 100 題，2 小時，70% 及格，無報考資格,官方考試券,https://gaqm.org/certifications/information_systems_security/cpeh,2026-11-25,官方頁面
 GCPN,GIAC Cloud Penetration Tester,考試費 $999 / 75 題，2 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certification/gcpn,2026-11-25,官方頁面
+GCPT,GAQM Certified Penetration Tester,考試券 $150（240 天內兩次機會） / 選擇題 40 題，60 分鐘，70% 及格，無報考資格,官方考試券,https://gaqm.org/certifications/information_systems_security/certified_penetration_tester_cpt,2026-11-25,官方頁面
 GCSA,GIAC Cloud Security Automation,考試費 $999 / 75 題，2 小時，66% 及格；無實作題,官方考試費,https://www.giac.org/certification/cloud-security-automation-gcsa,2026-11-25,官方頁面
 GCTD,GIAC Cloud Threat Detection,考試費 $999 / 75 題，2 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certifications/cloud-threat-detection-gctd/,2026-11-25,官方頁面
 GCTI,GIAC Cyber Threat Intelligence,考試費 $999 / 82 題，3 小時，71% 及格；含 CyberLive 實作題,官方考試費,https://www.giac.org/certification/gcti,2026-11-25,官方頁面
@@ -231,9 +233,20 @@ ISA CDS,ISA Certified Design Specialist,須先有 Fundamentals Specialist；完�
 ISA CE,ISA Cybersecurity Expert,無獨立考試：取得四張 ISA/IEC 62443 證書後自動授予 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
 ISA CFS,ISA Certified Fundamentals Specialist,完成 IC32 課程並通過考試 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
 ISA CRAS,ISA Certified Risk Assesment Specialist,須先有 Fundamentals Specialist；完成 IC33 課程並通過考試 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
+ITIL Fdn,ITIL Foundation,PeopleCert 美國商店考試組合約 $690（第三方整理） / PeopleCert 於 2026-01 推出 ITIL（Version 5），ITIL 4 各模組預定 2027-12-31 停考（第三方報導，未向官方頁面查證）,第三方價格,https://tutorsbot.com/blog/itil-certification-cost,2026-11-25,第三方
+ITIL MP,ITIL Managing Professional,Foundation 以上各模組須先上認可課程；價格官方頁面未能讀取 / PeopleCert 於 2026-01 推出 ITIL（Version 5），ITIL 4 各模組預定 2027-12-31 停考（第三方報導，未向官方頁面查證）,無價格資訊,https://www.superprof.com/blog/itil-certification-cost/,2026-11-25,第三方
+ITIL Master,ITIL Master,Foundation 以上各模組須先上認可課程；價格官方頁面未能讀取 / PeopleCert 於 2026-01 推出 ITIL（Version 5），ITIL 4 各模組預定 2027-12-31 停考（第三方報導，未向官方頁面查證）,無價格資訊,https://www.superprof.com/blog/itil-certification-cost/,2026-11-25,第三方
+ITIL SL,ITIL Strategic Leader,Foundation 以上各模組須先上認可課程；價格官方頁面未能讀取 / PeopleCert 於 2026-01 推出 ITIL（Version 5），ITIL 4 各模組預定 2027-12-31 停考（第三方報導，未向官方頁面查證）,無價格資訊,https://www.superprof.com/blog/itil-certification-cost/,2026-11-25,第三方
+JNCIA Sec,"Juniper Networks Certified Internet Associate, Security",考試費 $200 / Juniper 認證計畫官方 FAQ（HPE Networking 訓練支援站）,官方考試費,https://hpe-networking-training.zendesk.com/hc/en-us/articles/360053374674-General-Certification-Frequently-Asked-Questions,2026-11-25,官方頁面
+JNCIE Sec,"Juniper Networks Certified Internet Expert, Security","實作考費用 $1,600 / 須持有有效的 JNCIP-SEC；Juniper 認證計畫官方 FAQ（HPE Networking 訓練支援站）",官方考試費,https://hpe-networking-training.zendesk.com/hc/en-us/articles/360053374674-General-Certification-Frequently-Asked-Questions,2026-11-25,官方頁面
+JNCIP Sec,"Juniper Networks Certified Internet Professional, Security",考試費 $400 / Juniper 認證計畫官方 FAQ（HPE Networking 訓練支援站）,官方考試費,https://hpe-networking-training.zendesk.com/hc/en-us/articles/360053374674-General-Certification-Frequently-Asked-Questions,2026-11-25,官方頁面
+JNCIS Sec,"Juniper Networks Certified Internet Specialist, Security",考試費 $300 / Juniper 認證計畫官方 FAQ（HPE Networking 訓練支援站）,官方考試費,https://hpe-networking-training.zendesk.com/hc/en-us/articles/360053374674-General-Certification-Frequently-Asked-Questions,2026-11-25,官方頁面
 KCNA,Cloud Native Computing Foundation Kubernetes and Cloud Native Associate,考試費 $250（含一次重考） / 選擇題,官方考試費,https://www.cncf.io/certification/kcna/,2026-11-25,官方頁面
 KLCP,Kali Linux Certified Professional,考試費 $299 / 80 題 90 分鐘,官方考試費,https://kali.training/klcp/,2026-11-25,官方頁面
 LFCS,Linux Foundation Certified System Administrator,考試費 $445 / 實作 2 小時,官方考試費,https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/,2026-11-25,官方頁面
+LPIC-1,Linux Professional Institute Certified: Linux Administrator,兩科（101、102），每科 $200（$165／$132） / 依國家分三級定價，括號內為第二、三級,官方考試費,https://www.lpi.org/our-certifications/exam-pricing/,2026-11-25,官方頁面
+LPIC-2,Linux Professional Institute Certified: Linux Engineer,兩科（201、202），每科 $200（$165／$132） / 依國家分三級定價，括號內為第二、三級,官方考試費,https://www.lpi.org/our-certifications/exam-pricing/,2026-11-25,官方頁面
+LPIC-3,Linux Professional Institute Certified: 303 Security,每個專長一科（303 為 Security），每科 $200（$165／$132） / 依國家分三級定價，括號內為第二、三級,官方考試費,https://www.lpi.org/our-certifications/exam-pricing/,2026-11-25,官方頁面
 LPT,EC Council Licensed Penetration Tester,與 CPENT 同一場 24 小時實作考，90% 以上即同時取得 LPT (Master) / 不是獨立考試；eccouncil.org 的舊 LPT 頁面仍寫五天考試與 $899 考試包,無獨立費用,https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html,2026-11-25,官方頁面
 Linux+,CompTIA Linux+,考試費 $399 / XK0-006，最多 90 題，90 分鐘，720 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 MBT,Mosse Institute Certified Blue Teamer Certification,$699 / 無考試，完成實作練習由講師審核；促銷碼另有折扣,官方課程或套裝價,https://www.mosse-institute.com/certifications.html,2026-11-25,官方頁面
