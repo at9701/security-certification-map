@@ -328,3 +328,9 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - TOGAF 標籤改為現行名稱：TOGAF EA Fdn、TOGAF EA Prac。
 - 新增 TCM 5 張（各證照頁）：PWPE $799（3 天實作加 2 天報告）、PSAP $499（3 天加 2 天）、PORP $399（3 天含報告）、PIPA $249、PMPA $249（原名 PJMT）（皆 2 天加 2 天）。皆含一次免費重考。PHDA（IT 服務台）非資安證照，未加。
 - 新增 EC-Council 4 張（證照部門頁）：C|CT（50 題選擇加 10 題實作，3 小時，無報考資格；圖上標籤用 EC CCT 以免與 Cisco CCT 混淆）、ECDE（100 題 4 小時 70%，2 年經驗或官方訓練）、WAHS（6 小時實作，依得分分三級）、COASP（Beta；65 題選擇加 5 題實作，6 小時）以虛線框標示。CAIPM、CRAGE 兩張 Beta 與 Essentials 系列未加。
+
+## 規則 3：同系列不倒掛（2026-11-25，維護者決定）
+- 同一發證單位、同一路線內，進階證照分數不低於下一階；不同種類不套用。路線清單（約 75 條）在 rank.py 的 LADDERS，只收發證單位自己定義的升級關係。
+- 實際被調高 3 張：CREST CCT INF、CCT APP（50 → 53）、Mile2 C)PTC（22 → 33）。其餘路線原本就沒有倒掛。
+- 未納入：CREST 紅隊（CCRTS、CCRTM）與滲透測試（CRT）視為不同種類；GIAC 沒有官方升級路線，只收 GPEN → GXPN、GCFE → GCFA 兩條同課程線，兩者原本同分，未變動。
+- 維護者同時決定：CREST 四張（CCHIA、CCNIA、CRTSA、CSAS）維持虛線框；Infosec Institute 8 張維持現狀；Palo Alto Identity Security 系列不加。

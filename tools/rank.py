@@ -879,6 +879,110 @@ def attrs(it):
 for it in items:
     it.update(attrs(it))
 
+# Rule 3 (2026-11-25): inside one issuer's own track, a higher rung never scores below the rung under it.
+# Chains are written low -> high and only join certifications of the same kind (same issuer, same track).
+# "a > b|c" means both b and c sit above a. Different tracks of one issuer are separate chains.
+LADDERS = """
+CREST CPSA > CREST CRT > CREST CCTINF|CREST CCTAPP
+CREST CPTIA > CREST CRTIA > CREST CCTIM
+CREST CPIA > CREST CRIA > CREST CCIM
+GPEN > GXPN
+GCFE > GCFA
+OSCP+ > OSEP > OSEE
+OSWA > OSWE
+OSCC > OSCP+
+SSCP > CISSP > CISSP Concentrations
+Security+ > CySA+|Pentest+ > SecurityX
+CCNA > CCNP Sec > CCIE Sec
+CCNA Cyber > CCNP Cyber
+CCNA > CCNP Ent > CCIE Ent
+CCNA Auto > CCNP Auto
+FCF > FCA > FCP NS > FCSS NS > FCX
+FCA > FCP PCS > FCSS PCS
+FCA > FCP SO > FCSS SO
+JNCIA Sec > JNCIS Sec > JNCIP Sec > JNCIE Sec
+PA Cyber > PA NetSec > PA NGFW
+SC-900 > SC-200|SC-300|SC-401 > SC-100
+AZ-900 > AZ-104 > AZ-305
+AWS CP > AWS SAA > AWS SAP
+HTB CJCA > HTB CPTS
+HTB CJCA > HTB CDSA
+HTB CWES > HTB CWEE
+PJPT > PNPT
+PWPA > PWPP > PWPE
+PSAA > PSAP
+eJPT > eCPPT
+eWPT > eWPTX
+THM SEC1 > THM SAL1 > THM SAL2
+THM SEC1 > THM PT1
+C)PEH > C)PTE > C)PTC
+SABSA SCF > SABSA SCP > SABSA SCM
+ISA CFS > ISA CRAS|ISA CDS > ISA CE
+APMG 27001F > APMG 27001P
+APMG 20000F > APMG 20000P
+PECB 27001F > PECB 27001LI|PECB 27001LA
+PECB 27005F > PECB 27005RM > PECB 27005LM
+PECB 27032F > PECB 27032CM
+LPIC-1 > LPIC-2 > LPIC-3
+RHCSA > RHCE > RHCA
+SCA > SCE
+ITIL Fdn > ITIL MP|ITIL SL > ITIL Master
+CAPM > PMP > PgMP
+iPAS 初級 > iPAS 中級
+資安職能 核心 > 資安職能 專業
+PSM I > PSM II > PSM III
+CKA > CKS
+CPENT > LPT
+EISM > CCISO
+DACRP > DCCRP
+DCBCA > DCBCLA
+Zach EAA > Zach EAP > Zach EAPro
+SOG CAP > SOG CAPen > SOG CAPenX
+SOG NSP > SOG CNPen
+SOG CCSP-AWS > CCPenX-AWS
+CBTP > CBTeamer > CBTeamerX
+CRTeamer > CRTeamerX
+VCP DCV > VCIX DCV > VCDX DCV
+VCP NV > VCIX NV
+F5 CA > F5 CTS APM|F5 CTS DNS > F5 CSE Sec
+TOGAF Fdn > TOGAF
+M_o_R Fdn > M_o_R P
+CSTM > CSTL
+CRTO > CRTL
+BTL1 > BTL2
+GRCP > GRCA
+S-ISF > S-ISP > S-ISME > S-CISO
+S-EHF > S-EHP > S-EHE > S-CEHL
+EXIN 27001F > EXIN 27001P > EXIN 27001E
+CIS F > CIS LI|CIS LA
+"""
+_by = {}
+for it in items:
+    _by.setdefault(it["label"], []).append(it)
+PAIRS = []
+for _line in LADDERS.strip().splitlines():
+    _rungs = [[x.strip() for x in r.split("|")] for r in _line.split(">")]
+    for _lo, _hi in zip(_rungs, _rungs[1:]):
+        PAIRS += [(a_, b_) for a_ in _lo for b_ in _hi]
+_missing = sorted({l for pr in PAIRS for l in pr if l not in _by})
+if _missing:
+    print("ladder labels not on chart:", _missing)
+lifted = []
+for _ in range(10):
+    _changed = False
+    for a_, b_ in PAIRS:
+        if a_ in _by and b_ in _by and len(_by[a_]) == 1 and len(_by[b_]) == 1:
+            lo_it, hi_it = _by[a_][0], _by[b_][0]
+            if hi_it["score"] < lo_it["score"]:
+                hi_it.setdefault("raw_score", hi_it["score"])
+                hi_it["score"] = lo_it["score"]
+                hi_it["lift"] = a_
+                _changed = True
+    if not _changed:
+        break
+lifted = [i for i in items if "lift" in i]
+print("rule 3 lifted:", [(i["label"], i["raw_score"], i["score"], i["lift"]) for i in lifted])
+
 lo = min(i["score"] for i in items)
 hi = max(i["score"] for i in items)
 for it in items:
@@ -959,6 +1063,8 @@ def retip(it):
     basis = f"排序依據：{F_ZH[it['F']]}｜{I_ZH[it['I']]}｜{R_ZH[it['R']]}｜{T_ZH[it['T']]}級（{it['tsrc']}）"
     if it["board"]:
         basis += "｜須審查委員會或面試"
+    if "lift" in it:
+        basis += f"｜同系列進階證照，原始分數 {it['raw_score']}，依規則不低於 {RELABEL.get(it['lift'], (it['lift'],))[0]}"
     if lab in FLAG:
         if ' style="' in h[:h.index("href=")]:
             h = h.replace(' style="', ' style="opacity:0.55;border-style:dashed;', 1)
@@ -1013,14 +1119,15 @@ rules = f"""
     <li><strong>官方級別</strong>：入門 0、初階 8、專業 16、專家 24、頂級 32。專家與頂級必須有東西支撐才算數：有強制的前置證照或年資、考試達 24 小時以上、或須經審查委員會或面試，三者至少其一；否則發證單位自稱的級別一律以專業級計。</li>
     <li><strong>報考門檻</strong>：無 0、僅建議經驗或須先修官方課程 3、須前置證照或 1–2 年經驗 6、3–4 年或兩層前置證照 10、5 年以上 16；另須審查委員會或面試加 3。</li>
     <li><strong>考試強度</strong>：1 小時內 0、約 2 小時 2、3–4 小時 5、6–12 小時 8、24 小時以上 11（多日制不再加分）。</li>
+    <li><strong>同系列不倒掛</strong>：同一發證單位、同一路線內，進階證照的分數不低於它下面那一階（例如 CREST 的 CPSA → CRT → CCT）。不同路線、不同發證單位之間不套用。被調整的證照，提示文字會顯示原始分數。</li>
   </ul>
   <p>資料來源：{by_b['V']} 張屬於本次已讀取官方頁面的發證單位（多數是讀該單位的代表頁面，不是逐張查證）；{by_b['K']} 張依發證單位公開的通用考試形式判定，本次未讀取官方頁面；
   {by_b['U']} 張的官方頁面讀不到或尚未查，考試形式暫用該單位的預設值。另有 {n_band} 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
   同分或該列已滿時會落在相鄰列。
   本次另移除 {len(dropped)} 張停考、退役或已不在官方目錄的證照：{'、'.join(d['label'] for d in dropped)}（各自的原因與來源見 data/retired.csv）；
   另有 {len(FLAG)} 張現況有疑問，以虛線框標示並在提示文字說明；
-  並補上官方已有、原圖未收的 {len(EXTRA)} 張（GIAC 8 張、The SecOps Group 15 張、Mile2 4 張）。
-  價格方面，GIAC 全系列與另外 {len(PRICE)} 張已改為 2026 年 11 月官方頁面的數字，其餘仍是 2024 年的內容。</p>
+  並補上官方已有、原圖未收的 {len(EXTRA)} 張。
+  價格與費用已全部改為 2026 年 11 月查到的資料；官方未公開或讀不到的標示「無價格資訊」，不沿用 2024 年舊價。</p>
 </section>
 """
 out = out.replace('<section class="notes">', rules + '<section class="notes">', 1)
