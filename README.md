@@ -36,7 +36,7 @@
 
 - 110 個來源中約 75 個已嘗試讀取，其中十多個被對方網站擋下或連結已失效；研究筆記在 `data/findings.md`。
 - 42 張無法從官方名稱判定級別，級別沿用 2024 原圖所在區段。
-- 價格：442 張已改為 2026 年 11 月的資料（其中約 268 張有價格或費用資訊，174 張官方未公開或讀不到價格，標「無價格資訊」並移除舊價），其餘約 88 張仍是 2024 年 7 月的內容。限時促銷價只加註，不當作價格。其中 CompTIA（第三方來源的美國零售價）、INE、Zero-Point CRTL 與 Microsoft 基礎級的數字由維護者提供，未能向官方頁面查證，提示文字中有標註。EC-Council 只查到 CEH、CHFI、CND、ECIH 四張的考試券價格。
+- 價格：全部 530 張都已改為 2026 年 11 月的資料，不再有 2024 年的舊價。其中 273 張有官方價格或費用資訊，257 張是官方未公開、價格含在課程內、或官方頁面讀不到，標「無價格資訊」並移除舊價。限時促銷價只加註，不當作價格。CompTIA（第三方來源的美國零售價）、ITIL Foundation（第三方）、INE、Zero-Point CRTL 與 Microsoft 的金額不是官方頁面數字，已在可信度欄標明。
 - 多數證照的連結仍是 2024 年 7 月的內容。已知失效或搬家的：EXIN、SECO、ISECOM、VMware（Broadcom）、The SecOps Group（已搬到 pentestingexams.com）、Security Blue Team（現為 Centri）。
 - 「官方級別」取自發證單位自己的命名，但專家級以上需要有東西支撐（見排序規則）。目前有 77 張因此被壓回專業級，其中 GIAC 佔 20 張：GIAC 的進階證照沒有強制前置條件、考試也只有二到三小時，所以 GXPN 這類進階證照現在跟 GPEN 同分。這是規則的直接結果，`data/ranked.csv` 的 `tier_claimed` 與 `tier` 兩欄可以看出哪些被調整。
 - 讀不到官方頁面的單位：EXIN、SECO、ISECOM、VMware、PMI、Juniper、BCS、Axelos（ITIL）、CIISec、CSIAC、QAI、Shared Assessments。這些網站拒絕自動讀取或連結已失效，相關證照維持 U。

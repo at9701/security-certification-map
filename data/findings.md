@@ -311,3 +311,14 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - CertNexus 連結現為 CFR-A（CFA-110，25 題，須先通過 CFR-410）頁面，非原 CFR 頁，未採用。
 - 讀取失敗或需登入：IIBA CCA、Shared Assessments CTPRP（登入頁）、BCS CISMP、CSBA、CIISec ICSF、ASIS APP（費用在手冊）、PCI QSA（金額在另一份收費表）。
 - 整批改標「無價格資訊」並移除 2024 舊價：PECB 7、Palo Alto 6、SECO 12、EXIN 16、Identity Management Institute 7、Infosec Institute 8、ISECOM 6、IT Governance 其餘 10。
+
+## 價格補查第六批，收尾（2026-11-25）
+- Dark Vortex Malware on Steroids：課程 $2,500 含稅與結業證書，3 天線上，無考試。
+- DRI ACRP：申請費 $200、年費 $200，適用經驗未滿 2 年者。CRMP 頁面讀到空白。
+- GAQM CISST $190（100 題 2 小時）；CFA $150（40 題 60 分鐘）。其餘 7 張未逐一讀取。
+- IACIS CAWFE：筆試 125 題（開書、最長 8 小時、80%），通過後 30 天內完成實作；費用未列。
+- Limes Security／TÜV Austria COSTE：課程 €3,470 未稅含認證考試，3 天。
+- Cyber Struggle AEGIS：25 天課程後 48 小時實作考，價格須經申請取得。
+- ASIS PCI：125 題計分加 15 題不計分；3–5 年調查經驗；費用在手冊。
+- CertNexus CIoTSP 頁面現只顯示訓練梯次。VMware 轉址被擋；ecfirst 不允許程式讀取。
+- 其餘零散發證單位一律標「無價格資訊」並註明原因。至此 530 張都不再顯示 2024 年價格：273 張有價格或費用資訊，257 張無。
