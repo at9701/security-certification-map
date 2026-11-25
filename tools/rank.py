@@ -202,6 +202,17 @@ o("C-AI/MLPen|C-APIPen|CRTeamer|CBFRPro|CKBPro|CBTeamer|CDAPen|C-AgAIPen", F="P"
 o("C-ADPenX|CRTeamerX|CCPenX-Az|CBTeamerX", F="P", I=3, R=1, T=3, B="V")
 o("C)ISSO", R=2, B="V"); o("C)AICSO|C)OL", T=2, B="V"); o("C)NIS2", T=3, B="V"); o("C)CFTA", T=2, B="V")
 o("C)ISSA|C)ISSM|C)NFE|C)PSH|C)ISCAP|C)ISMS-LA", B="V")
+# OffSec course pages and CREST exam pages, read 2026-11-25
+o("OSEP|OSWE|OSED", I=4, R=1, T=3, B="V")            # 48h proctored; prerequisites recommended only
+o("OSEE", I=5, R=1, T=4, B="V")                       # 72h proctored, in person only
+o("OSWA|OSDA|OSAI", I=4, B="V")                       # 24h
+o("OSTH|OSIR", I=3, B="V")                            # 8h
+o("OSCC", F="P", I=3, R=0, T=0, B="V")                # 6h: attack, defend, build
+o("OSWP", I=2, B="V")                                 # 4h
+o("CREST CCTINF", F="X", I=3, R=0, T=3, B="V")        # MCQ 1h + scenario 2h + practical 3h, no prerequisite
+o("CREST CSAM", F="S", I=2, R=1, T=3, B="V")          # MCQ + long-form + scenario, two parts
+o("CREST CCTIM", F="S", I=2, R=1, T=3, B="V")         # short-form, long-form, scenario, two parts
+o("CREST CRT", F="X", I=2, R=2, T=2, B="V")           # 2.5h practical with MCQ/flags; valid CPSA required
 # GIAC, read cert by cert on 2026-11-25: (questions, hours, pass %, CyberLive hands-on items)
 GIAC = {
     "GXPN": (60, 3, 67, 1), "GREM": (66, 3, 73, 1), "GCIH": (106, 4, 69, 1), "GSEC": (106, 4, 72, 1),
@@ -250,7 +261,14 @@ price("CC", "考試費 $199", "免費方案已於 2026-05-20 停止新報名")
 price("SSCP", "考試費 $249"); price("CGRC|CSSLP|CCSP", "考試費 $599"); price("CISSP", "考試費 $749")
 price("CISSP Concentrations", "ISSAP、ISSEP、ISSMP 各 $599", "須 CISSP 加 2 年經驗，或累計 7 年")
 price("CISM", "考試費 $760（會員 $575）"); price("CCOA", "考試費 $499（會員 $399）", "選擇題加實作題，4 小時")
-price("OSEP|OSWE|OSED|OSWA|OSDA|OSTH|OSIR|OSAI", "課程加考試 $1,749（90 天）")
+price("OSEP|OSWE|OSED", "課程加考試 $1,749（90 天）", "實作考 48 小時，全程監考")
+price("OSWA|OSDA|OSAI", "課程加考試 $1,749（90 天）", "實作考 24 小時，全程監考")
+price("OSTH|OSIR", "課程加考試 $1,749（90 天）", "實作考 8 小時，全程監考")
+price("OSEE", "實作考 72 小時，全程監考", "僅實體授課；官方頁面未列價格")
+price("OSWP", "實作考 4 小時，全程監考"); price("OSCC", "課程 $899", "實作考 6 小時：攻擊、防禦、建置各約 2 小時")
+price("CREST CCTINF", "筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時", "無報考資格；價格依國家，經 Pearson VUE 報名")
+price("CREST CRT", "實作考 2.5 小時（選擇題、flag、簡答）", "須持有有效的 CPSA")
+price("CREST CSAM", "選擇題加長篇與情境筆試，分兩階段"); price("CREST CCTIM", "簡答、長篇、情境三部分，分兩階段")
 price("GFACT", "考試費 $399"); price("GISF", "考試費 $499")
 price("GX-PT", "考試費 $1,299（持有 GPEN 為 $499）"); price("GX-FA", "考試費 $1,299（持有 GCFA 為 $499）")
 price("CREST CRTSA", "£395 + VAT", "選擇題加長篇情境筆試")
@@ -347,7 +365,8 @@ meta("LPT", kind="官方考試包（與維護者查核結果不一致）", conf=
 meta("SecOT+", kind="第三方預購價", conf="考試代碼與時程為官方頁面，價格為第三方", url="https://www.comptia.org/en-us/certifications/secot/")
 meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝價")
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
-meta("C)ISSO|SSAP|CACE", kind="無價格資訊")
+meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
+meta("OSCC", kind="官方課程價")
 meta("GSE|GSP", kind="無價格資訊", url="https://www.giac.org/get-certified/giac-portfolio-certifications/"); price("CACE", "須 10 年經驗", "選擇、簡答與個案分析兩階段考試")
 
 # ------------------------------------------------------------------ parse the built page

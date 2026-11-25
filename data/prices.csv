@@ -36,7 +36,11 @@ CKA,Cloud Native Computing Foundation Certified Kubernetes Administrator,考試�
 CKS,Cloud Native Computing Foundation Certified Kubernetes Security Specialist,考試費 $445（含一次重考） / 實作 2 小時，須先通過 CKA,官方考試費,https://www.cncf.io/certification/cks/,2026-11-25,官方頁面
 CND,EC Council Certified Network Defender,考試券 $550（遠端監考）,官方考試券,https://store.eccouncil.org/product/cnd-ecc-exam-voucher/,2026-11-25,官方頁面
 CPENT,EC Council Certified Penetration Testing Professional,24 小時實作考試 / 單獨考試費：須向官方詢價 / 教材與 Lab 套裝 $899，不含考試（維護者提供）,官方詢價；套裝價為維護者提供,https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/,2026-11-25,考試時數為官方頁面，其餘維護者提供
+CREST CCTIM,CREST Certified Threat Intelligence Manager,簡答、長篇、情境三部分，分兩階段,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager,2026-11-25,官方頁面
+CREST CCTINF,CREST Certified Infrastructure Tester,筆試（選擇題 1 小時加情境題 2 小時）加實作考 3 小時 / 無報考資格；價格依國家，經 Pearson VUE 報名,無價格資訊,hhttps://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester,2026-11-25,官方頁面
+CREST CRT,CREST Registered Penetration Tester,實作考 2.5 小時（選擇題、flag、簡答） / 須持有有效的 CPSA,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-penetration-tester,2026-11-25,官方頁面
 CREST CRTSA,CREST Registered Technical Security Architect,£395 + VAT / 選擇題加長篇情境筆試,官方考試費,https://www.crest-approved.org/examination/technical-security-architecture/index.html,2026-11-25,官方頁面
+CREST CSAM,CREST Certified Simulated Attack Manager,選擇題加長篇與情境筆試，分兩階段,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-manager,2026-11-25,官方頁面
 CRTL,Zero-Point Security Certified Red Team Lead,課程含考試 £449（第三方紀錄，2026-11-10） / 官方頁面本次未能讀取,第三方價格,https://training.zeropointsecurity.co.uk/courses/red-team-ops-ii,2026-11-10,第三方
 CRTO,Zero Point Security Certified Red Team Operator,課程含一次考試 £365（官方課程頁） / 第三方紀錄為 £399（2026-11-10），未經官方驗證,官方課程含考試,https://training.zeropointsecurity.co.uk/courses/red-team-ops,2026-11-25,官方頁面
 CSA,EC Council Certified SOC Analyst,考試費 $450；電子教材含考試 $550 / 312-39，100 題選擇題，180 分鐘 / 維護者提供，官方頁面未列這些數字,官方考試費,https://www.eccouncil.org/programs/certified-soc-analyst-csa/,2026-11-25,維護者提供，未經官方驗證
@@ -112,15 +116,18 @@ Linux+,CompTIA Linux+,考試費 $399 / 美國個人零售參考價（第三方�
 MGRC,Mosse Institute Certified GRC Expert Certification,$699（促銷價 $595） / 無考試，完成實作練習由講師審核,官方考試費,https://www.mosse-institute.com/certifications/mgrc-certified-grc-practitioner.html,2026-11-25,官方頁面
 MTIA,Mosse Institute Certified Threat Intelligence Analyst Certification,$699 / 無考試，完成實作練習由講師審核,官方課程或套裝價,https://www.mosse-institute.com/certifications/mtia-certified-threat-intelligence-analyst.html,2026-11-25,官方頁面
 Net+,CompTIA Network+,考試費 $399 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,第三方
-OSAI,OffSec AI Red Teamer,"課程加考試 $1,749（90 天）",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
-OSDA,OffSec Defense Analyst,"課程加考試 $1,749（90 天）",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
-OSED,OffSec Exploit Developer,"課程加考試 $1,749（90 天）",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
-OSEP,OffSec Experienced Penetration Tester,"課程加考試 $1,749（90 天）",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
+OSAI,OffSec AI Red Teamer,"課程加考試 $1,749（90 天） / 實作考 24 小時，全程監考",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
+OSCC,OffSec CyberCore Certified (OSCC-SEC),課程 $899 / 實作考 6 小時：攻擊、防禦、建置各約 2 小時,官方課程價,https://www.offsec.com/courses,2026-11-25,官方頁面
+OSDA,OffSec Defense Analyst,"課程加考試 $1,749（90 天） / 實作考 24 小時，全程監考",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
+OSED,OffSec Exploit Developer,"課程加考試 $1,749（90 天） / 實作考 48 小時，全程監考",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
+OSEE,OffSec Exploitation Expert,實作考 72 小時，全程監考 / 僅實體授課；官方頁面未列價格,無價格資訊,https://www.offensive-security.com/awe-osee/,2026-11-25,官方頁面
+OSEP,OffSec Experienced Penetration Tester,"課程加考試 $1,749（90 天） / 實作考 48 小時，全程監考",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
 OSIP,IntelTechniques Open Source Intelligence Professional,$300 / 10 天實作個案報告，須先完成官方訓練,官方課程或套裝價,https://inteltechniques.com/training-osip.html,2026-11-25,官方頁面
-OSIR,OffSec Incident Responder,"課程加考試 $1,749（90 天）",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
-OSTH,OffSec Threat Hunter,"課程加考試 $1,749（90 天）",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
-OSWA,OffSec Web Assessor,"課程加考試 $1,749（90 天）",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
-OSWE,OffSec Web Expert,"課程加考試 $1,749（90 天）",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
+OSIR,OffSec Incident Responder,"課程加考試 $1,749（90 天） / 實作考 8 小時，全程監考",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
+OSTH,OffSec Threat Hunter,"課程加考試 $1,749（90 天） / 實作考 8 小時，全程監考",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
+OSWA,OffSec Web Assessor,"課程加考試 $1,749（90 天） / 實作考 24 小時，全程監考",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
+OSWE,OffSec Web Expert,"課程加考試 $1,749（90 天） / 實作考 48 小時，全程監考",官方課程含考試,https://www.offsec.com/pricing/,2026-11-25,官方頁面
+OSWP,OffSec Wireless Professional,實作考 4 小時，全程監考,無價格資訊,https://www.offensive-security.com/wifu-oswp/,2026-11-25,官方頁面
 PDSO CDE,PDSO Certified DevSecOps Expert,"$1,199 / 24 小時實作加報告，須先有 CDP",官方課程或套裝價,https://www.practical-devsecops.com/certified-devsecops-expert,2026-11-25,官方頁面
 PSM I,Scrum.org Professional Scrum Master I,每次 $200 / 80 題，60 分鐘，85% 及格,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-i-certification,2026-11-25,官方頁面
 PSM II,Scrum.org Professional Scrum Master II,每次 $250 / 30 題，90 分鐘，85% 及格,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-ii-certification,2026-11-25,官方頁面

@@ -181,3 +181,8 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - 無實作題：GIME、GAWN、GDAT、GDSA、GASF、GCTD、GCCC、GPCS、GCSA、GRID、GCDA、GPYC、GCPN、GMOB、GSOC、GBFA、GCLD、GOSI、GFACT、GISF（皆 75 題 2 小時）；GSTRT、GWEB、GCIP（75 題 3 小時）；GSLC、GCED（115 題 3 小時）；GISP（150 題 4 小時）。
 - 各證照頁皆未列報考資格。GPYC 仍在報考中。
 - GSE：6 張 Practitioner 加 4 張 Applied Knowledge 證照，無獨立考試。GSP：3 加 2。
+
+## OffSec 與 CREST 逐張查證（2026-11-25）
+- OffSec 課程頁（offsec.com/courses/<代碼>/）：OSEP、OSWE、OSED 實作考 48 小時；OSEE 72 小時、僅實體授課、價格未列；OSWA、OSDA、OSAI 24 小時；OSTH、OSIR 8 小時；OSWP 4 小時；OSCC-SEC 6 小時（攻擊、防禦、建置各約 2 小時），課程 $899。全部監考、皆無強制報考資格（OSEP 寫「完成 PEN-200 並通過 OSCP+ 或具同等知識」）。OSAI 已開放報名。EXP-312 頁面未提到 OSMR，現況待查。舊網域 offensive-security.com 的連結會轉址。
+- CREST：CCT INF 為筆試（選擇題 1 小時、情境題 2 小時）加 3 小時實作，無報考資格；CRT 為 2.5 小時實作（選擇題、flag、簡答），須持有有效 CPSA；CCSAM 為選擇題加長篇與情境筆試分兩階段；CCTIM 為簡答、長篇、情境分兩階段。價格皆依國家經 Pearson VUE。
+- CREST 網站一次只允許讀一頁，尚未讀：CPSA、CRIA、CCSAS、CCT APP、CCHIA、CCNIA、CRTIA、CPIA、CPTIA
