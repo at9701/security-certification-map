@@ -283,3 +283,10 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - ISA/IEC 62443：Fundamentals（IC32）為其餘三張的前置；四張全拿自動成為 Expert，無獨立考試；不需換證；價格未列。Design、Risk Assessment 的門檻改記「須前置證照」。
 - SABSA：SCF 兩模組各 48 題 60 分鐘 75%，須上官方課程；SCP 為申論作業（5 選 2，四週），須 SCF 加一門進階課程；SCM 須 SCP、第二門進階課程與論文。價格未列。
 - Identity Management Institute CIAM 頁、SECO 資安路線頁：無價格與考試細節。ISECOM、Axelos：讀取失敗或頁面無內容。
+
+## 價格補查第三批（2026-11-25）
+- Mile2「Exam Combos」目錄三頁（共 32 項）：多數標價 $795、現售 $500，含備考指南、模擬測驗與兩次考試機會，不須先上課。例外：C)OL、C)SA1、C)SA2 現售 $150；ANSI 版 C)ISSO-A、C)PTE-A 標價 $995、現售 $600；C)PTE $500–600。圖上的 C)ISMS-LA、C)NFE、C)ISCAP 不在目錄。$500 是劃掉標價後的現售價，非限期促銷標示，故採用並同時列出標價。
+- GAQM CPEH、CISP：考試券 $190（240 天內兩次機會），100 題 2 小時 70%。
+- DRI CCRP、CBCA：申請費 $400、年費 $225，考試費未列；皆須 2 年經驗、考試 75%。CBCA 門檻由「無」改記「1–2 年經驗」。
+- IT Governance（GRC Solutions）CIS LI：課程 £2,195 未稅，含 IBITGQ 線上考試（90 分鐘）。
+- 資通安全職能評量：評量 70 分及格、電腦化即測即評，複測每次 NT$300（資安署 114-11-06 訂定之收費標準，行政院公報）；115 年起有免訓評量科目（實施要點）。訓練費核心 NT$8,000（3 日）、專業 NT$8,000（3 日）或 NT$6,000（2 日），含一次評量，數字取自機關轉載的 114 年上半年官方訓練說明。專業科目須先持有「資通安全概論」有效證書，門檻改記「須前置證照」。

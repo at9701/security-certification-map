@@ -18,8 +18,32 @@ AZ-305,Microsoft Azure Solutions Architect Expert,約 $165，依國家或地區�
 AZ-900,Microsoft Azure Fundamentals,約 $99，依國家或地區定價 / 45 分鐘，入門級 / 價格為使用者提供，官方頁面只寫依國家或地區定價,官方考試費,https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/,2026-11-25,考試時間與門檻為官方頁面；金額非官方頁面數字
 BSCP,Portswigger Burp Suite Certified Practioner,證照效期五年 / 應考須有有效的 Burp Suite Professional 訂閱；考試形式與價格在另一頁，未讀,無價格資訊,https://portswigger.net/web-security/certification,2026-11-25,官方頁面
 BTL2,Security Blue Team Level 2,"£1,999（含訓練） / 最長 72 小時實作加報告",官方課程或套裝價,https://securityblue.team/btl2/,2026-11-25,官方頁面
+C)AICSO,Mile2 Certified AI Cybersecurity Officer,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)CFTA,Mile2 Certified Cyber Forensics Threat Analyst,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)CSA,Mile2 Certified Cybersecurity Analyst,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)CSO,Mile2 Certified Cloud Security Officer,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)DFE,Mile2 Certified Digital Forensics Examiner,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)DRE,Mile2 Certified Disaster Recovery Engineer,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)HISSP,Mile2 Certified Healthcare Information Systems Security Practitioner,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)IHE,Mile2 Certified Incident Handling Engineer,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)ISCAP,Mile2 Information Systems Certification and Accredidation Professional,現行「考試組合」目錄（32 項）未列此科 / 價格無法查證,無價格資訊,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)ISMS-LA,Mile2 Certified Information security Management Systems Lead Auditor,現行「考試組合」目錄（32 項）未列此科 / 價格無法查證,無價格資訊,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)ISRM,Mile2 Certified Information Systems Risk Manager,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)ISSA,Mile2 Certified Information Systems Security Auditor,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)ISSM,Mile2 Certified Information Systems Security Manager,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
 C)ISSO,Mile2 Certified Information Systems Security Officer,選擇題 100 題，2 小時 / 須 1 年相關經驗,無價格資訊,https://www.mile2.com/cisso_outline/,2026-11-25,官方頁面
-C)PTE,Mile2 Certified Penetration Testing Engineer,選擇題 100 題，2 小時，線上應考 / 建議 12 個月網路經驗；效期三年，每年 20 CEU,無價格資訊,https://www.mile2.com/penetration-testing-engineer-outline/,2026-11-25,官方頁面
+C)NFE,Mile2 Certified Network Forensics Examiner,現行「考試組合」目錄（32 項）未列此科 / 價格無法查證,無價格資訊,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)NIS2,Mile2 Certified NIS2 Lead Auditor/Implementer,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)OL,Mile2 Certified Organizational Leader,考試組合 $150（標價 $500），含兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)PEH,Mile2 Certified Professional Ethical Hacker,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)PSH,Mile2 Certified Powershell Hacker,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)PTC,Mile2 Certified Penetration Testing Consultant,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)PTE,Mile2 Certified Penetration Testing Engineer,選擇題 100 題，2 小時，線上應考 / 建議 12 個月網路經驗；效期三年，每年 20 CEU,無價格資訊,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)SLO,Mile2 Certified Security Leadership Officer,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)SP,Mile2 Certified Security Principles,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)SWAE,Mile2 Secure Web Application Engineer,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)TIA,Mile2 Certified Threat Intelligence Analyst,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
+C)VA,Mile2 Certified Vulnerability Assessor,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
 C-ADPenX,The SecOps Group Certified Active Directory Pentesting eXpert (C-ADPenX),$525 / 7 小時實作考 / 官網目前有限時 90% 折扣，未採計,官方考試費,https://pentestingexams.com/,2026-11-25,官方頁面
 C-AI/MLPen,The SecOps Group Certified AI/ML Pentester (C-AI/MLPen),$328 / 4 小時實作考 / 官網目前有限時 90% 折扣，未採計,官方考試費,https://pentestingexams.com/,2026-11-25,官方頁面
 C-APIPen,The SecOps Group Certified API Pentester (C-APIPen),原價官網首頁未列 / 4 小時實作考 / 官網目前有限時 90% 折扣，未採計,無價格資訊,https://pentestingexams.com/,2026-11-25,官方頁面
@@ -59,8 +83,10 @@ CHFI,EC Council Computer Hacking Forensics Investigator,考試券 $650（遠端�
 CIDPRO,IDPro Certified Identity Professional,考試費 $750（會員另有折扣）,官方考試費,https://idpro.org/cidpro/,2026-11-25,官方頁面
 CIMP,Identify Management Institute Certified Identity Management Professional,$295（會員價，含三次機會） / 線上選擇題 100 題,官方考試費,https://www.identitymanagementinstitute.org/cimp/,2026-11-25,官方頁面
 CIMP,IMI Certified Identity Management Professional,$295（會員價，含三次機會） / 線上選擇題 100 題,官方考試費,https://www.identitymanagementinstitute.org/cimp/,2026-11-25,官方頁面
+CIS LI,IBITGQ Certified ISO 27001 Information Security Management Specialist Lead Implementer,"課程 £2,195（未稅），含 IBITGQ 線上考試 / 考試 90 分鐘；無報考資格，建議先上 Foundation 課程",官方課程含考試,https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-lead-implementer-training-course,2026-11-25,官方頁面
 CISA,ISACA Certified Information Systems Auditor,考試費 $760（會員 $575） / 通過後另繳申請費 $50，並須提出經驗證明,官方考試費,https://www.isaca.org/credentialing/cisa,2026-11-25,官方頁面
 CISM,ISACA Certified Information Security Manager,考試費 $760（會員 $575）,官方考試費,https://www.isaca.org/credentialing/cism,2026-11-25,官方頁面
+CISP,GAQM Certified Information Security Professional,考試券 $190（240 天內兩次機會） / 選擇題 100 題，2 小時，70% 及格，無報考資格,官方考試券,https://gaqm.org/certifications/information_systems_security/cisp,2026-11-25,官方頁面
 CISSM,GAQM Certified Information Systems Security Manager,考試券 $190（含兩次機會） / 100 題 90 分鐘,官方考試費,https://gaqm.org/certifications/information_systems_security/cissm,2026-11-25,官方頁面
 CISSP,ISC2 Certified Information Systems Security Professional,考試費 $749,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
 CISSP Concentrations,ISC2 Certified Information Systems Security Professional Concentrations,ISSAP、ISSEP、ISSMP 各 $599 / 須 CISSP 加 2 年經驗，或累計 7 年,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
@@ -106,7 +132,9 @@ CWSP,CWNP Certified Wireless Security Professional,考試費 $349.99 / 60 題 90
 Cloud+,CompTIA Cloud+,考試費 $399 / CV0-004，最多 90 題，90 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 CySA+,CompTIA Cybersecurity Analyst+,考試費 $439 / V4 為新版；英文版 V3 於 2026-12-22 停考 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 DCA,Docker Certified Associate,考試費 $199 / 55 題 90 分鐘,官方考試費,https://training.mirantis.com/dca-certification-exam/,2026-11-25,官方頁面
+DCBCA,DRI Certified Business Continuity Auditor,申請費 $400，年費 $225；考試費官方頁面未列 / 須 2 年實務經驗（近十年內），稽核考試 75% 及格，五篇專題論述,官方申請費（不含考試費）,https://drii.org/certification/cbca,2026-11-25,官方頁面
 DCBCLA,DRI Certified Business Continuity Lead Auditor,申請費 $400，年費 $225；考試費官方頁面未列 / 須 5 年實務經驗（近十年內）、稽核考試 75% 及格、七篇專題論述與推薦人,官方申請費（不含考試費）,https://drii.org/certification/cbcla,2026-11-25,官方頁面
+DCCRP,DRI Certified Cyber Resilience Professional,申請費 $400，年費 $225；考試費官方頁面未列 / 須 2 年實務經驗（近十年內），Cyber Resilience 考試 75% 及格,官方申請費（不含考試費）,https://drii.org/certification/ccrp,2026-11-25,官方頁面
 DCPP,DSCI Certified Privacy Professional,"INR 15,000 加稅 / 選擇題含個案，65% 及格",官方考試費,https://www.dsci.in/content/dsci-certified-privacy-professional-dcpp,2026-11-25,官方頁面
 DV RTOS,Dark Vortex Red Team & Operational Security,"課程 $2,500 / 3 天線上課程，無考試，發結業證書",官方課程或套裝價,https://0xdarkvortex.dev/training-programs/red-team-and-operational-security/,2026-11-25,官方頁面
 ECES,EC Council Certified Encryption Specialist,50 題，2 小時，70% 及格,無價格資訊,https://cert.eccouncil.org/ec-council-certified-encryption-specialist.html,2026-11-25,官方頁面
@@ -143,6 +171,7 @@ GCIH,GIAC Certified Forensics Analystr,考試費 $999 / 106 題，4 小時，69%
 GCIL,GIAC Cyber Incident Leader,考試費 $999 / 重考 $899，換證 $499，模擬考 $399,官方考試費,https://www.giac.org/pricing/,2026-11-25,官方頁面
 GCIP,GIAC Critical Infrastructure Protection,考試費 $999 / 75 題，3 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certification/critical-infrastructure-protection-gcip,2026-11-25,官方頁面
 GCLD,GIAC Cloud Security Essentials,考試費 $999 / 75 題，2 小時，61% 及格；無實作題,官方考試費,https://www.giac.org/certifications/cloud-security-essentials-gcld/,2026-11-25,官方頁面
+GCPEH,GAQM Certified Professional Ethical Hacker,考試券 $190（240 天內兩次機會） / 選擇題 100 題，2 小時，70% 及格，無報考資格,官方考試券,https://gaqm.org/certifications/information_systems_security/cpeh,2026-11-25,官方頁面
 GCPN,GIAC Cloud Penetration Tester,考試費 $999 / 75 題，2 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certification/gcpn,2026-11-25,官方頁面
 GCSA,GIAC Cloud Security Automation,考試費 $999 / 75 題，2 小時，66% 及格；無實作題,官方考試費,https://www.giac.org/certification/cloud-security-automation-gcsa,2026-11-25,官方頁面
 GCTD,GIAC Cloud Threat Detection,考試費 $999 / 75 題，2 小時，70% 及格；無實作題,官方考試費,https://www.giac.org/certifications/cloud-threat-detection-gctd/,2026-11-25,官方頁面
@@ -197,6 +226,7 @@ HTB CWEE,Hack the Box Certified Web Exploitation Expert,"考試券 $1,260 / 須�
 HTB CWES,Hack The Box Certified Web Exploitation Specialist,考試券 $490 / 須完成 Web Penetration Tester 路徑 / 原名 HTB CBBH,官方考試券,https://academy.hackthebox.com/preview/certifications,2026-11-25,官方頁面
 HTB CWPE,Hack The Box Certified Wi-Fi Pentesting Expert,"考試券 $1,260 / 須完成 Wi-Fi Penetration Tester 路徑",官方考試券,https://academy.hackthebox.com/preview/certifications,2026-11-25,官方頁面
 IIA CIA,The Institute of Internal Auditors Certified Internal Auditor,三科考試：Part 1 $445、Part 2 $415、Part 3 $415，申請費 $240（會員 $310／$280／$280，申請費 $120） / 碩士須 1 年、學士須 2 年內部稽核經驗；2027-01-04 起調整價格,官方考試費,https://www.theiia.org/en/certifications/cia/,2026-11-25,官方頁面
+IS20,Mile2 IS20 Controls,考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會 / 不須先上 Mile2 課程,官方考試組合價,https://mile2.com/exam-combos/,2026-11-25,官方頁面
 ISA CDS,ISA Certified Design Specialist,須先有 Fundamentals Specialist；完成 IC34 課程並通過考試 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
 ISA CE,ISA Cybersecurity Expert,無獨立考試：取得四張 ISA/IEC 62443 證書後自動授予 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
 ISA CFS,ISA Certified Fundamentals Specialist,完成 IC32 課程並通過考試 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
@@ -304,3 +334,5 @@ eWPT,eLearnSecurity Web Application Penetration Tester,考試券 $450 / 使用�
 eWPTX,eLearnSecurity Web Application Penetration Tester eXtreme,考試券 $450 / 使用者提供，官方結帳頁需登入，未能查證；多數須另有訂閱,官方考試券（未驗證）,https://checkout.ine.com/account,2026-11-25,維護者提供，未經官方驗證
 iPAS 中級,iPAS 資訊安全工程師 中級能力鑑定,"報名費每科 NT$1,500（新考生優惠 NT$1,000），共兩科 / 每科 40 題（單選、複選、題組）、90 分鐘；兩科皆須 70 分 / 無報考資格，可跳過初級；證書效期 5 年，換證須 48 小時資安訓練；115 年考試日 04/11、08/22",官方報名費,https://www.ipas.org.tw/api/proxy/uploads/certification/ISE/115%E5%B9%B4%E5%BA%A6%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%83%BD%E5%8A%9B%E9%91%91%E5%AE%9A%E7%B0%A1%E7%AB%A0(%E5%88%9D%E3%80%81%E4%B8%AD%E7%B4%9A)_1150410_20260410115218.pdf,2026-11-25,官方簡章（115 年度）
 iPAS 初級,iPAS 資訊安全工程師 初級能力鑑定,"報名費每科 NT$1,200（新考生優惠 NT$800），共兩科 / 每科單選 50 題、75 分鐘；兩科同考平均 70 分且單科不低於 60 分 / 無報考資格；證書永久有效；115 年考試日 05/23、10/31",官方報名費,https://www.ipas.org.tw/api/proxy/uploads/certification/ISE/115%E5%B9%B4%E5%BA%A6%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%83%BD%E5%8A%9B%E9%91%91%E5%AE%9A%E7%B0%A1%E7%AB%A0(%E5%88%9D%E3%80%81%E4%B8%AD%E7%B4%9A)_1150410_20260410115218.pdf,2026-11-25,官方簡章（115 年度）
+資安職能 專業,資通安全職能評量證書：專業科目,"訓練費 NT$8,000（3 日課程）或 NT$6,000（2 日課程），含一次評量 / 須先持有「資通安全概論」有效證書；評量 70 分及格；複測每次 NT$300 / 訓練費為 114 年上半年訓練說明的數字",官方訓練費（含評量）,https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg031209/ch05/type1/gov87/num6/Eg.pdf,2026-11-25,複測費與及格標準為資安署法規公告；訓練費取自機關轉載的官方訓練說明
+資安職能 核心,資通安全職能評量證書：核心科目「資通安全概論」,"訓練費 NT$8,000（3 日課程，含一次評量） / 評量 70 分及格，電腦化即測即評；複測每次 NT$300 / 115 年起部分科目開放免訓評量；訓練費為 114 年上半年訓練說明的數字",官方訓練費（含評量）,https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg031209/ch05/type1/gov87/num6/Eg.pdf,2026-11-25,複測費與及格標準為資安署法規公告；訓練費取自機關轉載的官方訓練說明

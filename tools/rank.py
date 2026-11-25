@@ -242,6 +242,7 @@ o("CSCU|ECES", F="Q", I=1, R=0, T=0, B="V"); o("ECSS", F="Q", I=2, R=0, T=0, B="
 o("PECB 27005RM|PECB 27001F", B="V")
 # assorted issuer pages, read 2026-11-25
 o("RHCSA|RHCE|PMP", B="V"); o("PDSO CDP", F="P", I=3, R=0, T=2, B="V"); o("Scrum PSD", F="Q", I=0, R=0, T=2, B="V")
+o("DCBCA", R=2); o("資安職能 專業", R=2)   # two years of experience; core certificate required before professional subjects
 o("ISA CDS|ISA CRAS", R=2)   # Fundamentals Specialist certificate required first
 o("CSM", I=0)
 # iPAS 115 年度簡章 (official PDF on ipas.org.tw), read 2026-11-25
@@ -459,6 +460,17 @@ SABSA_N = "價格官方頁面未列，須洽授權訓練單位"
 price("SABSA SCF", "兩個選擇題模組，各 48 題 60 分鐘，各須 75%", "須先上官方 Foundation 課程；" + SABSA_N)
 price("SABSA SCP", "申論作業：5 題選 2 題，四週內繳交，由兩位 SABSA Master 評分，75% 及格", "須有 SCF 並上一門進階課程；" + SABSA_N)
 price("SABSA SCM", "再上第二門進階課程並通過其考試，另須提交碩士級論文並通過審查", "須有 SCP；" + SABSA_N)
+# price pass 3, 2026-11-25
+price("C)ISRM|IS20|C)ISSA|C)DRE|C)IHE|C)HISSP|C)CSA|C)ISSM|C)TIA|C)SLO|C)SWAE|C)CSO|C)PEH|C)DFE|C)AICSO|C)NIS2|C)CFTA|C)PSH|C)PTC|C)SP|C)VA", "考試組合 $500（標價 $795），含備考指南、模擬測驗與兩次考試機會", "不須先上 Mile2 課程")
+price("C)OL", "考試組合 $150（標價 $500），含兩次考試機會", "不須先上 Mile2 課程")
+price("C)PTE", "考試組合 $500（標準版）或 $600（ANSI／DoD 8140 監考版）", "選擇題 100 題，2 小時，含兩次考試機會；無報考資格")
+price("C)ISMS-LA|C)NFE|C)ISCAP", "現行「考試組合」目錄（32 項）未列此科", "價格無法查證")
+price("GCPEH|CISP", "考試券 $190（240 天內兩次機會）", "選擇題 100 題，2 小時，70% 及格，無報考資格")
+price("DCCRP", "申請費 $400，年費 $225；考試費官方頁面未列", "須 2 年實務經驗（近十年內），Cyber Resilience 考試 75% 及格")
+price("DCBCA", "申請費 $400，年費 $225；考試費官方頁面未列", "須 2 年實務經驗（近十年內），稽核考試 75% 及格，五篇專題論述")
+price("CIS LI", "課程 £2,195（未稅），含 IBITGQ 線上考試", "考試 90 分鐘；無報考資格，建議先上 Foundation 課程")
+price("資安職能 核心", "訓練費 NT$8,000（3 日課程，含一次評量）", "評量 70 分及格，電腦化即測即評；複測每次 NT$300", "115 年起部分科目開放免訓評量；訓練費為 114 年上半年訓練說明的數字")
+price("資安職能 專業", "訓練費 NT$8,000（3 日課程）或 NT$6,000（2 日課程），含一次評量", "須先持有「資通安全概論」有效證書；評量 70 分及格；複測每次 NT$300", "訓練費為 114 年上半年訓練說明的數字")
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -502,6 +514,10 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("資安職能 核心|資安職能 專業", kind="官方訓練費（含評量）", conf="複測費與及格標準為資安署法規公告；訓練費取自機關轉載的官方訓練說明", url="https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg031209/ch05/type1/gov87/num6/Eg.pdf", date="2026-11-25")
+meta("C)ISRM|IS20|C)ISSA|C)DRE|C)IHE|C)HISSP|C)CSA|C)ISSM|C)TIA|C)SLO|C)SWAE|C)CSO|C)PEH|C)DFE|C)AICSO|C)NIS2|C)CFTA|C)PSH|C)PTC|C)SP|C)VA|C)OL|C)PTE", kind="官方考試組合價", url="https://mile2.com/exam-combos/")
+meta("C)ISMS-LA|C)NFE|C)ISCAP", kind="無價格資訊", url="https://mile2.com/exam-combos/")
+meta("GCPEH|CISP", kind="官方考試券"); meta("DCCRP|DCBCA", kind="官方申請費（不含考試費）"); meta("CIS LI", kind="官方課程含考試")
 meta("CSM", kind="官方考試券"); meta("DCBCLA", kind="官方申請費（不含考試費）")
 meta("ISA CFS|ISA CRAS|ISA CDS|ISA CE|SABSA SCF|SABSA SCP|SABSA SCM", kind="無價格資訊")
 meta("PJPT|PNPT|PWPP|PWPA|PSAA|PAPA|PMRP", kind="官方課程含考試")
