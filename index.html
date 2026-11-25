@@ -18,10 +18,29 @@
   .notes h3 { font-size: 16px; margin: 20px 0 4px; }
   .notes ul { margin: 4px 0; padding-left: 22px; }
   .notes a { color: #2e5688; }
+
+  /* Mobile: scrollable chart */
+  @media (max-width: 1024px) {
+    .chartwrap { overflow-x: auto !important; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
+    .notes { padding: 20px 16px 40px; font-size: 14px; }
+    .notes h2 { font-size: 18px; }
+    .notes h3 { font-size: 15px; }
+  }
+
+  /* Touch: show tooltip on tap (focus) */
+  [tooltiptext]:focus:before,
+  [tooltipleft]:focus:before,
+  [tooltipright]:focus:before { display: block; z-index: 10; }
+
+  /* Swipe hint */
+  .mobile-hint { display: none; text-align: center; padding: 10px 16px; background: #f0f4f8; color: #666;
+                 font-size: 13px; line-height: 1.5; border-bottom: 1px solid #e0e4e8; }
+  @media (max-width: 1024px) { .mobile-hint { display: block; } }
 </style>
 
 </head>
 <body>
+<div class="mobile-hint">← 左右滑動查看完整地圖 →　｜　點擊證照可顯示詳細資訊</div>
 <div class="chartwrap">
 <style>
     /* Set fill and line colors for certification boxes. dk suffix means "dark" for the line color. */
@@ -4906,6 +4925,41 @@
   <h3>移除（3）</h3><ul><li>MS-100（2023-09-30 停考；後繼的 MS-102 也排定 2026-11-30 停考，故不遞補）</li><li>AZ-220 Azure IoT Developer（2023-07-31 停考）</li><li>ISACA CSX-P（ISACA 已列為 Retired Credential；ISACA CCOA 原圖已有）</li></ul>
   <h3>價格</h3><ul><li>PNPT：$299 → $399</li><li>ISC2 CC：免費 → $199（免費方案 2026-05-20 停止新報名）</li><li>GIAC Practitioner 考試費：$979 → $999（共 45 處）</li></ul>
 </section>
+
+
+<script>
+(function() {
+  var chart = document.getElementById('interactive');
+  if (!chart) return;
+  var MIN_W = 1200;
+  function adjust() {
+    var vw = window.innerWidth;
+    if (vw < 1024) {
+      chart.style.zoom = (MIN_W / vw).toFixed(3);
+    } else {
+      chart.style.zoom = '';
+    }
+  }
+  adjust();
+  window.addEventListener('resize', adjust);
+
+  // dismiss tooltip on tap elsewhere
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('[tooltiptext],[tooltipleft],[tooltipright]')) {
+      var f = document.activeElement;
+      if (f && (f.hasAttribute('tooltiptext') || f.hasAttribute('tooltipleft') || f.hasAttribute('tooltipright')))
+        f.blur();
+    }
+  });
+
+  // hide swipe hint after first scroll
+  var wrap = document.querySelector('.chartwrap');
+  var hint = document.querySelector('.mobile-hint');
+  if (wrap && hint) {
+    wrap.addEventListener('scroll', function() { hint.style.display = 'none'; }, {once: true});
+  }
+})();
+</script>
 
 </body>
 </html>

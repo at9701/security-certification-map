@@ -428,7 +428,61 @@ page_css = """
   .notes h3 { font-size: 16px; margin: 20px 0 4px; }
   .notes ul { margin: 4px 0; padding-left: 22px; }
   .notes a { color: #2e5688; }
+
+  /* Mobile: scrollable chart */
+  @media (max-width: 1024px) {
+    .chartwrap { overflow-x: auto !important; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
+    .notes { padding: 20px 16px 40px; font-size: 14px; }
+    .notes h2 { font-size: 18px; }
+    .notes h3 { font-size: 15px; }
+  }
+
+  /* Touch: show tooltip on tap (focus) */
+  [tooltiptext]:focus:before,
+  [tooltipleft]:focus:before,
+  [tooltipright]:focus:before { display: block; z-index: 10; }
+
+  /* Swipe hint */
+  .mobile-hint { display: none; text-align: center; padding: 10px 16px; background: #f0f4f8; color: #666;
+                 font-size: 13px; line-height: 1.5; border-bottom: 1px solid #e0e4e8; }
+  @media (max-width: 1024px) { .mobile-hint { display: block; } }
 </style>
+"""
+
+mobile_js = """
+<script>
+(function() {
+  var chart = document.getElementById('interactive');
+  if (!chart) return;
+  var MIN_W = 1200;
+  function adjust() {
+    var vw = window.innerWidth;
+    if (vw < 1024) {
+      chart.style.zoom = (MIN_W / vw).toFixed(3);
+    } else {
+      chart.style.zoom = '';
+    }
+  }
+  adjust();
+  window.addEventListener('resize', adjust);
+
+  // dismiss tooltip on tap elsewhere
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('[tooltiptext],[tooltipleft],[tooltipright]')) {
+      var f = document.activeElement;
+      if (f && (f.hasAttribute('tooltiptext') || f.hasAttribute('tooltipleft') || f.hasAttribute('tooltipright')))
+        f.blur();
+    }
+  });
+
+  // hide swipe hint after first scroll
+  var wrap = document.querySelector('.chartwrap');
+  var hint = document.querySelector('.mobile-hint');
+  if (wrap && hint) {
+    wrap.addEventListener('scroll', function() { hint.style.display = 'none'; }, {once: true});
+  }
+})();
+</script>
 """
 
 doc = f"""<!DOCTYPE html>
@@ -440,10 +494,12 @@ doc = f"""<!DOCTYPE html>
 {page_css}
 </head>
 <body>
+<div class="mobile-hint">← 左右滑動查看完整地圖 →　｜　點擊證照可顯示詳細資訊</div>
 <div class="chartwrap">
 {out}
 </div>
 {notes}
+{mobile_js}
 </body>
 </html>
 """
