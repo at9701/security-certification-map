@@ -222,8 +222,11 @@ o("CREST CCTAPP|CREST CCSAS", F="X", I=3, R=0, T=3, B="V")  # written 3h + pract
 o("CREST CCIM", F="S", I=2, R=1, T=3, B="V")              # MCQ + long-form/scenario, two parts within three months
 # Cisco certification pages and Mile2 pages, read 2026-11-25
 o("CCDE", B="V"); o("CCNP Sec|CCNP Ent|CCNP Cyber|CCNP Auto|CCNA|CCNA Cyber|CCNA Auto|CCT", B="V")
-o("CM)ISSO|CM)DFI|CM)IPS", F="Q", I=1, R=3, T=3, B="V")   # title awarded for four certifications; no exam of its own
+o("CM)ISSO|CM)DFI|CM)IPS|CM)ISRM|CM)DRE|CM)CTA|CM)CSSA", F="Q", I=1, R=3, T=3, B="V")   # title awarded for four certifications; no exam of its own
 o("C)PTE", F="Q", I=1, R=1, T=2, B="V")                   # 100 MCQ, 2h, online
+# ISACA credential pages and CompTIA certification pages, read 2026-11-25
+o("CISA|CRISC|CGEIT|CDPSE|AAIR|AAIA", B="V")
+o("SecurityX|Net+|Linux+|Cloud+|Server+|Project+", B="V"); o("Pentest+", I=2, B="V")
 # GIAC, read cert by cert on 2026-11-25: (questions, hours, pass %, CyberLive hands-on items)
 GIAC = {
     "GXPN": (60, 3, 67, 1), "GREM": (66, 3, 73, 1), "GCIH": (106, 4, 69, 1), "GSEC": (106, 4, 72, 1),
@@ -339,6 +342,18 @@ price("eJPT", "考試券 $250", UNVI); price("eCPPT|eWPT|eWPTX|eMAPT|eCIR|eCTHP|
 price("eEDA", "考試券 $450", UNVI)
 price("CSA", "考試費 $450；電子教材含考試 $550", "312-39，100 題選擇題，180 分鐘", "維護者提供，官方頁面未列這些數字")
 price("CPENT", "24 小時實作考試", "單獨考試費：須向官方詢價", "教材與 Lab 套裝 $899，不含考試（維護者提供）")
+price("SecurityX", "考試費 $544", "CAS-005，最多 90 題，165 分鐘，選擇題加實作題，只分及格與不及格", UNV3)
+price("Pentest+", "考試費 $439", "PT0-003，最多 90 題，165 分鐘，750 分及格", UNV3)
+price("Net+", "考試費 $399", "N10-009，最多 90 題，90 分鐘，720 分及格", UNV3)
+price("Linux+", "考試費 $399", "XK0-006，最多 90 題，90 分鐘，720 分及格", UNV3)
+price("Cloud+", "考試費 $399", "CV0-004，最多 90 題，90 分鐘，750 分及格", UNV3)
+price("Server+", "考試費 $399", "SK0-005，最多 90 題，90 分鐘，750 分及格", UNV3)
+price("Project+", "考試費 $399", "PK0-005，最多 90 題，90 分鐘，710 分及格", UNV3)
+price("CySA+", "考試費 $439", "V4 為新版；英文版 V3 於 2026-12-22 停考", UNV3)
+price("A+", "兩科合計 $548", "須通過 Core 1 與 Core 2 兩科（V15）", UNV3)
+price("CISA|CRISC|CGEIT|CDPSE", "考試費 $760（會員 $575）", "通過後另繳申請費 $50，並須提出經驗證明")
+price("AAIR", "考試費 $599（會員 $459）", "須持有 CISA、CISM、CRISC、CGEIT、CDPSE 或官方列出的其他資格")
+price("AAIA", "考試費 $599（會員 $459）", "須持有有效 CISA，或官方列出的稽核類資格")
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -385,6 +400,10 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("CISA", url="https://www.isaca.org/credentialing/cisa"); meta("CRISC", url="https://www.isaca.org/credentialing/crisc"); meta("CGEIT", url="https://www.isaca.org/credentialing/cgeit")
+meta("CDPSE", url="https://www.isaca.org/credentialing/certified-data-privacy-solutions-engineer"); meta("AAIR", url="https://www.isaca.org/credentialing/aair"); meta("AAIA", url="https://www.isaca.org/credentialing/aaia")
+meta("CISA|CRISC|CGEIT|CDPSE|AAIR|AAIA", kind="官方考試費", conf=OFFICIAL, date="2026-11-25")
+meta("SecurityX|Pentest+|Net+|Linux+|Cloud+|Server+|Project+|CySA+|A+", conf="考試形式為官方頁面，價格為第三方")
 price("CCDE", "核心筆試 400-007 $450（120 分鐘）加實作考 $1,600", "實作考 8 小時，情境式；效期三年")
 price("CCNP Sec", "核心考試 350-701 $400（120 分鐘）加一科專精考試 $300（90 分鐘）", "無報考資格；效期三年")
 price("CCNP Ent", "核心考試 350-401 $400（120 分鐘）加一科專精考試 $300（90 分鐘）", "無報考資格；效期三年")
@@ -402,8 +421,8 @@ meta("CCNA", url="https://www.cisco.com/site/us/en/learn/training-certifications
 meta("CCNA Cyber", url="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html")
 meta("CCNA Auto", url="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/associate/index.html")
 meta("CCNP Cyber|CCT", kind="無價格資訊")
-price("CM)ISSO|CM)DFI|CM)IPS", "四張證照套裝 $3,180（原價 $3,980）", "通過指定四張 Mile2 證照考試後授予，無獨立考試")
-meta("CM)ISSO|CM)DFI|CM)IPS", kind="官方課程或套裝價", url="https://www.mile2.com/master-certifications/")
+price("CM)ISSO|CM)DFI|CM)IPS|CM)ISRM|CM)DRE|CM)CTA|CM)CSSA", "四張證照套裝 $3,180（原價 $3,980）", "通過指定四張 Mile2 證照考試後授予，無獨立考試")
+meta("CM)ISSO|CM)DFI|CM)IPS|CM)ISRM|CM)DRE|CM)CTA|CM)CSSA", kind="官方課程或套裝價", url="https://www.mile2.com/master-certifications/")
 price("C)PTE", "選擇題 100 題，2 小時，線上應考", "建議 12 個月網路經驗；效期三年，每年 20 CEU")
 meta("C)PTE", kind="無價格資訊")
 meta("CREST CPSA|CREST CPIA|CREST CPTIA|CREST CRIA|CREST CRTIA|CREST CCTAPP|CREST CCSAS|CREST CCIM", kind="無價格資訊")
@@ -458,6 +477,7 @@ for _l in ("MCL", "MCD", "MESE", "MASE", "MNSE"):
 
 # still on the chart, but the issuer's own site raises a doubt; shown dashed with the note
 FLAG = {
+    "Cloud Essnt": "現況：官方頁面目前只介紹約 8 小時的自學課程，未列考試資訊（2026-11-25）",
     "CREST CCHIA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CCNIA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CRTSA": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）", "CREST CSAS": "現況：CREST 官方證照總表現列 12 張，未見此項；未找到停考公告（2026-11-25）",
     "MAD SOCA": "現況：MITRE 官方頁面目前顯示 coming soon，是否可報名不明（2026-11-25）",
     "MAD CTI": "現況：MITRE 官方頁面目前顯示 coming soon，是否可報名不明（2026-11-25）",
@@ -503,6 +523,10 @@ COL_CLS = [(2, 4, "networkitem1"), (6, 6, "iamitem1"), (8, 14, "engineeritem1"),
            (41, 47, "redopsitem1")]
 # certifications the issuer lists today that the chart lacked: (label, column, name, detail line, link)
 EXTRA = [
+    ("CM)ISRM", 20, "Mile2 Certified Master Information Systems Risk Manager", "", "https://www.mile2.com/master-certifications/"),
+    ("CM)DRE", 40, "Mile2 Certified Master Disaster Recovery Engineer", "", "https://www.mile2.com/master-certifications/"),
+    ("CM)CTA", 37, "Mile2 Certified Master Cyber Threat Analyst", "", "https://www.mile2.com/master-certifications/"),
+    ("CM)CSSA", 22, "Mile2 Certified Master Cybersecurity Systems Auditor", "", "https://www.mile2.com/master-certifications/"),
     ("CREST CCIM", 38, "CREST Certified Incident Manager", "", "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/"),
     ("GCAD", 9, "GIAC Cloud Security Architecture and Design", "考試費 $999", GIAC_PRICING),
     ("GCIL", 39, "GIAC Cyber Incident Leader", "考試費 $999", GIAC_PRICING),

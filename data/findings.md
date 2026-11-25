@@ -206,3 +206,11 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - Mile2 IS20 頁面現名 IS18 Controls，標籤已改。
 - 頁面已讀但未列任何考試細節（維持 K）：C)ISRM、C)PTC、C)PEH、C)DFE。
 - 被網站限速、未讀：C)HISSP、C)SWAE、C)DRE、C)IHE、C)CSA、C)TIA、C)SLO、C)CSO、C)SP、C)VA。
+
+## Mile2 其餘、ISACA、CompTIA（2026-11-25）
+- Mile2 大綱頁逐頁讀取（一次一頁）：C)HISSP、C)SWAE、C)DRE、C)IHE、C)CSA、C)TIA、C)SLO、C)CSO、C)SP、C)VA 均存在、未見改名，但頁面都沒有題數、時間、價格或報考資格，維持 K。
+- 補上圖上缺的 4 張 Mile2 master：CM)ISRM、CM)DRE、CM)CTA、CM)CSSA。
+- ISACA：CISA、CRISC、CGEIT、CDPSE 考試費 $760（會員 $575），通過後另繳申請費 $50 並提出經驗證明；頁面未列題數、時間與年資。AAIR、AAIA 考試費 $599（會員 $459），皆已開放報名，須持有指定證照。
+- CompTIA 各證照頁（皆未列價格）：SecurityX CAS-005（最多 90 題、165 分鐘、只分及格與否）；PenTest+ PT0-003（165 分鐘、750）；Network+ N10-009（90 分鐘、720）；Linux+ XK0-006（720）；Cloud+ CV0-004（750）；Server+ SK0-005（750）；Project+ PK0-005（710）。皆為選擇題加實作題，經驗僅為建議。
+- CySA+：V4 為新版，英文版 V3 於 2026-12-22 停考。Security+：建議 V8，英文版 V7 於 2027-06-11 停考。A+：Core 1、Core 2 兩科（V15）。這三張的總覽頁未列題數與時間，維持 K。
+- Cloud Essentials+：官方頁面只介紹約 8 小時自學課程，未列考試資訊，改為虛線框。
