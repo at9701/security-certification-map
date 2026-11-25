@@ -322,3 +322,9 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - ASIS PCI：125 題計分加 15 題不計分；3–5 年調查經驗；費用在手冊。
 - CertNexus CIoTSP 頁面現只顯示訓練梯次。VMware 轉址被擋；ecfirst 不允許程式讀取。
 - 其餘零散發證單位一律標「無價格資訊」並註明原因。至此 530 張都不再顯示 2024 年價格：273 張有價格或費用資訊，257 張無。
+
+## ITIL Version 5 官方確認、TOGAF 改名、新增 9 張（2026-11-25）
+- PeopleCert 官方 ITIL 目錄確認有「ITIL (Version 5)」：Foundation $690；AI Governance $690 起；Foundation Bridge $263 起；Product、Service、Experience、Strategy、Transformation 各 $865 起；MPT 升級模組 $1,337 起。ITIL 4 仍並列：Foundation $690 起、各 Specialist／Strategist／Leader 模組 $865–891、Practitioner 模組 $290 起。頁面未列 ITIL 4 停考日（2027-12-31 之說僅見於第三方）。目錄沒有獨立的 Master 證照，ITIL Master 改虛線框；ITIL Foundation 取消虛線框並改用官方價格。
+- TOGAF 標籤改為現行名稱：TOGAF EA Fdn、TOGAF EA Prac。
+- 新增 TCM 5 張（各證照頁）：PWPE $799（3 天實作加 2 天報告）、PSAP $499（3 天加 2 天）、PORP $399（3 天含報告）、PIPA $249、PMPA $249（原名 PJMT）（皆 2 天加 2 天）。皆含一次免費重考。PHDA（IT 服務台）非資安證照，未加。
+- 新增 EC-Council 4 張（證照部門頁）：C|CT（50 題選擇加 10 題實作，3 小時，無報考資格；圖上標籤用 EC CCT 以免與 Cisco CCT 混淆）、ECDE（100 題 4 小時 70%，2 年經驗或官方訓練）、WAHS（6 小時實作，依得分分三級）、COASP（Beta；65 題選擇加 5 題實作，6 小時）以虛線框標示。CAIPM、CRAGE 兩張 Beta 與 Essentials 系列未加。

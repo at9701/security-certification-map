@@ -157,6 +157,7 @@ CMFE,Infosec Institute Certified Mobile Forensics Examiner,官方連結現只顯
 CMWAPT,Infosec Institute Certified Mobile and Web App Penetration Tester,官方連結現只顯示訓練營梯次，查不到證照考試與價格 / 2024 年舊價已移除,無價格資訊,https://app.infosecinstitute.com/portal/courses/a0tC0000000Fow6IAC,2026-11-25,官方頁面未列或讀不到價格
 CND,EC Council Certified Network Defender,考試券 $550（遠端監考）,官方考試券,https://store.eccouncil.org/product/cnd-ecc-exam-voucher/,2026-11-25,官方頁面
 CNDA,EC Council Certified Network Defense Architect,須先取得 CEH，且任職於政府、軍方或其承包商 / 處理費 $200,無價格資訊,https://cert.eccouncil.org/cnda.html,2026-11-25,官方頁面
+COASP,EC Council Certified Offensive AI Security Professional (beta),Beta 階段：選擇題 65 題加實作題 5 題，6 小時 / 須 2 年資安經驗或官方訓練，申請費 $100；考試券價格未列,無價格資訊,https://cert.eccouncil.org/certified-offensive-ai-security-professional.html,2026-11-25,官方頁面
 CPD,GAQM Certified Project Director,GAQM 考試券依科目為 $150 或 $190（240 天內兩次機會） / 本科目頁面未逐一讀取；2024 年舊價已移除,無價格資訊,https://gaqm.org/certifications/project_management/cpd,2026-11-25,官方頁面未列或讀不到價格
 CPENT,EC Council Certified Penetration Testing Professional,24 小時實作考試，可拆成兩場 12 小時 / 無報考資格；須在考試儀表板啟用後 30 天內完成並交報告（延長 7 天 $100） / 考試費官方頁面未列；教材與 Lab 套裝 $899 不含考試（維護者提供）,無價格資訊；套裝價為維護者提供,https://cert.eccouncil.org/certified-penetration-testing-professional-cpent.html,2026-11-25,考試規則為官方頁面，套裝價為維護者提供
 CREA,Infosec Institute Certified Reverse Engineering Analyst,官方連結現只顯示訓練營梯次，查不到證照考試與價格 / 2024 年舊價已移除,無價格資訊,https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4IIAS,2026-11-25,官方頁面未列或讀不到價格
@@ -221,6 +222,8 @@ DV MILF,Dark Vortex Malware Incident and Log Foensics,"同單位 Malware on Ster
 DV MoS,Dark Vortex Malware on Steroids,"課程 $2,500（含稅與結業證書） / 3 天線上課程，無考試，發結業證書",官方課程含考試,https://0xdarkvortex.dev/training-programs/malware-on-steroids/#certification,2026-11-25,官方頁面
 DV OTD,Dark Vortex Offensive Tool Development,"同單位 Malware on Steroids 課程為 $2,500；本課程頁未讀 / 無考試，發結業證書；2024 年舊價已移除",無價格資訊,https://0xdarkvortex.dev/training-programs/offensive-tool-development/,2026-11-25,官方頁面未列或讀不到價格
 DV RTOS,Dark Vortex Red Team & Operational Security,"課程 $2,500 / 3 天線上課程，無考試，發結業證書",官方課程或套裝價,https://0xdarkvortex.dev/training-programs/red-team-and-operational-security/,2026-11-25,官方頁面
+EC CCT,EC Council Certified Cybersecurity Technician,選擇題 50 題加實作題 10 題，3 小時 / 無報考資格；考試費官方頁面未列,無價格資訊,https://cert.eccouncil.org/certified-cybersecurity-technician-certification.html,2026-11-25,官方頁面
+ECDE,EC Council Certified DevSecOps Engineer,選擇題 100 題，4 小時，70% 及格 / 須 2 年資安經驗（申請費 $100）或參加官方訓練；考試券價格未列,無價格資訊,https://cert.eccouncil.org/ec-council-certified-devsecops-engineer.html,2026-11-25,官方頁面
 ECES,EC Council Certified Encryption Specialist,50 題，2 小時，70% 及格,無價格資訊,https://cert.eccouncil.org/ec-council-certified-encryption-specialist.html,2026-11-25,官方頁面
 ECIH,EC Council Certified Incident Handler,考試券 $450（遠端監考）,官方考試券,https://store.eccouncil.org/product/ecih-ecc-exam-voucher/,2026-11-25,官方頁面
 ECSS,EC Council Certified Security Specialist,100 題，3 小時，70% 及格,無價格資訊,https://cert.eccouncil.org/ec-council-certified-security-specialist.html,2026-11-25,官方頁面
@@ -344,10 +347,10 @@ ISA CFS,ISA Certified Fundamentals Specialist,完成 IC32 課程並通過考試 
 ISA CRAS,ISA Certified Risk Assesment Specialist,須先有 Fundamentals Specialist；完成 IC33 課程並通過考試 / 官方總覽頁未列價格、題數與時間；不需換證,無價格資訊,https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/,2026-11-25,官方頁面
 ISMI CSM,ISMI Certified Security Manager,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.ismi.org.uk/csmp/certified-security-manager%C2%AE,2026-11-25,官方頁面未列或讀不到價格
 ISMI CSMP,ISMI Certified Security Management Professional,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.ismi.org.uk/csmp/csmp%C2%AE-overview.aspx,2026-11-25,官方頁面未列或讀不到價格
-ITIL Fdn,ITIL Foundation,PeopleCert 美國商店考試組合約 $690（第三方整理） / PeopleCert 於 2026-01 推出 ITIL（Version 5），ITIL 4 各模組預定 2027-12-31 停考（第三方報導，未向官方頁面查證）,第三方價格,https://tutorsbot.com/blog/itil-certification-cost,2026-11-25,第三方
-ITIL MP,ITIL Managing Professional,Foundation 以上各模組須先上認可課程；價格官方頁面未能讀取 / PeopleCert 於 2026-01 推出 ITIL（Version 5），ITIL 4 各模組預定 2027-12-31 停考（第三方報導，未向官方頁面查證）,無價格資訊,https://www.superprof.com/blog/itil-certification-cost/,2026-11-25,第三方
-ITIL Master,ITIL Master,Foundation 以上各模組須先上認可課程；價格官方頁面未能讀取 / PeopleCert 於 2026-01 推出 ITIL（Version 5），ITIL 4 各模組預定 2027-12-31 停考（第三方報導，未向官方頁面查證）,無價格資訊,https://www.superprof.com/blog/itil-certification-cost/,2026-11-25,第三方
-ITIL SL,ITIL Strategic Leader,Foundation 以上各模組須先上認可課程；價格官方頁面未能讀取 / PeopleCert 於 2026-01 推出 ITIL（Version 5），ITIL 4 各模組預定 2027-12-31 停考（第三方報導，未向官方頁面查證）,無價格資訊,https://www.superprof.com/blog/itil-certification-cost/,2026-11-25,第三方
+ITIL Fdn,ITIL Foundation,ITIL Foundation（Version 5）$690；ITIL 4 Foundation $690 起 / PeopleCert 官方目錄同時列出 ITIL（Version 5）與 ITIL 4,第三方價格,https://tutorsbot.com/blog/itil-certification-cost,2026-11-25,第三方
+ITIL MP,ITIL Managing Professional,ITIL 4 各 Specialist／Strategist 模組每科 $865 起，須通過四個模組 / PeopleCert 官方目錄同時列出 ITIL（Version 5）與 ITIL 4；Version 5 改為 Product、Service、Experience 等模組，每科 $865 起,無價格資訊,https://www.superprof.com/blog/itil-certification-cost/,2026-11-25,第三方
+ITIL Master,ITIL Master,PeopleCert 官方目錄未列出獨立的 Master 證照 / PeopleCert 官方目錄同時列出 ITIL（Version 5）與 ITIL 4,無價格資訊,https://www.superprof.com/blog/itil-certification-cost/,2026-11-25,第三方
+ITIL SL,ITIL Strategic Leader,ITIL 4 Strategist DPI 與 Leader DITS 兩個模組，每科 $865 起 / PeopleCert 官方目錄同時列出 ITIL（Version 5）與 ITIL 4；Version 5 改為 Strategy、Transformation 等模組,無價格資訊,https://www.superprof.com/blog/itil-certification-cost/,2026-11-25,第三方
 ITS-C,Certiport IT Specialist - Cybersecurity,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://certiport.filecamp.com/s/JTIy1sX0ci0ZI3ss/fi,2026-11-25,官方頁面未列或讀不到價格
 ITS-NS,Certiport IT Specialist - Network Security,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://certiport.filecamp.com/s/ITS_OD_102_Network_Security/fi,2026-11-25,官方頁面未列或讀不到價格
 JNCIA Sec,"Juniper Networks Certified Internet Associate, Security",考試費 $200 / Juniper 認證計畫官方 FAQ（HPE Networking 訓練支援站）,官方考試費,https://hpe-networking-training.zendesk.com/hc/en-us/articles/360053374674-General-Certification-Frequently-Asked-Questions,2026-11-25,官方頁面
@@ -425,17 +428,22 @@ PECB 27005RM,PECB ISO/IEC 27005 Risk Manager,考試與證照費含在訓練課�
 PECB 27032CM,PECB ISO/IEC 27032 Lead Cybersecurity Manager,考試與證照費含在訓練課程價格內，無單獨考試價 / 依 PECB 同系列官方頁面；課程價依訓練單位而定,無價格資訊,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-lead-cyber-security-manager,2026-11-25,官方頁面未列或讀不到價格
 PECB 27032F,PECB ISO/IEC 27032 Foundation,考試與證照費含在訓練課程價格內，無單獨考試價 / 依 PECB 同系列官方頁面；課程價依訓練單位而定,無價格資訊,https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27032/iso-iec-27032-foundation,2026-11-25,官方頁面未列或讀不到價格
 PEXIN ISM,EXIN Information Security Management Professional,找不到官方價目；多數經訓練機構報名，價格依機構而定 / 2024 年舊價已移除,無價格資訊,https://www.exin.com/certifications/information-security-management-professional-based-isoiec-27001-exam,2026-11-25,官方頁面未列或讀不到價格
+PIPA,TCM Practical IoT Pentest Associate,$249（含一次免費重考） / 實作 2 天，另 2 天寫報告；促銷價 $199 至 11/30,官方課程含考試,https://certifications.tcm-sec.com/pipa/,2026-11-25,官方頁面
 PJPT,TCM Security Practical Junior Penetration Tester,$249（含 12 個月訓練教材與一次免費重考） / 實作 2 天，另 2 天寫報告；無報考資格,官方課程含考試,https://certifications.tcm-sec.com/product-category/exams,2026-11-25,官方頁面
 PMI ACP,PMI Agile Certified Practitioner,"考試費 $495（會員 $435） / 選擇題 120 題，3 小時；須 2,000 小時專案經驗加 1,500 小時敏捷經驗，另 21 小時訓練",官方考試費,https://www.pmi.org/certifications/types/agile-acp,2026-11-25,官方頁面
 PMP,PMI Project Management Professional,考試費 $555（會員 $405） / 180 題；大學學歷須 36 個月專案經驗，否則 60 個月，另須 35 小時訓練或 CAPM,官方考試費,https://www.pmi.org/certifications/project-management-pmp,2026-11-25,官方頁面
+PMPA,TCM Practical Mobile Pentest Associate (formerly PJMT),$249（含一次免費重考） / 實作 2 天，另 2 天寫報告；原名 PJMT,官方課程含考試,https://certifications.tcm-sec.com/pmpa/,2026-11-25,官方頁面
 PMRP,TCM Security Practical Malware Research Professional,$499（含 12 個月訓練教材與一次免費重考） / 實作 5 天，另 2 天寫報告；促銷價 $399 至 11/30,官方課程含考試,https://certifications.tcm-sec.com/pmrp/,2026-11-25,官方頁面
 PNPT,TCM Security Practical Network Penetration Tester,$499（含 12 個月訓練教材與一次免費重考） / 實作 5 天，另 2 天寫報告，再加 15 分鐘口頭簡報；無報考資格,官方課程含考試,https://certifications.tcm-sec.com/pnpt/,2026-11-25,官方頁面
+PORP,TCM Practical OSINT Research Professional,$399（含一次免費重考） / 3 天內完成實作並交報告；促銷價 $319 至 11/30,官方課程含考試,https://certifications.tcm-sec.com/porp/,2026-11-25,官方頁面
 PPM,GAQM Professional in Project Management,GAQM 考試券依科目為 $150 或 $190（240 天內兩次機會） / 本科目頁面未逐一讀取；2024 年舊價已移除,無價格資訊,https://gaqm.org/certifications/project_management/ppm,2026-11-25,官方頁面未列或讀不到價格
 PSAA,TCM Security Practical SOC Analyst Associate,$249（含 12 個月訓練教材與一次免費重考） / 實作 2 天，另 2 天寫報告；促銷價 $199 至 11/30,官方課程含考試,https://certifications.tcm-sec.com/product-category/exams,2026-11-25,官方頁面
+PSAP,TCM Practical SOC Analyst Professional,$499（含一次免費重考） / 實作 3 天，另 2 天寫事件應變報告；促銷價 $399 至 11/30,官方課程含考試,https://certifications.tcm-sec.com/psap/,2026-11-25,官方頁面
 PSM I,Scrum.org Professional Scrum Master I,每次 $200 / 80 題，60 分鐘，85% 及格,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-i-certification,2026-11-25,官方頁面
 PSM II,Scrum.org Professional Scrum Master II,每次 $250 / 30 題，90 分鐘，85% 及格,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-ii-certification,2026-11-25,官方頁面
 PSM III,Scrum.org Professional Scrum Master III,每次 $500 / 24 題論述，150 分鐘,官方考試費,https://www.scrum.org/assessments/professional-scrum-master-iii-certification,2026-11-25,官方頁面
 PWPA,TCM Security Practical Web Pentest Associate,$249（含 12 個月訓練教材與一次免費重考） / 實作 2 天，另 2 天寫報告；促銷價 $199 至 11/30,官方課程含考試,https://certifications.tcm-sec.com/product-category/exams,2026-11-25,官方頁面
+PWPE,TCM Practical Web Pentest Expert,$799（含一次免費重考） / 實作 3 天，另 2 天寫報告；無硬性報考資格,官方課程含考試,https://certifications.tcm-sec.com/pwpe/,2026-11-25,官方頁面
 PWPP,TCM Security Practical Web Pentest Professional,$499（含 12 個月訓練教材與一次免費重考） / 實作 3 天，另 2 天寫報告；促銷價 $399 至 11/30,官方課程含考試,https://certifications.tcm-sec.com/product-category/exams,2026-11-25,官方頁面
 Pentest+,CompTIA Pentest+,考試費 $439 / PT0-003，最多 90 題，165 分鐘，750 分及格 / 美國個人零售參考價（第三方來源），未經 CompTIA 官方查證；台灣定價未確認,第三方零售參考價,,2026-11-23,考試形式為官方頁面，價格為第三方
 PgMP,PMI Program Management Professional,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.pmi.org/certifications/types/program-management-pgmp,2026-11-25,官方頁面未列或讀不到價格
@@ -510,6 +518,7 @@ VCIX DCV,VMware Certified Implementation Expert in Datacenter Virtualization,官
 VCIX NV,VMware Certified Implementation Expert in Network Virtualization,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.vmware.com/education-services/certification/vcap-nv-deploy.html,2026-11-25,官方頁面未列或讀不到價格
 VCP DCV,VMware Certified Professional in Datacenter Virtualization,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.vmware.com/education-services/certification/vcp-dcv.html,2026-11-25,官方頁面未列或讀不到價格
 VCP NV,VMware Certified Professional in Network Virtualization,官方頁面讀取失敗、被擋或需登入，無法查證價格 / 2024 年舊價已移除,無價格資訊,https://www.vmware.com/education-services/certification/vcp-nv-tracks.html,2026-11-25,官方頁面未列或讀不到價格
+WAHS,EC Council Web Application Hacking and Security,6 小時線上監考實作 / 依得分授予 Associate（60–74%）、Professional（75–89%）、Expert（90% 以上）；無報考資格，價格未列,無價格資訊,https://cert.eccouncil.org/web-application-hacking-and-security.html,2026-11-25,官方頁面
 WCNA,Protocol Analysis Institute Wireshark Certified Network Analyst,每次 $299 / 100 題是非與選擇題，2 小時，只分及格與否,官方考試費,https://www.wcnacertification.com/exam-information-1,2026-11-25,官方頁面
 Zach EAA,Zachman Enterprise Architect Associate (Level 1),須上 4 天 Level 1 課程並通過 2 小時線上考試 / 證照費含在課程價格內，金額官方頁面未列,無價格資訊,https://www.zachman.com/certification/what-we-certify/enterprise-architect,2026-11-25,官方頁面未列或讀不到價格
 Zach EAP,Zachman Enterprise Architect Practitioner (Level 2),繳交個案研究審查 / 費用已含在 Level 1 課程內，金額官方頁面未列,無價格資訊,https://www.zachman.com/certification/what-we-certify/enterprise-architect,2026-11-25,官方頁面未列或讀不到價格

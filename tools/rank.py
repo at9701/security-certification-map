@@ -242,6 +242,13 @@ o("CSCU|ECES", F="Q", I=1, R=0, T=0, B="V"); o("ECSS", F="Q", I=2, R=0, T=0, B="
 o("PECB 27005RM|PECB 27001F", B="V")
 # assorted issuer pages, read 2026-11-25
 o("RHCSA|RHCE|PMP", B="V"); o("PDSO CDP", F="P", I=3, R=0, T=2, B="V"); o("Scrum PSD", F="Q", I=0, R=0, T=2, B="V")
+# new entries read from issuer pages, 2026-11-25
+o("PWPE", F="P", I=5, R=0, T=3, B="V"); o("PSAP|PORP", F="P", I=5, R=0, T=2, B="V"); o("PIPA|PMPA", F="P", I=4, R=0, T=1, B="V")
+o("EC CCT", F="B", I=2, R=0, T=0, B="V")     # 50 MCQ + 10 practical, 3h
+o("ECDE", F="Q", I=2, R=1, T=2, B="V")       # 100 MCQ, 4h; 2 years or official training
+o("WAHS", F="P", I=3, R=0, T=2, B="V")       # 6h practical
+o("COASP", F="B", I=3, R=1, T=2, B="V")      # 65 MCQ + 5 practical, 6h; beta
+o("ITIL Fdn|ITIL MP|ITIL SL", B="V")
 o("GCPT|CASM", I=0)   # 60-minute exams
 o("DCBCA", R=2); o("資安職能 專業", R=2)   # two years of experience; core certificate required before professional subjects
 o("ISA CDS|ISA CRAS", R=2)   # Fundamentals Specialist certificate required first
@@ -537,6 +544,20 @@ price("TOGAF|TOGAF Fdn", "現行名稱為 TOGAF Enterprise Architecture Foundati
 price("CSA CGC|Cloud Essnt", "官方頁面現只介紹課程，未列考試與價格", "2024 年舊價已移除")
 price("CREST CCHIA|CREST CCNIA|CREST CSAS", "不在 CREST 官方現行證照總表（12 張）", "2024 年舊價已移除")
 price("ISA CAP", "ISA 62443 總覽頁未涵蓋此證照，未查", "2024 年舊價已移除")
+price("PWPE", "$799（含一次免費重考）", "實作 3 天，另 2 天寫報告；無硬性報考資格")
+price("PSAP", "$499（含一次免費重考）", "實作 3 天，另 2 天寫事件應變報告；促銷價 $399 至 11/30")
+price("PORP", "$399（含一次免費重考）", "3 天內完成實作並交報告；促銷價 $319 至 11/30")
+price("PIPA", "$249（含一次免費重考）", "實作 2 天，另 2 天寫報告；促銷價 $199 至 11/30")
+price("PMPA", "$249（含一次免費重考）", "實作 2 天，另 2 天寫報告；原名 PJMT")
+price("EC CCT", "選擇題 50 題加實作題 10 題，3 小時", "無報考資格；考試費官方頁面未列")
+price("ECDE", "選擇題 100 題，4 小時，70% 及格", "須 2 年資安經驗（申請費 $100）或參加官方訓練；考試券價格未列")
+price("WAHS", "6 小時線上監考實作", "依得分授予 Associate（60–74%）、Professional（75–89%）、Expert（90% 以上）；無報考資格，價格未列")
+price("COASP", "Beta 階段：選擇題 65 題加實作題 5 題，6 小時", "須 2 年資安經驗或官方訓練，申請費 $100；考試券價格未列")
+ITIL5 = "PeopleCert 官方目錄同時列出 ITIL（Version 5）與 ITIL 4"
+price("ITIL Fdn", "ITIL Foundation（Version 5）$690；ITIL 4 Foundation $690 起", ITIL5)
+price("ITIL MP", "ITIL 4 各 Specialist／Strategist 模組每科 $865 起，須通過四個模組", ITIL5 + "；Version 5 改為 Product、Service、Experience 等模組，每科 $865 起")
+price("ITIL SL", "ITIL 4 Strategist DPI 與 Leader DITS 兩個模組，每科 $865 起", ITIL5 + "；Version 5 改為 Strategy、Transformation 等模組")
+price("ITIL Master", "PeopleCert 官方目錄未列出獨立的 Master 證照", ITIL5)
 price("SecOT+", "預購中，預計 2026-12 推出，考試代碼 SOT-001", "第三方預購價 $294，非官方定價")
 price("eCRA", "即將推出，預計 2026 年秋冬", "維護者提供，未能向官方頁面查證")
 price("eAIPT", "即將推出，預計 2026 年秋冬；專業級實作考試", "維護者提供，未能向官方頁面查證")
@@ -580,6 +601,10 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+meta("PWPE|PSAP|PORP|PIPA|PMPA", kind="官方課程含考試")
+meta("EC CCT|ECDE|WAHS|COASP", kind="無價格資訊")
+meta("ITIL Fdn|ITIL MP|ITIL SL", kind="官方考試組合價", conf=OFFICIAL, url="https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1", date="2026-11-25")
+meta("ITIL Master", kind="無價格資訊", conf=OFFICIAL, url="https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1", date="2026-11-25")
 meta("DV OTD|DV AOPH|DV MILF|CSAE|DCRMP|CPD|CASST|PPM|CSP|CSST|CAD|CAC|CAWFE|TUV COSM|TUV COSP|ASIS PCI|VCDX DCV|VCIX DCV|VCIX NV|VCP DCV|VCP NV|F5 CSE Sec|F5 CTS APM|F5 CTS DNS|F5 CA|BCS PCIRM|BCS PCIAA|BCS FISMP|CIISec ICSF|IIBA CCA|CTPRA|CTPRP|CSBA|CCP|CSCS|EnCE|CFSR|CACS|OSCE3|PgMP|CAPM|BTL1|Fair Fdn|Apple ACSP|TUV CyAware|TUV COTCP|TUV CySec|TUV ITSM|TUV MSA|TUV Auditor|ISMI CSMP|ISMI CSM|M_o_R P|M_o_R Fdn|CSFA|ITS-NS|ITS-C|SFCTA|SFCCCC|SF CIAMD|CCSM|MAD SOCA|MAD CTI|OSMR|PACES|ACE|CSR|CCSA@training-certifications.checkpoint.com|CCSA@ecfirst.biz|CCSE@training-certifications.checkpoint.com|CIOTSP|CCSC|CFR|CIPT|CIPP|TOGAF|TOGAF Fdn|CSA CGC|Cloud Essnt|CREST CCHIA|CREST CCNIA|CREST CSAS|ISA CAP", kind="無價格資訊", conf="官方頁面未列或讀不到價格")
 meta("DV MoS|TUV COSTE", kind="官方課程含考試"); meta("DACRP", kind="官方申請費（不含考試費）"); meta("CISST|CFA", kind="官方考試券")
 meta("PECB 27005LM|PECB 27001LA|PECB 27001LI|PECB 27032CM|CLCSM|PECB 27032F|PECB 27005F|PA NGFW|PA XSOAR|PA Cloud|PA XDR|PA NetSec|PA Cyber|S-ISME|S-CISO|S-CEHL|S-EHE|S-ISP|S-CSPL|S-TA|S-EHP|S-SA|S-EHF|S-ISF|S-SPF|EEXIN ISM|PEXIN ISM|EXIN 27001E|EXIN PCSA|EXIN 27001P|EXIN PCSerM|EXIN PCSM|EXIN PCD|EXIN PCA|EPDPF|EXIN CIT|EEHF|EPDPE|FEXIN|EXIN 27001F|EPDPP|CIAM|CIPA|CIGE|CRFS|CAMS|CDP|CIST|CCFE|CMFE|CSSA|CDRP|CMWAPT|CRTOP|CREA|CSAP|OPST|CHAT|OPSA|OWSE|OPSE|CHA|CIS LA|CIS RM|CIS IA|CISRM|CCRMP|CITGP|CSX-F|CIRM Fdn|C CS F|CIS F|CSTL|Zach EAA|Zach EAP|Zach EAPro|RHCA|PCI QSA", kind="無價格資訊", conf="官方頁面未列或讀不到價格")
@@ -705,7 +730,7 @@ for _l in ("NCSC CCPLP", "NCSC CCPSP", "NCSC CCPP"):
 
 # still on the chart, but the issuer's own site raises a doubt; shown dashed with the note
 FLAG = {
-    "ITIL Fdn": "現況：第三方報導 ITIL 已出 Version 5（2026-01），ITIL 4 預定 2027-12-31 停考；官方頁面未能讀取（2026-11-25）",
+    "ITIL Master": "現況：PeopleCert 官方目錄未列出獨立的 ITIL Master 證照（2026-11-25）",
     "OSMR": "現況：OffSec 的 EXP-312 課程頁未提到 OSMR 或任何考試，兩次讀取皆同（2026-11-25）",
     "CSA CGC": "現況：官方頁面只介紹 Cloud Governance & Compliance 課程，未提到考試或證書（2026-11-25）",
     "Cloud Essnt": "現況：官方頁面目前只介紹約 8 小時的自學課程，未列考試資訊（2026-11-25）",
@@ -719,7 +744,10 @@ FLAG = {
     "TUV ITSM": "現況：官方頁面註記方案期間至 2024-03，是否仍辦理待確認（2026-11-25）",
 }
 
-RELABEL = {"IS20": ("IS18", "Mile2 IS18 Controls (formerly IS20)"),
+RELABEL = {"TOGAF Fdn": ("TOGAF EA Fdn", "The Open Group TOGAF Enterprise Architecture Foundation (TOGAF 9 Foundation still offered)"),
+           "TOGAF": ("TOGAF EA Prac", "The Open Group TOGAF Enterprise Architecture Practitioner (TOGAF 9 Certified still offered)"),
+           "ITIL Fdn": ("ITIL Fdn", "ITIL Foundation (Version 5; ITIL 4 Foundation still offered)"),
+           "IS20": ("IS18", "Mile2 IS18 Controls (formerly IS20)"),
            "CREST CCSAS": ("CREST CCRTS", "CREST Certified Red Team Specialist (formerly CCSAS)"),
            "CREST CSAM": ("CREST CCRTM", "CREST Certified Red Team Manager (formerly CCSAM)"),
            "CM)DFI": ("CM)CFI", "Mile2 Certified Master Cyber Forensics Investigator"),
@@ -755,6 +783,15 @@ COL_CLS = [(2, 4, "networkitem1"), (6, 6, "iamitem1"), (8, 14, "engineeritem1"),
            (41, 47, "redopsitem1")]
 # certifications the issuer lists today that the chart lacked: (label, column, name, detail line, link)
 EXTRA = [
+    ("PWPE", 41, "TCM Practical Web Pentest Expert", "", "https://certifications.tcm-sec.com/pwpe/"),
+    ("PSAP", 35, "TCM Practical SOC Analyst Professional", "", "https://certifications.tcm-sec.com/psap/"),
+    ("PORP", 39, "TCM Practical OSINT Research Professional", "", "https://certifications.tcm-sec.com/porp/"),
+    ("PIPA", 43, "TCM Practical IoT Pentest Associate", "", "https://certifications.tcm-sec.com/pipa/"),
+    ("PMPA", 41, "TCM Practical Mobile Pentest Associate (formerly PJMT)", "", "https://certifications.tcm-sec.com/pmpa/"),
+    ("EC CCT", 35, "EC Council Certified Cybersecurity Technician", "", "https://cert.eccouncil.org/certified-cybersecurity-technician-certification.html"),
+    ("ECDE", 33, "EC Council Certified DevSecOps Engineer", "", "https://cert.eccouncil.org/ec-council-certified-devsecops-engineer.html"),
+    ("WAHS", 41, "EC Council Web Application Hacking and Security", "", "https://cert.eccouncil.org/web-application-hacking-and-security.html"),
+    ("COASP", 44, "EC Council Certified Offensive AI Security Professional (beta)", "", "https://cert.eccouncil.org/certified-offensive-ai-security-professional.html", "soon"),
     ("CM)ISRM", 20, "Mile2 Certified Master Information Systems Risk Manager", "", "https://www.mile2.com/master-certifications/"),
     ("CM)DRE", 40, "Mile2 Certified Master Disaster Recovery Engineer", "", "https://www.mile2.com/master-certifications/"),
     ("CM)CTA", 37, "Mile2 Certified Master Cyber Threat Analyst", "", "https://www.mile2.com/master-certifications/"),
