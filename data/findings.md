@@ -197,3 +197,12 @@ Fortinet 認證總覽（fortinet.com/training-certification）、Apple、IIBA、
 - CRTIA：選擇題加長篇問答，官方「預期」兩年經驗，未寫明強制。
 - CCT APP、CCRTS：筆試 3 小時（選擇題 1 加情境題 2）加實作 3 小時，皆無報考資格 → 依規則 2 以專業級計。CCT APP 頁面的實作考閱讀時間有 15 與 20 分鐘兩種寫法。
 - 各頁皆未列價格（依國家，經 Pearson VUE）。
+
+## Cisco 與 Mile2（2026-11-25）
+- Cisco 各證照頁：CCDE 核心筆試 400-007（$450，120 分鐘）加 8 小時情境式實作考（$1,600）；CCNP Security 核心 350-701（$400，120 分鐘）加一科專精（$300，90 分鐘，現列 300-710／715／740／745）；CCNP Enterprise 核心 350-401；CCNP Automation 核心 350-901 加 300-435 或 300-635；CCNA 200-301 $300（v2.0 自 2027-02-03 起）；CCNA Cybersecurity 200-201 $300；CCNA Automation 200-901 $300。皆無報考資格、效期三年。
+- CCNP Cybersecurity 與 CCT 的頁面未列考試代碼與價格。CCNA 的舊連結失效，已換成新網址。
+- Mile2 master 證照頁：現列 7 張（CM)ISSO、CM)ISRM、CM)CFI、CM)DRE、CM)IPS、CM)CTA、CM)CSSA），每張都是通過指定四張證照後授予，沒有獨立考試；套裝 $3,180（原價 $3,980）。評分改為：選擇題、單科 2 小時、門檻記為兩層以上前置證照。圖上沒有的 CM)ISRM、CM)DRE、CM)CTA、CM)CSSA 尚未加入。
+- Mile2 C)PTE：選擇題 100 題、2 小時、線上應考；效期三年。
+- Mile2 IS20 頁面現名 IS18 Controls，標籤已改。
+- 頁面已讀但未列任何考試細節（維持 K）：C)ISRM、C)PTC、C)PEH、C)DFE。
+- 被網站限速、未讀：C)HISSP、C)SWAE、C)DRE、C)IHE、C)CSA、C)TIA、C)SLO、C)CSO、C)SP、C)VA。

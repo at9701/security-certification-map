@@ -220,6 +220,10 @@ o("CREST CRIA", F="B", I=2, R=2, T=2, B="V")              # 150 MCQ in 2.5h with
 o("CREST CRTIA", F="S", I=2, R=1, T=2, B="V")             # MCQ + long-form; two years "expected"
 o("CREST CCTAPP|CREST CCSAS", F="X", I=3, R=0, T=3, B="V")  # written 3h + practical 3h, no prerequisite
 o("CREST CCIM", F="S", I=2, R=1, T=3, B="V")              # MCQ + long-form/scenario, two parts within three months
+# Cisco certification pages and Mile2 pages, read 2026-11-25
+o("CCDE", B="V"); o("CCNP Sec|CCNP Ent|CCNP Cyber|CCNP Auto|CCNA|CCNA Cyber|CCNA Auto|CCT", B="V")
+o("CM)ISSO|CM)DFI|CM)IPS", F="Q", I=1, R=3, T=3, B="V")   # title awarded for four certifications; no exam of its own
+o("C)PTE", F="Q", I=1, R=1, T=2, B="V")                   # 100 MCQ, 2h, online
 # GIAC, read cert by cert on 2026-11-25: (questions, hours, pass %, CyberLive hands-on items)
 GIAC = {
     "GXPN": (60, 3, 67, 1), "GREM": (66, 3, 73, 1), "GCIH": (106, 4, 69, 1), "GSEC": (106, 4, 72, 1),
@@ -381,6 +385,27 @@ meta("BTL2|MTIA|DV RTOS|PDSO CDE|OSIP|CCE|CCIE Sec", kind="官方課程或套裝
 meta("SOG CAPenX|SOG CAPen|SOG CNPen", url="https://pentestingexams.com/")
 meta("C)ISSO|SSAP|CACE|OSEE|OSWP|CREST CCTINF|CREST CRT|CREST CSAM|CREST CCTIM", kind="無價格資訊")
 meta("OSCC", kind="官方課程價")
+price("CCDE", "核心筆試 400-007 $450（120 分鐘）加實作考 $1,600", "實作考 8 小時，情境式；效期三年")
+price("CCNP Sec", "核心考試 350-701 $400（120 分鐘）加一科專精考試 $300（90 分鐘）", "無報考資格；效期三年")
+price("CCNP Ent", "核心考試 350-401 $400（120 分鐘）加一科專精考試 $300（90 分鐘）", "無報考資格；效期三年")
+price("CCNP Auto", "核心考試 350-901 $400（120 分鐘）加一科專精考試 $300（90 分鐘）", "無報考資格；效期三年")
+price("CCNP Cyber", "核心考試加一科專精考試", "無正式報考資格；效期三年；此頁未列考試代碼與價格")
+price("CCNA", "考試 200-301 $300，120 分鐘", "無報考資格；v2.0 自 2027-02-03 起開考")
+price("CCNA Cyber", "考試 200-201 $300，120 分鐘", "無正式報考資格；效期三年")
+price("CCNA Auto", "考試 200-901 $300，120 分鐘", "無報考資格；效期三年")
+price("CCT", "須通過一科考試", "無正式報考資格；此頁未列考試代碼與價格")
+meta("CCDE", url="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccde.html")
+meta("CCNP Sec", url="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security-v2.html")
+meta("CCNP Ent", url="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html")
+meta("CCNP Auto", url="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/professional/index.html")
+meta("CCNA", url="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html")
+meta("CCNA Cyber", url="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html")
+meta("CCNA Auto", url="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/associate/index.html")
+meta("CCNP Cyber|CCT", kind="無價格資訊")
+price("CM)ISSO|CM)DFI|CM)IPS", "四張證照套裝 $3,180（原價 $3,980）", "通過指定四張 Mile2 證照考試後授予，無獨立考試")
+meta("CM)ISSO|CM)DFI|CM)IPS", kind="官方課程或套裝價", url="https://www.mile2.com/master-certifications/")
+price("C)PTE", "選擇題 100 題，2 小時，線上應考", "建議 12 個月網路經驗；效期三年，每年 20 CEU")
+meta("C)PTE", kind="無價格資訊")
 meta("CREST CPSA|CREST CPIA|CREST CPTIA|CREST CRIA|CREST CRTIA|CREST CCTAPP|CREST CCSAS|CREST CCIM", kind="無價格資訊")
 meta("GSE|GSP", kind="無價格資訊", url="https://www.giac.org/get-certified/giac-portfolio-certifications/"); price("CACE", "須 10 年經驗", "選擇、簡答與個案分析兩階段考試")
 
@@ -443,7 +468,8 @@ FLAG = {
     "TUV ITSM": "現況：官方頁面註記方案期間至 2024-03，是否仍辦理待確認（2026-11-25）",
 }
 
-RELABEL = {"CREST CCSAS": ("CREST CCRTS", "CREST Certified Red Team Specialist (formerly CCSAS)"),
+RELABEL = {"IS20": ("IS18", "Mile2 IS18 Controls (formerly IS20)"),
+           "CREST CCSAS": ("CREST CCRTS", "CREST Certified Red Team Specialist (formerly CCSAS)"),
            "CREST CSAM": ("CREST CCRTM", "CREST Certified Red Team Manager (formerly CCSAM)"),
            "CM)DFI": ("CM)CFI", "Mile2 Certified Master Cyber Forensics Investigator"),
            "CCD": ("CCDL2", "CyberDefenders Certified CyberDefender Level 2 (formerly CCD)"),
@@ -460,7 +486,8 @@ RELABEL = {"CREST CCSAS": ("CREST CCRTS", "CREST Certified Red Team Specialist (
            "FCSS SASE": ("NSE 7 SASE", "Fortinet NSE 7 SASE"),
            "FCSS OT": ("Forti OT", "Fortinet OT Security (industry certification)"),
            "FCX": ("NSE 8", "Fortinet NSE 8")}
-REHOST = [("hhttps://", "https://"),
+REHOST = [("https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html", "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html"),
+          ("hhttps://", "https://"),
           ("https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-specialist", "https://www.crest-approved.org/crest-certified-red-team-specialist/"),
           ("https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-simulated-attack-manager", "https://www.crest-approved.org/skills-certifications-careers/crest-certified-red-team-manager/"),
           ("https://secops.group/", "https://pentestingexams.com/"),

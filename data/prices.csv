@@ -10,18 +10,23 @@ AZ-305,Microsoft Azure Solutions Architect Expert,約 $165，依國家或地區�
 AZ-900,Microsoft Azure Fundamentals,約 $99，依國家或地區定價 / 使用者提供，官方常見問題頁未列此數字,官方考試費,https://learn.microsoft.com/zh-tw/credentials/certifications/frequently-asked-questions,2026-11-25,維護者提供，未經官方驗證
 BTL2,Security Blue Team Level 2,"£1,999（含訓練） / 最長 72 小時實作加報告",官方課程或套裝價,https://securityblue.team/btl2/,2026-11-25,官方頁面
 C)ISSO,Mile2 Certified Information Systems Security Officer,選擇題 100 題，2 小時 / 須 1 年相關經驗,無價格資訊,https://www.mile2.com/cisso_outline/,2026-11-25,官方頁面
+C)PTE,Mile2 Certified Penetration Testing Engineer,選擇題 100 題，2 小時，線上應考 / 建議 12 個月網路經驗；效期三年，每年 20 CEU,無價格資訊,https://www.mile2.com/penetration-testing-engineer-outline/,2026-11-25,官方頁面
 CACE,Excida IEC 62443 Certified Automation Cybersecurity Expert,須 10 年經驗 / 選擇、簡答與個案分析兩階段考試,無價格資訊,https://www.exidacace.com/Apply/CACE,2026-11-25,官方頁面
 CC,ISC2 Certified in Cybersecurity,考試費 $199 / 免費方案已於 2026-05-20 停止新報名,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
+CCDE,Cisco Certified Design Expert,"核心筆試 400-007 $450（120 分鐘）加實作考 $1,600 / 實作考 8 小時，情境式；效期三年",官方考試費,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccde.html,2026-11-25,官方頁面
 CCE,ISFCE Certified Computer Examiner,$485 / 線上筆試加三份實作鑑識報告,官方課程或套裝價,https://www.isfce.com/certification.htm,2026-11-25,官方頁面
 CCIE Ent,Cisco Certified Internetwork Expert - Enterprise Infrastructure,"核心筆試 $400 加實作考 $1,600 / 實作考 8 小時",官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html,2026-11-25,官方頁面
 CCIE Sec,Cisco Certified Implementation Expert - Security,"核心筆試 $400 加實作考 $1,600 / 實作考 8 小時",官方課程或套裝價,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-security.html,2026-11-25,官方頁面
-CCNA,Cisco Certified Network Associate,考試費 $300,官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html,2026-11-25,官方頁面
-CCNP Auto,Cisco CCNP Automation,核心考試 $400 加專精考試 $300,官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html,2026-11-25,官方頁面
-CCNP Cyber,Cisco CCNP Cybersecurity,核心考試 $400 加專精考試 $300,官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html,2026-11-25,官方頁面
-CCNP Ent,Cisco Certified Network Professional - Enterprise,核心考試 $400 加專精考試 $300,官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html,2026-11-25,官方頁面
-CCNP Sec,Cisco Certified Network Professional - Security,核心考試 $400 加專精考試 $300,官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html,2026-11-25,官方頁面
+CCNA,Cisco Certified Network Associate,考試 200-301 $300，120 分鐘 / 無報考資格；v2.0 自 2027-02-03 起開考,官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html,2026-11-25,官方頁面
+CCNA Auto,Cisco CCNA Automation,考試 200-901 $300，120 分鐘 / 無報考資格；效期三年,官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/associate/index.html,2026-11-25,官方頁面
+CCNA Cyber,Cisco CCNA Cybersecurity,考試 200-201 $300，120 分鐘 / 無正式報考資格；效期三年,官方考試費,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html,2026-11-25,官方頁面
+CCNP Auto,Cisco CCNP Automation,核心考試 350-901 $400（120 分鐘）加一科專精考試 $300（90 分鐘） / 無報考資格；效期三年,官方考試費,https://www.cisco.com/site/us/en/learn/training-certifications/certifications/devnet/professional/index.html,2026-11-25,官方頁面
+CCNP Cyber,Cisco CCNP Cybersecurity,核心考試加一科專精考試 / 無正式報考資格；效期三年；此頁未列考試代碼與價格,無價格資訊,https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html,2026-11-25,官方頁面
+CCNP Ent,Cisco Certified Network Professional - Enterprise,核心考試 350-401 $400（120 分鐘）加一科專精考試 $300（90 分鐘） / 無報考資格；效期三年,官方考試費,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html,2026-11-25,官方頁面
+CCNP Sec,Cisco Certified Network Professional - Security,核心考試 350-701 $400（120 分鐘）加一科專精考試 $300（90 分鐘） / 無報考資格；效期三年,官方考試費,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security-v2.html,2026-11-25,官方頁面
 CCOA,ISACA Certified Cybersecurity Operations Analyst,考試費 $499（會員 $399） / 選擇題加實作題，4 小時,官方考試費,https://www.isaca.org/credentialing/ccoa,2026-11-25,官方頁面
 CCSP,ISC2 Certified Cloud Security Professional,考試費 $599,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
+CCT,Cisco Certified Technician,須通過一科考試 / 無正式報考資格；此頁未列考試代碼與價格,無價格資訊,https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/entry/technician-cct.html,2026-11-25,官方頁面
 CEH,EC Council Certified Ethical Hacker,"考試券 $1,199（Pearson VUE 考場） / 自修考生須先通過資格審查",官方考試券,https://store.eccouncil.org/product/ceh-vue-exam-voucher/,2026-11-25,官方頁面
 CGRC,"ISC2 Certified in Governance, Risk and Compliance",考試費 $599,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
 CHFI,EC Council Computer Hacking Forensics Investigator,考試券 $650（遠端監考）,官方考試券,https://store.eccouncil.org/product/chfi-ecc-exam-voucher/,2026-11-25,官方頁面
@@ -34,6 +39,9 @@ CISSP,ISC2 Certified Information Systems Security Professional,考試費 $749,�
 CISSP Concentrations,ISC2 Certified Information Systems Security Professional Concentrations,ISSAP、ISSEP、ISSMP 各 $599 / 須 CISSP 加 2 年經驗，或累計 7 年,官方考試費,https://www.isc2.org/register-for-exam/isc2-exam-pricing,2026-11-25,官方頁面
 CKA,Cloud Native Computing Foundation Certified Kubernetes Administrator,考試費 $445（含一次重考） / 實作 2 小時,官方考試費,https://www.cncf.io/certification/cka/,2026-11-25,官方頁面
 CKS,Cloud Native Computing Foundation Certified Kubernetes Security Specialist,考試費 $445（含一次重考） / 實作 2 小時，須先通過 CKA,官方考試費,https://www.cncf.io/certification/cks/,2026-11-25,官方頁面
+CM)DFI,Mile2 Certified Master Digital Forensic Investigator,"四張證照套裝 $3,180（原價 $3,980） / 通過指定四張 Mile2 證照考試後授予，無獨立考試",官方課程或套裝價,https://www.mile2.com/master-certifications/,2026-11-25,官方頁面
+CM)IPS,Mile2 Certified Master Intrusion Prevention Specialist,"四張證照套裝 $3,180（原價 $3,980） / 通過指定四張 Mile2 證照考試後授予，無獨立考試",官方課程或套裝價,https://www.mile2.com/master-certifications/,2026-11-25,官方頁面
+CM)ISSO,Mile2 Certified Master Information Systems Security Officer,"四張證照套裝 $3,180（原價 $3,980） / 通過指定四張 Mile2 證照考試後授予，無獨立考試",官方課程或套裝價,https://www.mile2.com/master-certifications/,2026-11-25,官方頁面
 CND,EC Council Certified Network Defender,考試券 $550（遠端監考）,官方考試券,https://store.eccouncil.org/product/cnd-ecc-exam-voucher/,2026-11-25,官方頁面
 CPENT,EC Council Certified Penetration Testing Professional,24 小時實作考試 / 單獨考試費：須向官方詢價 / 教材與 Lab 套裝 $899，不含考試（維護者提供）,官方詢價；套裝價為維護者提供,https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/,2026-11-25,考試時數為官方頁面，其餘維護者提供
 CREST CCIM,CREST Certified Incident Manager,選擇題加長篇與情境筆試，分兩階段，須於三個月內完成 / 無報考資格；價格依國家，經 Pearson VUE 報名,無價格資訊,https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/,2026-11-25,官方頁面
