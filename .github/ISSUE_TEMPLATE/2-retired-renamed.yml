@@ -7,7 +7,7 @@ body:
     id: cert
     attributes:
       label: 證照
-      placeholder: eNDP（INE）
+      placeholder: "eNDP（INE）"
     validations:
       required: true
   - type: dropdown
@@ -33,13 +33,13 @@ body:
     attributes:
       label: 官方來源網址
       description: 官方公告或現行證照總表。只是「官網找不到」的話，請貼官方證照總表的網址
-      placeholder: https://
+      placeholder: "https://"
     validations:
       required: true
   - type: input
     id: date
     attributes:
       label: 你查的日期
-      placeholder: 2026-11-25
+      placeholder: "2026-11-25"
     validations:
       required: true

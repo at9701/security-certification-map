@@ -8,7 +8,7 @@ body:
     attributes:
       label: 證照
       description: 圖上的縮寫與發證單位
-      placeholder: OSCP+（OffSec）
+      placeholder: "OSCP+（OffSec）"
     validations:
       required: true
   - type: textarea
@@ -16,7 +16,7 @@ body:
     attributes:
       label: 哪裡要改
       description: 現在寫的是什麼、應該是什麼
-      placeholder: 考試費現在寫 $1,699，官方已改為 $1,749
+      placeholder: "考試費現在寫 $1,699，官方已改為 $1,749"
     validations:
       required: true
   - type: input
@@ -24,14 +24,14 @@ body:
     attributes:
       label: 官方來源網址
       description: 必須是發證單位自己的頁面。訓練機構、題庫網站、部落格不算
-      placeholder: https://
+      placeholder: "https://"
     validations:
       required: true
   - type: input
     id: date
     attributes:
       label: 你查的日期
-      placeholder: 2026-11-25
+      placeholder: "2026-11-25"
     validations:
       required: true
   - type: dropdown
